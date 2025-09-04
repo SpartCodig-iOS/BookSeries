@@ -9,7 +9,7 @@
 ---
 
 ## 📑 컨벤션
-- [공통 컨벤션](./Convention/Common.md)  
+- [공통 컨벤션](.github/Convention/Common.md)  
 모든 Swift 코드에서 반드시 준수해야 하는 컨벤션을 정의합니다.
 
 ---
