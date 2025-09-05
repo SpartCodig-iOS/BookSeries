@@ -3,25 +3,73 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 55;
+	objectVersion = 56;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		0C179C50C350A46353A16552 /* Base.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3C4EB962B1FA0CC1DE387EB /* Base.swift */; };
+		0FCE8416120EECE7A8B969CC /* JSONManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C514F5114186C4CF2683EB97 /* JSONManager.swift */; };
+		1B884DFFF4808FB4B567B140 /* LogMacro.framework in Dependencies */ = {isa = PBXBuildFile; fileRef = 27118BD665B186D6882DF66A /* LogMacro.framework */; };
 		3C3DA87E8BECAB9DDB4BCB5D /* Service.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7EDFE229DFD7957E8AC64F6F /* Service.framework */; };
+		4076084473C31650E202BE04 /* LogMacro.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27118BD665B186D6882DF66A /* LogMacro.framework */; };
+		42D6E165FDF98E60B36B348A /* LogMacro.framework in Dependencies */ = {isa = PBXBuildFile; fileRef = 27118BD665B186D6882DF66A /* LogMacro.framework */; };
+		44E779CE63C9667E976FD190 /* Service_Service.bundle in Dependencies */ = {isa = PBXBuildFile; fileRef = 37A05F6FE55F2D51ADC8DF61 /* Service_Service.bundle */; };
 		55CFED0C556294FF98B7DC7B /* Base.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3C4EB962B1FA0CC1DE387EB /* Base.swift */; };
+		69819D61CEDB456AE2839A78 /* TuistBundle+ServiceStage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 978FAF24D817F081FD46CE08 /* TuistBundle+ServiceStage.swift */; };
+		73F579663BBC05A69BA6B18E /* JSONManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C514F5114186C4CF2683EB97 /* JSONManager.swift */; };
+		76E63E6795F451907B62DAF0 /* JSONManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C514F5114186C4CF2683EB97 /* JSONManager.swift */; };
+		7CCC2AF836AA226F43D96D69 /* OSLog.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8EBD9486798A0D863BB013E5 /* OSLog.framework */; };
+		7D4DFF7298A47E8E07629107 /* TuistBundle+ServiceProd.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17FB50B51F92BE26BE37AB1A /* TuistBundle+ServiceProd.swift */; };
+		7FDBB0212E6ABAF00094E4E2 /* Extension+Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FDBB0202E6ABAF00094E4E2 /* Extension+Data.swift */; };
+		7FDBB0222E6ABAF00094E4E2 /* Extension+Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FDBB0202E6ABAF00094E4E2 /* Extension+Data.swift */; };
+		7FDBB0232E6ABAF00094E4E2 /* Extension+Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FDBB0202E6ABAF00094E4E2 /* Extension+Data.swift */; };
+		7FDBB0242E6ABAF00094E4E2 /* Extension+Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FDBB0202E6ABAF00094E4E2 /* Extension+Data.swift */; };
 		8279A0344BCCCB23F8D07ADA /* Test.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA233B5E4422F71B1E2790B8 /* Test.swift */; };
+		8530C925A773A34D38648EB2 /* Service_Service.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 37A05F6FE55F2D51ADC8DF61 /* Service_Service.bundle */; };
+		99F90699DD2251898FB90B7D /* TuistBundle+ServiceDebug.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50EC0E5BDDE841964C004659 /* TuistBundle+ServiceDebug.swift */; };
 		C9897CC8537ABDA7B20CA166 /* Base.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3C4EB962B1FA0CC1DE387EB /* Base.swift */; };
+		D467FC54AABD6D164B211DEC /* TuistBundle+Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FBEDD97322E5668E4A375BA /* TuistBundle+Service.swift */; };
+		DA60771F1EA84ABAAF9F6447 /* JSONManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C514F5114186C4CF2683EB97 /* JSONManager.swift */; };
 		E349F88B9335E82E1E48BED5 /* Base.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3C4EB962B1FA0CC1DE387EB /* Base.swift */; };
+		E77434FFF00DA577C82B0BE7 /* LogMacro.framework in Dependencies */ = {isa = PBXBuildFile; fileRef = 27118BD665B186D6882DF66A /* LogMacro.framework */; };
+		F292557B00326D632B7D15F9 /* LogMacro.framework in Dependencies */ = {isa = PBXBuildFile; fileRef = 27118BD665B186D6882DF66A /* LogMacro.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		406CAEE35D99E7CA675D5BD6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2387D8980C051CCC13E9F55A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9024C9D1379BD62ECD230F4C;
+			remoteInfo = Service_Service_Prod;
+		};
+		654FCE51FB4C83CBEEEA62B2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2387D8980C051CCC13E9F55A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FACA0FCDB2428D388FD9FB36;
+			remoteInfo = Service_Service_Debug;
+		};
+		B81CF6B98AC838E66B5A3A92 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2387D8980C051CCC13E9F55A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D1AEAC67256C578A4A7E5C5D;
+			remoteInfo = Service_Service_Stage;
+		};
 		E6E9DF8F0EEA2CFC49A3B0CB /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 2387D8980C051CCC13E9F55A /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = F2B641F230465A1CF012FDED;
 			remoteInfo = Service;
+		};
+		FB742409F973D4DFAD91DC35 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2387D8980C051CCC13E9F55A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0D95F23BDD78B958BFDF1825;
+			remoteInfo = Service_Service;
 		};
 /* End PBXContainerItemProxy section */
 
@@ -35,6 +83,26 @@
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2E2613D1F1E4C4DEE2BD94FF /* Dependencies */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 8;
+			dstSubfolderSpec = 16;
+			files = (
+				44E779CE63C9667E976FD190 /* Service_Service.bundle in Dependencies */,
+			);
+			name = Dependencies;
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		43672DB00161FEA57F65B408 /* Dependencies */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 8;
+			dstSubfolderSpec = 16;
+			files = (
+				E77434FFF00DA577C82B0BE7 /* LogMacro.framework in Dependencies */,
+			);
+			name = Dependencies;
+			runOnlyForDeploymentPostprocessing = 1;
 		};
 		5A4B9E41609D6261A34EF004 /* Embed Frameworks */ = {
 			isa = PBXCopyFilesBuildPhase;
@@ -56,6 +124,16 @@
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		74E72B4A47E1B9C20EA7CF7C /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		7916ECC01EDD8BCB71C5F2CE /* Embed Frameworks */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
@@ -65,6 +143,56 @@
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7B31AB9DAB84DF68E142679F /* Dependencies */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 8;
+			dstSubfolderSpec = 16;
+			files = (
+				1B884DFFF4808FB4B567B140 /* LogMacro.framework in Dependencies */,
+			);
+			name = Dependencies;
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		9FACACDFA5587DCF39E4A956 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3463DE417218A21D807821A /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C547269B996A1C608E65B640 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2E9552C3D1506E8E42EB8ED /* Dependencies */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 8;
+			dstSubfolderSpec = 16;
+			files = (
+				42D6E165FDF98E60B36B348A /* LogMacro.framework in Dependencies */,
+			);
+			name = Dependencies;
+			runOnlyForDeploymentPostprocessing = 1;
 		};
 		E135B70B4BAD281F11E29459 /* Embed Frameworks */ = {
 			isa = PBXCopyFilesBuildPhase;
@@ -76,24 +204,58 @@
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		E9A743867ABF14264AA4F46D /* Dependencies */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 8;
+			dstSubfolderSpec = 16;
+			files = (
+				F292557B00326D632B7D15F9 /* LogMacro.framework in Dependencies */,
+			);
+			name = Dependencies;
+			runOnlyForDeploymentPostprocessing = 1;
+		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		00FFF298924B1BF14FBF4331 /* Service-Prod-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Service-Prod-Info.plist"; sourceTree = "<group>"; };
+		14800A98B51295BA67B4BD8D /* Service_Service_Debug-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Service_Service_Debug-Info.plist"; sourceTree = "<group>"; };
+		17FB50B51F92BE26BE37AB1A /* TuistBundle+ServiceProd.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TuistBundle+ServiceProd.swift"; sourceTree = "<group>"; };
 		259ABF995B5D27470E829C10 /* ServiceTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ServiceTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		27118BD665B186D6882DF66A /* LogMacro.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LogMacro.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		34D19142035B122118FB9153 /* ServiceTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "ServiceTests-Info.plist"; sourceTree = "<group>"; };
+		37A05F6FE55F2D51ADC8DF61 /* Service_Service.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Service_Service.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		396A6ABC6985DD88B827B9A7 /* Service_Service_Prod-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Service_Service_Prod-Info.plist"; sourceTree = "<group>"; };
 		49AE8778D00783FC72E9C397 /* Service_Debug.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Service_Debug.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		50EC0E5BDDE841964C004659 /* TuistBundle+ServiceDebug.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TuistBundle+ServiceDebug.swift"; sourceTree = "<group>"; };
+		5668A6213AA486D0A62D58C9 /* Service_Service_Stage-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Service_Service_Stage-Info.plist"; sourceTree = "<group>"; };
 		656243C0336CD9A5FB069256 /* Service_Prod.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Service_Prod.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		74A1B62620FE2F19FABD7BF1 /* Service-Debug-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Service-Debug-Info.plist"; sourceTree = "<group>"; };
 		79814A227CE0F11AA0C03131 /* Service-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Service-Info.plist"; sourceTree = "<group>"; };
 		7EDFE229DFD7957E8AC64F6F /* Service.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Service.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7FDBB0202E6ABAF00094E4E2 /* Extension+Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension+Data.swift"; sourceTree = "<group>"; };
+		7FDBB02A2E6AC1FA0094E4E2 /* BookListData.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = BookListData.json; sourceTree = "<group>"; };
+		8EBD9486798A0D863BB013E5 /* OSLog.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OSLog.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/OSLog.framework; sourceTree = DEVELOPER_DIR; };
+		952C3CF5CEC7B12E8011DE4C /* Service_Service-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Service_Service-Info.plist"; sourceTree = "<group>"; };
+		978FAF24D817F081FD46CE08 /* TuistBundle+ServiceStage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TuistBundle+ServiceStage.swift"; sourceTree = "<group>"; };
+		9FBEDD97322E5668E4A375BA /* TuistBundle+Service.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TuistBundle+Service.swift"; sourceTree = "<group>"; };
+		B2E1FF37DA42FED72544D739 /* Service_Service_Debug.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Service_Service_Debug.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 		B432785FB9ED34C4A18C0C4C /* Service_Stage.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Service_Stage.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B93EA41018E0C851FC1843BB /* Service_Service_Stage.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Service_Service_Stage.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA233B5E4422F71B1E2790B8 /* Test.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Test.swift; sourceTree = "<group>"; };
+		BCA3077A29DFF2CDF9D94692 /* Service_Service_Prod.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Service_Service_Prod.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 		C3C4EB962B1FA0CC1DE387EB /* Base.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Base.swift; sourceTree = "<group>"; };
+		C514F5114186C4CF2683EB97 /* JSONManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONManager.swift; sourceTree = "<group>"; };
 		D066B46F236811258B579745 /* Service-Stage-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Service-Stage-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		28084E2E488F1A047E9698AE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		34B55B2B9613E5178446EFC1 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -102,6 +264,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		4E5B44339E15D9D7286508BD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		920ECF1853DB12C3E03D6201 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -122,21 +291,49 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		E510C23C2A125768DFDF4F17 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		ED4007158FAD7C7CFF0D3491 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7CCC2AF836AA226F43D96D69 /* OSLog.framework in Frameworks */,
+				4076084473C31650E202BE04 /* LogMacro.framework in Frameworks */,
 				3C3DA87E8BECAB9DDB4BCB5D /* Service.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF23CCB5E958A308933185DE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		01E7B0917FC1B1B4BE0F85CE /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				9FBEDD97322E5668E4A375BA /* TuistBundle+Service.swift */,
+				50EC0E5BDDE841964C004659 /* TuistBundle+ServiceDebug.swift */,
+				17FB50B51F92BE26BE37AB1A /* TuistBundle+ServiceProd.swift */,
+				978FAF24D817F081FD46CE08 /* TuistBundle+ServiceStage.swift */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
 		38169642E05B36E0AEF61F24 /* Derived */ = {
 			isa = PBXGroup;
 			children = (
 				7683298B0B11468C8351D5CF /* InfoPlists */,
+				01E7B0917FC1B1B4BE0F85CE /* Sources */,
 			);
 			path = Derived;
 			sourceTree = "<group>";
@@ -144,7 +341,9 @@
 		57FF25C92193FDC6FC2E9956 /* Sources */ = {
 			isa = PBXGroup;
 			children = (
-				C3C4EB962B1FA0CC1DE387EB /* Base.swift */,
+				7FDBB04E2E6AF9950094E4E2 /* JSONManager */,
+				7FDBB01F2E6ABACF0094E4E2 /* Extension */,
+				FBC63E56C7A7012BB2E27E84 /* BookList */,
 			);
 			path = Sources;
 			sourceTree = "<group>";
@@ -152,8 +351,13 @@
 		6EF9FDD21B7717FD4262395A /* Products */ = {
 			isa = PBXGroup;
 			children = (
+				27118BD665B186D6882DF66A /* LogMacro.framework */,
 				49AE8778D00783FC72E9C397 /* Service_Debug.framework */,
 				656243C0336CD9A5FB069256 /* Service_Prod.framework */,
+				B2E1FF37DA42FED72544D739 /* Service_Service_Debug.bundle */,
+				BCA3077A29DFF2CDF9D94692 /* Service_Service_Prod.bundle */,
+				B93EA41018E0C851FC1843BB /* Service_Service_Stage.bundle */,
+				37A05F6FE55F2D51ADC8DF61 /* Service_Service.bundle */,
 				B432785FB9ED34C4A18C0C4C /* Service_Stage.framework */,
 				7EDFE229DFD7957E8AC64F6F /* Service.framework */,
 				259ABF995B5D27470E829C10 /* ServiceTests.xctest */,
@@ -164,6 +368,10 @@
 		7683298B0B11468C8351D5CF /* InfoPlists */ = {
 			isa = PBXGroup;
 			children = (
+				14800A98B51295BA67B4BD8D /* Service_Service_Debug-Info.plist */,
+				396A6ABC6985DD88B827B9A7 /* Service_Service_Prod-Info.plist */,
+				5668A6213AA486D0A62D58C9 /* Service_Service_Stage-Info.plist */,
+				952C3CF5CEC7B12E8011DE4C /* Service_Service-Info.plist */,
 				74A1B62620FE2F19FABD7BF1 /* Service-Debug-Info.plist */,
 				79814A227CE0F11AA0C03131 /* Service-Info.plist */,
 				00FFF298924B1BF14FBF4331 /* Service-Prod-Info.plist */,
@@ -185,10 +393,35 @@
 			isa = PBXGroup;
 			children = (
 				38169642E05B36E0AEF61F24 /* Derived */,
+				984389C5E1B772AC737206DD /* Resources */,
 				97CFFBEEA2425324063A8623 /* ServiceTests */,
 				57FF25C92193FDC6FC2E9956 /* Sources */,
 			);
 			name = Project;
+			sourceTree = "<group>";
+		};
+		7FDBB01F2E6ABACF0094E4E2 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				7FDBB0202E6ABAF00094E4E2 /* Extension+Data.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		7FDBB04E2E6AF9950094E4E2 /* JSONManager */ = {
+			isa = PBXGroup;
+			children = (
+				C514F5114186C4CF2683EB97 /* JSONManager.swift */,
+			);
+			path = JSONManager;
+			sourceTree = "<group>";
+		};
+		951DAE26418A9AE539BF6194 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8EBD9486798A0D863BB013E5 /* OSLog.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		97CFFBEEA2425324063A8623 /* ServiceTests */ = {
@@ -199,17 +432,54 @@
 			path = ServiceTests;
 			sourceTree = "<group>";
 		};
+		984389C5E1B772AC737206DD /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				7FDBB02A2E6AC1FA0094E4E2 /* BookListData.json */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
 		D07C34F9592EC2D78588BE04 = {
 			isa = PBXGroup;
 			children = (
 				7D2A1FAC224A4161D0DD025B /* Project */,
 				6EF9FDD21B7717FD4262395A /* Products */,
+				951DAE26418A9AE539BF6194 /* Frameworks */,
 			);
+			sourceTree = "<group>";
+		};
+		FBC63E56C7A7012BB2E27E84 /* BookList */ = {
+			isa = PBXGroup;
+			children = (
+				C3C4EB962B1FA0CC1DE387EB /* Base.swift */,
+			);
+			path = BookList;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		0D95F23BDD78B958BFDF1825 /* Service_Service */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F3CAD64C7EC184AEA6C0ADF2 /* Build configuration list for PBXNativeTarget "Service_Service" */;
+			buildPhases = (
+				EBF53E5CB7110DEA1663DED7 /* Sources */,
+				1FFBBED62BB347A64BB8DE45 /* Resources */,
+				FF23CCB5E958A308933185DE /* Frameworks */,
+				74E72B4A47E1B9C20EA7CF7C /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Service_Service;
+			packageProductDependencies = (
+			);
+			productName = Service_Service;
+			productReference = 37A05F6FE55F2D51ADC8DF61 /* Service_Service.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
 		4D77B3747602ABAB4CDEEAE5 /* Service-Debug */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4AE20AEBB3804FE2DFF45499 /* Build configuration list for PBXNativeTarget "Service-Debug" */;
@@ -218,10 +488,12 @@
 				A2AA66D5428A52814A8CF2E2 /* Resources */,
 				4E5B44339E15D9D7286508BD /* Frameworks */,
 				5A4B9E41609D6261A34EF004 /* Embed Frameworks */,
+				43672DB00161FEA57F65B408 /* Dependencies */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				136DEE285CB83817CECDA7A4 /* PBXTargetDependency */,
 			);
 			name = "Service-Debug";
 			packageProductDependencies = (
@@ -238,10 +510,12 @@
 				220D40C297E32C07E0E4144B /* Resources */,
 				B9E255F78ED125E38CFE6433 /* Frameworks */,
 				7916ECC01EDD8BCB71C5F2CE /* Embed Frameworks */,
+				7B31AB9DAB84DF68E142679F /* Dependencies */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				D992D41947002451EA3F1E9D /* PBXTargetDependency */,
 			);
 			name = "Service-Prod";
 			packageProductDependencies = (
@@ -249,6 +523,26 @@
 			productName = Service_Prod;
 			productReference = 656243C0336CD9A5FB069256 /* Service_Prod.framework */;
 			productType = "com.apple.product-type.framework";
+		};
+		9024C9D1379BD62ECD230F4C /* Service_Service_Prod */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 706D8A497CA3AA58E8BB6778 /* Build configuration list for PBXNativeTarget "Service_Service_Prod" */;
+			buildPhases = (
+				7202730CEDFC338E29898DD9 /* Sources */,
+				EEFC6004A791A64F6E74507D /* Resources */,
+				920ECF1853DB12C3E03D6201 /* Frameworks */,
+				C547269B996A1C608E65B640 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Service_Service_Prod;
+			packageProductDependencies = (
+			);
+			productName = Service_Service_Prod;
+			productReference = BCA3077A29DFF2CDF9D94692 /* Service_Service_Prod.bundle */;
+			productType = "com.apple.product-type.bundle";
 		};
 		BC16F4EC08A28EAA48363D3F /* ServiceTests */ = {
 			isa = PBXNativeTarget;
@@ -258,6 +552,7 @@
 				DBB59024C51A6B1A99F072A5 /* Resources */,
 				ED4007158FAD7C7CFF0D3491 /* Frameworks */,
 				E135B70B4BAD281F11E29459 /* Embed Frameworks */,
+				2E2613D1F1E4C4DEE2BD94FF /* Dependencies */,
 			);
 			buildRules = (
 			);
@@ -271,6 +566,26 @@
 			productReference = 259ABF995B5D27470E829C10 /* ServiceTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		D1AEAC67256C578A4A7E5C5D /* Service_Service_Stage */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F517DBD336F17104FB89B851 /* Build configuration list for PBXNativeTarget "Service_Service_Stage" */;
+			buildPhases = (
+				3AD9279FB90A753C541D8E2E /* Sources */,
+				7DC067AE06FC609CC63EE68F /* Resources */,
+				E510C23C2A125768DFDF4F17 /* Frameworks */,
+				A3463DE417218A21D807821A /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Service_Service_Stage;
+			packageProductDependencies = (
+			);
+			productName = Service_Service_Stage;
+			productReference = B93EA41018E0C851FC1843BB /* Service_Service_Stage.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
 		D6E0EDD309910261BA164618 /* Service-Stage */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8A672D2435F864E61BC030CD /* Build configuration list for PBXNativeTarget "Service-Stage" */;
@@ -279,10 +594,12 @@
 				099BBED0A3D302533934CC25 /* Resources */,
 				34B55B2B9613E5178446EFC1 /* Frameworks */,
 				11D2D814492A2F170FB62D24 /* Embed Frameworks */,
+				E9A743867ABF14264AA4F46D /* Dependencies */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				79B0BAB26B139A0CA3318042 /* PBXTargetDependency */,
 			);
 			name = "Service-Stage";
 			packageProductDependencies = (
@@ -299,10 +616,12 @@
 				5DB916BB3D046F2698257E14 /* Resources */,
 				E46B5D6AB1628CA99D638546 /* Frameworks */,
 				5B36A939A245B5A27F657AD1 /* Embed Frameworks */,
+				D2E9552C3D1506E8E42EB8ED /* Dependencies */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				473DD48BB67DC44253758883 /* PBXTargetDependency */,
 			);
 			name = Service;
 			packageProductDependencies = (
@@ -311,6 +630,26 @@
 			productReference = 7EDFE229DFD7957E8AC64F6F /* Service.framework */;
 			productType = "com.apple.product-type.framework";
 		};
+		FACA0FCDB2428D388FD9FB36 /* Service_Service_Debug */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BBD76062195EA6015BD3CC7C /* Build configuration list for PBXNativeTarget "Service_Service_Debug" */;
+			buildPhases = (
+				A92647F5F222A07FF3EBB462 /* Sources */,
+				4492569B068874DCC839BAD2 /* Resources */,
+				28084E2E488F1A047E9698AE /* Frameworks */,
+				9FACACDFA5587DCF39E4A956 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Service_Service_Debug;
+			packageProductDependencies = (
+			);
+			productName = Service_Service_Debug;
+			productReference = B2E1FF37DA42FED72544D739 /* Service_Service_Debug.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -318,8 +657,6 @@
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = YES;
-				TargetAttributes = {
-				};
 			};
 			buildConfigurationList = A210B9CE0F80C75DCB439AE9 /* Build configuration list for PBXProject "Service" */;
 			compatibilityVersion = "Xcode 14.0";
@@ -339,12 +676,23 @@
 				4F05B98A978D0CCF22F7E153 /* Service-Prod */,
 				D6E0EDD309910261BA164618 /* Service-Stage */,
 				BC16F4EC08A28EAA48363D3F /* ServiceTests */,
+				0D95F23BDD78B958BFDF1825 /* Service_Service */,
+				FACA0FCDB2428D388FD9FB36 /* Service_Service_Debug */,
+				9024C9D1379BD62ECD230F4C /* Service_Service_Prod */,
+				D1AEAC67256C578A4A7E5C5D /* Service_Service_Stage */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
 		099BBED0A3D302533934CC25 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1FFBBED62BB347A64BB8DE45 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -358,7 +706,21 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		4492569B068874DCC839BAD2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		5DB916BB3D046F2698257E14 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7DC067AE06FC609CC63EE68F /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -376,6 +738,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8530C925A773A34D38648EB2 /* Service_Service.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EEFC6004A791A64F6E74507D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -386,7 +756,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7D4DFF7298A47E8E07629107 /* TuistBundle+ServiceProd.swift in Sources */,
+				7FDBB0222E6ABAF00094E4E2 /* Extension+Data.swift in Sources */,
 				0C179C50C350A46353A16552 /* Base.swift in Sources */,
+				76E63E6795F451907B62DAF0 /* JSONManager.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3AD9279FB90A753C541D8E2E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -394,7 +774,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				99F90699DD2251898FB90B7D /* TuistBundle+ServiceDebug.swift in Sources */,
+				7FDBB0212E6ABAF00094E4E2 /* Extension+Data.swift in Sources */,
 				55CFED0C556294FF98B7DC7B /* Base.swift in Sources */,
+				73F579663BBC05A69BA6B18E /* JSONManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -402,7 +785,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				69819D61CEDB456AE2839A78 /* TuistBundle+ServiceStage.swift in Sources */,
+				7FDBB0232E6ABAF00094E4E2 /* Extension+Data.swift in Sources */,
 				C9897CC8537ABDA7B20CA166 /* Base.swift in Sources */,
+				DA60771F1EA84ABAAF9F6447 /* JSONManager.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7202730CEDFC338E29898DD9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -410,7 +803,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D467FC54AABD6D164B211DEC /* TuistBundle+Service.swift in Sources */,
+				7FDBB0242E6ABAF00094E4E2 /* Extension+Data.swift in Sources */,
 				E349F88B9335E82E1E48BED5 /* Base.swift in Sources */,
+				0FCE8416120EECE7A8B969CC /* JSONManager.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A92647F5F222A07FF3EBB462 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EBF53E5CB7110DEA1663DED7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -425,6 +835,30 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		136DEE285CB83817CECDA7A4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Service_Service_Debug;
+			target = FACA0FCDB2428D388FD9FB36 /* Service_Service_Debug */;
+			targetProxy = 654FCE51FB4C83CBEEEA62B2 /* PBXContainerItemProxy */;
+		};
+		473DD48BB67DC44253758883 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Service_Service;
+			target = 0D95F23BDD78B958BFDF1825 /* Service_Service */;
+			targetProxy = FB742409F973D4DFAD91DC35 /* PBXContainerItemProxy */;
+		};
+		79B0BAB26B139A0CA3318042 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Service_Service_Stage;
+			target = D1AEAC67256C578A4A7E5C5D /* Service_Service_Stage */;
+			targetProxy = B81CF6B98AC838E66B5A3A92 /* PBXContainerItemProxy */;
+		};
+		D992D41947002451EA3F1E9D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Service_Service_Prod;
+			target = 9024C9D1379BD62ECD230F4C /* Service_Service_Prod */;
+			targetProxy = 406CAEE35D99E7CA675D5BD6 /* PBXContainerItemProxy */;
+		};
 		E9B114F085A8E58F492A2524 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = Service;
@@ -434,6 +868,29 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		02E4E7B9BB18AB59CAEE2D48 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GENERATE_MASTER_OBJECT_FILE = NO;
+				INFOPLIST_FILE = "Derived/InfoPlists/Service_Service-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				PRODUCT_BUNDLE_IDENTIFIER = io.Roy.BookSeries.Service.generated.resources;
+				PRODUCT_NAME = Service_Service;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				VERSIONING_SYSTEM = "";
+			};
+			name = Release;
+		};
 		078F713D85496981E09AF488 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -443,6 +900,10 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/../../../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include",
+				);
 				INFOPLIST_FILE = "Derived/InfoPlists/Service-Prod-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
@@ -452,6 +913,11 @@
 					"@loader_path/Frameworks",
 				);
 				MACH_O_TYPE = staticlib;
+				OTHER_CFLAGS = (
+					"$(inherited)",
+					"-fmodule-map-file=$(SRCROOT)/../../../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include/module.modulemap",
+				);
+				OTHER_SWIFT_FLAGS = "$(inherited) -Xcc -fmodule-map-file=$(SRCROOT)/../../../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include/module.modulemap -load-plugin-executable $BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/LogMacroMacro#LogMacroMacro";
 				PRODUCT_BUNDLE_IDENTIFIER = io.Roy.BookSeries.Service;
 				PRODUCT_NAME = Service_Prod;
 				SDKROOT = iphoneos;
@@ -477,6 +943,10 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/../../../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include",
+				);
 				INFOPLIST_FILE = "Derived/InfoPlists/Service-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
@@ -486,6 +956,11 @@
 					"@loader_path/Frameworks",
 				);
 				MACH_O_TYPE = staticlib;
+				OTHER_CFLAGS = (
+					"$(inherited)",
+					"-fmodule-map-file=$(SRCROOT)/../../../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include/module.modulemap",
+				);
+				OTHER_SWIFT_FLAGS = "$(inherited) -Xcc -fmodule-map-file=$(SRCROOT)/../../../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include/module.modulemap -load-plugin-executable $BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/LogMacroMacro#LogMacroMacro";
 				PRODUCT_BUNDLE_IDENTIFIER = io.Roy.BookSeries.Service;
 				PRODUCT_NAME = Service;
 				SDKROOT = iphoneos;
@@ -511,6 +986,10 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/../../../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include",
+				);
 				INFOPLIST_FILE = "Derived/InfoPlists/Service-Stage-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
@@ -520,6 +999,11 @@
 					"@loader_path/Frameworks",
 				);
 				MACH_O_TYPE = staticlib;
+				OTHER_CFLAGS = (
+					"$(inherited)",
+					"-fmodule-map-file=$(SRCROOT)/../../../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include/module.modulemap",
+				);
+				OTHER_SWIFT_FLAGS = "$(inherited) -Xcc -fmodule-map-file=$(SRCROOT)/../../../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include/module.modulemap -load-plugin-executable $BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/LogMacroMacro#LogMacroMacro";
 				PRODUCT_BUNDLE_IDENTIFIER = io.Roy.BookSeries.Service;
 				PRODUCT_NAME = Service_Stage;
 				SDKROOT = iphoneos;
@@ -527,10 +1011,7 @@
 				SUPPORTS_MACCATALYST = NO;
 				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
-					"$(inherited)",
-					DEBUG,
-				);
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) DEBUG";
 				SWIFT_COMPILATION_MODE = singlefile;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
@@ -544,6 +1025,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/../../../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include",
+				);
 				INFOPLIST_FILE = "Derived/InfoPlists/ServiceTests-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -551,6 +1036,11 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
+				OTHER_CFLAGS = (
+					"$(inherited)",
+					"-fmodule-map-file=$(SRCROOT)/../../../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include/module.modulemap",
+				);
+				OTHER_SWIFT_FLAGS = "$(inherited) -Xcc -fmodule-map-file=$(SRCROOT)/../../../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include/module.modulemap -load-plugin-executable $BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/LogMacroMacro#LogMacroMacro";
 				PRODUCT_BUNDLE_IDENTIFIER = io.Roy.BookSeries.Service.ServiceTests;
 				PRODUCT_NAME = ServiceTests;
 				SDKROOT = iphoneos;
@@ -623,6 +1113,29 @@
 			};
 			name = Debug;
 		};
+		6C0FDBF3C2E10CC60D8EBB4B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GENERATE_MASTER_OBJECT_FILE = NO;
+				INFOPLIST_FILE = "Derived/InfoPlists/Service_Service_Stage-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				PRODUCT_BUNDLE_IDENTIFIER = io.Roy.BookSeries.Service.generated.resources;
+				PRODUCT_NAME = Service_Service_Stage;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				VERSIONING_SYSTEM = "";
+			};
+			name = Release;
+		};
 		827688E819193446D6A86496 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -632,6 +1145,10 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/../../../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include",
+				);
 				INFOPLIST_FILE = "Derived/InfoPlists/Service-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
@@ -641,6 +1158,11 @@
 					"@loader_path/Frameworks",
 				);
 				MACH_O_TYPE = staticlib;
+				OTHER_CFLAGS = (
+					"$(inherited)",
+					"-fmodule-map-file=$(SRCROOT)/../../../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include/module.modulemap",
+				);
+				OTHER_SWIFT_FLAGS = "$(inherited) -Xcc -fmodule-map-file=$(SRCROOT)/../../../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include/module.modulemap -load-plugin-executable $BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/LogMacroMacro#LogMacroMacro";
 				PRODUCT_BUNDLE_IDENTIFIER = io.Roy.BookSeries.Service;
 				PRODUCT_NAME = Service;
 				SDKROOT = iphoneos;
@@ -648,10 +1170,7 @@
 				SUPPORTS_MACCATALYST = NO;
 				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
-					"$(inherited)",
-					DEBUG,
-				);
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) DEBUG";
 				SWIFT_COMPILATION_MODE = singlefile;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
@@ -670,6 +1189,10 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/../../../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include",
+				);
 				INFOPLIST_FILE = "Derived/InfoPlists/Service-Stage-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
@@ -679,6 +1202,11 @@
 					"@loader_path/Frameworks",
 				);
 				MACH_O_TYPE = staticlib;
+				OTHER_CFLAGS = (
+					"$(inherited)",
+					"-fmodule-map-file=$(SRCROOT)/../../../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include/module.modulemap",
+				);
+				OTHER_SWIFT_FLAGS = "$(inherited) -Xcc -fmodule-map-file=$(SRCROOT)/../../../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include/module.modulemap -load-plugin-executable $BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/LogMacroMacro#LogMacroMacro";
 				PRODUCT_BUNDLE_IDENTIFIER = io.Roy.BookSeries.Service;
 				PRODUCT_NAME = Service_Stage;
 				SDKROOT = iphoneos;
@@ -695,6 +1223,30 @@
 			};
 			name = Release;
 		};
+		A84C8E7F6A8E1813C21C1AD3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GENERATE_MASTER_OBJECT_FILE = NO;
+				INFOPLIST_FILE = "Derived/InfoPlists/Service_Service-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				PRODUCT_BUNDLE_IDENTIFIER = io.Roy.BookSeries.Service.generated.resources;
+				PRODUCT_NAME = Service_Service;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) DEBUG";
+				SWIFT_COMPILATION_MODE = singlefile;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				VERSIONING_SYSTEM = "";
+			};
+			name = Debug;
+		};
 		B329BCF86CB8AB9EF8BAD557 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -704,6 +1256,10 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/../../../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include",
+				);
 				INFOPLIST_FILE = "Derived/InfoPlists/Service-Prod-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
@@ -713,6 +1269,11 @@
 					"@loader_path/Frameworks",
 				);
 				MACH_O_TYPE = staticlib;
+				OTHER_CFLAGS = (
+					"$(inherited)",
+					"-fmodule-map-file=$(SRCROOT)/../../../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include/module.modulemap",
+				);
+				OTHER_SWIFT_FLAGS = "$(inherited) -Xcc -fmodule-map-file=$(SRCROOT)/../../../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include/module.modulemap -load-plugin-executable $BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/LogMacroMacro#LogMacroMacro";
 				PRODUCT_BUNDLE_IDENTIFIER = io.Roy.BookSeries.Service;
 				PRODUCT_NAME = Service_Prod;
 				SDKROOT = iphoneos;
@@ -720,10 +1281,7 @@
 				SUPPORTS_MACCATALYST = NO;
 				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
-					"$(inherited)",
-					DEBUG,
-				);
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) DEBUG";
 				SWIFT_COMPILATION_MODE = singlefile;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
@@ -742,6 +1300,10 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/../../../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include",
+				);
 				INFOPLIST_FILE = "Derived/InfoPlists/Service-Debug-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
@@ -751,6 +1313,11 @@
 					"@loader_path/Frameworks",
 				);
 				MACH_O_TYPE = staticlib;
+				OTHER_CFLAGS = (
+					"$(inherited)",
+					"-fmodule-map-file=$(SRCROOT)/../../../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include/module.modulemap",
+				);
+				OTHER_SWIFT_FLAGS = "$(inherited) -Xcc -fmodule-map-file=$(SRCROOT)/../../../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include/module.modulemap -load-plugin-executable $BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/LogMacroMacro#LogMacroMacro";
 				PRODUCT_BUNDLE_IDENTIFIER = io.Roy.BookSeries.Service;
 				PRODUCT_NAME = Service_Debug;
 				SDKROOT = iphoneos;
@@ -758,10 +1325,7 @@
 				SUPPORTS_MACCATALYST = NO;
 				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
-					"$(inherited)",
-					DEBUG,
-				);
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) DEBUG";
 				SWIFT_COMPILATION_MODE = singlefile;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
@@ -771,10 +1335,38 @@
 			};
 			name = Debug;
 		};
+		C2E25039ADCD7DF378738378 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GENERATE_MASTER_OBJECT_FILE = NO;
+				INFOPLIST_FILE = "Derived/InfoPlists/Service_Service_Debug-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				PRODUCT_BUNDLE_IDENTIFIER = io.Roy.BookSeries.Service.generated.resources;
+				PRODUCT_NAME = Service_Service_Debug;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) DEBUG";
+				SWIFT_COMPILATION_MODE = singlefile;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				VERSIONING_SYSTEM = "";
+			};
+			name = Debug;
+		};
 		CCD6AD99FB506BBD3797799B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/../../../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include",
+				);
 				INFOPLIST_FILE = "Derived/InfoPlists/ServiceTests-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -782,16 +1374,18 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
+				OTHER_CFLAGS = (
+					"$(inherited)",
+					"-fmodule-map-file=$(SRCROOT)/../../../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include/module.modulemap",
+				);
+				OTHER_SWIFT_FLAGS = "$(inherited) -Xcc -fmodule-map-file=$(SRCROOT)/../../../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include/module.modulemap -load-plugin-executable $BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/LogMacroMacro#LogMacroMacro";
 				PRODUCT_BUNDLE_IDENTIFIER = io.Roy.BookSeries.Service.ServiceTests;
 				PRODUCT_NAME = ServiceTests;
 				SDKROOT = iphoneos;
 				SUPPORTS_MACCATALYST = NO;
 				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
-					"$(inherited)",
-					DEBUG,
-				);
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) DEBUG";
 				SWIFT_COMPILATION_MODE = singlefile;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
@@ -852,6 +1446,100 @@
 			};
 			name = Release;
 		};
+		D957C315836A9F8BF8035A2A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GENERATE_MASTER_OBJECT_FILE = NO;
+				INFOPLIST_FILE = "Derived/InfoPlists/Service_Service_Prod-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				PRODUCT_BUNDLE_IDENTIFIER = io.Roy.BookSeries.Service.generated.resources;
+				PRODUCT_NAME = Service_Service_Prod;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) DEBUG";
+				SWIFT_COMPILATION_MODE = singlefile;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				VERSIONING_SYSTEM = "";
+			};
+			name = Debug;
+		};
+		EF9B983021836566B319F35D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GENERATE_MASTER_OBJECT_FILE = NO;
+				INFOPLIST_FILE = "Derived/InfoPlists/Service_Service_Debug-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				PRODUCT_BUNDLE_IDENTIFIER = io.Roy.BookSeries.Service.generated.resources;
+				PRODUCT_NAME = Service_Service_Debug;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				VERSIONING_SYSTEM = "";
+			};
+			name = Release;
+		};
+		FAE8935808606FB04194E667 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GENERATE_MASTER_OBJECT_FILE = NO;
+				INFOPLIST_FILE = "Derived/InfoPlists/Service_Service_Stage-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				PRODUCT_BUNDLE_IDENTIFIER = io.Roy.BookSeries.Service.generated.resources;
+				PRODUCT_NAME = Service_Service_Stage;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) DEBUG";
+				SWIFT_COMPILATION_MODE = singlefile;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				VERSIONING_SYSTEM = "";
+			};
+			name = Debug;
+		};
+		FC416B0F1390BAA55A14F864 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GENERATE_MASTER_OBJECT_FILE = NO;
+				INFOPLIST_FILE = "Derived/InfoPlists/Service_Service_Prod-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				PRODUCT_BUNDLE_IDENTIFIER = io.Roy.BookSeries.Service.generated.resources;
+				PRODUCT_NAME = Service_Service_Prod;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				VERSIONING_SYSTEM = "";
+			};
+			name = Release;
+		};
 		FEDF02C8CAF40325944856B9 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -861,6 +1549,10 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/../../../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include",
+				);
 				INFOPLIST_FILE = "Derived/InfoPlists/Service-Debug-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
@@ -870,6 +1562,11 @@
 					"@loader_path/Frameworks",
 				);
 				MACH_O_TYPE = staticlib;
+				OTHER_CFLAGS = (
+					"$(inherited)",
+					"-fmodule-map-file=$(SRCROOT)/../../../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include/module.modulemap",
+				);
+				OTHER_SWIFT_FLAGS = "$(inherited) -Xcc -fmodule-map-file=$(SRCROOT)/../../../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include/module.modulemap -load-plugin-executable $BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/LogMacroMacro#LogMacroMacro";
 				PRODUCT_BUNDLE_IDENTIFIER = io.Roy.BookSeries.Service;
 				PRODUCT_NAME = Service_Debug;
 				SDKROOT = iphoneos;
@@ -907,6 +1604,15 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+		706D8A497CA3AA58E8BB6778 /* Build configuration list for PBXNativeTarget "Service_Service_Prod" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D957C315836A9F8BF8035A2A /* Debug */,
+				FC416B0F1390BAA55A14F864 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		7B5FE70ED73C9186D9C86451 /* Build configuration list for PBXNativeTarget "Service-Prod" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -939,6 +1645,33 @@
 			buildConfigurations = (
 				827688E819193446D6A86496 /* Debug */,
 				0CF2F251CC7ACBFD83CB03BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BBD76062195EA6015BD3CC7C /* Build configuration list for PBXNativeTarget "Service_Service_Debug" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C2E25039ADCD7DF378738378 /* Debug */,
+				EF9B983021836566B319F35D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F3CAD64C7EC184AEA6C0ADF2 /* Build configuration list for PBXNativeTarget "Service_Service" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A84C8E7F6A8E1813C21C1AD3 /* Debug */,
+				02E4E7B9BB18AB59CAEE2D48 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F517DBD336F17104FB89B851 /* Build configuration list for PBXNativeTarget "Service_Service_Stage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAE8935808606FB04194E667 /* Debug */,
+				6C0FDBF3C2E10CC60D8EBB4B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

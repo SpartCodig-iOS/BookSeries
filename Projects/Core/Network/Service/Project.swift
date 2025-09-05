@@ -11,7 +11,8 @@ let project = Project.makeAppModule(
   product: .staticFramework,
   settings:  .settings(),
   dependencies: [
-
+    .SPM.logMacro
   ],
-  sources: ["Sources/**"]
+  sources: ["Sources/**"],
+  resources: ["Resources/**"]
 )

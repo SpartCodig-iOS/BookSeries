@@ -14,4 +14,5 @@ public extension TargetDependency.SPM {
   static let then = TargetDependency.external(name: "Then", condition: .none)
   static let pinLayout = TargetDependency.external(name: "PinLayout", condition: .none)
   static let flexLayout = TargetDependency.external(name: "FlexLayout", condition: .none)
+  static let logMacro = TargetDependency.external(name: "LogMacro", condition: .none)
 }
