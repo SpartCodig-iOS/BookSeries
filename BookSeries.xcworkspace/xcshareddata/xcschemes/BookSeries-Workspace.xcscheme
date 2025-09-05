@@ -1064,6 +1064,62 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
+               BlueprintIdentifier = "0D95F23BDD78B958BFDF1825"
+               BuildableName = "Service_Service.bundle"
+               BlueprintName = "Service_Service"
+               ReferencedContainer = "container:Projects/Core/Network/Service/Service.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "FACA0FCDB2428D388FD9FB36"
+               BuildableName = "Service_Service_Debug.bundle"
+               BlueprintName = "Service_Service_Debug"
+               ReferencedContainer = "container:Projects/Core/Network/Service/Service.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "9024C9D1379BD62ECD230F4C"
+               BuildableName = "Service_Service_Prod.bundle"
+               BlueprintName = "Service_Service_Prod"
+               ReferencedContainer = "container:Projects/Core/Network/Service/Service.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "D1AEAC67256C578A4A7E5C5D"
+               BuildableName = "Service_Service_Stage.bundle"
+               BlueprintName = "Service_Service_Stage"
+               ReferencedContainer = "container:Projects/Core/Network/Service/Service.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
                BlueprintIdentifier = "3F5E725EB25BB5E4543E24FA"
                BuildableName = "Shared.framework"
                BlueprintName = "Shared"

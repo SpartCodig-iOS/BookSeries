@@ -3,69 +3,73 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 70;
+	objectVersion = 55;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		02086E956F0BCAD214D8D7F4 /* PretendardVariable.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A20647CF23B131D16DCAB555 /* PretendardVariable.ttf */; };
+		06D16B1B1B957D3A84E4CDA5 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DDB65E50E9A40944ADEEDB2 /* BaseViewController.swift */; };
 		1F4BF4D83DEBABCF9477B5A4 /* TuistFonts+DesignSystemProd.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EF20F019AC6C1E3B3D87AF8 /* TuistFonts+DesignSystemProd.swift */; };
+		21D6A622DF9A1906D496AADF /* UIColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6964B76F338CA1083A2EAA11 /* UIColors.swift */; };
+		295C45B14842023C80A47D51 /* PretendardFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = 688D1487AF38E7CCA4A91781 /* PretendardFont.swift */; };
 		29B83E78203A842E17186969 /* TuistAssets+DesignSystemProd.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E80CBF5486DD48CEF7D4361 /* TuistAssets+DesignSystemProd.swift */; };
 		2B971169413063D149A93B91 /* PretendardVariable.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A20647CF23B131D16DCAB555 /* PretendardVariable.ttf */; };
 		2C2A6F1B0843699ACFE53D23 /* TuistFonts+DesignSystem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1489E7809DA4DADA471C2CDC /* TuistFonts+DesignSystem.swift */; };
+		2D4222DE6962486053AE92D2 /* Extension+Colo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12730386909033CD68A22CD0 /* Extension+Colo.swift */; };
+		31EC067D18118B89B3E26C35 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DDB65E50E9A40944ADEEDB2 /* BaseViewController.swift */; };
 		31FDCEBF2D11CFD7F04719EC /* PretendardVariable.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A20647CF23B131D16DCAB555 /* PretendardVariable.ttf */; };
 		36B4268421AB9CDA58103A7B /* TuistAssets+DesignSystemDebug.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6D0FABFF623E11D22F6BDCC /* TuistAssets+DesignSystemDebug.swift */; };
+		451B3319A64E5905270FB3D4 /* Extension+Colo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12730386909033CD68A22CD0 /* Extension+Colo.swift */; };
+		4EEA700FC28C94A9321002E8 /* Extension+UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BF62E3713A0EBCEECEAB6AE /* Extension+UIColor.swift */; };
+		4FB20F2D3BC745E19225A129 /* Extension+Colo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12730386909033CD68A22CD0 /* Extension+Colo.swift */; };
+		53D817882A37E5BDE297B626 /* Extension+UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BF62E3713A0EBCEECEAB6AE /* Extension+UIColor.swift */; };
 		5535A46BBF316AB4582FB4C9 /* TuistBundle+DesignSystemStage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27AA3E385D373C2295F94842 /* TuistBundle+DesignSystemStage.swift */; };
+		5E12234768DE4CD7ED40F7E2 /* Extension+UILabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B3E3329BD329BF6999EE0E9 /* Extension+UILabel.swift */; };
+		5E1EAED55A21ED7168716302 /*  Extension+Image.swift in Sources */ = {isa = PBXBuildFile; fileRef = 498B5930ACE63777F8AAC082 /*  Extension+Image.swift */; };
 		5E7A67D479FC010F9A730C76 /* ImageAssets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 365911FA35B2B70671D60856 /* ImageAssets.xcassets */; };
+		612A492C9B46FD82ED8898D2 /* Extension+Colo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12730386909033CD68A22CD0 /* Extension+Colo.swift */; };
+		639F7AE8FBB03215FD246E17 /* Extension+UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BF62E3713A0EBCEECEAB6AE /* Extension+UIColor.swift */; };
+		64F162B159C0BD3427E9096D /* PretendardFontFamily.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DFDEE116A67E6C3606007A2 /* PretendardFontFamily.swift */; };
+		669DDDAB3138D6302F2DC45A /* PretendardFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = 688D1487AF38E7CCA4A91781 /* PretendardFont.swift */; };
 		683B9C0B090D319ECE7EB598 /* TuistFonts+DesignSystemDebug.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C0657B12FC785E86158F7DC /* TuistFonts+DesignSystemDebug.swift */; };
 		6A9D0C3784F739E22DC53C14 /* DesignSystem_DesignSystem.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 42D7C40704F4FCBCDB855667 /* DesignSystem_DesignSystem.bundle */; };
-		7FDBAB4B2E6A9F6F0094E4E2 /* ImageAsset.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FDBAB4A2E6A9F6F0094E4E2 /* ImageAsset.swift */; };
-		7FDBAB4C2E6A9F6F0094E4E2 /* ImageAsset.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FDBAB4A2E6A9F6F0094E4E2 /* ImageAsset.swift */; };
-		7FDBAB4D2E6A9F6F0094E4E2 /* ImageAsset.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FDBAB4A2E6A9F6F0094E4E2 /* ImageAsset.swift */; };
-		7FDBAB4E2E6A9F6F0094E4E2 /* ImageAsset.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FDBAB4A2E6A9F6F0094E4E2 /* ImageAsset.swift */; };
-		7FDBAB572E6A9FE70094E4E2 /* PretendardFontFamily.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FDBAB562E6A9FE70094E4E2 /* PretendardFontFamily.swift */; };
-		7FDBAB582E6A9FE70094E4E2 /* PretendardFontFamily.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FDBAB562E6A9FE70094E4E2 /* PretendardFontFamily.swift */; };
-		7FDBAB592E6A9FE70094E4E2 /* PretendardFontFamily.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FDBAB562E6A9FE70094E4E2 /* PretendardFontFamily.swift */; };
-		7FDBAB5A2E6A9FE70094E4E2 /* PretendardFontFamily.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FDBAB562E6A9FE70094E4E2 /* PretendardFontFamily.swift */; };
-		7FDBAB5C2E6AA02B0094E4E2 /* PretendardFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FDBAB5B2E6AA02B0094E4E2 /* PretendardFont.swift */; };
-		7FDBAB5D2E6AA02B0094E4E2 /* PretendardFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FDBAB5B2E6AA02B0094E4E2 /* PretendardFont.swift */; };
-		7FDBAB5E2E6AA02B0094E4E2 /* PretendardFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FDBAB5B2E6AA02B0094E4E2 /* PretendardFont.swift */; };
-		7FDBAB5F2E6AA02B0094E4E2 /* PretendardFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FDBAB5B2E6AA02B0094E4E2 /* PretendardFont.swift */; };
-		7FDBAC222E6AA34A0094E4E2 /* Extension+UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FDBAC212E6AA34A0094E4E2 /* Extension+UIColor.swift */; };
-		7FDBAC232E6AA34A0094E4E2 /* Extension+UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FDBAC212E6AA34A0094E4E2 /* Extension+UIColor.swift */; };
-		7FDBAC242E6AA34A0094E4E2 /* Extension+UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FDBAC212E6AA34A0094E4E2 /* Extension+UIColor.swift */; };
-		7FDBAC252E6AA34A0094E4E2 /* Extension+UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FDBAC212E6AA34A0094E4E2 /* Extension+UIColor.swift */; };
-		7FDBAC272E6AA3540094E4E2 /* Extension+Colo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FDBAC262E6AA3540094E4E2 /* Extension+Colo.swift */; };
-		7FDBAC282E6AA3540094E4E2 /* Extension+Colo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FDBAC262E6AA3540094E4E2 /* Extension+Colo.swift */; };
-		7FDBAC292E6AA3540094E4E2 /* Extension+Colo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FDBAC262E6AA3540094E4E2 /* Extension+Colo.swift */; };
-		7FDBAC2A2E6AA3540094E4E2 /* Extension+Colo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FDBAC262E6AA3540094E4E2 /* Extension+Colo.swift */; };
-		7FDBAC2D2E6AA3E70094E4E2 /* UIColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FDBAC2C2E6AA3E70094E4E2 /* UIColors.swift */; };
-		7FDBAC2E2E6AA3E70094E4E2 /* UIColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FDBAC2C2E6AA3E70094E4E2 /* UIColors.swift */; };
-		7FDBAC2F2E6AA3E70094E4E2 /* UIColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FDBAC2C2E6AA3E70094E4E2 /* UIColors.swift */; };
-		7FDBAC302E6AA3E70094E4E2 /* UIColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FDBAC2C2E6AA3E70094E4E2 /* UIColors.swift */; };
-		7FDBAF9D2E6AA6FB0094E4E2 /* Extension+UILabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FDBAF9C2E6AA6FB0094E4E2 /* Extension+UILabel.swift */; };
-		7FDBAF9E2E6AA6FB0094E4E2 /* Extension+UILabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FDBAF9C2E6AA6FB0094E4E2 /* Extension+UILabel.swift */; };
-		7FDBAF9F2E6AA6FB0094E4E2 /* Extension+UILabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FDBAF9C2E6AA6FB0094E4E2 /* Extension+UILabel.swift */; };
-		7FDBAFA02E6AA6FB0094E4E2 /* Extension+UILabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FDBAF9C2E6AA6FB0094E4E2 /* Extension+UILabel.swift */; };
-		7FDBAFA32E6AA8810094E4E2 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FDBAFA22E6AA8810094E4E2 /* BaseViewController.swift */; };
-		7FDBAFA42E6AA8810094E4E2 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FDBAFA22E6AA8810094E4E2 /* BaseViewController.swift */; };
-		7FDBAFA52E6AA8810094E4E2 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FDBAFA22E6AA8810094E4E2 /* BaseViewController.swift */; };
-		7FDBAFA62E6AA8810094E4E2 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FDBAFA22E6AA8810094E4E2 /* BaseViewController.swift */; };
+		6CBFFDE6727988688C659C02 /* ImageAsset.swift in Sources */ = {isa = PBXBuildFile; fileRef = D199440E65D8D401EDC98511 /* ImageAsset.swift */; };
 		90BD3BCC7A12B9D9FC0FC0E5 /* BaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2037A54D1D7D283E80FF0D5C /* BaseView.swift */; };
+		9C4EE29BC0F3C09880555CDD /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DDB65E50E9A40944ADEEDB2 /* BaseViewController.swift */; };
+		A02E2BEEF01F40AB5EB27967 /* Extension+UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BF62E3713A0EBCEECEAB6AE /* Extension+UIColor.swift */; };
+		A18206A7174AB69D58054395 /* Extension+UILabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B3E3329BD329BF6999EE0E9 /* Extension+UILabel.swift */; };
 		A2CEB3ECFE3AFCFBB6509C79 /* Test.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B67F5AD336FFDED9C31245F /* Test.swift */; };
+		A65C76AD0609306E05A0CFDF /* PretendardFontFamily.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DFDEE116A67E6C3606007A2 /* PretendardFontFamily.swift */; };
 		ABB14811E13F7B1ECCF8B086 /* TuistAssets+DesignSystem.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5263BC75B281154AC0B5A7B /* TuistAssets+DesignSystem.swift */; };
+		AD8836C636E43E59E7DB750E /* ImageAsset.swift in Sources */ = {isa = PBXBuildFile; fileRef = D199440E65D8D401EDC98511 /* ImageAsset.swift */; };
 		B2FE89393BB081596AD206FF /* BaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2037A54D1D7D283E80FF0D5C /* BaseView.swift */; };
+		BA136466484AA0C1BF238F63 /* UIColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6964B76F338CA1083A2EAA11 /* UIColors.swift */; };
 		BC40AC04CE1BE4D7CA94854B /* ImageAssets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 365911FA35B2B70671D60856 /* ImageAssets.xcassets */; };
+		BCFF08E151BC139800086031 /* UIColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6964B76F338CA1083A2EAA11 /* UIColors.swift */; };
 		BD878E42E01BA5FA93F29FDE /* TuistBundle+DesignSystemDebug.swift in Sources */ = {isa = PBXBuildFile; fileRef = B38EF5B36E88588961AB7E44 /* TuistBundle+DesignSystemDebug.swift */; };
 		C438E92FA9121880084AE9AA /* DesignSystem.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 69B7BBEAD5472C7195924AC8 /* DesignSystem.framework */; };
+		C67D9D255ADB7E82D2DCB8D8 /* UIColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6964B76F338CA1083A2EAA11 /* UIColors.swift */; };
+		C8030B09F96168D2FD8D8CBA /*  Extension+Image.swift in Sources */ = {isa = PBXBuildFile; fileRef = 498B5930ACE63777F8AAC082 /*  Extension+Image.swift */; };
+		C83CACD5B5F275224A93814E /* ImageAsset.swift in Sources */ = {isa = PBXBuildFile; fileRef = D199440E65D8D401EDC98511 /* ImageAsset.swift */; };
+		CDBB5C5F170717B8E3CBDF10 /* Extension+UILabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B3E3329BD329BF6999EE0E9 /* Extension+UILabel.swift */; };
 		D454D68ADFCEB25F5F69149D /* BaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2037A54D1D7D283E80FF0D5C /* BaseView.swift */; };
 		D4BBBE665283FCFF21AF1E1E /* TuistFonts+DesignSystemStage.swift in Sources */ = {isa = PBXBuildFile; fileRef = A61786D0EB738723AB6A3E52 /* TuistFonts+DesignSystemStage.swift */; };
 		DAE5BEECD2AF04139A336C3C /* BaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2037A54D1D7D283E80FF0D5C /* BaseView.swift */; };
 		DF26B81FBD6FDC0158FA47C7 /* TuistAssets+DesignSystemStage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1609C54BDDFC80336CF0C360 /* TuistAssets+DesignSystemStage.swift */; };
+		E2369AB20606EC81D8971526 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DDB65E50E9A40944ADEEDB2 /* BaseViewController.swift */; };
+		E266D455EC0325C2484FE0DC /* PretendardFontFamily.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DFDEE116A67E6C3606007A2 /* PretendardFontFamily.swift */; };
+		E3854479AFC143B40321C1CA /* PretendardFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = 688D1487AF38E7CCA4A91781 /* PretendardFont.swift */; };
 		E4A9BC98A8E210D6173854CE /* DesignSystem_DesignSystem.bundle in Dependencies */ = {isa = PBXBuildFile; fileRef = 42D7C40704F4FCBCDB855667 /* DesignSystem_DesignSystem.bundle */; };
 		E79FE8601AE837DBF04B8E00 /* ImageAssets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 365911FA35B2B70671D60856 /* ImageAssets.xcassets */; };
+		F16B378FA89AF6BB63790180 /* ImageAsset.swift in Sources */ = {isa = PBXBuildFile; fileRef = D199440E65D8D401EDC98511 /* ImageAsset.swift */; };
+		F17B84058BDEC3F96F1EB6B8 /* PretendardFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = 688D1487AF38E7CCA4A91781 /* PretendardFont.swift */; };
+		F256291B173F7E68A0E89DB9 /*  Extension+Image.swift in Sources */ = {isa = PBXBuildFile; fileRef = 498B5930ACE63777F8AAC082 /*  Extension+Image.swift */; };
 		F3289F76100C3623ADD227DF /* ImageAssets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 365911FA35B2B70671D60856 /* ImageAssets.xcassets */; };
+		F4D617D15D68E945AA50728A /*  Extension+Image.swift in Sources */ = {isa = PBXBuildFile; fileRef = 498B5930ACE63777F8AAC082 /*  Extension+Image.swift */; };
+		F52D68163C625870CB8D309A /* PretendardFontFamily.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DFDEE116A67E6C3606007A2 /* PretendardFontFamily.swift */; };
 		F6018B5F7748E322214C52D6 /* TuistBundle+DesignSystem.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE4AD9735556ECA8C8008FEC /* TuistBundle+DesignSystem.swift */; };
 		FA17A19D49963C814439E27E /* TuistBundle+DesignSystemProd.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B0C3E527CEC0A57D2B99BFB /* TuistBundle+DesignSystemProd.swift */; };
+		FA87677D0DB27483F2365065 /* Extension+UILabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B3E3329BD329BF6999EE0E9 /* Extension+UILabel.swift */; };
 		FDEBA8D19C6B643D2EE7D847 /* PretendardVariable.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A20647CF23B131D16DCAB555 /* PretendardVariable.ttf */; };
 /* End PBXBuildFile section */
 
@@ -212,8 +216,10 @@
 
 /* Begin PBXFileReference section */
 		0B67F5AD336FFDED9C31245F /* Test.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Test.swift; sourceTree = "<group>"; };
+		12730386909033CD68A22CD0 /* Extension+Colo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension+Colo.swift"; sourceTree = "<group>"; };
 		1489E7809DA4DADA471C2CDC /* TuistFonts+DesignSystem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TuistFonts+DesignSystem.swift"; sourceTree = "<group>"; };
 		1609C54BDDFC80336CF0C360 /* TuistAssets+DesignSystemStage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TuistAssets+DesignSystemStage.swift"; sourceTree = "<group>"; };
+		1B3E3329BD329BF6999EE0E9 /* Extension+UILabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension+UILabel.swift"; sourceTree = "<group>"; };
 		2037A54D1D7D283E80FF0D5C /* BaseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseView.swift; sourceTree = "<group>"; };
 		24E0063F8DAAFAE14BCFEE93 /* DesignSystem_DesignSystem_Prod.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DesignSystem_DesignSystem_Prod.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 		27AA3E385D373C2295F94842 /* TuistBundle+DesignSystemStage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TuistBundle+DesignSystemStage.swift"; sourceTree = "<group>"; };
@@ -223,19 +229,16 @@
 		42D7C40704F4FCBCDB855667 /* DesignSystem_DesignSystem.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DesignSystem_DesignSystem.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 		44A000B3D481B9241DB8971A /* DesignSystem_DesignSystem_Prod-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "DesignSystem_DesignSystem_Prod-Info.plist"; sourceTree = "<group>"; };
 		469F4B641DBB710B1B90BAD8 /* DesignSystemTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "DesignSystemTests-Info.plist"; sourceTree = "<group>"; };
+		498B5930ACE63777F8AAC082 /*  Extension+Image.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = " Extension+Image.swift"; sourceTree = "<group>"; };
+		5DDB65E50E9A40944ADEEDB2 /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		5DFDEE116A67E6C3606007A2 /* PretendardFontFamily.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PretendardFontFamily.swift; sourceTree = "<group>"; };
 		67AC3D394CED665A57B6D341 /* DesignSystem-Stage-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "DesignSystem-Stage-Info.plist"; sourceTree = "<group>"; };
+		688D1487AF38E7CCA4A91781 /* PretendardFont.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PretendardFont.swift; sourceTree = "<group>"; };
+		6964B76F338CA1083A2EAA11 /* UIColors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColors.swift; sourceTree = "<group>"; };
 		69B7BBEAD5472C7195924AC8 /* DesignSystem.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DesignSystem.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7B11E5E9D21524DF1C180F0C /* DesignSystem_Debug.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DesignSystem_Debug.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7C0657B12FC785E86158F7DC /* TuistFonts+DesignSystemDebug.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TuistFonts+DesignSystemDebug.swift"; sourceTree = "<group>"; };
 		7EF38864C69153237B1B4234 /* DesignSystem-Debug-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "DesignSystem-Debug-Info.plist"; sourceTree = "<group>"; };
-		7FDBAB4A2E6A9F6F0094E4E2 /* ImageAsset.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageAsset.swift; sourceTree = "<group>"; };
-		7FDBAB562E6A9FE70094E4E2 /* PretendardFontFamily.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PretendardFontFamily.swift; sourceTree = "<group>"; };
-		7FDBAB5B2E6AA02B0094E4E2 /* PretendardFont.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PretendardFont.swift; sourceTree = "<group>"; };
-		7FDBAC212E6AA34A0094E4E2 /* Extension+UIColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension+UIColor.swift"; sourceTree = "<group>"; };
-		7FDBAC262E6AA3540094E4E2 /* Extension+Colo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension+Colo.swift"; sourceTree = "<group>"; };
-		7FDBAC2C2E6AA3E70094E4E2 /* UIColors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColors.swift; sourceTree = "<group>"; };
-		7FDBAF9C2E6AA6FB0094E4E2 /* Extension+UILabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension+UILabel.swift"; sourceTree = "<group>"; };
-		7FDBAFA22E6AA8810094E4E2 /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
 		8011B55F1DC08EC73C2467B4 /* DesignSystem_DesignSystem_Stage.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DesignSystem_DesignSystem_Stage.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 		8080BDCE77FA8041E648FFE0 /* DesignSystem-Prod-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "DesignSystem-Prod-Info.plist"; sourceTree = "<group>"; };
 		8374AFD4C591FD586AC84128 /* DesignSystem_Stage.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DesignSystem_Stage.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -243,21 +246,19 @@
 		8937FA9427EEA938B58C5B3E /* DesignSystem-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "DesignSystem-Info.plist"; sourceTree = "<group>"; };
 		8E80CBF5486DD48CEF7D4361 /* TuistAssets+DesignSystemProd.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TuistAssets+DesignSystemProd.swift"; sourceTree = "<group>"; };
 		9B0C3E527CEC0A57D2B99BFB /* TuistBundle+DesignSystemProd.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TuistBundle+DesignSystemProd.swift"; sourceTree = "<group>"; };
+		9BF62E3713A0EBCEECEAB6AE /* Extension+UIColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension+UIColor.swift"; sourceTree = "<group>"; };
 		A20647CF23B131D16DCAB555 /* PretendardVariable.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = PretendardVariable.ttf; sourceTree = "<group>"; };
 		A5263BC75B281154AC0B5A7B /* TuistAssets+DesignSystem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TuistAssets+DesignSystem.swift"; sourceTree = "<group>"; };
 		A61786D0EB738723AB6A3E52 /* TuistFonts+DesignSystemStage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TuistFonts+DesignSystemStage.swift"; sourceTree = "<group>"; };
 		B38EF5B36E88588961AB7E44 /* TuistBundle+DesignSystemDebug.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TuistBundle+DesignSystemDebug.swift"; sourceTree = "<group>"; };
 		BE4AD9735556ECA8C8008FEC /* TuistBundle+DesignSystem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TuistBundle+DesignSystem.swift"; sourceTree = "<group>"; };
+		D199440E65D8D401EDC98511 /* ImageAsset.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageAsset.swift; sourceTree = "<group>"; };
 		D6D0FABFF623E11D22F6BDCC /* TuistAssets+DesignSystemDebug.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TuistAssets+DesignSystemDebug.swift"; sourceTree = "<group>"; };
 		D8C4AF8E52680E324D6FBCBF /* DesignSystem_DesignSystem_Debug.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DesignSystem_DesignSystem_Debug.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 		DDA12AD00E98A3497D3A729E /* DesignSystem_DesignSystem-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "DesignSystem_DesignSystem-Info.plist"; sourceTree = "<group>"; };
 		ECAFBD3892447294C1342932 /* DesignSystemTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DesignSystemTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FACA604C0F807EB6665FF98A /* DesignSystem_DesignSystem_Debug-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "DesignSystem_DesignSystem_Debug-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
-
-/* Begin PBXFileSystemSynchronizedRootGroup section */
-		7FDBAB502E6A9FA30094E4E2 /* Image */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = Image; sourceTree = "<group>"; };
-/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		1964AC1CF76FA8EBDF2A15A1 /* Frameworks */ = {
@@ -327,15 +328,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		07B3C6779FC95ED6B892F6E8 /* CustomFont */ = {
+			isa = PBXGroup;
+			children = (
+				688D1487AF38E7CCA4A91781 /* PretendardFont.swift */,
+				5DFDEE116A67E6C3606007A2 /* PretendardFontFamily.swift */,
+			);
+			path = CustomFont;
+			sourceTree = "<group>";
+		};
 		0E1288659896D0CFF98DA5AA /* Sources */ = {
 			isa = PBXGroup;
 			children = (
-				7FDBAC2B2E6AA3E00094E4E2 /* UIColors */,
-				7FDBAB4F2E6A9F950094E4E2 /* Extension */,
-				7FDBAB492E6A9F520094E4E2 /* Image */,
-				7FDBAB472E6A93020094E4E2 /* CustomFont */,
-				7FDBAB462E6A92F90094E4E2 /* UI */,
 				1D7DAFC035EC8A7E2AAE52AE /* Component */,
+				07B3C6779FC95ED6B892F6E8 /* CustomFont */,
+				DADCA588D3E296D27BE4E9DD /* Extension */,
+				3D56AC3DF263FFE10ECDAF91 /* Image */,
+				F50F691919569472F1BDF4EE /* UI */,
+				40E93A76365B9EEE4D2A9420 /* UIColors */,
 			);
 			path = Sources;
 			sourceTree = "<group>";
@@ -343,7 +353,7 @@
 		1D7DAFC035EC8A7E2AAE52AE /* Component */ = {
 			isa = PBXGroup;
 			children = (
-				7FDBAFA12E6AA86F0094E4E2 /* Controller */,
+				8E66A78D3193A7178EA9CA3A /* Controller */,
 				B50531634D4EEB7A5C7115D3 /* View */,
 			);
 			path = Component;
@@ -368,6 +378,22 @@
 			path = DesignSystemTests;
 			sourceTree = "<group>";
 		};
+		37E903075B812927C05A173C /* UILabel */ = {
+			isa = PBXGroup;
+			children = (
+				1B3E3329BD329BF6999EE0E9 /* Extension+UILabel.swift */,
+			);
+			path = UILabel;
+			sourceTree = "<group>";
+		};
+		3D56AC3DF263FFE10ECDAF91 /* Image */ = {
+			isa = PBXGroup;
+			children = (
+				D199440E65D8D401EDC98511 /* ImageAsset.swift */,
+			);
+			path = Image;
+			sourceTree = "<group>";
+		};
 		40B3714D155242D0EB4D6C9B /* Sources */ = {
 			isa = PBXGroup;
 			children = (
@@ -376,79 +402,28 @@
 			path = Sources;
 			sourceTree = "<group>";
 		};
+		40E93A76365B9EEE4D2A9420 /* UIColors */ = {
+			isa = PBXGroup;
+			children = (
+				6964B76F338CA1083A2EAA11 /* UIColors.swift */,
+			);
+			path = UIColors;
+			sourceTree = "<group>";
+		};
+		5D733C381594AF5205BB8922 /* Image */ = {
+			isa = PBXGroup;
+			children = (
+				498B5930ACE63777F8AAC082 /*  Extension+Image.swift */,
+			);
+			path = Image;
+			sourceTree = "<group>";
+		};
 		786F17AF2FB2F3D1598E0C72 /* FontAsset */ = {
 			isa = PBXGroup;
 			children = (
 				A20647CF23B131D16DCAB555 /* PretendardVariable.ttf */,
 			);
 			path = FontAsset;
-			sourceTree = "<group>";
-		};
-		7FDBAB462E6A92F90094E4E2 /* UI */ = {
-			isa = PBXGroup;
-			children = (
-				7FDBAF9B2E6AA6C60094E4E2 /* UILabel */,
-			);
-			path = UI;
-			sourceTree = "<group>";
-		};
-		7FDBAB472E6A93020094E4E2 /* CustomFont */ = {
-			isa = PBXGroup;
-			children = (
-				7FDBAB562E6A9FE70094E4E2 /* PretendardFontFamily.swift */,
-				7FDBAB5B2E6AA02B0094E4E2 /* PretendardFont.swift */,
-			);
-			path = CustomFont;
-			sourceTree = "<group>";
-		};
-		7FDBAB492E6A9F520094E4E2 /* Image */ = {
-			isa = PBXGroup;
-			children = (
-				7FDBAB4A2E6A9F6F0094E4E2 /* ImageAsset.swift */,
-			);
-			path = Image;
-			sourceTree = "<group>";
-		};
-		7FDBAB4F2E6A9F950094E4E2 /* Extension */ = {
-			isa = PBXGroup;
-			children = (
-				7FDBAC202E6AA3430094E4E2 /* Color */,
-				7FDBAB502E6A9FA30094E4E2 /* Image */,
-			);
-			path = Extension;
-			sourceTree = "<group>";
-		};
-		7FDBAC202E6AA3430094E4E2 /* Color */ = {
-			isa = PBXGroup;
-			children = (
-				7FDBAC212E6AA34A0094E4E2 /* Extension+UIColor.swift */,
-				7FDBAC262E6AA3540094E4E2 /* Extension+Colo.swift */,
-			);
-			path = Color;
-			sourceTree = "<group>";
-		};
-		7FDBAC2B2E6AA3E00094E4E2 /* UIColors */ = {
-			isa = PBXGroup;
-			children = (
-				7FDBAC2C2E6AA3E70094E4E2 /* UIColors.swift */,
-			);
-			path = UIColors;
-			sourceTree = "<group>";
-		};
-		7FDBAF9B2E6AA6C60094E4E2 /* UILabel */ = {
-			isa = PBXGroup;
-			children = (
-				7FDBAF9C2E6AA6FB0094E4E2 /* Extension+UILabel.swift */,
-			);
-			path = UILabel;
-			sourceTree = "<group>";
-		};
-		7FDBAFA12E6AA86F0094E4E2 /* Controller */ = {
-			isa = PBXGroup;
-			children = (
-				7FDBAFA22E6AA8810094E4E2 /* BaseViewController.swift */,
-			);
-			path = Controller;
 			sourceTree = "<group>";
 		};
 		82664F67710540CBDEBE5B11 /* Products */ = {
@@ -474,6 +449,14 @@
 				D5FD3537E28AE857DC09D214 /* Sources */,
 			);
 			path = Derived;
+			sourceTree = "<group>";
+		};
+		8E66A78D3193A7178EA9CA3A /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				5DDB65E50E9A40944ADEEDB2 /* BaseViewController.swift */,
+			);
+			path = Controller;
 			sourceTree = "<group>";
 		};
 		9C29548CCBEAF62FB7951500 /* Resources */ = {
@@ -512,12 +495,30 @@
 			path = Sources;
 			sourceTree = "<group>";
 		};
+		DADCA588D3E296D27BE4E9DD /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				F0E76573CF74786F9BC5B779 /* Color */,
+				5D733C381594AF5205BB8922 /* Image */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
 		EC9821EEC8CC800276475F6C = {
 			isa = PBXGroup;
 			children = (
 				2BB59E843B58BD9FFF395FEA /* Project */,
 				82664F67710540CBDEBE5B11 /* Products */,
 			);
+			sourceTree = "<group>";
+		};
+		F0E76573CF74786F9BC5B779 /* Color */ = {
+			isa = PBXGroup;
+			children = (
+				12730386909033CD68A22CD0 /* Extension+Colo.swift */,
+				9BF62E3713A0EBCEECEAB6AE /* Extension+UIColor.swift */,
+			);
+			path = Color;
 			sourceTree = "<group>";
 		};
 		F2F0D6EECE384EBEC3AFDEB4 /* InfoPlists */ = {
@@ -534,6 +535,14 @@
 				469F4B641DBB710B1B90BAD8 /* DesignSystemTests-Info.plist */,
 			);
 			path = InfoPlists;
+			sourceTree = "<group>";
+		};
+		F50F691919569472F1BDF4EE /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				37E903075B812927C05A173C /* UILabel */,
+			);
+			path = UI;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -575,9 +584,6 @@
 			dependencies = (
 				F2408E3D40B4685960561532 /* PBXTargetDependency */,
 			);
-			fileSystemSynchronizedGroups = (
-				7FDBAB502E6A9FA30094E4E2 /* Image */,
-			);
 			name = "DesignSystem-Stage";
 			packageProductDependencies = (
 			);
@@ -618,9 +624,6 @@
 			);
 			dependencies = (
 				109F5EAE8D098E0F2D76AE38 /* PBXTargetDependency */,
-			);
-			fileSystemSynchronizedGroups = (
-				7FDBAB502E6A9FA30094E4E2 /* Image */,
 			);
 			name = "DesignSystem-Prod";
 			packageProductDependencies = (
@@ -683,9 +686,6 @@
 			dependencies = (
 				5EE60265510B17C28AE5EBA4 /* PBXTargetDependency */,
 			);
-			fileSystemSynchronizedGroups = (
-				7FDBAB502E6A9FA30094E4E2 /* Image */,
-			);
 			name = DesignSystem;
 			packageProductDependencies = (
 			);
@@ -727,9 +727,6 @@
 			dependencies = (
 				0A01D9C61E614BA114130103 /* PBXTargetDependency */,
 			);
-			fileSystemSynchronizedGroups = (
-				7FDBAB502E6A9FA30094E4E2 /* Image */,
-			);
 			name = "DesignSystem-Debug";
 			packageProductDependencies = (
 			);
@@ -744,6 +741,8 @@
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = YES;
+				TargetAttributes = {
+				};
 			};
 			buildConfigurationList = 5C0CBBA2BFE0CEE21375AF0A /* Build configuration list for PBXProject "DesignSystem" */;
 			compatibilityVersion = "Xcode 14.0";
@@ -858,18 +857,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7FDBAFA62E6AA8810094E4E2 /* BaseViewController.swift in Sources */,
-				7FDBAFA02E6AA6FB0094E4E2 /* Extension+UILabel.swift in Sources */,
-				7FDBAC2D2E6AA3E70094E4E2 /* UIColors.swift in Sources */,
-				7FDBAB4C2E6A9F6F0094E4E2 /* ImageAsset.swift in Sources */,
-				7FDBAC232E6AA34A0094E4E2 /* Extension+UIColor.swift in Sources */,
-				7FDBAB5A2E6A9FE70094E4E2 /* PretendardFontFamily.swift in Sources */,
 				36B4268421AB9CDA58103A7B /* TuistAssets+DesignSystemDebug.swift in Sources */,
 				BD878E42E01BA5FA93F29FDE /* TuistBundle+DesignSystemDebug.swift in Sources */,
 				683B9C0B090D319ECE7EB598 /* TuistFonts+DesignSystemDebug.swift in Sources */,
+				E2369AB20606EC81D8971526 /* BaseViewController.swift in Sources */,
 				D454D68ADFCEB25F5F69149D /* BaseView.swift in Sources */,
-				7FDBAC2A2E6AA3540094E4E2 /* Extension+Colo.swift in Sources */,
-				7FDBAB5F2E6AA02B0094E4E2 /* PretendardFont.swift in Sources */,
+				E3854479AFC143B40321C1CA /* PretendardFont.swift in Sources */,
+				E266D455EC0325C2484FE0DC /* PretendardFontFamily.swift in Sources */,
+				4FB20F2D3BC745E19225A129 /* Extension+Colo.swift in Sources */,
+				A02E2BEEF01F40AB5EB27967 /* Extension+UIColor.swift in Sources */,
+				F4D617D15D68E945AA50728A /*  Extension+Image.swift in Sources */,
+				AD8836C636E43E59E7DB750E /* ImageAsset.swift in Sources */,
+				CDBB5C5F170717B8E3CBDF10 /* Extension+UILabel.swift in Sources */,
+				BCFF08E151BC139800086031 /* UIColors.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -884,18 +884,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7FDBAFA52E6AA8810094E4E2 /* BaseViewController.swift in Sources */,
-				7FDBAF9E2E6AA6FB0094E4E2 /* Extension+UILabel.swift in Sources */,
-				7FDBAC2E2E6AA3E70094E4E2 /* UIColors.swift in Sources */,
-				7FDBAB4B2E6A9F6F0094E4E2 /* ImageAsset.swift in Sources */,
-				7FDBAC222E6AA34A0094E4E2 /* Extension+UIColor.swift in Sources */,
-				7FDBAB582E6A9FE70094E4E2 /* PretendardFontFamily.swift in Sources */,
 				29B83E78203A842E17186969 /* TuistAssets+DesignSystemProd.swift in Sources */,
 				FA17A19D49963C814439E27E /* TuistBundle+DesignSystemProd.swift in Sources */,
 				1F4BF4D83DEBABCF9477B5A4 /* TuistFonts+DesignSystemProd.swift in Sources */,
+				9C4EE29BC0F3C09880555CDD /* BaseViewController.swift in Sources */,
 				DAE5BEECD2AF04139A336C3C /* BaseView.swift in Sources */,
-				7FDBAC292E6AA3540094E4E2 /* Extension+Colo.swift in Sources */,
-				7FDBAB5C2E6AA02B0094E4E2 /* PretendardFont.swift in Sources */,
+				F17B84058BDEC3F96F1EB6B8 /* PretendardFont.swift in Sources */,
+				F52D68163C625870CB8D309A /* PretendardFontFamily.swift in Sources */,
+				2D4222DE6962486053AE92D2 /* Extension+Colo.swift in Sources */,
+				639F7AE8FBB03215FD246E17 /* Extension+UIColor.swift in Sources */,
+				C8030B09F96168D2FD8D8CBA /*  Extension+Image.swift in Sources */,
+				6CBFFDE6727988688C659C02 /* ImageAsset.swift in Sources */,
+				A18206A7174AB69D58054395 /* Extension+UILabel.swift in Sources */,
+				C67D9D255ADB7E82D2DCB8D8 /* UIColors.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -917,18 +918,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7FDBAFA32E6AA8810094E4E2 /* BaseViewController.swift in Sources */,
-				7FDBAF9D2E6AA6FB0094E4E2 /* Extension+UILabel.swift in Sources */,
-				7FDBAC302E6AA3E70094E4E2 /* UIColors.swift in Sources */,
-				7FDBAB4D2E6A9F6F0094E4E2 /* ImageAsset.swift in Sources */,
-				7FDBAC242E6AA34A0094E4E2 /* Extension+UIColor.swift in Sources */,
-				7FDBAB592E6A9FE70094E4E2 /* PretendardFontFamily.swift in Sources */,
 				ABB14811E13F7B1ECCF8B086 /* TuistAssets+DesignSystem.swift in Sources */,
 				F6018B5F7748E322214C52D6 /* TuistBundle+DesignSystem.swift in Sources */,
 				2C2A6F1B0843699ACFE53D23 /* TuistFonts+DesignSystem.swift in Sources */,
+				31EC067D18118B89B3E26C35 /* BaseViewController.swift in Sources */,
 				B2FE89393BB081596AD206FF /* BaseView.swift in Sources */,
-				7FDBAC272E6AA3540094E4E2 /* Extension+Colo.swift in Sources */,
-				7FDBAB5D2E6AA02B0094E4E2 /* PretendardFont.swift in Sources */,
+				295C45B14842023C80A47D51 /* PretendardFont.swift in Sources */,
+				64F162B159C0BD3427E9096D /* PretendardFontFamily.swift in Sources */,
+				451B3319A64E5905270FB3D4 /* Extension+Colo.swift in Sources */,
+				53D817882A37E5BDE297B626 /* Extension+UIColor.swift in Sources */,
+				5E1EAED55A21ED7168716302 /*  Extension+Image.swift in Sources */,
+				C83CACD5B5F275224A93814E /* ImageAsset.swift in Sources */,
+				FA87677D0DB27483F2365065 /* Extension+UILabel.swift in Sources */,
+				BA136466484AA0C1BF238F63 /* UIColors.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -936,18 +938,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7FDBAFA42E6AA8810094E4E2 /* BaseViewController.swift in Sources */,
-				7FDBAF9F2E6AA6FB0094E4E2 /* Extension+UILabel.swift in Sources */,
-				7FDBAC2F2E6AA3E70094E4E2 /* UIColors.swift in Sources */,
-				7FDBAB4E2E6A9F6F0094E4E2 /* ImageAsset.swift in Sources */,
-				7FDBAC252E6AA34A0094E4E2 /* Extension+UIColor.swift in Sources */,
-				7FDBAB572E6A9FE70094E4E2 /* PretendardFontFamily.swift in Sources */,
 				DF26B81FBD6FDC0158FA47C7 /* TuistAssets+DesignSystemStage.swift in Sources */,
 				5535A46BBF316AB4582FB4C9 /* TuistBundle+DesignSystemStage.swift in Sources */,
 				D4BBBE665283FCFF21AF1E1E /* TuistFonts+DesignSystemStage.swift in Sources */,
+				06D16B1B1B957D3A84E4CDA5 /* BaseViewController.swift in Sources */,
 				90BD3BCC7A12B9D9FC0FC0E5 /* BaseView.swift in Sources */,
-				7FDBAC282E6AA3540094E4E2 /* Extension+Colo.swift in Sources */,
-				7FDBAB5E2E6AA02B0094E4E2 /* PretendardFont.swift in Sources */,
+				669DDDAB3138D6302F2DC45A /* PretendardFont.swift in Sources */,
+				A65C76AD0609306E05A0CFDF /* PretendardFontFamily.swift in Sources */,
+				612A492C9B46FD82ED8898D2 /* Extension+Colo.swift in Sources */,
+				4EEA700FC28C94A9321002E8 /* Extension+UIColor.swift in Sources */,
+				F256291B173F7E68A0E89DB9 /*  Extension+Image.swift in Sources */,
+				F16B378FA89AF6BB63790180 /* ImageAsset.swift in Sources */,
+				5E12234768DE4CD7ED40F7E2 /* Extension+UILabel.swift in Sources */,
+				21D6A622DF9A1906D496AADF /* UIColors.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1010,7 +1013,10 @@
 				SUPPORTS_MACCATALYST = NO;
 				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) DEBUG";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
+					"$(inherited)",
+					DEBUG,
+				);
 				SWIFT_COMPILATION_MODE = singlefile;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
@@ -1044,7 +1050,10 @@
 				SUPPORTS_MACCATALYST = NO;
 				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) DEBUG";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
+					"$(inherited)",
+					DEBUG,
+				);
 				SWIFT_COMPILATION_MODE = singlefile;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
@@ -1113,7 +1122,10 @@
 				SUPPORTS_MACCATALYST = NO;
 				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) DEBUG";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
+					"$(inherited)",
+					DEBUG,
+				);
 				SWIFT_COMPILATION_MODE = singlefile;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
@@ -1140,7 +1152,10 @@
 				SUPPORTS_MACCATALYST = NO;
 				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) DEBUG";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
+					"$(inherited)",
+					DEBUG,
+				);
 				SWIFT_COMPILATION_MODE = singlefile;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
@@ -1288,7 +1303,10 @@
 				SUPPORTS_MACCATALYST = NO;
 				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) DEBUG";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
+					"$(inherited)",
+					DEBUG,
+				);
 				SWIFT_COMPILATION_MODE = singlefile;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
@@ -1505,7 +1523,10 @@
 				SUPPORTS_MACCATALYST = NO;
 				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) DEBUG";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
+					"$(inherited)",
+					DEBUG,
+				);
 				SWIFT_COMPILATION_MODE = singlefile;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
@@ -1539,7 +1560,10 @@
 				SUPPORTS_MACCATALYST = NO;
 				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) DEBUG";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
+					"$(inherited)",
+					DEBUG,
+				);
 				SWIFT_COMPILATION_MODE = singlefile;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
@@ -1587,7 +1611,10 @@
 				SUPPORTS_MACCATALYST = NO;
 				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) DEBUG";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
+					"$(inherited)",
+					DEBUG,
+				);
 				SWIFT_COMPILATION_MODE = singlefile;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
@@ -1611,7 +1638,10 @@
 				SUPPORTS_MACCATALYST = NO;
 				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) DEBUG";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
+					"$(inherited)",
+					DEBUG,
+				);
 				SWIFT_COMPILATION_MODE = singlefile;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
