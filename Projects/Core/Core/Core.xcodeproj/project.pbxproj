@@ -30,15 +30,18 @@
 		226AA78C1A3143B0A5EC1D8E /* IssueReporting.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03E9AE72F3054B4A5B3FA955 /* IssueReporting.framework */; };
 		23C8B915134EFE977A0AF44C /* InternalCollectionsUtilities.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 12A713B47F2AAA89018EAC9F /* InternalCollectionsUtilities.framework */; };
 		25331ABA2B62C93B801F42C7 /* IdentifiedCollections.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF63D412AA4B009EF483F4BE /* IdentifiedCollections.framework */; };
+		27671F4BD6382E892A194222 /* Service_Service.bundle in Dependencies */ = {isa = PBXBuildFile; fileRef = 3D9502ABE8C8662DEA57F88E /* Service_Service.bundle */; };
 		28179AACF7CEE8F379C94168 /* IssueReportingPackageSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9297D43D2BEFCC0B514EFC04 /* IssueReportingPackageSupport.framework */; };
 		283B75BE810668074615A488 /* XCTestDynamicOverlay.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0E1BE020E6058D897035F31 /* XCTestDynamicOverlay.framework */; };
 		2D5D4F61040CC8BFD8179471 /* Dependencies.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB917DE30C69F723BDF65353 /* Dependencies.framework */; };
 		2E139BFE929C679F3FA93456 /* Sharing2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2690CFF7D8527FFE80ABE74D /* Sharing2.framework */; };
 		30C165DDDBA521864ADED55A /* OrderedCollections.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC6EA3166EAE3B4E5C3A3655 /* OrderedCollections.framework */; };
+		3127B32BAA58527AEC364E16 /* Service_Service.bundle in Dependencies */ = {isa = PBXBuildFile; fileRef = 3D9502ABE8C8662DEA57F88E /* Service_Service.bundle */; };
 		3155400E555574E62DE20452 /* ComposableArchitecture.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB18C1565FE3EAC96777EC0F /* ComposableArchitecture.framework */; };
 		356A4BB64B50FE64EFEC39A0 /* OSLog.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F52A0D92C684C59849570BB /* OSLog.framework */; };
 		36993172D516F95C289F2335 /* UseCase.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE81E51C38BC7DF49AD255BD /* UseCase.framework */; };
 		3AFA724175D614A70532C76C /* IssueReporting.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03E9AE72F3054B4A5B3FA955 /* IssueReporting.framework */; };
+		3E5CB6C180291E9AB2899FF9 /* Service_Service.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 3D9502ABE8C8662DEA57F88E /* Service_Service.bundle */; };
 		4112B6136D7137512BB47137 /* SwiftNavigation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 091619AA614A7C59B502D9D5 /* SwiftNavigation.framework */; };
 		4136091B0498B913CAF09504 /* Service.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3ED045ECCC0A0126F7A4BC13 /* Service.framework */; };
 		44EF53FEAA0FD1F604AFA623 /* CombineSchedulers.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED856AD323CCEEC229B2C7F9 /* CombineSchedulers.framework */; };
@@ -49,6 +52,7 @@
 		543E087427D4A8420C2134C1 /* Sharing2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2690CFF7D8527FFE80ABE74D /* Sharing2.framework */; };
 		54DA91BADE1E4B3FBC17C12A /* SwiftNavigation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 091619AA614A7C59B502D9D5 /* SwiftNavigation.framework */; };
 		575C6F7C9AF3E146CD7010AE /* DiContainer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7EBE4DE9FD75B5368768D93D /* DiContainer.framework */; };
+		579348335859C6C854648878 /* Service_Service.bundle in Dependencies */ = {isa = PBXBuildFile; fileRef = 3D9502ABE8C8662DEA57F88E /* Service_Service.bundle */; };
 		57C0F9688A74616539B65893 /* UseCase.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE81E51C38BC7DF49AD255BD /* UseCase.framework */; };
 		581BA75F50FE6547B2732D10 /* OrderedCollections.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC6EA3166EAE3B4E5C3A3655 /* OrderedCollections.framework */; };
 		5A9AA023C2642C5EE42E3CAE /* UseCase.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE81E51C38BC7DF49AD255BD /* UseCase.framework */; };
@@ -78,6 +82,7 @@
 		8460A0263EB5BB299A2ABD2E /* Sharing1.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 141E57E374A54F7AB6E29DC2 /* Sharing1.framework */; };
 		84F29B64D24E2F2F7E7C75AF /* UIKitNavigationShim.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84F99CA60AD1F77541E67E93 /* UIKitNavigationShim.framework */; };
 		887EBC2FF03A101E2EAA63DA /* ComposableArchitecture.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB18C1565FE3EAC96777EC0F /* ComposableArchitecture.framework */; };
+		891148B093B4028A41F75C8F /* Service_Service.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 3D9502ABE8C8662DEA57F88E /* Service_Service.bundle */; };
 		8C85E8CCC8F4BAC32A1F8956 /* ConcurrencyExtras.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 10C2E0E9FA89653EBA928FFB /* ConcurrencyExtras.framework */; };
 		8C935BC4799F8B6E3A6223E1 /* OSLog.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F52A0D92C684C59849570BB /* OSLog.framework */; };
 		8EC393B68B27E55ED82E5D5F /* IssueReportingPackageSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9297D43D2BEFCC0B514EFC04 /* IssueReportingPackageSupport.framework */; };
@@ -110,9 +115,11 @@
 		BDF58A4C856FFC3CBE67FBBD /* LogMacro.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABF88C39763A84B856476973 /* LogMacro.framework */; };
 		BE2A82C9C8D2B6E2E0078C59 /* Clocks.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE351E328C333744FEAAACEF /* Clocks.framework */; };
 		BE857EFA75A291E0D632FBF8 /* Network.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD8B6B85F2D6B69FE70C1FBE /* Network.framework */; };
+		BEF5555990BBB95535D09740 /* Service_Service.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 3D9502ABE8C8662DEA57F88E /* Service_Service.bundle */; };
 		BF97AB1F1286F02D88CDF7BF /* CustomDump.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6739389F41AD55401939AA3 /* CustomDump.framework */; };
 		C1234BEE27DE517F8CE3A864 /* Service.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3ED045ECCC0A0126F7A4BC13 /* Service.framework */; };
 		C19440D7C9DE70C6EDF16A45 /* Sharing1.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 141E57E374A54F7AB6E29DC2 /* Sharing1.framework */; };
+		C4B8817284EFA5CEB15D1A40 /* Service_Service.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 3D9502ABE8C8662DEA57F88E /* Service_Service.bundle */; };
 		C6A9D0FB7BC398F04CF131AE /* LogMacro.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABF88C39763A84B856476973 /* LogMacro.framework */; };
 		C817E90B41D7B129CAAF83C4 /* Perception.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F8CC6237F3D4AE8F77CAE48 /* Perception.framework */; };
 		C9297C4ECC3FA3DD0DA1BB43 /* CustomDump.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6739389F41AD55401939AA3 /* CustomDump.framework */; };
@@ -145,6 +152,7 @@
 		FA35391AA4E5C0ED75A06ADF /* DiContainer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7EBE4DE9FD75B5368768D93D /* DiContainer.framework */; };
 		FA3AE178AFC2EC94AE27EDDF /* Repository.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6B638D8DB02624DD45D49E2 /* Repository.framework */; };
 		FC5B5B01425E3F711E6994B8 /* OSLog.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F52A0D92C684C59849570BB /* OSLog.framework */; };
+		FDB8C4369C262D1DFBCA5AA4 /* Service_Service.bundle in Dependencies */ = {isa = PBXBuildFile; fileRef = 3D9502ABE8C8662DEA57F88E /* Service_Service.bundle */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -178,6 +186,16 @@
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		2B67707ED35F2DA05F9FFEC7 /* Dependencies */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 8;
+			dstSubfolderSpec = 16;
+			files = (
+				FDB8C4369C262D1DFBCA5AA4 /* Service_Service.bundle in Dependencies */,
+			);
+			name = Dependencies;
+			runOnlyForDeploymentPostprocessing = 1;
+		};
 		2C70A176FC2F8BBE09A41076 /* Embed Frameworks */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
@@ -209,6 +227,36 @@
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		CA84D05AFEA6D9633EB4BE48 /* Dependencies */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 8;
+			dstSubfolderSpec = 16;
+			files = (
+				579348335859C6C854648878 /* Service_Service.bundle in Dependencies */,
+			);
+			name = Dependencies;
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		E0CF0C502C89B79E599E0E1D /* Dependencies */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 8;
+			dstSubfolderSpec = 16;
+			files = (
+				27671F4BD6382E892A194222 /* Service_Service.bundle in Dependencies */,
+			);
+			name = Dependencies;
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		E66347834B9000A283006EA2 /* Dependencies */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 8;
+			dstSubfolderSpec = 16;
+			files = (
+				3127B32BAA58527AEC364E16 /* Service_Service.bundle in Dependencies */,
+			);
+			name = Dependencies;
+			runOnlyForDeploymentPostprocessing = 1;
+		};
 		F09523A53F8DCAD5A57EF624 /* Embed Frameworks */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
@@ -233,6 +281,7 @@
 		26BDD2D3E7FED8CDE9A52F46 /* Core-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Core-Info.plist"; sourceTree = "<group>"; };
 		2B0FA7F85F3573FB522F9478 /* Core.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Core.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		37D454E3D3DEA3106FC5B1D9 /* CasePaths.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CasePaths.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D9502ABE8C8662DEA57F88E /* Service_Service.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Service_Service.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 		3E313EC3E53C9ED17660FD3F /* CoreTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CoreTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3ED045ECCC0A0126F7A4BC13 /* Service.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Service.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3FFF727FDBE22876C8AC9A3D /* CasePathsCore.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CasePathsCore.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -483,6 +532,7 @@
 				1F8CC6237F3D4AE8F77CAE48 /* Perception.framework */,
 				70750465C5300D484ABA9F60 /* PerceptionCore.framework */,
 				A6B638D8DB02624DD45D49E2 /* Repository.framework */,
+				3D9502ABE8C8662DEA57F88E /* Service_Service.bundle */,
 				3ED045ECCC0A0126F7A4BC13 /* Service.framework */,
 				4E7A1228CBFFBBC21B6F7108 /* Sharing.framework */,
 				141E57E374A54F7AB6E29DC2 /* Sharing1.framework */,
@@ -573,6 +623,7 @@
 				07EAA56C4A3A84EB3B22A329 /* Resources */,
 				6F0BEFA54B77D8AD5CC51C4E /* Frameworks */,
 				1E9A2FDAECA90F5696951540 /* Embed Frameworks */,
+				E0CF0C502C89B79E599E0E1D /* Dependencies */,
 			);
 			buildRules = (
 			);
@@ -593,6 +644,7 @@
 				DB514001747A8838395DE260 /* Resources */,
 				53BD653179EC7C334683F5ED /* Frameworks */,
 				F09523A53F8DCAD5A57EF624 /* Embed Frameworks */,
+				2B67707ED35F2DA05F9FFEC7 /* Dependencies */,
 			);
 			buildRules = (
 			);
@@ -613,6 +665,7 @@
 				77ACEF4C04545869374F3C3D /* Resources */,
 				EAFB5A562EB01EC63021A153 /* Frameworks */,
 				BDF7A6E43B5BED04E4D93612 /* Embed Frameworks */,
+				E66347834B9000A283006EA2 /* Dependencies */,
 			);
 			buildRules = (
 			);
@@ -655,6 +708,7 @@
 				3FEE3D1A9FD48DDE5D5CDD8B /* Resources */,
 				BF69E59B74296DB134C1F9E4 /* Frameworks */,
 				2A34CD9447D0001C8C98AEF5 /* Embed Frameworks */,
+				CA84D05AFEA6D9633EB4BE48 /* Dependencies */,
 			);
 			buildRules = (
 			);
@@ -704,6 +758,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C4B8817284EFA5CEB15D1A40 /* Service_Service.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -720,6 +775,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3E5CB6C180291E9AB2899FF9 /* Service_Service.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -727,6 +783,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BEF5555990BBB95535D09740 /* Service_Service.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -734,6 +791,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				891148B093B4028A41F75C8F /* Service_Service.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
