@@ -32,7 +32,12 @@ public extension InfoPlist {
         "UISceneConfigurations": [
           "UIWindowSceneSessionRoleApplication": [
             [
+              // ← 구성 이름(문자 그대로)
               "UISceneConfigurationName": "Default Configuration",
+              // ← 실제 SceneDelegate 클래스 경로
+              "UISceneDelegateClassName": "$(PRODUCT_MODULE_NAME).SceneDelegate"
+              // 스토리보드 안 쓰면 UISceneStoryboardFile은 생략
+              // "UISceneStoryboardFile": "Main"
             ]
           ]
         ]

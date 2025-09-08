@@ -149,15 +149,19 @@ extension InfoPlistDictionary {
   }
   
   func setUILaunchScreens() -> InfoPlistDictionary {
-    let dict: InfoPlistDictionary = [
-      "UILaunchScreen": .dictionary([
-        "UIColorName": .string(""),
-        "UIImageName": .string("")
+    let dict: [String: Plist.Value] = [
+      "UILaunchScreens": .dictionary([
+        "UILaunchScreen": .dictionary([
+          "New item": .dictionary([
+            "UIImageName": .string(""),
+            "UILaunchScreenIdentifier": .string("")
+          ])
+        ])
       ])
     ]
-    return self.merging(dict) { _, new in new }
+    return self.merging(dict) { (_, new) in new }
   }
-  
+
   func setAppUseExemptEncryption(value: Bool) -> InfoPlistDictionary {
     return self.merging(["ITSAppUsesNonExemptEncryption": .boolean(value)]) { (_, new) in new }
   }
