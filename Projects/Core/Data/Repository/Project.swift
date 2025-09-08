@@ -11,7 +11,8 @@ let project = Project.makeAppModule(
   product: .staticFramework,
   settings:  .settings(),
   dependencies: [
-    .Domain(implements: .DomainInterface)
+    .Domain(implements: .DomainInterface),
+    .Network(implements: .Service)
   ],
   sources: ["Sources/**"]
 )
