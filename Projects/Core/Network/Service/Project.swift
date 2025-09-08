@@ -14,5 +14,7 @@ let project = Project.makeAppModule(
     .SPM.logMacro
   ],
   sources: ["Sources/**"],
-  resources: ["Resources/**"]
+  resources: [
+    .glob(pattern: "Resources/**") 
+  ]
 )

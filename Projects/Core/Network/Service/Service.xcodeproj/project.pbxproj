@@ -3,36 +3,52 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 56;
+	objectVersion = 55;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0C179C50C350A46353A16552 /* Base.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3C4EB962B1FA0CC1DE387EB /* Base.swift */; };
-		0FCE8416120EECE7A8B969CC /* JSONManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C514F5114186C4CF2683EB97 /* JSONManager.swift */; };
+		00B80E5E7E6E83B4BF0A00A0 /* Extension+Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B5254AD3F20CE754E235259 /* Extension+Data.swift */; };
+		027C1403A68473B4502DA34C /* JSONInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAFFF25D1A493FD9E7BDF34E /* JSONInput.swift */; };
+		04C97B4464187C784C56D14C /* JSONFileLookupError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70D502676A8279CF1629D293 /* JSONFileLookupError.swift */; };
+		0E003D50F662B94A1FA6972E /* BookListData.json in Resources */ = {isa = PBXBuildFile; fileRef = 16454F219F40A7D4B35E971B /* BookListData.json */; };
+		1845B3F428E60BB968AE077D /* JSONParsingError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A584D9766B165E0F8297A63 /* JSONParsingError.swift */; };
+		1896A8D24CE7CC46D3839461 /* ServiceBundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD982233B883C525299CBCE5 /* ServiceBundle.swift */; };
 		1B884DFFF4808FB4B567B140 /* LogMacro.framework in Dependencies */ = {isa = PBXBuildFile; fileRef = 27118BD665B186D6882DF66A /* LogMacro.framework */; };
+		2F3F58735CFFCB30ECE8B8D5 /* Extension+Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B5254AD3F20CE754E235259 /* Extension+Data.swift */; };
+		33BB39CF1033B80F2281ED11 /* JSONManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E1D95A8A48185CC46DBFAB4 /* JSONManager.swift */; };
+		38F789F29CEB1BA472A8443D /* Extension+Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B5254AD3F20CE754E235259 /* Extension+Data.swift */; };
+		3903D99EEBCAD524F3D1682F /* JSONManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E1D95A8A48185CC46DBFAB4 /* JSONManager.swift */; };
 		3C3DA87E8BECAB9DDB4BCB5D /* Service.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7EDFE229DFD7957E8AC64F6F /* Service.framework */; };
+		3E7CAE206C12A26C588BFD4D /* JSONInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAFFF25D1A493FD9E7BDF34E /* JSONInput.swift */; };
+		3FB677F4B44A522627248B2D /* ServiceBundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD982233B883C525299CBCE5 /* ServiceBundle.swift */; };
 		4076084473C31650E202BE04 /* LogMacro.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27118BD665B186D6882DF66A /* LogMacro.framework */; };
+		40C4E01464D530E5F10547C2 /* JSONParsingError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A584D9766B165E0F8297A63 /* JSONParsingError.swift */; };
 		42D6E165FDF98E60B36B348A /* LogMacro.framework in Dependencies */ = {isa = PBXBuildFile; fileRef = 27118BD665B186D6882DF66A /* LogMacro.framework */; };
 		44E779CE63C9667E976FD190 /* Service_Service.bundle in Dependencies */ = {isa = PBXBuildFile; fileRef = 37A05F6FE55F2D51ADC8DF61 /* Service_Service.bundle */; };
-		55CFED0C556294FF98B7DC7B /* Base.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3C4EB962B1FA0CC1DE387EB /* Base.swift */; };
+		462A14D4DE10CF18E4A0A64F /* ServiceBundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD982233B883C525299CBCE5 /* ServiceBundle.swift */; };
+		52AF4B7A3A86D5CDA6C521B5 /* JSONParsingError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A584D9766B165E0F8297A63 /* JSONParsingError.swift */; };
+		52E04384F69285AE201D6813 /* BookListData.json in Resources */ = {isa = PBXBuildFile; fileRef = 16454F219F40A7D4B35E971B /* BookListData.json */; };
 		69819D61CEDB456AE2839A78 /* TuistBundle+ServiceStage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 978FAF24D817F081FD46CE08 /* TuistBundle+ServiceStage.swift */; };
-		73F579663BBC05A69BA6B18E /* JSONManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C514F5114186C4CF2683EB97 /* JSONManager.swift */; };
-		76E63E6795F451907B62DAF0 /* JSONManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C514F5114186C4CF2683EB97 /* JSONManager.swift */; };
+		7298E7D825DB78334F3728E9 /* JSONInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAFFF25D1A493FD9E7BDF34E /* JSONInput.swift */; };
+		7C3BCFBA6E292CFF52C25F8E /* JSONParsingError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A584D9766B165E0F8297A63 /* JSONParsingError.swift */; };
 		7CCC2AF836AA226F43D96D69 /* OSLog.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8EBD9486798A0D863BB013E5 /* OSLog.framework */; };
 		7D4DFF7298A47E8E07629107 /* TuistBundle+ServiceProd.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17FB50B51F92BE26BE37AB1A /* TuistBundle+ServiceProd.swift */; };
-		7FDBB0212E6ABAF00094E4E2 /* Extension+Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FDBB0202E6ABAF00094E4E2 /* Extension+Data.swift */; };
-		7FDBB0222E6ABAF00094E4E2 /* Extension+Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FDBB0202E6ABAF00094E4E2 /* Extension+Data.swift */; };
-		7FDBB0232E6ABAF00094E4E2 /* Extension+Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FDBB0202E6ABAF00094E4E2 /* Extension+Data.swift */; };
-		7FDBB0242E6ABAF00094E4E2 /* Extension+Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FDBB0202E6ABAF00094E4E2 /* Extension+Data.swift */; };
 		8279A0344BCCCB23F8D07ADA /* Test.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA233B5E4422F71B1E2790B8 /* Test.swift */; };
 		8530C925A773A34D38648EB2 /* Service_Service.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 37A05F6FE55F2D51ADC8DF61 /* Service_Service.bundle */; };
+		8BA6C5812D97167D5065A3D7 /* Extension+Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B5254AD3F20CE754E235259 /* Extension+Data.swift */; };
 		99F90699DD2251898FB90B7D /* TuistBundle+ServiceDebug.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50EC0E5BDDE841964C004659 /* TuistBundle+ServiceDebug.swift */; };
-		C9897CC8537ABDA7B20CA166 /* Base.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3C4EB962B1FA0CC1DE387EB /* Base.swift */; };
+		B3F7E32E4ACC78FF0D7C2CFE /* BookListData.json in Resources */ = {isa = PBXBuildFile; fileRef = 16454F219F40A7D4B35E971B /* BookListData.json */; };
+		B66A37E632260C4C76194F80 /* JSONInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAFFF25D1A493FD9E7BDF34E /* JSONInput.swift */; };
+		B9E2A4D48E191A2A2C7F9DFA /* JSONFileLookupError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70D502676A8279CF1629D293 /* JSONFileLookupError.swift */; };
+		C45DEF8DEE8619A956D482D1 /* JSONManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E1D95A8A48185CC46DBFAB4 /* JSONManager.swift */; };
 		D467FC54AABD6D164B211DEC /* TuistBundle+Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FBEDD97322E5668E4A375BA /* TuistBundle+Service.swift */; };
-		DA60771F1EA84ABAAF9F6447 /* JSONManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C514F5114186C4CF2683EB97 /* JSONManager.swift */; };
-		E349F88B9335E82E1E48BED5 /* Base.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3C4EB962B1FA0CC1DE387EB /* Base.swift */; };
+		D7483758EE956D72B993EFF9 /* JSONFileLookupError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70D502676A8279CF1629D293 /* JSONFileLookupError.swift */; };
+		E2FE6F08169C7EB1919A971A /* JSONManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E1D95A8A48185CC46DBFAB4 /* JSONManager.swift */; };
 		E77434FFF00DA577C82B0BE7 /* LogMacro.framework in Dependencies */ = {isa = PBXBuildFile; fileRef = 27118BD665B186D6882DF66A /* LogMacro.framework */; };
 		F292557B00326D632B7D15F9 /* LogMacro.framework in Dependencies */ = {isa = PBXBuildFile; fileRef = 27118BD665B186D6882DF66A /* LogMacro.framework */; };
+		F400E460AAE432BC8E4193A3 /* ServiceBundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD982233B883C525299CBCE5 /* ServiceBundle.swift */; };
+		FEC8EA5D9A76D705BD74F8CC /* JSONFileLookupError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70D502676A8279CF1629D293 /* JSONFileLookupError.swift */; };
+		FF5803238610ABEFD7B7D205 /* BookListData.json in Resources */ = {isa = PBXBuildFile; fileRef = 16454F219F40A7D4B35E971B /* BookListData.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -219,21 +235,24 @@
 /* Begin PBXFileReference section */
 		00FFF298924B1BF14FBF4331 /* Service-Prod-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Service-Prod-Info.plist"; sourceTree = "<group>"; };
 		14800A98B51295BA67B4BD8D /* Service_Service_Debug-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Service_Service_Debug-Info.plist"; sourceTree = "<group>"; };
+		16454F219F40A7D4B35E971B /* BookListData.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = BookListData.json; sourceTree = "<group>"; };
 		17FB50B51F92BE26BE37AB1A /* TuistBundle+ServiceProd.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TuistBundle+ServiceProd.swift"; sourceTree = "<group>"; };
 		259ABF995B5D27470E829C10 /* ServiceTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ServiceTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		27118BD665B186D6882DF66A /* LogMacro.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LogMacro.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2B5254AD3F20CE754E235259 /* Extension+Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension+Data.swift"; sourceTree = "<group>"; };
 		34D19142035B122118FB9153 /* ServiceTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "ServiceTests-Info.plist"; sourceTree = "<group>"; };
 		37A05F6FE55F2D51ADC8DF61 /* Service_Service.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Service_Service.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 		396A6ABC6985DD88B827B9A7 /* Service_Service_Prod-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Service_Service_Prod-Info.plist"; sourceTree = "<group>"; };
 		49AE8778D00783FC72E9C397 /* Service_Debug.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Service_Debug.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		50EC0E5BDDE841964C004659 /* TuistBundle+ServiceDebug.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TuistBundle+ServiceDebug.swift"; sourceTree = "<group>"; };
 		5668A6213AA486D0A62D58C9 /* Service_Service_Stage-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Service_Service_Stage-Info.plist"; sourceTree = "<group>"; };
+		5A584D9766B165E0F8297A63 /* JSONParsingError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONParsingError.swift; sourceTree = "<group>"; };
 		656243C0336CD9A5FB069256 /* Service_Prod.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Service_Prod.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6E1D95A8A48185CC46DBFAB4 /* JSONManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONManager.swift; sourceTree = "<group>"; };
+		70D502676A8279CF1629D293 /* JSONFileLookupError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONFileLookupError.swift; sourceTree = "<group>"; };
 		74A1B62620FE2F19FABD7BF1 /* Service-Debug-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Service-Debug-Info.plist"; sourceTree = "<group>"; };
 		79814A227CE0F11AA0C03131 /* Service-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Service-Info.plist"; sourceTree = "<group>"; };
 		7EDFE229DFD7957E8AC64F6F /* Service.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Service.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		7FDBB0202E6ABAF00094E4E2 /* Extension+Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension+Data.swift"; sourceTree = "<group>"; };
-		7FDBB02A2E6AC1FA0094E4E2 /* BookListData.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = BookListData.json; sourceTree = "<group>"; };
 		8EBD9486798A0D863BB013E5 /* OSLog.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OSLog.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/OSLog.framework; sourceTree = DEVELOPER_DIR; };
 		952C3CF5CEC7B12E8011DE4C /* Service_Service-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Service_Service-Info.plist"; sourceTree = "<group>"; };
 		978FAF24D817F081FD46CE08 /* TuistBundle+ServiceStage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TuistBundle+ServiceStage.swift"; sourceTree = "<group>"; };
@@ -243,9 +262,9 @@
 		B93EA41018E0C851FC1843BB /* Service_Service_Stage.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Service_Service_Stage.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA233B5E4422F71B1E2790B8 /* Test.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Test.swift; sourceTree = "<group>"; };
 		BCA3077A29DFF2CDF9D94692 /* Service_Service_Prod.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Service_Service_Prod.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
-		C3C4EB962B1FA0CC1DE387EB /* Base.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Base.swift; sourceTree = "<group>"; };
-		C514F5114186C4CF2683EB97 /* JSONManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONManager.swift; sourceTree = "<group>"; };
+		BD982233B883C525299CBCE5 /* ServiceBundle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceBundle.swift; sourceTree = "<group>"; };
 		D066B46F236811258B579745 /* Service-Stage-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Service-Stage-Info.plist"; sourceTree = "<group>"; };
+		DAFFF25D1A493FD9E7BDF34E /* JSONInput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONInput.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -341,9 +360,8 @@
 		57FF25C92193FDC6FC2E9956 /* Sources */ = {
 			isa = PBXGroup;
 			children = (
-				7FDBB04E2E6AF9950094E4E2 /* JSONManager */,
-				7FDBB01F2E6ABACF0094E4E2 /* Extension */,
-				FBC63E56C7A7012BB2E27E84 /* BookList */,
+				FF40BCF8690B7928C85F6A51 /* Extension */,
+				B53270F66A980E0970A616FF /* JSONManager */,
 			);
 			path = Sources;
 			sourceTree = "<group>";
@@ -400,22 +418,6 @@
 			name = Project;
 			sourceTree = "<group>";
 		};
-		7FDBB01F2E6ABACF0094E4E2 /* Extension */ = {
-			isa = PBXGroup;
-			children = (
-				7FDBB0202E6ABAF00094E4E2 /* Extension+Data.swift */,
-			);
-			path = Extension;
-			sourceTree = "<group>";
-		};
-		7FDBB04E2E6AF9950094E4E2 /* JSONManager */ = {
-			isa = PBXGroup;
-			children = (
-				C514F5114186C4CF2683EB97 /* JSONManager.swift */,
-			);
-			path = JSONManager;
-			sourceTree = "<group>";
-		};
 		951DAE26418A9AE539BF6194 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -435,9 +437,21 @@
 		984389C5E1B772AC737206DD /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				7FDBB02A2E6AC1FA0094E4E2 /* BookListData.json */,
+				16454F219F40A7D4B35E971B /* BookListData.json */,
 			);
 			path = Resources;
+			sourceTree = "<group>";
+		};
+		B53270F66A980E0970A616FF /* JSONManager */ = {
+			isa = PBXGroup;
+			children = (
+				70D502676A8279CF1629D293 /* JSONFileLookupError.swift */,
+				DAFFF25D1A493FD9E7BDF34E /* JSONInput.swift */,
+				6E1D95A8A48185CC46DBFAB4 /* JSONManager.swift */,
+				5A584D9766B165E0F8297A63 /* JSONParsingError.swift */,
+				BD982233B883C525299CBCE5 /* ServiceBundle.swift */,
+			);
+			path = JSONManager;
 			sourceTree = "<group>";
 		};
 		D07C34F9592EC2D78588BE04 = {
@@ -449,12 +463,12 @@
 			);
 			sourceTree = "<group>";
 		};
-		FBC63E56C7A7012BB2E27E84 /* BookList */ = {
+		FF40BCF8690B7928C85F6A51 /* Extension */ = {
 			isa = PBXGroup;
 			children = (
-				C3C4EB962B1FA0CC1DE387EB /* Base.swift */,
+				2B5254AD3F20CE754E235259 /* Extension+Data.swift */,
 			);
-			path = BookList;
+			path = Extension;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -657,6 +671,8 @@
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = YES;
+				TargetAttributes = {
+				};
 			};
 			buildConfigurationList = A210B9CE0F80C75DCB439AE9 /* Build configuration list for PBXProject "Service" */;
 			compatibilityVersion = "Xcode 14.0";
@@ -696,6 +712,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				52E04384F69285AE201D6813 /* BookListData.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -710,6 +727,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FF5803238610ABEFD7B7D205 /* BookListData.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -724,6 +742,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B3F7E32E4ACC78FF0D7C2CFE /* BookListData.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -746,6 +765,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0E003D50F662B94A1FA6972E /* BookListData.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -757,9 +777,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				7D4DFF7298A47E8E07629107 /* TuistBundle+ServiceProd.swift in Sources */,
-				7FDBB0222E6ABAF00094E4E2 /* Extension+Data.swift in Sources */,
-				0C179C50C350A46353A16552 /* Base.swift in Sources */,
-				76E63E6795F451907B62DAF0 /* JSONManager.swift in Sources */,
+				2F3F58735CFFCB30ECE8B8D5 /* Extension+Data.swift in Sources */,
+				B9E2A4D48E191A2A2C7F9DFA /* JSONFileLookupError.swift in Sources */,
+				3E7CAE206C12A26C588BFD4D /* JSONInput.swift in Sources */,
+				E2FE6F08169C7EB1919A971A /* JSONManager.swift in Sources */,
+				1845B3F428E60BB968AE077D /* JSONParsingError.swift in Sources */,
+				3FB677F4B44A522627248B2D /* ServiceBundle.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -775,9 +798,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				99F90699DD2251898FB90B7D /* TuistBundle+ServiceDebug.swift in Sources */,
-				7FDBB0212E6ABAF00094E4E2 /* Extension+Data.swift in Sources */,
-				55CFED0C556294FF98B7DC7B /* Base.swift in Sources */,
-				73F579663BBC05A69BA6B18E /* JSONManager.swift in Sources */,
+				8BA6C5812D97167D5065A3D7 /* Extension+Data.swift in Sources */,
+				04C97B4464187C784C56D14C /* JSONFileLookupError.swift in Sources */,
+				7298E7D825DB78334F3728E9 /* JSONInput.swift in Sources */,
+				33BB39CF1033B80F2281ED11 /* JSONManager.swift in Sources */,
+				40C4E01464D530E5F10547C2 /* JSONParsingError.swift in Sources */,
+				F400E460AAE432BC8E4193A3 /* ServiceBundle.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -786,9 +812,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				69819D61CEDB456AE2839A78 /* TuistBundle+ServiceStage.swift in Sources */,
-				7FDBB0232E6ABAF00094E4E2 /* Extension+Data.swift in Sources */,
-				C9897CC8537ABDA7B20CA166 /* Base.swift in Sources */,
-				DA60771F1EA84ABAAF9F6447 /* JSONManager.swift in Sources */,
+				38F789F29CEB1BA472A8443D /* Extension+Data.swift in Sources */,
+				D7483758EE956D72B993EFF9 /* JSONFileLookupError.swift in Sources */,
+				027C1403A68473B4502DA34C /* JSONInput.swift in Sources */,
+				3903D99EEBCAD524F3D1682F /* JSONManager.swift in Sources */,
+				52AF4B7A3A86D5CDA6C521B5 /* JSONParsingError.swift in Sources */,
+				1896A8D24CE7CC46D3839461 /* ServiceBundle.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -804,9 +833,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				D467FC54AABD6D164B211DEC /* TuistBundle+Service.swift in Sources */,
-				7FDBB0242E6ABAF00094E4E2 /* Extension+Data.swift in Sources */,
-				E349F88B9335E82E1E48BED5 /* Base.swift in Sources */,
-				0FCE8416120EECE7A8B969CC /* JSONManager.swift in Sources */,
+				00B80E5E7E6E83B4BF0A00A0 /* Extension+Data.swift in Sources */,
+				FEC8EA5D9A76D705BD74F8CC /* JSONFileLookupError.swift in Sources */,
+				B66A37E632260C4C76194F80 /* JSONInput.swift in Sources */,
+				C45DEF8DEE8619A956D482D1 /* JSONManager.swift in Sources */,
+				7C3BCFBA6E292CFF52C25F8E /* JSONParsingError.swift in Sources */,
+				462A14D4DE10CF18E4A0A64F /* ServiceBundle.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -917,7 +949,13 @@
 					"$(inherited)",
 					"-fmodule-map-file=$(SRCROOT)/../../../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include/module.modulemap",
 				);
-				OTHER_SWIFT_FLAGS = "$(inherited) -Xcc -fmodule-map-file=$(SRCROOT)/../../../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include/module.modulemap -load-plugin-executable $BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/LogMacroMacro#LogMacroMacro";
+				OTHER_SWIFT_FLAGS = (
+					"$(inherited)",
+					"-Xcc",
+					"-fmodule-map-file=$(SRCROOT)/../../../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include/module.modulemap",
+					"-load-plugin-executable",
+					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/LogMacroMacro#LogMacroMacro",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = io.Roy.BookSeries.Service;
 				PRODUCT_NAME = Service_Prod;
 				SDKROOT = iphoneos;
@@ -960,7 +998,13 @@
 					"$(inherited)",
 					"-fmodule-map-file=$(SRCROOT)/../../../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include/module.modulemap",
 				);
-				OTHER_SWIFT_FLAGS = "$(inherited) -Xcc -fmodule-map-file=$(SRCROOT)/../../../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include/module.modulemap -load-plugin-executable $BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/LogMacroMacro#LogMacroMacro";
+				OTHER_SWIFT_FLAGS = (
+					"$(inherited)",
+					"-Xcc",
+					"-fmodule-map-file=$(SRCROOT)/../../../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include/module.modulemap",
+					"-load-plugin-executable",
+					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/LogMacroMacro#LogMacroMacro",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = io.Roy.BookSeries.Service;
 				PRODUCT_NAME = Service;
 				SDKROOT = iphoneos;
@@ -1003,7 +1047,13 @@
 					"$(inherited)",
 					"-fmodule-map-file=$(SRCROOT)/../../../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include/module.modulemap",
 				);
-				OTHER_SWIFT_FLAGS = "$(inherited) -Xcc -fmodule-map-file=$(SRCROOT)/../../../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include/module.modulemap -load-plugin-executable $BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/LogMacroMacro#LogMacroMacro";
+				OTHER_SWIFT_FLAGS = (
+					"$(inherited)",
+					"-Xcc",
+					"-fmodule-map-file=$(SRCROOT)/../../../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include/module.modulemap",
+					"-load-plugin-executable",
+					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/LogMacroMacro#LogMacroMacro",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = io.Roy.BookSeries.Service;
 				PRODUCT_NAME = Service_Stage;
 				SDKROOT = iphoneos;
@@ -1011,7 +1061,10 @@
 				SUPPORTS_MACCATALYST = NO;
 				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) DEBUG";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
+					"$(inherited)",
+					DEBUG,
+				);
 				SWIFT_COMPILATION_MODE = singlefile;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
@@ -1040,7 +1093,13 @@
 					"$(inherited)",
 					"-fmodule-map-file=$(SRCROOT)/../../../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include/module.modulemap",
 				);
-				OTHER_SWIFT_FLAGS = "$(inherited) -Xcc -fmodule-map-file=$(SRCROOT)/../../../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include/module.modulemap -load-plugin-executable $BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/LogMacroMacro#LogMacroMacro";
+				OTHER_SWIFT_FLAGS = (
+					"$(inherited)",
+					"-Xcc",
+					"-fmodule-map-file=$(SRCROOT)/../../../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include/module.modulemap",
+					"-load-plugin-executable",
+					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/LogMacroMacro#LogMacroMacro",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = io.Roy.BookSeries.Service.ServiceTests;
 				PRODUCT_NAME = ServiceTests;
 				SDKROOT = iphoneos;
@@ -1162,7 +1221,13 @@
 					"$(inherited)",
 					"-fmodule-map-file=$(SRCROOT)/../../../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include/module.modulemap",
 				);
-				OTHER_SWIFT_FLAGS = "$(inherited) -Xcc -fmodule-map-file=$(SRCROOT)/../../../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include/module.modulemap -load-plugin-executable $BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/LogMacroMacro#LogMacroMacro";
+				OTHER_SWIFT_FLAGS = (
+					"$(inherited)",
+					"-Xcc",
+					"-fmodule-map-file=$(SRCROOT)/../../../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include/module.modulemap",
+					"-load-plugin-executable",
+					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/LogMacroMacro#LogMacroMacro",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = io.Roy.BookSeries.Service;
 				PRODUCT_NAME = Service;
 				SDKROOT = iphoneos;
@@ -1170,7 +1235,10 @@
 				SUPPORTS_MACCATALYST = NO;
 				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) DEBUG";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
+					"$(inherited)",
+					DEBUG,
+				);
 				SWIFT_COMPILATION_MODE = singlefile;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
@@ -1206,7 +1274,13 @@
 					"$(inherited)",
 					"-fmodule-map-file=$(SRCROOT)/../../../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include/module.modulemap",
 				);
-				OTHER_SWIFT_FLAGS = "$(inherited) -Xcc -fmodule-map-file=$(SRCROOT)/../../../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include/module.modulemap -load-plugin-executable $BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/LogMacroMacro#LogMacroMacro";
+				OTHER_SWIFT_FLAGS = (
+					"$(inherited)",
+					"-Xcc",
+					"-fmodule-map-file=$(SRCROOT)/../../../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include/module.modulemap",
+					"-load-plugin-executable",
+					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/LogMacroMacro#LogMacroMacro",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = io.Roy.BookSeries.Service;
 				PRODUCT_NAME = Service_Stage;
 				SDKROOT = iphoneos;
@@ -1238,7 +1312,10 @@
 				SUPPORTS_MACCATALYST = NO;
 				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) DEBUG";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
+					"$(inherited)",
+					DEBUG,
+				);
 				SWIFT_COMPILATION_MODE = singlefile;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
@@ -1273,7 +1350,13 @@
 					"$(inherited)",
 					"-fmodule-map-file=$(SRCROOT)/../../../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include/module.modulemap",
 				);
-				OTHER_SWIFT_FLAGS = "$(inherited) -Xcc -fmodule-map-file=$(SRCROOT)/../../../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include/module.modulemap -load-plugin-executable $BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/LogMacroMacro#LogMacroMacro";
+				OTHER_SWIFT_FLAGS = (
+					"$(inherited)",
+					"-Xcc",
+					"-fmodule-map-file=$(SRCROOT)/../../../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include/module.modulemap",
+					"-load-plugin-executable",
+					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/LogMacroMacro#LogMacroMacro",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = io.Roy.BookSeries.Service;
 				PRODUCT_NAME = Service_Prod;
 				SDKROOT = iphoneos;
@@ -1281,7 +1364,10 @@
 				SUPPORTS_MACCATALYST = NO;
 				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) DEBUG";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
+					"$(inherited)",
+					DEBUG,
+				);
 				SWIFT_COMPILATION_MODE = singlefile;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
@@ -1317,7 +1403,13 @@
 					"$(inherited)",
 					"-fmodule-map-file=$(SRCROOT)/../../../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include/module.modulemap",
 				);
-				OTHER_SWIFT_FLAGS = "$(inherited) -Xcc -fmodule-map-file=$(SRCROOT)/../../../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include/module.modulemap -load-plugin-executable $BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/LogMacroMacro#LogMacroMacro";
+				OTHER_SWIFT_FLAGS = (
+					"$(inherited)",
+					"-Xcc",
+					"-fmodule-map-file=$(SRCROOT)/../../../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include/module.modulemap",
+					"-load-plugin-executable",
+					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/LogMacroMacro#LogMacroMacro",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = io.Roy.BookSeries.Service;
 				PRODUCT_NAME = Service_Debug;
 				SDKROOT = iphoneos;
@@ -1325,7 +1417,10 @@
 				SUPPORTS_MACCATALYST = NO;
 				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) DEBUG";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
+					"$(inherited)",
+					DEBUG,
+				);
 				SWIFT_COMPILATION_MODE = singlefile;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
@@ -1350,7 +1445,10 @@
 				SUPPORTS_MACCATALYST = NO;
 				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) DEBUG";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
+					"$(inherited)",
+					DEBUG,
+				);
 				SWIFT_COMPILATION_MODE = singlefile;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
@@ -1378,14 +1476,23 @@
 					"$(inherited)",
 					"-fmodule-map-file=$(SRCROOT)/../../../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include/module.modulemap",
 				);
-				OTHER_SWIFT_FLAGS = "$(inherited) -Xcc -fmodule-map-file=$(SRCROOT)/../../../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include/module.modulemap -load-plugin-executable $BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/LogMacroMacro#LogMacroMacro";
+				OTHER_SWIFT_FLAGS = (
+					"$(inherited)",
+					"-Xcc",
+					"-fmodule-map-file=$(SRCROOT)/../../../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include/module.modulemap",
+					"-load-plugin-executable",
+					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/LogMacroMacro#LogMacroMacro",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = io.Roy.BookSeries.Service.ServiceTests;
 				PRODUCT_NAME = ServiceTests;
 				SDKROOT = iphoneos;
 				SUPPORTS_MACCATALYST = NO;
 				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) DEBUG";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
+					"$(inherited)",
+					DEBUG,
+				);
 				SWIFT_COMPILATION_MODE = singlefile;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
@@ -1461,7 +1568,10 @@
 				SUPPORTS_MACCATALYST = NO;
 				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) DEBUG";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
+					"$(inherited)",
+					DEBUG,
+				);
 				SWIFT_COMPILATION_MODE = singlefile;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
@@ -1508,7 +1618,10 @@
 				SUPPORTS_MACCATALYST = NO;
 				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) DEBUG";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
+					"$(inherited)",
+					DEBUG,
+				);
 				SWIFT_COMPILATION_MODE = singlefile;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
@@ -1566,7 +1679,13 @@
 					"$(inherited)",
 					"-fmodule-map-file=$(SRCROOT)/../../../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include/module.modulemap",
 				);
-				OTHER_SWIFT_FLAGS = "$(inherited) -Xcc -fmodule-map-file=$(SRCROOT)/../../../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include/module.modulemap -load-plugin-executable $BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/LogMacroMacro#LogMacroMacro";
+				OTHER_SWIFT_FLAGS = (
+					"$(inherited)",
+					"-Xcc",
+					"-fmodule-map-file=$(SRCROOT)/../../../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include/module.modulemap",
+					"-load-plugin-executable",
+					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/LogMacroMacro#LogMacroMacro",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = io.Roy.BookSeries.Service;
 				PRODUCT_NAME = Service_Debug;
 				SDKROOT = iphoneos;

@@ -10,64 +10,85 @@ import Foundation
 import LogMacro
 
 
-// MARK: - JSONManager Actor
+import Foundation
+
+// MARK: - JSONManager
 public actor JSONManager {
   public init() {}
 
   // MARK: - Core Parsing Methods
-
-  public static func parse<T: Decodable>(_ type: T.Type, from data: Data) async throws -> T {
-    let decoder = JSONDecoder()
-    decoder.dateDecodingStrategy = .iso8601
-    decoder.keyDecodingStrategy = .convertFromSnakeCase
-    return try decoder.decode(type, from: data)
-  }
-
-  public static func parse<T: Decodable>(_ type: T.Type, from jsonString: String) async throws -> T {
-    guard let data = jsonString.data(using: .utf8) else {
-      throw JSONParsingError.invalidString
+  public static func parse<T: Decodable, Input: JSONInput>(
+      _ type: T.Type,
+      from input: Input
+    ) async throws -> T {
+      let data = try input.toData()
+      let decoder = JSONDecoder()
+      decoder.dateDecodingStrategy = .iso8601
+      decoder.keyDecodingStrategy = .convertFromSnakeCase
+      return try decoder.decode(T.self, from: data)
     }
-    return try await parse(type, from: data)
-  }
 
-  /// 로컬 파일에서 JSON 파싱 (App → 기본: .main, SPM → 명시적으로 .module 전달)
-
+  /// 로컬 JSON 로드 (Tuist/멀티모듈/SwiftPM 모두 대응)
   public static func parseFromFile<T: Decodable>(
     _ type: T.Type,
-    fileName: String = "RoomListData",
-    bundle: Bundle? = nil
+    fileName: String,               // "BookListData" 또는 "BookListData.json"
+    ext: String? = nil,             // 미지정 시 자동 "json"
+    bundle: Bundle? = nil,          // 우선 번들(기본: ServiceBundle.bundle)
+    subdirectory: String? = nil     // 리소스가 폴더에 있을 때
   ) async throws -> T {
-    // ✅ 우선순위: 넘겨준 bundle → 자기 모듈 번들 → 마지막으로 main
-    let resolvedBundle: Bundle = bundle
-    ?? Bundle(for: JSONManager.self)
+    let (name, ext) = normalize(fileName, preferExt: ext)
+    let preferred = bundle ?? ServiceBundle.bundle
 
-    guard let url = resolvedBundle.url(forResource: fileName, withExtension: "json") else {
-      throw JSONParsingError.fileNotFound
+    // 번들 후보군(중복 제거 + 탐색 순서 보장)
+    var seen = Set<String>()
+    let bundles: [Bundle] =
+      ([preferred, Bundle(for: JSONManager.self), .main] + Bundle.allFrameworks + Bundle.allBundles)
+        .compactMap { $0 }
+        .filter { seen.insert($0.bundlePath).inserted }
+
+    var tried: [String] = []
+    for b in bundles {
+      if let url = findResource(named: name, ext: ext, subdir: subdirectory, in: b) {
+        let data = try Data(contentsOf: url, options: [.mappedIfSafe])
+        return try await parse(type, from: data)
+      }
+      tried.append("• \(b.bundlePath) —")
     }
 
-    let data = try Data(contentsOf: url)
-    return try await parse(type, from: data)
+    throw JSONFileLookupError.fileNotFound(name: name, ext: ext, tried: tried)
+  }
+
+  // MARK: - Helpers (private)
+  private static func normalize(_ fileName: String, preferExt: String?) -> (String, String) {
+    let ns = fileName as NSString
+    let hasExt = !ns.pathExtension.isEmpty
+    let base = hasExt ? ns.deletingPathExtension : fileName
+    let ext  = preferExt ?? (hasExt ? ns.pathExtension : "json")
+    return (base, ext)
+  }
+
+  private static func findResource(
+    named: String,
+    ext: String,
+    subdir: String?,
+    in bundle: Bundle
+  ) -> URL? {
+    // 1) 번들 직검색
+    if let url = bundle.url(forResource: named, withExtension: ext, subdirectory: subdir) {
+      return url
+    }
+    // 2) 하위 .bundle 전부 순회(깊이 제한 X)
+    guard let resURL = bundle.resourceURL,
+          let it = FileManager.default.enumerator(at: resURL, includingPropertiesForKeys: nil)
+    else { return nil }
+
+    for case let url as URL in it where url.pathExtension == "bundle" {
+      if let nested = Bundle(url: url),
+         let found = nested.url(forResource: named, withExtension: ext, subdirectory: subdir) {
+        return found
+      }
+    }
+    return nil
   }
 }
 
-
-// MARK: - JSON Parsing Errors
-enum JSONParsingError: Error, LocalizedError {
-  case invalidString
-  case fileNotFound
-  case invalidFormat
-  case encodingFailed
-
-  var errorDescription: String? {
-    switch self {
-    case .invalidString:
-      return "유효하지 않은 JSON 문자열입니다."
-    case .fileNotFound:
-      return "JSON 파일을 찾을 수 없습니다."
-    case .invalidFormat:
-      return "JSON 형식이 올바르지 않습니다."
-    case .encodingFailed:
-      return "JSON 인코딩에 실패했습니다."
-    }
-  }
-}
