@@ -11,13 +11,13 @@ public struct ContentView: View {
             .padding()
       }
       .task {
-        do {
-          let dto = try await JSONManager.parseFromFile(BookDTO.self)
-          let books: [Book] = dto.data.toDomain()
-          print("📚 App 번들에서 로드 성공: \(books) 권")
-        } catch {
-          print("❌ 책 로드 실패: \(error)")
-        }
+//        do {
+//          let dto = try await JSONManager.parseFromFile(BookDTO.self)
+//          let books: [Book] = dto.data.toDomain()
+//          print("📚 App 번들에서 로드 성공: \(books) 권")
+//        } catch {
+//          print("❌ 책 로드 실패: \(error)")
+//        }
       }
 
     }

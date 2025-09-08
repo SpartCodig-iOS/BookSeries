@@ -7,6 +7,7 @@
 
 import UIKit
 import Presentation
+import ComposableArchitecture
 
 class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 
@@ -15,7 +16,14 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
   func scene(_ scene: UIScene, willConnectTo session: UISceneSession, options connectionOptions: UIScene.ConnectionOptions) {
     guard let windowScene = scene as? UIWindowScene else { return }
     let window = UIWindow(windowScene: windowScene)
-    window.rootViewController = ViewController()
+    let rootVC = ViewController(
+      store: Store(initialState: BookList.State()) {
+        BookList()
+          ._printChanges() // 디버깅용
+      }
+    )
+
+    window.rootViewController = rootVC
     window.makeKeyAndVisible()
     self.window = window
 
