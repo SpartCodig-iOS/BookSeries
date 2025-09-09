@@ -9,30 +9,26 @@
 /* Begin PBXBuildFile section */
 		0074469DB831813B3CF710CC /* swift-composable-architecture_ComposableArchitecture.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 876C0F3CB0FC08A46906C3D9 /* swift-composable-architecture_ComposableArchitecture.bundle */; };
 		05929F461A316092B9BA2153 /* ComposableArchitecture.framework in Dependencies */ = {isa = PBXBuildFile; fileRef = 3BB088CFCF5B751E961933C0 /* ComposableArchitecture.framework */; };
-		0FC5E07CDC99A0EA86D2E1D9 /* FlexLayout.framework in Dependencies */ = {isa = PBXBuildFile; fileRef = 4F227806ABD0ADC5869AEC2D /* FlexLayout.framework */; };
 		107C62AE9CD667F46B4E15A1 /* ComposableArchitecture.framework in Dependencies */ = {isa = PBXBuildFile; fileRef = 3BB088CFCF5B751E961933C0 /* ComposableArchitecture.framework */; };
 		14540254CEC3497B67333884 /* swift-composable-architecture_ComposableArchitecture.bundle in Dependencies */ = {isa = PBXBuildFile; fileRef = 876C0F3CB0FC08A46906C3D9 /* swift-composable-architecture_ComposableArchitecture.bundle */; };
+		191DFD2A2DA32E45C070D016 /* SnapKit_SnapKit.bundle in Dependencies */ = {isa = PBXBuildFile; fileRef = EB15BAC581DBAA67EFA4A2F8 /* SnapKit_SnapKit.bundle */; };
 		199156A4DC68D0F4387CCDA6 /* Base.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88DC163A6902C6C732FD855A /* Base.swift */; };
 		1D6C4D67EC8C19AC634855BC /* ComposableArchitecture.framework in Dependencies */ = {isa = PBXBuildFile; fileRef = 3BB088CFCF5B751E961933C0 /* ComposableArchitecture.framework */; };
 		2A8020A3F07A908E497F1B9E /* Test.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21178B4A2A59C6B2EADC5B6C /* Test.swift */; };
-		2DC5FE3AE6A91343729903CD /* PinLayout.framework in Dependencies */ = {isa = PBXBuildFile; fileRef = 567AFA8AF05751F60887E506 /* PinLayout.framework */; };
 		311471A656CA889BE88C78D9 /* CasePathsCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7224F70B4CF69C652CE68E87 /* CasePathsCore.framework */; };
 		31DF26B9CD387C3DBBD90C18 /* IssueReporting.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AB4F2063102023E996F015D /* IssueReporting.framework */; };
 		3385BD64B43917ECCBC5D7FF /* Then.framework in Dependencies */ = {isa = PBXBuildFile; fileRef = 4624958689CA4574D6DE5569 /* Then.framework */; };
-		3F21F5CDADA2910DE218424D /* PinLayout.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 567AFA8AF05751F60887E506 /* PinLayout.framework */; };
-		3F4E0A5FF22945E40D9E8545 /* PinLayout.framework in Dependencies */ = {isa = PBXBuildFile; fileRef = 567AFA8AF05751F60887E506 /* PinLayout.framework */; };
 		459C5FD5AD31D8A6C6628DC6 /* ComposableArchitecture.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3BB088CFCF5B751E961933C0 /* ComposableArchitecture.framework */; };
 		4D34235D228D6EE9C27534F0 /* Sharing.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A9AE888EDA3909F45835B514 /* Sharing.framework */; };
 		4D4CF95D400DCA4D0B3D6B51 /* Perception.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE127F8400BF4F674847DF5D /* Perception.framework */; };
+		5251B0B792D4C49E825F466E /* SnapKit.framework in Dependencies */ = {isa = PBXBuildFile; fileRef = 550FD29325E806542CEFA72A /* SnapKit.framework */; };
 		551ABD7544CD267AE6CC195C /* Clocks.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4FDA5D0BD3E8E323677EB026 /* Clocks.framework */; };
 		603FE92EDB472C61D8437F72 /* SwiftNavigation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B36F1CA8CC4B96FA2609B4DF /* SwiftNavigation.framework */; };
 		653474AB185843E0DF662DD1 /* Sharing2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2EBE83BD9D8603167735DBA2 /* Sharing2.framework */; };
-		6DD3CBD74C1A0821B9B7270A /* FlexLayout.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F227806ABD0ADC5869AEC2D /* FlexLayout.framework */; };
 		6E0BC5259BA7934681AA91D5 /* Then.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4624958689CA4574D6DE5569 /* Then.framework */; };
 		78AC8F364BB31C11BB2FEC02 /* ThirdParty.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DBCBFAAA9644395883C4A718 /* ThirdParty.framework */; };
 		78E505D53CA7826ADE9757E2 /* ComposableArchitecture.framework in Dependencies */ = {isa = PBXBuildFile; fileRef = 3BB088CFCF5B751E961933C0 /* ComposableArchitecture.framework */; };
-		7C8A06F6CBD232208237F508 /* PinLayout.framework in Dependencies */ = {isa = PBXBuildFile; fileRef = 567AFA8AF05751F60887E506 /* PinLayout.framework */; };
-		8CA744050B99D6B8F2A2E2E4 /* FlexLayout.framework in Dependencies */ = {isa = PBXBuildFile; fileRef = 4F227806ABD0ADC5869AEC2D /* FlexLayout.framework */; };
+		820C0A3E5C2BD6C6CA8BAC10 /* SnapKit.framework in Dependencies */ = {isa = PBXBuildFile; fileRef = 550FD29325E806542CEFA72A /* SnapKit.framework */; };
 		9003C2D283711C20FDBB33E0 /* ConcurrencyExtras.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9510426F57C0386AD282AAA8 /* ConcurrencyExtras.framework */; };
 		910E2DEB552042AC98EB4F08 /* CombineSchedulers.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 529D683020BDA42AF2A467E4 /* CombineSchedulers.framework */; };
 		92C6371E1DEAA7A0B1D6F2C7 /* InternalCollectionsUtilities.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E8CE454E7ACF464177DC1FB6 /* InternalCollectionsUtilities.framework */; };
@@ -41,27 +37,26 @@
 		98A0DA222D9BA10DFD520C3F /* Dependencies.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E057B5A6C190B51DEA95A52C /* Dependencies.framework */; };
 		9C1C6C8D2E3E4B380A8C8B55 /* CustomDump.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 075BC2A5FD001078D38856E6 /* CustomDump.framework */; };
 		9CFE05FA0C9CD8ADC787C716 /* DependenciesMacros.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F6A7606444B2A24E9A29BE1F /* DependenciesMacros.framework */; };
-		9EF94EF881B7A863A1E05C2D /* core.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4FEAF1B64879166F70221467 /* core.framework */; };
 		A1E39C81459EE28C97417885 /* UIKitNavigation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9962B6781CF429287378C23C /* UIKitNavigation.framework */; };
 		A268E18642DBC591738B7F88 /* UIKitNavigationShim.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6049E02DD59C6B27D4CC5A57 /* UIKitNavigationShim.framework */; };
+		A51CC37F104E46691C55AD2F /* SnapKit.framework in Dependencies */ = {isa = PBXBuildFile; fileRef = 550FD29325E806542CEFA72A /* SnapKit.framework */; };
 		ABAFCB51556BE0DF9BC6EDAC /* Then.framework in Dependencies */ = {isa = PBXBuildFile; fileRef = 4624958689CA4574D6DE5569 /* Then.framework */; };
 		B0E03937330DFF6BED21D35C /* Base.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88DC163A6902C6C732FD855A /* Base.swift */; };
 		B15FBED9FEBEFF4C5E31049B /* PerceptionCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9FB87EE5D02B2E41676C721 /* PerceptionCore.framework */; };
 		B24DF497249FDEACB5D8334F /* Base.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88DC163A6902C6C732FD855A /* Base.swift */; };
-		B3E1EF3A3881F2F7674ED814 /* FlexLayoutYogaKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DDA38F7EFE97C4F912A6BA69 /* FlexLayoutYogaKit.framework */; };
-		B3E70C7CAC6ED544E8F896A1 /* FlexLayout.framework in Dependencies */ = {isa = PBXBuildFile; fileRef = 4F227806ABD0ADC5869AEC2D /* FlexLayout.framework */; };
-		B49C1C9F202E0587D3E85954 /* FlexLayout.framework in Dependencies */ = {isa = PBXBuildFile; fileRef = 4F227806ABD0ADC5869AEC2D /* FlexLayout.framework */; };
 		BDC04BFA40CBD6A5E3B4386C /* SwiftUINavigation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0606655A5FEF1EA3A2F658DD /* SwiftUINavigation.framework */; };
 		C2E18D714C5C12B8DD0A521B /* swift-sharing_Sharing.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 76271C889E6D86C7D22CB056 /* swift-sharing_Sharing.bundle */; };
 		CD6DAC1889B345AA6225B8BF /* Then.framework in Dependencies */ = {isa = PBXBuildFile; fileRef = 4624958689CA4574D6DE5569 /* Then.framework */; };
 		CDD2ABB41363C0E333172654 /* Base.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88DC163A6902C6C732FD855A /* Base.swift */; };
-		CEB88903585F0A1AFDF47123 /* PinLayout.framework in Dependencies */ = {isa = PBXBuildFile; fileRef = 567AFA8AF05751F60887E506 /* PinLayout.framework */; };
 		D19BDCDFE47D3555554F163E /* swift-sharing_Sharing.bundle in Dependencies */ = {isa = PBXBuildFile; fileRef = 76271C889E6D86C7D22CB056 /* swift-sharing_Sharing.bundle */; };
 		D713F9D884B7FC901851460B /* IssueReportingPackageSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE34E7FD7B776485C4F5686B /* IssueReportingPackageSupport.framework */; };
+		DE67F660AFC056E6F6C01E08 /* SnapKit_SnapKit.bundle in Resources */ = {isa = PBXBuildFile; fileRef = EB15BAC581DBAA67EFA4A2F8 /* SnapKit_SnapKit.bundle */; };
 		E97EB92A32723612E3973813 /* CasePaths.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F1193D224A436351DC8E329 /* CasePaths.framework */; };
 		EAA7CEA224A883C2C0DA46BA /* IdentifiedCollections.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A0F3DB55EAF01D251BFF4B56 /* IdentifiedCollections.framework */; };
 		F7E5410AE9538F8421D0B7EB /* Then.framework in Dependencies */ = {isa = PBXBuildFile; fileRef = 4624958689CA4574D6DE5569 /* Then.framework */; };
 		F8931CEA6B1AF2B9FE40DCA8 /* Sharing1.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F14DEE44EEA5E5AE73AB020 /* Sharing1.framework */; };
+		FC297C90F2DCD2607BC1655C /* SnapKit.framework in Dependencies */ = {isa = PBXBuildFile; fileRef = 550FD29325E806542CEFA72A /* SnapKit.framework */; };
+		FF4459E15DB7A99E4B62EC27 /* SnapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 550FD29325E806542CEFA72A /* SnapKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -111,8 +106,7 @@
 			dstSubfolderSpec = 16;
 			files = (
 				78E505D53CA7826ADE9757E2 /* ComposableArchitecture.framework in Dependencies */,
-				8CA744050B99D6B8F2A2E2E4 /* FlexLayout.framework in Dependencies */,
-				CEB88903585F0A1AFDF47123 /* PinLayout.framework in Dependencies */,
+				820C0A3E5C2BD6C6CA8BAC10 /* SnapKit.framework in Dependencies */,
 				ABAFCB51556BE0DF9BC6EDAC /* Then.framework in Dependencies */,
 			);
 			name = Dependencies;
@@ -124,8 +118,7 @@
 			dstSubfolderSpec = 16;
 			files = (
 				1D6C4D67EC8C19AC634855BC /* ComposableArchitecture.framework in Dependencies */,
-				B3E70C7CAC6ED544E8F896A1 /* FlexLayout.framework in Dependencies */,
-				7C8A06F6CBD232208237F508 /* PinLayout.framework in Dependencies */,
+				FC297C90F2DCD2607BC1655C /* SnapKit.framework in Dependencies */,
 				F7E5410AE9538F8421D0B7EB /* Then.framework in Dependencies */,
 			);
 			name = Dependencies;
@@ -137,8 +130,7 @@
 			dstSubfolderSpec = 16;
 			files = (
 				05929F461A316092B9BA2153 /* ComposableArchitecture.framework in Dependencies */,
-				0FC5E07CDC99A0EA86D2E1D9 /* FlexLayout.framework in Dependencies */,
-				2DC5FE3AE6A91343729903CD /* PinLayout.framework in Dependencies */,
+				5251B0B792D4C49E825F466E /* SnapKit.framework in Dependencies */,
 				3385BD64B43917ECCBC5D7FF /* Then.framework in Dependencies */,
 			);
 			name = Dependencies;
@@ -149,6 +141,7 @@
 			buildActionMask = 8;
 			dstSubfolderSpec = 16;
 			files = (
+				191DFD2A2DA32E45C070D016 /* SnapKit_SnapKit.bundle in Dependencies */,
 				14540254CEC3497B67333884 /* swift-composable-architecture_ComposableArchitecture.bundle in Dependencies */,
 				D19BDCDFE47D3555554F163E /* swift-sharing_Sharing.bundle in Dependencies */,
 			);
@@ -181,8 +174,7 @@
 			dstSubfolderSpec = 16;
 			files = (
 				107C62AE9CD667F46B4E15A1 /* ComposableArchitecture.framework in Dependencies */,
-				B49C1C9F202E0587D3E85954 /* FlexLayout.framework in Dependencies */,
-				3F4E0A5FF22945E40D9E8545 /* PinLayout.framework in Dependencies */,
+				A51CC37F104E46691C55AD2F /* SnapKit.framework in Dependencies */,
 				CD6DAC1889B345AA6225B8BF /* Then.framework in Dependencies */,
 			);
 			name = Dependencies;
@@ -201,12 +193,10 @@
 		3F1193D224A436351DC8E329 /* CasePaths.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CasePaths.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4624958689CA4574D6DE5569 /* Then.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Then.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4DA72FC8EB1C71648466B851 /* ThirdParty-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "ThirdParty-Info.plist"; sourceTree = "<group>"; };
-		4F227806ABD0ADC5869AEC2D /* FlexLayout.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FlexLayout.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4FDA5D0BD3E8E323677EB026 /* Clocks.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Clocks.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		4FEAF1B64879166F70221467 /* core.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = core.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		526B092377E8662E33B120BD /* ThirdPartyTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "ThirdPartyTests-Info.plist"; sourceTree = "<group>"; };
 		529D683020BDA42AF2A467E4 /* CombineSchedulers.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CombineSchedulers.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		567AFA8AF05751F60887E506 /* PinLayout.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PinLayout.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		550FD29325E806542CEFA72A /* SnapKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SnapKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5AB4F2063102023E996F015D /* IssueReporting.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = IssueReporting.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6049E02DD59C6B27D4CC5A57 /* UIKitNavigationShim.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = UIKitNavigationShim.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6865A708D3CFBD5D900FD8EA /* ThirdParty_Stage.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ThirdParty_Stage.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -227,10 +217,10 @@
 		C32AF99B4D617683E25151E3 /* OrderedCollections.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = OrderedCollections.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D9FB87EE5D02B2E41676C721 /* PerceptionCore.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PerceptionCore.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DBCBFAAA9644395883C4A718 /* ThirdParty.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ThirdParty.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		DDA38F7EFE97C4F912A6BA69 /* FlexLayoutYogaKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FlexLayoutYogaKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E057B5A6C190B51DEA95A52C /* Dependencies.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Dependencies.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E40944E96BB05F258649A6B0 /* ThirdPartyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ThirdPartyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E8CE454E7ACF464177DC1FB6 /* InternalCollectionsUtilities.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = InternalCollectionsUtilities.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB15BAC581DBAA67EFA4A2F8 /* SnapKit_SnapKit.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SnapKit_SnapKit.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 		F142D3247F8A749C15AED28C /* ThirdParty-Stage-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "ThirdParty-Stage-Info.plist"; sourceTree = "<group>"; };
 		F6A7606444B2A24E9A29BE1F /* DependenciesMacros.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DependenciesMacros.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FE34E7FD7B776485C4F5686B /* IssueReportingPackageSupport.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = IssueReportingPackageSupport.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -271,8 +261,6 @@
 				9C1C6C8D2E3E4B380A8C8B55 /* CustomDump.framework in Frameworks */,
 				98A0DA222D9BA10DFD520C3F /* Dependencies.framework in Frameworks */,
 				9CFE05FA0C9CD8ADC787C716 /* DependenciesMacros.framework in Frameworks */,
-				6DD3CBD74C1A0821B9B7270A /* FlexLayout.framework in Frameworks */,
-				B3E1EF3A3881F2F7674ED814 /* FlexLayoutYogaKit.framework in Frameworks */,
 				EAA7CEA224A883C2C0DA46BA /* IdentifiedCollections.framework in Frameworks */,
 				92C6371E1DEAA7A0B1D6F2C7 /* InternalCollectionsUtilities.framework in Frameworks */,
 				31DF26B9CD387C3DBBD90C18 /* IssueReporting.framework in Frameworks */,
@@ -280,10 +268,10 @@
 				985AAB619CA4E6F97CA797F3 /* OrderedCollections.framework in Frameworks */,
 				4D4CF95D400DCA4D0B3D6B51 /* Perception.framework in Frameworks */,
 				B15FBED9FEBEFF4C5E31049B /* PerceptionCore.framework in Frameworks */,
-				3F21F5CDADA2910DE218424D /* PinLayout.framework in Frameworks */,
 				4D34235D228D6EE9C27534F0 /* Sharing.framework in Frameworks */,
 				F8931CEA6B1AF2B9FE40DCA8 /* Sharing1.framework in Frameworks */,
 				653474AB185843E0DF662DD1 /* Sharing2.framework in Frameworks */,
+				FF4459E15DB7A99E4B62EC27 /* SnapKit.framework in Frameworks */,
 				603FE92EDB472C61D8437F72 /* SwiftNavigation.framework in Frameworks */,
 				BDC04BFA40CBD6A5E3B4386C /* SwiftUINavigation.framework in Frameworks */,
 				6E0BC5259BA7934681AA91D5 /* Then.framework in Frameworks */,
@@ -291,7 +279,6 @@
 				A1E39C81459EE28C97417885 /* UIKitNavigation.framework in Frameworks */,
 				A268E18642DBC591738B7F88 /* UIKitNavigationShim.framework in Frameworks */,
 				96668040EAC7FFF193982EC5 /* XCTestDynamicOverlay.framework in Frameworks */,
-				9EF94EF881B7A863A1E05C2D /* core.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -358,12 +345,9 @@
 				529D683020BDA42AF2A467E4 /* CombineSchedulers.framework */,
 				3BB088CFCF5B751E961933C0 /* ComposableArchitecture.framework */,
 				9510426F57C0386AD282AAA8 /* ConcurrencyExtras.framework */,
-				4FEAF1B64879166F70221467 /* core.framework */,
 				075BC2A5FD001078D38856E6 /* CustomDump.framework */,
 				E057B5A6C190B51DEA95A52C /* Dependencies.framework */,
 				F6A7606444B2A24E9A29BE1F /* DependenciesMacros.framework */,
-				4F227806ABD0ADC5869AEC2D /* FlexLayout.framework */,
-				DDA38F7EFE97C4F912A6BA69 /* FlexLayoutYogaKit.framework */,
 				A0F3DB55EAF01D251BFF4B56 /* IdentifiedCollections.framework */,
 				E8CE454E7ACF464177DC1FB6 /* InternalCollectionsUtilities.framework */,
 				5AB4F2063102023E996F015D /* IssueReporting.framework */,
@@ -371,10 +355,11 @@
 				C32AF99B4D617683E25151E3 /* OrderedCollections.framework */,
 				BE127F8400BF4F674847DF5D /* Perception.framework */,
 				D9FB87EE5D02B2E41676C721 /* PerceptionCore.framework */,
-				567AFA8AF05751F60887E506 /* PinLayout.framework */,
 				A9AE888EDA3909F45835B514 /* Sharing.framework */,
 				1F14DEE44EEA5E5AE73AB020 /* Sharing1.framework */,
 				2EBE83BD9D8603167735DBA2 /* Sharing2.framework */,
+				EB15BAC581DBAA67EFA4A2F8 /* SnapKit_SnapKit.bundle */,
+				550FD29325E806542CEFA72A /* SnapKit.framework */,
 				876C0F3CB0FC08A46906C3D9 /* swift-composable-architecture_ComposableArchitecture.bundle */,
 				76271C889E6D86C7D22CB056 /* swift-sharing_Sharing.bundle */,
 				B36F1CA8CC4B96FA2609B4DF /* SwiftNavigation.framework */,
@@ -570,6 +555,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DE67F660AFC056E6F6C01E08 /* SnapKit_SnapKit.bundle in Resources */,
 				0074469DB831813B3CF710CC /* swift-composable-architecture_ComposableArchitecture.bundle in Resources */,
 				C2E18D714C5C12B8DD0A521B /* swift-sharing_Sharing.bundle in Resources */,
 			);
@@ -703,11 +689,8 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(SRCROOT)/../../../Tuist/.build/checkouts/FlexLayout/Sources/Swift/Public",
-					"$(SRCROOT)/../../../Tuist/.build/checkouts/FlexLayout/Sources/YogaKit/include/YogaKit",
 					"$(SRCROOT)/../../../Tuist/.build/checkouts/swift-navigation/Sources/UIKitNavigationShim/include",
 					"$(SRCROOT)/../../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include",
-					"$(SRCROOT)/../../../Tuist/.build/checkouts/yoga",
 				);
 				INFOPLIST_FILE = "Derived/InfoPlists/ThirdPartyTests-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
@@ -719,23 +702,14 @@
 				OTHER_CFLAGS = (
 					"$(inherited)",
 					"-fmodule-map-file=$(SRCROOT)/../../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include/module.modulemap",
-					"-fmodule-map-file=$(SRCROOT)/../../../Tuist/.build/tuist-derived/FlexLayout/FlexLayout.modulemap",
-					"-fmodule-map-file=$(SRCROOT)/../../../Tuist/.build/tuist-derived/FlexLayoutYogaKit/FlexLayoutYogaKit.modulemap",
 					"-fmodule-map-file=$(SRCROOT)/../../../Tuist/.build/tuist-derived/UIKitNavigationShim/UIKitNavigationShim.modulemap",
-					"-fmodule-map-file=$(SRCROOT)/../../../Tuist/.build/tuist-derived/core/core.modulemap",
 				);
 				OTHER_SWIFT_FLAGS = (
 					"$(inherited)",
 					"-Xcc",
 					"-fmodule-map-file=$(SRCROOT)/../../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include/module.modulemap",
 					"-Xcc",
-					"-fmodule-map-file=$(SRCROOT)/../../../Tuist/.build/tuist-derived/FlexLayout/FlexLayout.modulemap",
-					"-Xcc",
-					"-fmodule-map-file=$(SRCROOT)/../../../Tuist/.build/tuist-derived/FlexLayoutYogaKit/FlexLayoutYogaKit.modulemap",
-					"-Xcc",
 					"-fmodule-map-file=$(SRCROOT)/../../../Tuist/.build/tuist-derived/UIKitNavigationShim/UIKitNavigationShim.modulemap",
-					"-Xcc",
-					"-fmodule-map-file=$(SRCROOT)/../../../Tuist/.build/tuist-derived/core/core.modulemap",
 					"-load-plugin-executable",
 					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/CasePathsMacros#CasePathsMacros",
 					"-load-plugin-executable",
@@ -769,11 +743,8 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(SRCROOT)/../../../Tuist/.build/checkouts/FlexLayout/Sources/Swift/Public",
-					"$(SRCROOT)/../../../Tuist/.build/checkouts/FlexLayout/Sources/YogaKit/include/YogaKit",
 					"$(SRCROOT)/../../../Tuist/.build/checkouts/swift-navigation/Sources/UIKitNavigationShim/include",
 					"$(SRCROOT)/../../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include",
-					"$(SRCROOT)/../../../Tuist/.build/checkouts/yoga",
 				);
 				INFOPLIST_FILE = "Derived/InfoPlists/ThirdParty-Prod-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
@@ -787,23 +758,14 @@
 				OTHER_CFLAGS = (
 					"$(inherited)",
 					"-fmodule-map-file=$(SRCROOT)/../../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include/module.modulemap",
-					"-fmodule-map-file=$(SRCROOT)/../../../Tuist/.build/tuist-derived/FlexLayout/FlexLayout.modulemap",
-					"-fmodule-map-file=$(SRCROOT)/../../../Tuist/.build/tuist-derived/FlexLayoutYogaKit/FlexLayoutYogaKit.modulemap",
 					"-fmodule-map-file=$(SRCROOT)/../../../Tuist/.build/tuist-derived/UIKitNavigationShim/UIKitNavigationShim.modulemap",
-					"-fmodule-map-file=$(SRCROOT)/../../../Tuist/.build/tuist-derived/core/core.modulemap",
 				);
 				OTHER_SWIFT_FLAGS = (
 					"$(inherited)",
 					"-Xcc",
 					"-fmodule-map-file=$(SRCROOT)/../../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include/module.modulemap",
 					"-Xcc",
-					"-fmodule-map-file=$(SRCROOT)/../../../Tuist/.build/tuist-derived/FlexLayout/FlexLayout.modulemap",
-					"-Xcc",
-					"-fmodule-map-file=$(SRCROOT)/../../../Tuist/.build/tuist-derived/FlexLayoutYogaKit/FlexLayoutYogaKit.modulemap",
-					"-Xcc",
 					"-fmodule-map-file=$(SRCROOT)/../../../Tuist/.build/tuist-derived/UIKitNavigationShim/UIKitNavigationShim.modulemap",
-					"-Xcc",
-					"-fmodule-map-file=$(SRCROOT)/../../../Tuist/.build/tuist-derived/core/core.modulemap",
 					"-load-plugin-executable",
 					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/CasePathsMacros#CasePathsMacros",
 					"-load-plugin-executable",
@@ -844,11 +806,8 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(SRCROOT)/../../../Tuist/.build/checkouts/FlexLayout/Sources/Swift/Public",
-					"$(SRCROOT)/../../../Tuist/.build/checkouts/FlexLayout/Sources/YogaKit/include/YogaKit",
 					"$(SRCROOT)/../../../Tuist/.build/checkouts/swift-navigation/Sources/UIKitNavigationShim/include",
 					"$(SRCROOT)/../../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include",
-					"$(SRCROOT)/../../../Tuist/.build/checkouts/yoga",
 				);
 				INFOPLIST_FILE = "Derived/InfoPlists/ThirdParty-Debug-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
@@ -862,23 +821,14 @@
 				OTHER_CFLAGS = (
 					"$(inherited)",
 					"-fmodule-map-file=$(SRCROOT)/../../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include/module.modulemap",
-					"-fmodule-map-file=$(SRCROOT)/../../../Tuist/.build/tuist-derived/FlexLayout/FlexLayout.modulemap",
-					"-fmodule-map-file=$(SRCROOT)/../../../Tuist/.build/tuist-derived/FlexLayoutYogaKit/FlexLayoutYogaKit.modulemap",
 					"-fmodule-map-file=$(SRCROOT)/../../../Tuist/.build/tuist-derived/UIKitNavigationShim/UIKitNavigationShim.modulemap",
-					"-fmodule-map-file=$(SRCROOT)/../../../Tuist/.build/tuist-derived/core/core.modulemap",
 				);
 				OTHER_SWIFT_FLAGS = (
 					"$(inherited)",
 					"-Xcc",
 					"-fmodule-map-file=$(SRCROOT)/../../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include/module.modulemap",
 					"-Xcc",
-					"-fmodule-map-file=$(SRCROOT)/../../../Tuist/.build/tuist-derived/FlexLayout/FlexLayout.modulemap",
-					"-Xcc",
-					"-fmodule-map-file=$(SRCROOT)/../../../Tuist/.build/tuist-derived/FlexLayoutYogaKit/FlexLayoutYogaKit.modulemap",
-					"-Xcc",
 					"-fmodule-map-file=$(SRCROOT)/../../../Tuist/.build/tuist-derived/UIKitNavigationShim/UIKitNavigationShim.modulemap",
-					"-Xcc",
-					"-fmodule-map-file=$(SRCROOT)/../../../Tuist/.build/tuist-derived/core/core.modulemap",
 					"-load-plugin-executable",
 					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/CasePathsMacros#CasePathsMacros",
 					"-load-plugin-executable",
@@ -919,11 +869,8 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(SRCROOT)/../../../Tuist/.build/checkouts/FlexLayout/Sources/Swift/Public",
-					"$(SRCROOT)/../../../Tuist/.build/checkouts/FlexLayout/Sources/YogaKit/include/YogaKit",
 					"$(SRCROOT)/../../../Tuist/.build/checkouts/swift-navigation/Sources/UIKitNavigationShim/include",
 					"$(SRCROOT)/../../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include",
-					"$(SRCROOT)/../../../Tuist/.build/checkouts/yoga",
 				);
 				INFOPLIST_FILE = "Derived/InfoPlists/ThirdParty-Debug-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
@@ -937,23 +884,14 @@
 				OTHER_CFLAGS = (
 					"$(inherited)",
 					"-fmodule-map-file=$(SRCROOT)/../../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include/module.modulemap",
-					"-fmodule-map-file=$(SRCROOT)/../../../Tuist/.build/tuist-derived/FlexLayout/FlexLayout.modulemap",
-					"-fmodule-map-file=$(SRCROOT)/../../../Tuist/.build/tuist-derived/FlexLayoutYogaKit/FlexLayoutYogaKit.modulemap",
 					"-fmodule-map-file=$(SRCROOT)/../../../Tuist/.build/tuist-derived/UIKitNavigationShim/UIKitNavigationShim.modulemap",
-					"-fmodule-map-file=$(SRCROOT)/../../../Tuist/.build/tuist-derived/core/core.modulemap",
 				);
 				OTHER_SWIFT_FLAGS = (
 					"$(inherited)",
 					"-Xcc",
 					"-fmodule-map-file=$(SRCROOT)/../../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include/module.modulemap",
 					"-Xcc",
-					"-fmodule-map-file=$(SRCROOT)/../../../Tuist/.build/tuist-derived/FlexLayout/FlexLayout.modulemap",
-					"-Xcc",
-					"-fmodule-map-file=$(SRCROOT)/../../../Tuist/.build/tuist-derived/FlexLayoutYogaKit/FlexLayoutYogaKit.modulemap",
-					"-Xcc",
 					"-fmodule-map-file=$(SRCROOT)/../../../Tuist/.build/tuist-derived/UIKitNavigationShim/UIKitNavigationShim.modulemap",
-					"-Xcc",
-					"-fmodule-map-file=$(SRCROOT)/../../../Tuist/.build/tuist-derived/core/core.modulemap",
 					"-load-plugin-executable",
 					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/CasePathsMacros#CasePathsMacros",
 					"-load-plugin-executable",
@@ -990,11 +928,8 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(SRCROOT)/../../../Tuist/.build/checkouts/FlexLayout/Sources/Swift/Public",
-					"$(SRCROOT)/../../../Tuist/.build/checkouts/FlexLayout/Sources/YogaKit/include/YogaKit",
 					"$(SRCROOT)/../../../Tuist/.build/checkouts/swift-navigation/Sources/UIKitNavigationShim/include",
 					"$(SRCROOT)/../../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include",
-					"$(SRCROOT)/../../../Tuist/.build/checkouts/yoga",
 				);
 				INFOPLIST_FILE = "Derived/InfoPlists/ThirdParty-Prod-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
@@ -1008,23 +943,14 @@
 				OTHER_CFLAGS = (
 					"$(inherited)",
 					"-fmodule-map-file=$(SRCROOT)/../../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include/module.modulemap",
-					"-fmodule-map-file=$(SRCROOT)/../../../Tuist/.build/tuist-derived/FlexLayout/FlexLayout.modulemap",
-					"-fmodule-map-file=$(SRCROOT)/../../../Tuist/.build/tuist-derived/FlexLayoutYogaKit/FlexLayoutYogaKit.modulemap",
 					"-fmodule-map-file=$(SRCROOT)/../../../Tuist/.build/tuist-derived/UIKitNavigationShim/UIKitNavigationShim.modulemap",
-					"-fmodule-map-file=$(SRCROOT)/../../../Tuist/.build/tuist-derived/core/core.modulemap",
 				);
 				OTHER_SWIFT_FLAGS = (
 					"$(inherited)",
 					"-Xcc",
 					"-fmodule-map-file=$(SRCROOT)/../../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include/module.modulemap",
 					"-Xcc",
-					"-fmodule-map-file=$(SRCROOT)/../../../Tuist/.build/tuist-derived/FlexLayout/FlexLayout.modulemap",
-					"-Xcc",
-					"-fmodule-map-file=$(SRCROOT)/../../../Tuist/.build/tuist-derived/FlexLayoutYogaKit/FlexLayoutYogaKit.modulemap",
-					"-Xcc",
 					"-fmodule-map-file=$(SRCROOT)/../../../Tuist/.build/tuist-derived/UIKitNavigationShim/UIKitNavigationShim.modulemap",
-					"-Xcc",
-					"-fmodule-map-file=$(SRCROOT)/../../../Tuist/.build/tuist-derived/core/core.modulemap",
 					"-load-plugin-executable",
 					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/CasePathsMacros#CasePathsMacros",
 					"-load-plugin-executable",
@@ -1061,11 +987,8 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(SRCROOT)/../../../Tuist/.build/checkouts/FlexLayout/Sources/Swift/Public",
-					"$(SRCROOT)/../../../Tuist/.build/checkouts/FlexLayout/Sources/YogaKit/include/YogaKit",
 					"$(SRCROOT)/../../../Tuist/.build/checkouts/swift-navigation/Sources/UIKitNavigationShim/include",
 					"$(SRCROOT)/../../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include",
-					"$(SRCROOT)/../../../Tuist/.build/checkouts/yoga",
 				);
 				INFOPLIST_FILE = "Derived/InfoPlists/ThirdParty-Stage-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
@@ -1079,23 +1002,14 @@
 				OTHER_CFLAGS = (
 					"$(inherited)",
 					"-fmodule-map-file=$(SRCROOT)/../../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include/module.modulemap",
-					"-fmodule-map-file=$(SRCROOT)/../../../Tuist/.build/tuist-derived/FlexLayout/FlexLayout.modulemap",
-					"-fmodule-map-file=$(SRCROOT)/../../../Tuist/.build/tuist-derived/FlexLayoutYogaKit/FlexLayoutYogaKit.modulemap",
 					"-fmodule-map-file=$(SRCROOT)/../../../Tuist/.build/tuist-derived/UIKitNavigationShim/UIKitNavigationShim.modulemap",
-					"-fmodule-map-file=$(SRCROOT)/../../../Tuist/.build/tuist-derived/core/core.modulemap",
 				);
 				OTHER_SWIFT_FLAGS = (
 					"$(inherited)",
 					"-Xcc",
 					"-fmodule-map-file=$(SRCROOT)/../../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include/module.modulemap",
 					"-Xcc",
-					"-fmodule-map-file=$(SRCROOT)/../../../Tuist/.build/tuist-derived/FlexLayout/FlexLayout.modulemap",
-					"-Xcc",
-					"-fmodule-map-file=$(SRCROOT)/../../../Tuist/.build/tuist-derived/FlexLayoutYogaKit/FlexLayoutYogaKit.modulemap",
-					"-Xcc",
 					"-fmodule-map-file=$(SRCROOT)/../../../Tuist/.build/tuist-derived/UIKitNavigationShim/UIKitNavigationShim.modulemap",
-					"-Xcc",
-					"-fmodule-map-file=$(SRCROOT)/../../../Tuist/.build/tuist-derived/core/core.modulemap",
 					"-load-plugin-executable",
 					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/CasePathsMacros#CasePathsMacros",
 					"-load-plugin-executable",
@@ -1132,11 +1046,8 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(SRCROOT)/../../../Tuist/.build/checkouts/FlexLayout/Sources/Swift/Public",
-					"$(SRCROOT)/../../../Tuist/.build/checkouts/FlexLayout/Sources/YogaKit/include/YogaKit",
 					"$(SRCROOT)/../../../Tuist/.build/checkouts/swift-navigation/Sources/UIKitNavigationShim/include",
 					"$(SRCROOT)/../../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include",
-					"$(SRCROOT)/../../../Tuist/.build/checkouts/yoga",
 				);
 				INFOPLIST_FILE = "Derived/InfoPlists/ThirdParty-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
@@ -1150,23 +1061,14 @@
 				OTHER_CFLAGS = (
 					"$(inherited)",
 					"-fmodule-map-file=$(SRCROOT)/../../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include/module.modulemap",
-					"-fmodule-map-file=$(SRCROOT)/../../../Tuist/.build/tuist-derived/FlexLayout/FlexLayout.modulemap",
-					"-fmodule-map-file=$(SRCROOT)/../../../Tuist/.build/tuist-derived/FlexLayoutYogaKit/FlexLayoutYogaKit.modulemap",
 					"-fmodule-map-file=$(SRCROOT)/../../../Tuist/.build/tuist-derived/UIKitNavigationShim/UIKitNavigationShim.modulemap",
-					"-fmodule-map-file=$(SRCROOT)/../../../Tuist/.build/tuist-derived/core/core.modulemap",
 				);
 				OTHER_SWIFT_FLAGS = (
 					"$(inherited)",
 					"-Xcc",
 					"-fmodule-map-file=$(SRCROOT)/../../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include/module.modulemap",
 					"-Xcc",
-					"-fmodule-map-file=$(SRCROOT)/../../../Tuist/.build/tuist-derived/FlexLayout/FlexLayout.modulemap",
-					"-Xcc",
-					"-fmodule-map-file=$(SRCROOT)/../../../Tuist/.build/tuist-derived/FlexLayoutYogaKit/FlexLayoutYogaKit.modulemap",
-					"-Xcc",
 					"-fmodule-map-file=$(SRCROOT)/../../../Tuist/.build/tuist-derived/UIKitNavigationShim/UIKitNavigationShim.modulemap",
-					"-Xcc",
-					"-fmodule-map-file=$(SRCROOT)/../../../Tuist/.build/tuist-derived/core/core.modulemap",
 					"-load-plugin-executable",
 					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/CasePathsMacros#CasePathsMacros",
 					"-load-plugin-executable",
@@ -1207,11 +1109,8 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(SRCROOT)/../../../Tuist/.build/checkouts/FlexLayout/Sources/Swift/Public",
-					"$(SRCROOT)/../../../Tuist/.build/checkouts/FlexLayout/Sources/YogaKit/include/YogaKit",
 					"$(SRCROOT)/../../../Tuist/.build/checkouts/swift-navigation/Sources/UIKitNavigationShim/include",
 					"$(SRCROOT)/../../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include",
-					"$(SRCROOT)/../../../Tuist/.build/checkouts/yoga",
 				);
 				INFOPLIST_FILE = "Derived/InfoPlists/ThirdParty-Stage-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
@@ -1225,23 +1124,14 @@
 				OTHER_CFLAGS = (
 					"$(inherited)",
 					"-fmodule-map-file=$(SRCROOT)/../../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include/module.modulemap",
-					"-fmodule-map-file=$(SRCROOT)/../../../Tuist/.build/tuist-derived/FlexLayout/FlexLayout.modulemap",
-					"-fmodule-map-file=$(SRCROOT)/../../../Tuist/.build/tuist-derived/FlexLayoutYogaKit/FlexLayoutYogaKit.modulemap",
 					"-fmodule-map-file=$(SRCROOT)/../../../Tuist/.build/tuist-derived/UIKitNavigationShim/UIKitNavigationShim.modulemap",
-					"-fmodule-map-file=$(SRCROOT)/../../../Tuist/.build/tuist-derived/core/core.modulemap",
 				);
 				OTHER_SWIFT_FLAGS = (
 					"$(inherited)",
 					"-Xcc",
 					"-fmodule-map-file=$(SRCROOT)/../../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include/module.modulemap",
 					"-Xcc",
-					"-fmodule-map-file=$(SRCROOT)/../../../Tuist/.build/tuist-derived/FlexLayout/FlexLayout.modulemap",
-					"-Xcc",
-					"-fmodule-map-file=$(SRCROOT)/../../../Tuist/.build/tuist-derived/FlexLayoutYogaKit/FlexLayoutYogaKit.modulemap",
-					"-Xcc",
 					"-fmodule-map-file=$(SRCROOT)/../../../Tuist/.build/tuist-derived/UIKitNavigationShim/UIKitNavigationShim.modulemap",
-					"-Xcc",
-					"-fmodule-map-file=$(SRCROOT)/../../../Tuist/.build/tuist-derived/core/core.modulemap",
 					"-load-plugin-executable",
 					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/CasePathsMacros#CasePathsMacros",
 					"-load-plugin-executable",
@@ -1277,11 +1167,8 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(SRCROOT)/../../../Tuist/.build/checkouts/FlexLayout/Sources/Swift/Public",
-					"$(SRCROOT)/../../../Tuist/.build/checkouts/FlexLayout/Sources/YogaKit/include/YogaKit",
 					"$(SRCROOT)/../../../Tuist/.build/checkouts/swift-navigation/Sources/UIKitNavigationShim/include",
 					"$(SRCROOT)/../../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include",
-					"$(SRCROOT)/../../../Tuist/.build/checkouts/yoga",
 				);
 				INFOPLIST_FILE = "Derived/InfoPlists/ThirdPartyTests-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
@@ -1293,23 +1180,14 @@
 				OTHER_CFLAGS = (
 					"$(inherited)",
 					"-fmodule-map-file=$(SRCROOT)/../../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include/module.modulemap",
-					"-fmodule-map-file=$(SRCROOT)/../../../Tuist/.build/tuist-derived/FlexLayout/FlexLayout.modulemap",
-					"-fmodule-map-file=$(SRCROOT)/../../../Tuist/.build/tuist-derived/FlexLayoutYogaKit/FlexLayoutYogaKit.modulemap",
 					"-fmodule-map-file=$(SRCROOT)/../../../Tuist/.build/tuist-derived/UIKitNavigationShim/UIKitNavigationShim.modulemap",
-					"-fmodule-map-file=$(SRCROOT)/../../../Tuist/.build/tuist-derived/core/core.modulemap",
 				);
 				OTHER_SWIFT_FLAGS = (
 					"$(inherited)",
 					"-Xcc",
 					"-fmodule-map-file=$(SRCROOT)/../../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include/module.modulemap",
 					"-Xcc",
-					"-fmodule-map-file=$(SRCROOT)/../../../Tuist/.build/tuist-derived/FlexLayout/FlexLayout.modulemap",
-					"-Xcc",
-					"-fmodule-map-file=$(SRCROOT)/../../../Tuist/.build/tuist-derived/FlexLayoutYogaKit/FlexLayoutYogaKit.modulemap",
-					"-Xcc",
 					"-fmodule-map-file=$(SRCROOT)/../../../Tuist/.build/tuist-derived/UIKitNavigationShim/UIKitNavigationShim.modulemap",
-					"-Xcc",
-					"-fmodule-map-file=$(SRCROOT)/../../../Tuist/.build/tuist-derived/core/core.modulemap",
 					"-load-plugin-executable",
 					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/CasePathsMacros#CasePathsMacros",
 					"-load-plugin-executable",
@@ -1406,11 +1284,8 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(SRCROOT)/../../../Tuist/.build/checkouts/FlexLayout/Sources/Swift/Public",
-					"$(SRCROOT)/../../../Tuist/.build/checkouts/FlexLayout/Sources/YogaKit/include/YogaKit",
 					"$(SRCROOT)/../../../Tuist/.build/checkouts/swift-navigation/Sources/UIKitNavigationShim/include",
 					"$(SRCROOT)/../../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include",
-					"$(SRCROOT)/../../../Tuist/.build/checkouts/yoga",
 				);
 				INFOPLIST_FILE = "Derived/InfoPlists/ThirdParty-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
@@ -1424,23 +1299,14 @@
 				OTHER_CFLAGS = (
 					"$(inherited)",
 					"-fmodule-map-file=$(SRCROOT)/../../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include/module.modulemap",
-					"-fmodule-map-file=$(SRCROOT)/../../../Tuist/.build/tuist-derived/FlexLayout/FlexLayout.modulemap",
-					"-fmodule-map-file=$(SRCROOT)/../../../Tuist/.build/tuist-derived/FlexLayoutYogaKit/FlexLayoutYogaKit.modulemap",
 					"-fmodule-map-file=$(SRCROOT)/../../../Tuist/.build/tuist-derived/UIKitNavigationShim/UIKitNavigationShim.modulemap",
-					"-fmodule-map-file=$(SRCROOT)/../../../Tuist/.build/tuist-derived/core/core.modulemap",
 				);
 				OTHER_SWIFT_FLAGS = (
 					"$(inherited)",
 					"-Xcc",
 					"-fmodule-map-file=$(SRCROOT)/../../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include/module.modulemap",
 					"-Xcc",
-					"-fmodule-map-file=$(SRCROOT)/../../../Tuist/.build/tuist-derived/FlexLayout/FlexLayout.modulemap",
-					"-Xcc",
-					"-fmodule-map-file=$(SRCROOT)/../../../Tuist/.build/tuist-derived/FlexLayoutYogaKit/FlexLayoutYogaKit.modulemap",
-					"-Xcc",
 					"-fmodule-map-file=$(SRCROOT)/../../../Tuist/.build/tuist-derived/UIKitNavigationShim/UIKitNavigationShim.modulemap",
-					"-Xcc",
-					"-fmodule-map-file=$(SRCROOT)/../../../Tuist/.build/tuist-derived/core/core.modulemap",
 					"-load-plugin-executable",
 					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/CasePathsMacros#CasePathsMacros",
 					"-load-plugin-executable",

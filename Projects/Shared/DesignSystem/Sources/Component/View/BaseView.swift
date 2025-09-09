@@ -7,28 +7,31 @@
 
 import UIKit
 
-public class BaseView: UIView {
+open class BaseView: UIView {
 
   public override init(frame: CGRect) {
     super.init(frame: frame)
     configureUI()
   }
 
-  public  required init?(coder: NSCoder) {
+  public required init?(coder: NSCoder) {
     fatalError("init(coder:) has not been implemented")
   }
 
-  public func configureUI() {
+  /// 초기 UI 구성 훅
+  open func configureUI() {
     addView()
     setAttributes()
   }
 
-  public func addView() {
+  /// 서브뷰 추가 훅
+  open func addView() {
     defineLayout()
   }
 
-  public  func setAttributes() {}
+  /// 속성 세팅 훅
+  open func setAttributes() {}
 
-  public func defineLayout() {}
-
+  /// 오토레이아웃/플렉스 레이아웃 정의 훅
+  open func defineLayout() {}
 }

@@ -8,21 +8,35 @@
 
 /* Begin PBXBuildFile section */
 		02086E956F0BCAD214D8D7F4 /* PretendardVariable.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A20647CF23B131D16DCAB555 /* PretendardVariable.ttf */; };
+		030D39D707AB3BCF4B40E507 /* Sharing.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C8F7D85DCA3E9D25ADED069C /* Sharing.framework */; };
+		0332DA7CA35D431B1DB265D9 /* Sharing1.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 81AE6D1B890D432B9EF75587 /* Sharing1.framework */; };
+		04E11CD30C06369FF371925B /* CasePathsCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B42EA0AFB8C59B4DAD38868 /* CasePathsCore.framework */; };
 		06D16B1B1B957D3A84E4CDA5 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DDB65E50E9A40944ADEEDB2 /* BaseViewController.swift */; };
+		0E71762241059BF3166A881A /* ComposableArchitecture.framework in Dependencies */ = {isa = PBXBuildFile; fileRef = 2B4A427439EE9D505B327761 /* ComposableArchitecture.framework */; };
+		11C8E34547D88D53D0191C17 /* PerceptionCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 820CBF0A1EAF51B0F1668443 /* PerceptionCore.framework */; };
+		164B83516C13A4829B5B695A /* swift-sharing_Sharing.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 5DF9D9AFD325FE508D5CE09B /* swift-sharing_Sharing.bundle */; };
+		16A82F835B12CE4A0F63F226 /* Clocks.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A8E4F9B5ED6A58F34C4E9188 /* Clocks.framework */; };
 		1F4BF4D83DEBABCF9477B5A4 /* TuistFonts+DesignSystemProd.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EF20F019AC6C1E3B3D87AF8 /* TuistFonts+DesignSystemProd.swift */; };
 		21D6A622DF9A1906D496AADF /* UIColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6964B76F338CA1083A2EAA11 /* UIColors.swift */; };
+		273480CBCFE37513F3099A8E /* IdentifiedCollections.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 86995CBAA8C9317B4B24DB99 /* IdentifiedCollections.framework */; };
 		295C45B14842023C80A47D51 /* PretendardFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = 688D1487AF38E7CCA4A91781 /* PretendardFont.swift */; };
 		29B83E78203A842E17186969 /* TuistAssets+DesignSystemProd.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E80CBF5486DD48CEF7D4361 /* TuistAssets+DesignSystemProd.swift */; };
 		2B971169413063D149A93B91 /* PretendardVariable.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A20647CF23B131D16DCAB555 /* PretendardVariable.ttf */; };
+		2C21562F6B50D439DB21DCAC /* swift-composable-architecture_ComposableArchitecture.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 3E6F8BA946CF2483A542F489 /* swift-composable-architecture_ComposableArchitecture.bundle */; };
 		2C2A6F1B0843699ACFE53D23 /* TuistFonts+DesignSystem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1489E7809DA4DADA471C2CDC /* TuistFonts+DesignSystem.swift */; };
 		2D4222DE6962486053AE92D2 /* Extension+Colo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12730386909033CD68A22CD0 /* Extension+Colo.swift */; };
+		308D66749C581385357D35F0 /* swift-composable-architecture_ComposableArchitecture.bundle in Dependencies */ = {isa = PBXBuildFile; fileRef = 3E6F8BA946CF2483A542F489 /* swift-composable-architecture_ComposableArchitecture.bundle */; };
 		31EC067D18118B89B3E26C35 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DDB65E50E9A40944ADEEDB2 /* BaseViewController.swift */; };
 		31FDCEBF2D11CFD7F04719EC /* PretendardVariable.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A20647CF23B131D16DCAB555 /* PretendardVariable.ttf */; };
 		36B4268421AB9CDA58103A7B /* TuistAssets+DesignSystemDebug.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6D0FABFF623E11D22F6BDCC /* TuistAssets+DesignSystemDebug.swift */; };
+		3E95B9A38B30D09DEB68E9AB /* XCTestDynamicOverlay.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C6CCAA1C922609FB997CD33 /* XCTestDynamicOverlay.framework */; };
+		3F18AE2877D4B2F2FBBEE7DA /* ConcurrencyExtras.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 19A10E83761BF8F7A5D0FB4E /* ConcurrencyExtras.framework */; };
 		451B3319A64E5905270FB3D4 /* Extension+Colo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12730386909033CD68A22CD0 /* Extension+Colo.swift */; };
+		4D89A31A0E8ADEEBF3937616 /* SwiftNavigation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BEE3C1F9940BDC9B2D5DF45C /* SwiftNavigation.framework */; };
 		4EEA700FC28C94A9321002E8 /* Extension+UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BF62E3713A0EBCEECEAB6AE /* Extension+UIColor.swift */; };
 		4FB20F2D3BC745E19225A129 /* Extension+Colo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12730386909033CD68A22CD0 /* Extension+Colo.swift */; };
 		53D817882A37E5BDE297B626 /* Extension+UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BF62E3713A0EBCEECEAB6AE /* Extension+UIColor.swift */; };
+		54C0E12DDE6CAE81C18E8BC4 /* ComposableArchitecture.framework in Dependencies */ = {isa = PBXBuildFile; fileRef = 2B4A427439EE9D505B327761 /* ComposableArchitecture.framework */; };
 		5535A46BBF316AB4582FB4C9 /* TuistBundle+DesignSystemStage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27AA3E385D373C2295F94842 /* TuistBundle+DesignSystemStage.swift */; };
 		5E12234768DE4CD7ED40F7E2 /* Extension+UILabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B3E3329BD329BF6999EE0E9 /* Extension+UILabel.swift */; };
 		5E1EAED55A21ED7168716302 /*  Extension+Image.swift in Sources */ = {isa = PBXBuildFile; fileRef = 498B5930ACE63777F8AAC082 /*  Extension+Image.swift */; };
@@ -30,17 +44,26 @@
 		612A492C9B46FD82ED8898D2 /* Extension+Colo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12730386909033CD68A22CD0 /* Extension+Colo.swift */; };
 		639F7AE8FBB03215FD246E17 /* Extension+UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BF62E3713A0EBCEECEAB6AE /* Extension+UIColor.swift */; };
 		64F162B159C0BD3427E9096D /* PretendardFontFamily.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DFDEE116A67E6C3606007A2 /* PretendardFontFamily.swift */; };
+		6652FFE921D20801AA9D5DF5 /* ComposableArchitecture.framework in Dependencies */ = {isa = PBXBuildFile; fileRef = 2B4A427439EE9D505B327761 /* ComposableArchitecture.framework */; };
 		669DDDAB3138D6302F2DC45A /* PretendardFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = 688D1487AF38E7CCA4A91781 /* PretendardFont.swift */; };
 		683B9C0B090D319ECE7EB598 /* TuistFonts+DesignSystemDebug.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C0657B12FC785E86158F7DC /* TuistFonts+DesignSystemDebug.swift */; };
 		6A9D0C3784F739E22DC53C14 /* DesignSystem_DesignSystem.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 42D7C40704F4FCBCDB855667 /* DesignSystem_DesignSystem.bundle */; };
+		6AE6137318CDE6295B498FBE /* InternalCollectionsUtilities.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 54D283EE11452C681A061DC9 /* InternalCollectionsUtilities.framework */; };
 		6CBFFDE6727988688C659C02 /* ImageAsset.swift in Sources */ = {isa = PBXBuildFile; fileRef = D199440E65D8D401EDC98511 /* ImageAsset.swift */; };
+		6E0179999137F6B42EFE5F5E /* Sharing2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C55D59177E8C3DE72C12D00B /* Sharing2.framework */; };
+		809EDC2E93C95F31FF952541 /* CasePaths.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A3357E843BEB22728319115 /* CasePaths.framework */; };
+		852AE05A4BF170B9AA20146B /* swift-sharing_Sharing.bundle in Dependencies */ = {isa = PBXBuildFile; fileRef = 5DF9D9AFD325FE508D5CE09B /* swift-sharing_Sharing.bundle */; };
+		8B0EBF23A3B2B5FE686E8A33 /* ComposableArchitecture.framework in Dependencies */ = {isa = PBXBuildFile; fileRef = 2B4A427439EE9D505B327761 /* ComposableArchitecture.framework */; };
 		90BD3BCC7A12B9D9FC0FC0E5 /* BaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2037A54D1D7D283E80FF0D5C /* BaseView.swift */; };
+		98AB5B407AC0A41477E3F909 /* OrderedCollections.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FFA6ACA00B77989252818340 /* OrderedCollections.framework */; };
 		9C4EE29BC0F3C09880555CDD /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DDB65E50E9A40944ADEEDB2 /* BaseViewController.swift */; };
 		A02E2BEEF01F40AB5EB27967 /* Extension+UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BF62E3713A0EBCEECEAB6AE /* Extension+UIColor.swift */; };
 		A18206A7174AB69D58054395 /* Extension+UILabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B3E3329BD329BF6999EE0E9 /* Extension+UILabel.swift */; };
 		A2CEB3ECFE3AFCFBB6509C79 /* Test.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B67F5AD336FFDED9C31245F /* Test.swift */; };
 		A65C76AD0609306E05A0CFDF /* PretendardFontFamily.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DFDEE116A67E6C3606007A2 /* PretendardFontFamily.swift */; };
 		ABB14811E13F7B1ECCF8B086 /* TuistAssets+DesignSystem.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5263BC75B281154AC0B5A7B /* TuistAssets+DesignSystem.swift */; };
+		AC2F7CEABACAAA4D2CE74498 /* UIKitNavigation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CCE5037734D068E5FCD1777C /* UIKitNavigation.framework */; };
+		ACAFAF275EDB5180657388E8 /* IssueReportingPackageSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC9D8E1672FAB94378F3B3E2 /* IssueReportingPackageSupport.framework */; };
 		AD8836C636E43E59E7DB750E /* ImageAsset.swift in Sources */ = {isa = PBXBuildFile; fileRef = D199440E65D8D401EDC98511 /* ImageAsset.swift */; };
 		B2FE89393BB081596AD206FF /* BaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2037A54D1D7D283E80FF0D5C /* BaseView.swift */; };
 		BA136466484AA0C1BF238F63 /* UIColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6964B76F338CA1083A2EAA11 /* UIColors.swift */; };
@@ -51,8 +74,11 @@
 		C67D9D255ADB7E82D2DCB8D8 /* UIColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6964B76F338CA1083A2EAA11 /* UIColors.swift */; };
 		C8030B09F96168D2FD8D8CBA /*  Extension+Image.swift in Sources */ = {isa = PBXBuildFile; fileRef = 498B5930ACE63777F8AAC082 /*  Extension+Image.swift */; };
 		C83CACD5B5F275224A93814E /* ImageAsset.swift in Sources */ = {isa = PBXBuildFile; fileRef = D199440E65D8D401EDC98511 /* ImageAsset.swift */; };
+		C908C920CCECD8166299C023 /* Perception.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D715D77099C80978547C7548 /* Perception.framework */; };
+		CC69CFC9464E55BC817D771B /* Dependencies.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18EFD810A3CEA450AB61C1D7 /* Dependencies.framework */; };
 		CDBB5C5F170717B8E3CBDF10 /* Extension+UILabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B3E3329BD329BF6999EE0E9 /* Extension+UILabel.swift */; };
 		D454D68ADFCEB25F5F69149D /* BaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2037A54D1D7D283E80FF0D5C /* BaseView.swift */; };
+		D46A396A766EADD6372746FB /* ComposableArchitecture.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B4A427439EE9D505B327761 /* ComposableArchitecture.framework */; };
 		D4BBBE665283FCFF21AF1E1E /* TuistFonts+DesignSystemStage.swift in Sources */ = {isa = PBXBuildFile; fileRef = A61786D0EB738723AB6A3E52 /* TuistFonts+DesignSystemStage.swift */; };
 		DAE5BEECD2AF04139A336C3C /* BaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2037A54D1D7D283E80FF0D5C /* BaseView.swift */; };
 		DF26B81FBD6FDC0158FA47C7 /* TuistAssets+DesignSystemStage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1609C54BDDFC80336CF0C360 /* TuistAssets+DesignSystemStage.swift */; };
@@ -60,7 +86,11 @@
 		E266D455EC0325C2484FE0DC /* PretendardFontFamily.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DFDEE116A67E6C3606007A2 /* PretendardFontFamily.swift */; };
 		E3854479AFC143B40321C1CA /* PretendardFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = 688D1487AF38E7CCA4A91781 /* PretendardFont.swift */; };
 		E4A9BC98A8E210D6173854CE /* DesignSystem_DesignSystem.bundle in Dependencies */ = {isa = PBXBuildFile; fileRef = 42D7C40704F4FCBCDB855667 /* DesignSystem_DesignSystem.bundle */; };
+		E5DC09F78C12EFA6E938F008 /* CombineSchedulers.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 19FD78DA10392F8186881533 /* CombineSchedulers.framework */; };
 		E79FE8601AE837DBF04B8E00 /* ImageAssets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 365911FA35B2B70671D60856 /* ImageAssets.xcassets */; };
+		EA827A6FAEA4D96C71D1A5E5 /* CustomDump.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25DAE8AF1BF5CC6F905CFC59 /* CustomDump.framework */; };
+		F0D28400E5CB9F754BF47E0E /* SwiftUINavigation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 124A3F418128D4BE2539991A /* SwiftUINavigation.framework */; };
+		F100966D7E5353C0B0001DA9 /* UIKitNavigationShim.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCD3021BFFE813C71FFB6D9B /* UIKitNavigationShim.framework */; };
 		F16B378FA89AF6BB63790180 /* ImageAsset.swift in Sources */ = {isa = PBXBuildFile; fileRef = D199440E65D8D401EDC98511 /* ImageAsset.swift */; };
 		F17B84058BDEC3F96F1EB6B8 /* PretendardFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = 688D1487AF38E7CCA4A91781 /* PretendardFont.swift */; };
 		F256291B173F7E68A0E89DB9 /*  Extension+Image.swift in Sources */ = {isa = PBXBuildFile; fileRef = 498B5930ACE63777F8AAC082 /*  Extension+Image.swift */; };
@@ -68,8 +98,10 @@
 		F4D617D15D68E945AA50728A /*  Extension+Image.swift in Sources */ = {isa = PBXBuildFile; fileRef = 498B5930ACE63777F8AAC082 /*  Extension+Image.swift */; };
 		F52D68163C625870CB8D309A /* PretendardFontFamily.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DFDEE116A67E6C3606007A2 /* PretendardFontFamily.swift */; };
 		F6018B5F7748E322214C52D6 /* TuistBundle+DesignSystem.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE4AD9735556ECA8C8008FEC /* TuistBundle+DesignSystem.swift */; };
+		F80C60BC170FC4B607B4C864 /* DependenciesMacros.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CC27EAEEC28E0C418B61022 /* DependenciesMacros.framework */; };
 		FA17A19D49963C814439E27E /* TuistBundle+DesignSystemProd.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B0C3E527CEC0A57D2B99BFB /* TuistBundle+DesignSystemProd.swift */; };
 		FA87677D0DB27483F2365065 /* Extension+UILabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B3E3329BD329BF6999EE0E9 /* Extension+UILabel.swift */; };
+		FC9356548B6885419E09AF18 /* IssueReporting.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA76D7F27BECF9DDDE16561C /* IssueReporting.framework */; };
 		FDEBA8D19C6B643D2EE7D847 /* PretendardVariable.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A20647CF23B131D16DCAB555 /* PretendardVariable.ttf */; };
 /* End PBXBuildFile section */
 
@@ -112,6 +144,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
+		0CFFBBF6FC8BC4422B8E7ECA /* Dependencies */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 8;
+			dstSubfolderSpec = 16;
+			files = (
+				54C0E12DDE6CAE81C18E8BC4 /* ComposableArchitecture.framework in Dependencies */,
+			);
+			name = Dependencies;
+			runOnlyForDeploymentPostprocessing = 1;
+		};
 		0F682C693EA88A8520C88ADA /* Embed Frameworks */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
@@ -141,6 +183,16 @@
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
+		};
+		261A68F06D4B4813FC5879A5 /* Dependencies */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 8;
+			dstSubfolderSpec = 16;
+			files = (
+				8B0EBF23A3B2B5FE686E8A33 /* ComposableArchitecture.framework in Dependencies */,
+			);
+			name = Dependencies;
+			runOnlyForDeploymentPostprocessing = 1;
 		};
 		3FBA6A1C0FF2C099107F7C40 /* Embed Frameworks */ = {
 			isa = PBXCopyFilesBuildPhase;
@@ -192,6 +244,26 @@
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		C494F3E0911012C972CC32C6 /* Dependencies */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 8;
+			dstSubfolderSpec = 16;
+			files = (
+				0E71762241059BF3166A881A /* ComposableArchitecture.framework in Dependencies */,
+			);
+			name = Dependencies;
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		E524915DBB351239A7C59C5C /* Dependencies */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 8;
+			dstSubfolderSpec = 16;
+			files = (
+				6652FFE921D20801AA9D5DF5 /* ComposableArchitecture.framework in Dependencies */,
+			);
+			name = Dependencies;
+			runOnlyForDeploymentPostprocessing = 1;
+		};
 		F2166D77A31A58D48E2556FF /* Embed Frameworks */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
@@ -208,6 +280,8 @@
 			dstSubfolderSpec = 16;
 			files = (
 				E4A9BC98A8E210D6173854CE /* DesignSystem_DesignSystem.bundle in Dependencies */,
+				308D66749C581385357D35F0 /* swift-composable-architecture_ComposableArchitecture.bundle in Dependencies */,
+				852AE05A4BF170B9AA20146B /* swift-sharing_Sharing.bundle in Dependencies */,
 			);
 			name = Dependencies;
 			runOnlyForDeploymentPostprocessing = 1;
@@ -216,32 +290,48 @@
 
 /* Begin PBXFileReference section */
 		0B67F5AD336FFDED9C31245F /* Test.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Test.swift; sourceTree = "<group>"; };
+		124A3F418128D4BE2539991A /* SwiftUINavigation.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftUINavigation.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		12730386909033CD68A22CD0 /* Extension+Colo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension+Colo.swift"; sourceTree = "<group>"; };
 		1489E7809DA4DADA471C2CDC /* TuistFonts+DesignSystem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TuistFonts+DesignSystem.swift"; sourceTree = "<group>"; };
 		1609C54BDDFC80336CF0C360 /* TuistAssets+DesignSystemStage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TuistAssets+DesignSystemStage.swift"; sourceTree = "<group>"; };
+		18EFD810A3CEA450AB61C1D7 /* Dependencies.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Dependencies.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		19A10E83761BF8F7A5D0FB4E /* ConcurrencyExtras.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ConcurrencyExtras.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		19FD78DA10392F8186881533 /* CombineSchedulers.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CombineSchedulers.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1B3E3329BD329BF6999EE0E9 /* Extension+UILabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension+UILabel.swift"; sourceTree = "<group>"; };
 		2037A54D1D7D283E80FF0D5C /* BaseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseView.swift; sourceTree = "<group>"; };
 		24E0063F8DAAFAE14BCFEE93 /* DesignSystem_DesignSystem_Prod.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DesignSystem_DesignSystem_Prod.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		25DAE8AF1BF5CC6F905CFC59 /* CustomDump.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CustomDump.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		27AA3E385D373C2295F94842 /* TuistBundle+DesignSystemStage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TuistBundle+DesignSystemStage.swift"; sourceTree = "<group>"; };
 		286D4EE69896CE34670D1AE0 /* DesignSystem_Prod.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DesignSystem_Prod.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2B4A427439EE9D505B327761 /* ComposableArchitecture.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ComposableArchitecture.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2EF20F019AC6C1E3B3D87AF8 /* TuistFonts+DesignSystemProd.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TuistFonts+DesignSystemProd.swift"; sourceTree = "<group>"; };
 		365911FA35B2B70671D60856 /* ImageAssets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = ImageAssets.xcassets; sourceTree = "<group>"; };
+		3E6F8BA946CF2483A542F489 /* swift-composable-architecture_ComposableArchitecture.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "swift-composable-architecture_ComposableArchitecture.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
 		42D7C40704F4FCBCDB855667 /* DesignSystem_DesignSystem.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DesignSystem_DesignSystem.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 		44A000B3D481B9241DB8971A /* DesignSystem_DesignSystem_Prod-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "DesignSystem_DesignSystem_Prod-Info.plist"; sourceTree = "<group>"; };
 		469F4B641DBB710B1B90BAD8 /* DesignSystemTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "DesignSystemTests-Info.plist"; sourceTree = "<group>"; };
 		498B5930ACE63777F8AAC082 /*  Extension+Image.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = " Extension+Image.swift"; sourceTree = "<group>"; };
+		4CC27EAEEC28E0C418B61022 /* DependenciesMacros.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DependenciesMacros.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		54D283EE11452C681A061DC9 /* InternalCollectionsUtilities.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = InternalCollectionsUtilities.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5A3357E843BEB22728319115 /* CasePaths.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CasePaths.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5C6CCAA1C922609FB997CD33 /* XCTestDynamicOverlay.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = XCTestDynamicOverlay.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5DDB65E50E9A40944ADEEDB2 /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		5DF9D9AFD325FE508D5CE09B /* swift-sharing_Sharing.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "swift-sharing_Sharing.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5DFDEE116A67E6C3606007A2 /* PretendardFontFamily.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PretendardFontFamily.swift; sourceTree = "<group>"; };
 		67AC3D394CED665A57B6D341 /* DesignSystem-Stage-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "DesignSystem-Stage-Info.plist"; sourceTree = "<group>"; };
 		688D1487AF38E7CCA4A91781 /* PretendardFont.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PretendardFont.swift; sourceTree = "<group>"; };
 		6964B76F338CA1083A2EAA11 /* UIColors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColors.swift; sourceTree = "<group>"; };
 		69B7BBEAD5472C7195924AC8 /* DesignSystem.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DesignSystem.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6B42EA0AFB8C59B4DAD38868 /* CasePathsCore.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CasePathsCore.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7B11E5E9D21524DF1C180F0C /* DesignSystem_Debug.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DesignSystem_Debug.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7C0657B12FC785E86158F7DC /* TuistFonts+DesignSystemDebug.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TuistFonts+DesignSystemDebug.swift"; sourceTree = "<group>"; };
 		7EF38864C69153237B1B4234 /* DesignSystem-Debug-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "DesignSystem-Debug-Info.plist"; sourceTree = "<group>"; };
 		8011B55F1DC08EC73C2467B4 /* DesignSystem_DesignSystem_Stage.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DesignSystem_DesignSystem_Stage.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 		8080BDCE77FA8041E648FFE0 /* DesignSystem-Prod-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "DesignSystem-Prod-Info.plist"; sourceTree = "<group>"; };
+		81AE6D1B890D432B9EF75587 /* Sharing1.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Sharing1.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		820CBF0A1EAF51B0F1668443 /* PerceptionCore.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PerceptionCore.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8374AFD4C591FD586AC84128 /* DesignSystem_Stage.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DesignSystem_Stage.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		86995CBAA8C9317B4B24DB99 /* IdentifiedCollections.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = IdentifiedCollections.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8706A3EA246104147CB10AC9 /* DesignSystem_DesignSystem_Stage-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "DesignSystem_DesignSystem_Stage-Info.plist"; sourceTree = "<group>"; };
 		8937FA9427EEA938B58C5B3E /* DesignSystem-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "DesignSystem-Info.plist"; sourceTree = "<group>"; };
 		8E80CBF5486DD48CEF7D4361 /* TuistAssets+DesignSystemProd.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TuistAssets+DesignSystemProd.swift"; sourceTree = "<group>"; };
@@ -250,14 +340,24 @@
 		A20647CF23B131D16DCAB555 /* PretendardVariable.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = PretendardVariable.ttf; sourceTree = "<group>"; };
 		A5263BC75B281154AC0B5A7B /* TuistAssets+DesignSystem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TuistAssets+DesignSystem.swift"; sourceTree = "<group>"; };
 		A61786D0EB738723AB6A3E52 /* TuistFonts+DesignSystemStage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TuistFonts+DesignSystemStage.swift"; sourceTree = "<group>"; };
+		A8E4F9B5ED6A58F34C4E9188 /* Clocks.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Clocks.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B38EF5B36E88588961AB7E44 /* TuistBundle+DesignSystemDebug.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TuistBundle+DesignSystemDebug.swift"; sourceTree = "<group>"; };
 		BE4AD9735556ECA8C8008FEC /* TuistBundle+DesignSystem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TuistBundle+DesignSystem.swift"; sourceTree = "<group>"; };
+		BEE3C1F9940BDC9B2D5DF45C /* SwiftNavigation.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftNavigation.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C55D59177E8C3DE72C12D00B /* Sharing2.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Sharing2.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C8F7D85DCA3E9D25ADED069C /* Sharing.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Sharing.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CCE5037734D068E5FCD1777C /* UIKitNavigation.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = UIKitNavigation.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D199440E65D8D401EDC98511 /* ImageAsset.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageAsset.swift; sourceTree = "<group>"; };
 		D6D0FABFF623E11D22F6BDCC /* TuistAssets+DesignSystemDebug.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TuistAssets+DesignSystemDebug.swift"; sourceTree = "<group>"; };
+		D715D77099C80978547C7548 /* Perception.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Perception.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D8C4AF8E52680E324D6FBCBF /* DesignSystem_DesignSystem_Debug.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DesignSystem_DesignSystem_Debug.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC9D8E1672FAB94378F3B3E2 /* IssueReportingPackageSupport.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = IssueReportingPackageSupport.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DDA12AD00E98A3497D3A729E /* DesignSystem_DesignSystem-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "DesignSystem_DesignSystem-Info.plist"; sourceTree = "<group>"; };
 		ECAFBD3892447294C1342932 /* DesignSystemTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DesignSystemTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA76D7F27BECF9DDDE16561C /* IssueReporting.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = IssueReporting.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FACA604C0F807EB6665FF98A /* DesignSystem_DesignSystem_Debug-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "DesignSystem_DesignSystem_Debug-Info.plist"; sourceTree = "<group>"; };
+		FCD3021BFFE813C71FFB6D9B /* UIKitNavigationShim.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = UIKitNavigationShim.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FFA6ACA00B77989252818340 /* OrderedCollections.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = OrderedCollections.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -286,7 +386,31 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				809EDC2E93C95F31FF952541 /* CasePaths.framework in Frameworks */,
+				04E11CD30C06369FF371925B /* CasePathsCore.framework in Frameworks */,
+				16A82F835B12CE4A0F63F226 /* Clocks.framework in Frameworks */,
+				E5DC09F78C12EFA6E938F008 /* CombineSchedulers.framework in Frameworks */,
+				D46A396A766EADD6372746FB /* ComposableArchitecture.framework in Frameworks */,
+				3F18AE2877D4B2F2FBBEE7DA /* ConcurrencyExtras.framework in Frameworks */,
+				EA827A6FAEA4D96C71D1A5E5 /* CustomDump.framework in Frameworks */,
+				CC69CFC9464E55BC817D771B /* Dependencies.framework in Frameworks */,
+				F80C60BC170FC4B607B4C864 /* DependenciesMacros.framework in Frameworks */,
 				C438E92FA9121880084AE9AA /* DesignSystem.framework in Frameworks */,
+				273480CBCFE37513F3099A8E /* IdentifiedCollections.framework in Frameworks */,
+				6AE6137318CDE6295B498FBE /* InternalCollectionsUtilities.framework in Frameworks */,
+				FC9356548B6885419E09AF18 /* IssueReporting.framework in Frameworks */,
+				ACAFAF275EDB5180657388E8 /* IssueReportingPackageSupport.framework in Frameworks */,
+				98AB5B407AC0A41477E3F909 /* OrderedCollections.framework in Frameworks */,
+				C908C920CCECD8166299C023 /* Perception.framework in Frameworks */,
+				11C8E34547D88D53D0191C17 /* PerceptionCore.framework in Frameworks */,
+				030D39D707AB3BCF4B40E507 /* Sharing.framework in Frameworks */,
+				0332DA7CA35D431B1DB265D9 /* Sharing1.framework in Frameworks */,
+				6E0179999137F6B42EFE5F5E /* Sharing2.framework in Frameworks */,
+				4D89A31A0E8ADEEBF3937616 /* SwiftNavigation.framework in Frameworks */,
+				F0D28400E5CB9F754BF47E0E /* SwiftUINavigation.framework in Frameworks */,
+				AC2F7CEABACAAA4D2CE74498 /* UIKitNavigation.framework in Frameworks */,
+				F100966D7E5353C0B0001DA9 /* UIKitNavigationShim.framework in Frameworks */,
+				3E95B9A38B30D09DEB68E9AB /* XCTestDynamicOverlay.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -429,6 +553,15 @@
 		82664F67710540CBDEBE5B11 /* Products */ = {
 			isa = PBXGroup;
 			children = (
+				5A3357E843BEB22728319115 /* CasePaths.framework */,
+				6B42EA0AFB8C59B4DAD38868 /* CasePathsCore.framework */,
+				A8E4F9B5ED6A58F34C4E9188 /* Clocks.framework */,
+				19FD78DA10392F8186881533 /* CombineSchedulers.framework */,
+				2B4A427439EE9D505B327761 /* ComposableArchitecture.framework */,
+				19A10E83761BF8F7A5D0FB4E /* ConcurrencyExtras.framework */,
+				25DAE8AF1BF5CC6F905CFC59 /* CustomDump.framework */,
+				18EFD810A3CEA450AB61C1D7 /* Dependencies.framework */,
+				4CC27EAEEC28E0C418B61022 /* DependenciesMacros.framework */,
 				7B11E5E9D21524DF1C180F0C /* DesignSystem_Debug.framework */,
 				D8C4AF8E52680E324D6FBCBF /* DesignSystem_DesignSystem_Debug.bundle */,
 				24E0063F8DAAFAE14BCFEE93 /* DesignSystem_DesignSystem_Prod.bundle */,
@@ -438,6 +571,23 @@
 				8374AFD4C591FD586AC84128 /* DesignSystem_Stage.framework */,
 				69B7BBEAD5472C7195924AC8 /* DesignSystem.framework */,
 				ECAFBD3892447294C1342932 /* DesignSystemTests.xctest */,
+				86995CBAA8C9317B4B24DB99 /* IdentifiedCollections.framework */,
+				54D283EE11452C681A061DC9 /* InternalCollectionsUtilities.framework */,
+				FA76D7F27BECF9DDDE16561C /* IssueReporting.framework */,
+				DC9D8E1672FAB94378F3B3E2 /* IssueReportingPackageSupport.framework */,
+				FFA6ACA00B77989252818340 /* OrderedCollections.framework */,
+				D715D77099C80978547C7548 /* Perception.framework */,
+				820CBF0A1EAF51B0F1668443 /* PerceptionCore.framework */,
+				C8F7D85DCA3E9D25ADED069C /* Sharing.framework */,
+				81AE6D1B890D432B9EF75587 /* Sharing1.framework */,
+				C55D59177E8C3DE72C12D00B /* Sharing2.framework */,
+				3E6F8BA946CF2483A542F489 /* swift-composable-architecture_ComposableArchitecture.bundle */,
+				5DF9D9AFD325FE508D5CE09B /* swift-sharing_Sharing.bundle */,
+				BEE3C1F9940BDC9B2D5DF45C /* SwiftNavigation.framework */,
+				124A3F418128D4BE2539991A /* SwiftUINavigation.framework */,
+				CCE5037734D068E5FCD1777C /* UIKitNavigation.framework */,
+				FCD3021BFFE813C71FFB6D9B /* UIKitNavigationShim.framework */,
+				5C6CCAA1C922609FB997CD33 /* XCTestDynamicOverlay.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -578,6 +728,7 @@
 				CCCB454D2177C56ECA5AA9F2 /* Resources */,
 				DF0BD45C2E7E03717605EC1E /* Frameworks */,
 				9A689226874D46B59FD12E7E /* Embed Frameworks */,
+				E524915DBB351239A7C59C5C /* Dependencies */,
 			);
 			buildRules = (
 			);
@@ -619,6 +770,7 @@
 				8078DEDA1CD1CA09226F5B8D /* Resources */,
 				9C2812D88455F1F58E39B693 /* Frameworks */,
 				20A4A2ED5CF5F9B3D3E2F3C9 /* Embed Frameworks */,
+				C494F3E0911012C972CC32C6 /* Dependencies */,
 			);
 			buildRules = (
 			);
@@ -680,6 +832,7 @@
 				510D3A5EADC65A3BE366D353 /* Resources */,
 				21D2E38EFDFDB350406F7982 /* Frameworks */,
 				49C4A8593835DDF36FBC2A05 /* Embed Frameworks */,
+				261A68F06D4B4813FC5879A5 /* Dependencies */,
 			);
 			buildRules = (
 			);
@@ -721,6 +874,7 @@
 				158847365512D5F5BEBFDDB7 /* Resources */,
 				2678C9FCDBBF577DD88F9418 /* Frameworks */,
 				188C94718B4CAFFF5622CD06 /* Embed Frameworks */,
+				0CFFBBF6FC8BC4422B8E7ECA /* Dependencies */,
 			);
 			buildRules = (
 			);
@@ -815,6 +969,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				6A9D0C3784F739E22DC53C14 /* DesignSystem_DesignSystem.bundle in Resources */,
+				2C21562F6B50D439DB21DCAC /* swift-composable-architecture_ComposableArchitecture.bundle in Resources */,
+				164B83516C13A4829B5B695A /* swift-sharing_Sharing.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1034,6 +1190,11 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/../../../Tuist/.build/checkouts/swift-navigation/Sources/UIKitNavigationShim/include",
+					"$(SRCROOT)/../../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include",
+				);
 				INFOPLIST_FILE = "Derived/InfoPlists/DesignSystem-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
@@ -1043,6 +1204,26 @@
 					"@loader_path/Frameworks",
 				);
 				MACH_O_TYPE = staticlib;
+				OTHER_CFLAGS = (
+					"$(inherited)",
+					"-fmodule-map-file=$(SRCROOT)/../../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include/module.modulemap",
+					"-fmodule-map-file=$(SRCROOT)/../../../Tuist/.build/tuist-derived/UIKitNavigationShim/UIKitNavigationShim.modulemap",
+				);
+				OTHER_SWIFT_FLAGS = (
+					"$(inherited)",
+					"-Xcc",
+					"-fmodule-map-file=$(SRCROOT)/../../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include/module.modulemap",
+					"-Xcc",
+					"-fmodule-map-file=$(SRCROOT)/../../../Tuist/.build/tuist-derived/UIKitNavigationShim/UIKitNavigationShim.modulemap",
+					"-load-plugin-executable",
+					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/CasePathsMacros#CasePathsMacros",
+					"-load-plugin-executable",
+					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/ComposableArchitectureMacros#ComposableArchitectureMacros",
+					"-load-plugin-executable",
+					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/DependenciesMacrosPlugin#DependenciesMacrosPlugin",
+					"-load-plugin-executable",
+					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/PerceptionMacros#PerceptionMacros",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = io.Roy.BookSeries.DesignSystem;
 				PRODUCT_NAME = DesignSystem;
 				SDKROOT = iphoneos;
@@ -1072,6 +1253,11 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/../../../Tuist/.build/checkouts/swift-navigation/Sources/UIKitNavigationShim/include",
+					"$(SRCROOT)/../../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include",
+				);
 				INFOPLIST_FILE = "Derived/InfoPlists/DesignSystem-Debug-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
@@ -1081,6 +1267,26 @@
 					"@loader_path/Frameworks",
 				);
 				MACH_O_TYPE = staticlib;
+				OTHER_CFLAGS = (
+					"$(inherited)",
+					"-fmodule-map-file=$(SRCROOT)/../../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include/module.modulemap",
+					"-fmodule-map-file=$(SRCROOT)/../../../Tuist/.build/tuist-derived/UIKitNavigationShim/UIKitNavigationShim.modulemap",
+				);
+				OTHER_SWIFT_FLAGS = (
+					"$(inherited)",
+					"-Xcc",
+					"-fmodule-map-file=$(SRCROOT)/../../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include/module.modulemap",
+					"-Xcc",
+					"-fmodule-map-file=$(SRCROOT)/../../../Tuist/.build/tuist-derived/UIKitNavigationShim/UIKitNavigationShim.modulemap",
+					"-load-plugin-executable",
+					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/CasePathsMacros#CasePathsMacros",
+					"-load-plugin-executable",
+					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/ComposableArchitectureMacros#ComposableArchitectureMacros",
+					"-load-plugin-executable",
+					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/DependenciesMacrosPlugin#DependenciesMacrosPlugin",
+					"-load-plugin-executable",
+					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/PerceptionMacros#PerceptionMacros",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = io.Roy.BookSeries.DesignSystem;
 				PRODUCT_NAME = DesignSystem_Debug;
 				SDKROOT = iphoneos;
@@ -1106,6 +1312,11 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/../../../Tuist/.build/checkouts/swift-navigation/Sources/UIKitNavigationShim/include",
+					"$(SRCROOT)/../../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include",
+				);
 				INFOPLIST_FILE = "Derived/InfoPlists/DesignSystem-Prod-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
@@ -1115,6 +1326,26 @@
 					"@loader_path/Frameworks",
 				);
 				MACH_O_TYPE = staticlib;
+				OTHER_CFLAGS = (
+					"$(inherited)",
+					"-fmodule-map-file=$(SRCROOT)/../../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include/module.modulemap",
+					"-fmodule-map-file=$(SRCROOT)/../../../Tuist/.build/tuist-derived/UIKitNavigationShim/UIKitNavigationShim.modulemap",
+				);
+				OTHER_SWIFT_FLAGS = (
+					"$(inherited)",
+					"-Xcc",
+					"-fmodule-map-file=$(SRCROOT)/../../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include/module.modulemap",
+					"-Xcc",
+					"-fmodule-map-file=$(SRCROOT)/../../../Tuist/.build/tuist-derived/UIKitNavigationShim/UIKitNavigationShim.modulemap",
+					"-load-plugin-executable",
+					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/CasePathsMacros#CasePathsMacros",
+					"-load-plugin-executable",
+					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/ComposableArchitectureMacros#ComposableArchitectureMacros",
+					"-load-plugin-executable",
+					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/DependenciesMacrosPlugin#DependenciesMacrosPlugin",
+					"-load-plugin-executable",
+					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/PerceptionMacros#PerceptionMacros",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = io.Roy.BookSeries.DesignSystem;
 				PRODUCT_NAME = DesignSystem_Prod;
 				SDKROOT = iphoneos;
@@ -1139,12 +1370,37 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/../../../Tuist/.build/checkouts/swift-navigation/Sources/UIKitNavigationShim/include",
+					"$(SRCROOT)/../../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include",
+				);
 				INFOPLIST_FILE = "Derived/InfoPlists/DesignSystemTests-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
+				);
+				OTHER_CFLAGS = (
+					"$(inherited)",
+					"-fmodule-map-file=$(SRCROOT)/../../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include/module.modulemap",
+					"-fmodule-map-file=$(SRCROOT)/../../../Tuist/.build/tuist-derived/UIKitNavigationShim/UIKitNavigationShim.modulemap",
+				);
+				OTHER_SWIFT_FLAGS = (
+					"$(inherited)",
+					"-Xcc",
+					"-fmodule-map-file=$(SRCROOT)/../../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include/module.modulemap",
+					"-Xcc",
+					"-fmodule-map-file=$(SRCROOT)/../../../Tuist/.build/tuist-derived/UIKitNavigationShim/UIKitNavigationShim.modulemap",
+					"-load-plugin-executable",
+					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/CasePathsMacros#CasePathsMacros",
+					"-load-plugin-executable",
+					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/ComposableArchitectureMacros#ComposableArchitectureMacros",
+					"-load-plugin-executable",
+					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/DependenciesMacrosPlugin#DependenciesMacrosPlugin",
+					"-load-plugin-executable",
+					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/PerceptionMacros#PerceptionMacros",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = io.Roy.BookSeries.DesignSystem.DesignSystemTests;
 				PRODUCT_NAME = DesignSystemTests;
@@ -1167,12 +1423,37 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/../../../Tuist/.build/checkouts/swift-navigation/Sources/UIKitNavigationShim/include",
+					"$(SRCROOT)/../../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include",
+				);
 				INFOPLIST_FILE = "Derived/InfoPlists/DesignSystemTests-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
+				);
+				OTHER_CFLAGS = (
+					"$(inherited)",
+					"-fmodule-map-file=$(SRCROOT)/../../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include/module.modulemap",
+					"-fmodule-map-file=$(SRCROOT)/../../../Tuist/.build/tuist-derived/UIKitNavigationShim/UIKitNavigationShim.modulemap",
+				);
+				OTHER_SWIFT_FLAGS = (
+					"$(inherited)",
+					"-Xcc",
+					"-fmodule-map-file=$(SRCROOT)/../../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include/module.modulemap",
+					"-Xcc",
+					"-fmodule-map-file=$(SRCROOT)/../../../Tuist/.build/tuist-derived/UIKitNavigationShim/UIKitNavigationShim.modulemap",
+					"-load-plugin-executable",
+					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/CasePathsMacros#CasePathsMacros",
+					"-load-plugin-executable",
+					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/ComposableArchitectureMacros#ComposableArchitectureMacros",
+					"-load-plugin-executable",
+					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/DependenciesMacrosPlugin#DependenciesMacrosPlugin",
+					"-load-plugin-executable",
+					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/PerceptionMacros#PerceptionMacros",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = io.Roy.BookSeries.DesignSystem.DesignSystemTests;
 				PRODUCT_NAME = DesignSystemTests;
@@ -1219,6 +1500,11 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/../../../Tuist/.build/checkouts/swift-navigation/Sources/UIKitNavigationShim/include",
+					"$(SRCROOT)/../../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include",
+				);
 				INFOPLIST_FILE = "Derived/InfoPlists/DesignSystem-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
@@ -1228,6 +1514,26 @@
 					"@loader_path/Frameworks",
 				);
 				MACH_O_TYPE = staticlib;
+				OTHER_CFLAGS = (
+					"$(inherited)",
+					"-fmodule-map-file=$(SRCROOT)/../../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include/module.modulemap",
+					"-fmodule-map-file=$(SRCROOT)/../../../Tuist/.build/tuist-derived/UIKitNavigationShim/UIKitNavigationShim.modulemap",
+				);
+				OTHER_SWIFT_FLAGS = (
+					"$(inherited)",
+					"-Xcc",
+					"-fmodule-map-file=$(SRCROOT)/../../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include/module.modulemap",
+					"-Xcc",
+					"-fmodule-map-file=$(SRCROOT)/../../../Tuist/.build/tuist-derived/UIKitNavigationShim/UIKitNavigationShim.modulemap",
+					"-load-plugin-executable",
+					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/CasePathsMacros#CasePathsMacros",
+					"-load-plugin-executable",
+					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/ComposableArchitectureMacros#ComposableArchitectureMacros",
+					"-load-plugin-executable",
+					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/DependenciesMacrosPlugin#DependenciesMacrosPlugin",
+					"-load-plugin-executable",
+					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/PerceptionMacros#PerceptionMacros",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = io.Roy.BookSeries.DesignSystem;
 				PRODUCT_NAME = DesignSystem;
 				SDKROOT = iphoneos;
@@ -1253,6 +1559,11 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/../../../Tuist/.build/checkouts/swift-navigation/Sources/UIKitNavigationShim/include",
+					"$(SRCROOT)/../../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include",
+				);
 				INFOPLIST_FILE = "Derived/InfoPlists/DesignSystem-Prod-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
@@ -1262,6 +1573,26 @@
 					"@loader_path/Frameworks",
 				);
 				MACH_O_TYPE = staticlib;
+				OTHER_CFLAGS = (
+					"$(inherited)",
+					"-fmodule-map-file=$(SRCROOT)/../../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include/module.modulemap",
+					"-fmodule-map-file=$(SRCROOT)/../../../Tuist/.build/tuist-derived/UIKitNavigationShim/UIKitNavigationShim.modulemap",
+				);
+				OTHER_SWIFT_FLAGS = (
+					"$(inherited)",
+					"-Xcc",
+					"-fmodule-map-file=$(SRCROOT)/../../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include/module.modulemap",
+					"-Xcc",
+					"-fmodule-map-file=$(SRCROOT)/../../../Tuist/.build/tuist-derived/UIKitNavigationShim/UIKitNavigationShim.modulemap",
+					"-load-plugin-executable",
+					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/CasePathsMacros#CasePathsMacros",
+					"-load-plugin-executable",
+					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/ComposableArchitectureMacros#ComposableArchitectureMacros",
+					"-load-plugin-executable",
+					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/DependenciesMacrosPlugin#DependenciesMacrosPlugin",
+					"-load-plugin-executable",
+					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/PerceptionMacros#PerceptionMacros",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = io.Roy.BookSeries.DesignSystem;
 				PRODUCT_NAME = DesignSystem_Prod;
 				SDKROOT = iphoneos;
@@ -1287,6 +1618,11 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/../../../Tuist/.build/checkouts/swift-navigation/Sources/UIKitNavigationShim/include",
+					"$(SRCROOT)/../../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include",
+				);
 				INFOPLIST_FILE = "Derived/InfoPlists/DesignSystem-Stage-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
@@ -1296,6 +1632,26 @@
 					"@loader_path/Frameworks",
 				);
 				MACH_O_TYPE = staticlib;
+				OTHER_CFLAGS = (
+					"$(inherited)",
+					"-fmodule-map-file=$(SRCROOT)/../../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include/module.modulemap",
+					"-fmodule-map-file=$(SRCROOT)/../../../Tuist/.build/tuist-derived/UIKitNavigationShim/UIKitNavigationShim.modulemap",
+				);
+				OTHER_SWIFT_FLAGS = (
+					"$(inherited)",
+					"-Xcc",
+					"-fmodule-map-file=$(SRCROOT)/../../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include/module.modulemap",
+					"-Xcc",
+					"-fmodule-map-file=$(SRCROOT)/../../../Tuist/.build/tuist-derived/UIKitNavigationShim/UIKitNavigationShim.modulemap",
+					"-load-plugin-executable",
+					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/CasePathsMacros#CasePathsMacros",
+					"-load-plugin-executable",
+					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/ComposableArchitectureMacros#ComposableArchitectureMacros",
+					"-load-plugin-executable",
+					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/DependenciesMacrosPlugin#DependenciesMacrosPlugin",
+					"-load-plugin-executable",
+					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/PerceptionMacros#PerceptionMacros",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = io.Roy.BookSeries.DesignSystem;
 				PRODUCT_NAME = DesignSystem_Stage;
 				SDKROOT = iphoneos;
@@ -1430,6 +1786,11 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/../../../Tuist/.build/checkouts/swift-navigation/Sources/UIKitNavigationShim/include",
+					"$(SRCROOT)/../../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include",
+				);
 				INFOPLIST_FILE = "Derived/InfoPlists/DesignSystem-Stage-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
@@ -1439,6 +1800,26 @@
 					"@loader_path/Frameworks",
 				);
 				MACH_O_TYPE = staticlib;
+				OTHER_CFLAGS = (
+					"$(inherited)",
+					"-fmodule-map-file=$(SRCROOT)/../../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include/module.modulemap",
+					"-fmodule-map-file=$(SRCROOT)/../../../Tuist/.build/tuist-derived/UIKitNavigationShim/UIKitNavigationShim.modulemap",
+				);
+				OTHER_SWIFT_FLAGS = (
+					"$(inherited)",
+					"-Xcc",
+					"-fmodule-map-file=$(SRCROOT)/../../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include/module.modulemap",
+					"-Xcc",
+					"-fmodule-map-file=$(SRCROOT)/../../../Tuist/.build/tuist-derived/UIKitNavigationShim/UIKitNavigationShim.modulemap",
+					"-load-plugin-executable",
+					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/CasePathsMacros#CasePathsMacros",
+					"-load-plugin-executable",
+					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/ComposableArchitectureMacros#ComposableArchitectureMacros",
+					"-load-plugin-executable",
+					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/DependenciesMacrosPlugin#DependenciesMacrosPlugin",
+					"-load-plugin-executable",
+					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/PerceptionMacros#PerceptionMacros",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = io.Roy.BookSeries.DesignSystem;
 				PRODUCT_NAME = DesignSystem_Stage;
 				SDKROOT = iphoneos;
@@ -1544,6 +1925,11 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/../../../Tuist/.build/checkouts/swift-navigation/Sources/UIKitNavigationShim/include",
+					"$(SRCROOT)/../../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include",
+				);
 				INFOPLIST_FILE = "Derived/InfoPlists/DesignSystem-Debug-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
@@ -1553,6 +1939,26 @@
 					"@loader_path/Frameworks",
 				);
 				MACH_O_TYPE = staticlib;
+				OTHER_CFLAGS = (
+					"$(inherited)",
+					"-fmodule-map-file=$(SRCROOT)/../../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include/module.modulemap",
+					"-fmodule-map-file=$(SRCROOT)/../../../Tuist/.build/tuist-derived/UIKitNavigationShim/UIKitNavigationShim.modulemap",
+				);
+				OTHER_SWIFT_FLAGS = (
+					"$(inherited)",
+					"-Xcc",
+					"-fmodule-map-file=$(SRCROOT)/../../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include/module.modulemap",
+					"-Xcc",
+					"-fmodule-map-file=$(SRCROOT)/../../../Tuist/.build/tuist-derived/UIKitNavigationShim/UIKitNavigationShim.modulemap",
+					"-load-plugin-executable",
+					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/CasePathsMacros#CasePathsMacros",
+					"-load-plugin-executable",
+					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/ComposableArchitectureMacros#ComposableArchitectureMacros",
+					"-load-plugin-executable",
+					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/DependenciesMacrosPlugin#DependenciesMacrosPlugin",
+					"-load-plugin-executable",
+					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/PerceptionMacros#PerceptionMacros",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = io.Roy.BookSeries.DesignSystem;
 				PRODUCT_NAME = DesignSystem_Debug;
 				SDKROOT = iphoneos;

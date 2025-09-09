@@ -12,9 +12,10 @@ let project = Project.makeAppModule(
   settings:  .settings(),
   dependencies: [
     .SPM.composableArchitecture,
-    .SPM.flexLayout,
+//    .SPM.flexLayout,
     .SPM.then,
-    .SPM.pinLayout
+    .SPM.snapKit
+//    .SPM.pinLayout
   ],
   sources: ["Sources/**"]
 )
