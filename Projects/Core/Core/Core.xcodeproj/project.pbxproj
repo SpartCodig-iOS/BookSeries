@@ -7,152 +7,60 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		02C8AC5E9D8916ADD6307109 /* OrderedCollections.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC6EA3166EAE3B4E5C3A3655 /* OrderedCollections.framework */; };
-		0361917575288BC2EAD1F718 /* IdentifiedCollections.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF63D412AA4B009EF483F4BE /* IdentifiedCollections.framework */; };
-		04950684383BD50C3C3F0634 /* DomainInterface.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B89ECB181A314C23A60BB911 /* DomainInterface.framework */; };
 		057E6747738EDE1A9D804300 /* CoreExport.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEB3C68C2ED81026636D7F75 /* CoreExport.swift */; };
 		0741B662DD021EE9DC285449 /* swift-composable-architecture_ComposableArchitecture.bundle in Dependencies */ = {isa = PBXBuildFile; fileRef = D965F19D7CDBE741D5E4BC67 /* swift-composable-architecture_ComposableArchitecture.bundle */; };
-		0887602F05D5297DFF9512B6 /* CasePaths.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37D454E3D3DEA3106FC5B1D9 /* CasePaths.framework */; };
-		090FFCC091BDCB28F3096CE7 /* SwiftUINavigation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3F3F8C53FB3A64C8A67E329 /* SwiftUINavigation.framework */; };
-		0A6F0AAF346955B125A6D78E /* Sharing2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2690CFF7D8527FFE80ABE74D /* Sharing2.framework */; };
-		0ABD067AC835C34B144A119C /* Repository.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6B638D8DB02624DD45D49E2 /* Repository.framework */; };
-		0AC161F8F43479EF47B65273 /* IssueReporting.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03E9AE72F3054B4A5B3FA955 /* IssueReporting.framework */; };
-		0B2DBBBB0D34113CBC8D6045 /* UIKitNavigation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AEC4F1585F46781177064EC7 /* UIKitNavigation.framework */; };
-		0EF10848EB1E5A8ED6641F12 /* Service.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3ED045ECCC0A0126F7A4BC13 /* Service.framework */; };
-		10DC8B84900B315C91AF6EDD /* Network.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD8B6B85F2D6B69FE70C1FBE /* Network.framework */; };
-		193C3045681EE3E35615EEF4 /* IdentifiedCollections.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF63D412AA4B009EF483F4BE /* IdentifiedCollections.framework */; };
-		1A4CE5864E3E0A793F262D04 /* Sharing1.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 141E57E374A54F7AB6E29DC2 /* Sharing1.framework */; };
-		1B0450341B849AEFCC59BC15 /* InternalCollectionsUtilities.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 12A713B47F2AAA89018EAC9F /* InternalCollectionsUtilities.framework */; };
-		1B86A8C6675D3D06F3A4B422 /* Clocks.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE351E328C333744FEAAACEF /* Clocks.framework */; };
-		1D11E73C71A95EF9678C1727 /* UIKitNavigationShim.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84F99CA60AD1F77541E67E93 /* UIKitNavigationShim.framework */; };
-		1EF87D70918A73AFB220707D /* OSLog.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F52A0D92C684C59849570BB /* OSLog.framework */; };
-		21306BFBBC8970FA6C09C67A /* IssueReportingPackageSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9297D43D2BEFCC0B514EFC04 /* IssueReportingPackageSupport.framework */; };
-		226AA78C1A3143B0A5EC1D8E /* IssueReporting.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03E9AE72F3054B4A5B3FA955 /* IssueReporting.framework */; };
-		23C8B915134EFE977A0AF44C /* InternalCollectionsUtilities.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 12A713B47F2AAA89018EAC9F /* InternalCollectionsUtilities.framework */; };
-		25331ABA2B62C93B801F42C7 /* IdentifiedCollections.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF63D412AA4B009EF483F4BE /* IdentifiedCollections.framework */; };
-		27671F4BD6382E892A194222 /* Service_Service.bundle in Dependencies */ = {isa = PBXBuildFile; fileRef = 3D9502ABE8C8662DEA57F88E /* Service_Service.bundle */; };
-		28179AACF7CEE8F379C94168 /* IssueReportingPackageSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9297D43D2BEFCC0B514EFC04 /* IssueReportingPackageSupport.framework */; };
-		283B75BE810668074615A488 /* XCTestDynamicOverlay.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0E1BE020E6058D897035F31 /* XCTestDynamicOverlay.framework */; };
-		2D5D4F61040CC8BFD8179471 /* Dependencies.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB917DE30C69F723BDF65353 /* Dependencies.framework */; };
-		2E139BFE929C679F3FA93456 /* Sharing2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2690CFF7D8527FFE80ABE74D /* Sharing2.framework */; };
-		30C165DDDBA521864ADED55A /* OrderedCollections.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC6EA3166EAE3B4E5C3A3655 /* OrderedCollections.framework */; };
-		3127B32BAA58527AEC364E16 /* Service_Service.bundle in Dependencies */ = {isa = PBXBuildFile; fileRef = 3D9502ABE8C8662DEA57F88E /* Service_Service.bundle */; };
-		3155400E555574E62DE20452 /* ComposableArchitecture.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB18C1565FE3EAC96777EC0F /* ComposableArchitecture.framework */; };
-		356A4BB64B50FE64EFEC39A0 /* OSLog.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F52A0D92C684C59849570BB /* OSLog.framework */; };
-		36993172D516F95C289F2335 /* UseCase.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE81E51C38BC7DF49AD255BD /* UseCase.framework */; };
-		3AFA724175D614A70532C76C /* IssueReporting.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03E9AE72F3054B4A5B3FA955 /* IssueReporting.framework */; };
-		3E5CB6C180291E9AB2899FF9 /* Service_Service.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 3D9502ABE8C8662DEA57F88E /* Service_Service.bundle */; };
-		4112B6136D7137512BB47137 /* SwiftNavigation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 091619AA614A7C59B502D9D5 /* SwiftNavigation.framework */; };
-		4136091B0498B913CAF09504 /* Service.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3ED045ECCC0A0126F7A4BC13 /* Service.framework */; };
-		44EF53FEAA0FD1F604AFA623 /* CombineSchedulers.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED856AD323CCEEC229B2C7F9 /* CombineSchedulers.framework */; };
-		4584FA74CCA4B45BDFBC2B84 /* PerceptionCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 70750465C5300D484ABA9F60 /* PerceptionCore.framework */; };
-		4A8A4FF21E2466F27305A4B8 /* UseCase.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE81E51C38BC7DF49AD255BD /* UseCase.framework */; };
-		525351E14EA04957F3C37AAE /* CombineSchedulers.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED856AD323CCEEC229B2C7F9 /* CombineSchedulers.framework */; };
-		53CBEAA13C914C361402B056 /* OrderedCollections.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC6EA3166EAE3B4E5C3A3655 /* OrderedCollections.framework */; };
-		543E087427D4A8420C2134C1 /* Sharing2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2690CFF7D8527FFE80ABE74D /* Sharing2.framework */; };
-		54DA91BADE1E4B3FBC17C12A /* SwiftNavigation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 091619AA614A7C59B502D9D5 /* SwiftNavigation.framework */; };
-		575C6F7C9AF3E146CD7010AE /* DiContainer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7EBE4DE9FD75B5368768D93D /* DiContainer.framework */; };
-		579348335859C6C854648878 /* Service_Service.bundle in Dependencies */ = {isa = PBXBuildFile; fileRef = 3D9502ABE8C8662DEA57F88E /* Service_Service.bundle */; };
-		57C0F9688A74616539B65893 /* UseCase.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE81E51C38BC7DF49AD255BD /* UseCase.framework */; };
-		581BA75F50FE6547B2732D10 /* OrderedCollections.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC6EA3166EAE3B4E5C3A3655 /* OrderedCollections.framework */; };
-		5A9AA023C2642C5EE42E3CAE /* UseCase.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE81E51C38BC7DF49AD255BD /* UseCase.framework */; };
+		09AE17653F5CC350E8D3C66C /* IssueReportingPackageSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9297D43D2BEFCC0B514EFC04 /* IssueReportingPackageSupport.framework */; };
+		0E3385516C1ACCD13A9BA32F /* Service_Service.bundle in Dependencies */ = {isa = PBXBuildFile; fileRef = 3D9502ABE8C8662DEA57F88E /* Service_Service.bundle */; };
+		11D6FDD5BA3A2B4D063FC74A /* UseCase.framework in Dependencies */ = {isa = PBXBuildFile; fileRef = DE81E51C38BC7DF49AD255BD /* UseCase.framework */; };
+		16AE2C1501853432A90AB98B /* Network.framework in Dependencies */ = {isa = PBXBuildFile; fileRef = FD8B6B85F2D6B69FE70C1FBE /* Network.framework */; };
+		17AFA2F78FF6036B0ED5AE73 /* Sharing1.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 141E57E374A54F7AB6E29DC2 /* Sharing1.framework */; };
+		1D9F665899C0A1842451814E /* Clocks.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE351E328C333744FEAAACEF /* Clocks.framework */; };
+		1FA462C1CC95CEB52ADD430F /* UseCase.framework in Dependencies */ = {isa = PBXBuildFile; fileRef = DE81E51C38BC7DF49AD255BD /* UseCase.framework */; };
+		23403FE6A7A808E7C7370F1E /* ComposableArchitecture.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB18C1565FE3EAC96777EC0F /* ComposableArchitecture.framework */; };
+		295AF71D3FDBB3AB6A22E218 /* UIKitNavigationShim.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84F99CA60AD1F77541E67E93 /* UIKitNavigationShim.framework */; };
+		29676669F0AB5BBDC31DFDAC /* Model.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F9C516A0389461EC9B5D46E /* Model.framework */; };
+		29941B44EBF2A79BFE016C99 /* UseCase.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE81E51C38BC7DF49AD255BD /* UseCase.framework */; };
+		3DE1D52265CF97679296909C /* PerceptionCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 70750465C5300D484ABA9F60 /* PerceptionCore.framework */; };
+		41C69034BA561E22EA554F19 /* Utill.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BCC113B61DA21855D30259B1 /* Utill.framework */; };
+		426E4CA766D090E97D310A06 /* OSLog.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F52A0D92C684C59849570BB /* OSLog.framework */; };
+		4D82B7A696124B1C7EC28857 /* LogMacro.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABF88C39763A84B856476973 /* LogMacro.framework */; };
+		4E5E7CA23B2FDDE8CB94BB9E /* DiContainer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7EBE4DE9FD75B5368768D93D /* DiContainer.framework */; };
+		4EFBB932B65FF472590F1C62 /* Network.framework in Dependencies */ = {isa = PBXBuildFile; fileRef = FD8B6B85F2D6B69FE70C1FBE /* Network.framework */; };
+		5BEF1F499711C03A721FEFB4 /* OrderedCollections.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC6EA3166EAE3B4E5C3A3655 /* OrderedCollections.framework */; };
 		5CB29D72D1FE671A3BFE6D7B /* swift-composable-architecture_ComposableArchitecture.bundle in Resources */ = {isa = PBXBuildFile; fileRef = D965F19D7CDBE741D5E4BC67 /* swift-composable-architecture_ComposableArchitecture.bundle */; };
-		60F926638241B9ADFD8E2777 /* PerceptionCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 70750465C5300D484ABA9F60 /* PerceptionCore.framework */; };
-		6483116BE3903CA8C541C34C /* CustomDump.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6739389F41AD55401939AA3 /* CustomDump.framework */; };
-		657042F9411772AD1F67B4F8 /* ConcurrencyExtras.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 10C2E0E9FA89653EBA928FFB /* ConcurrencyExtras.framework */; };
-		666209C52E74FB8C6EFA853B /* Perception.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F8CC6237F3D4AE8F77CAE48 /* Perception.framework */; };
-		69690E1DEF5699A93C48725C /* UIKitNavigationShim.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84F99CA60AD1F77541E67E93 /* UIKitNavigationShim.framework */; };
-		6ADBD1397C6A44688E9A4170 /* Sharing.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E7A1228CBFFBBC21B6F7108 /* Sharing.framework */; };
-		6D302121547606A8E2023A8A /* IssueReporting.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03E9AE72F3054B4A5B3FA955 /* IssueReporting.framework */; };
-		6E1098966CBE1B64D1958523 /* Dependencies.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB917DE30C69F723BDF65353 /* Dependencies.framework */; };
-		6EEE5BD721C926FE6E08ABED /* DiContainer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7EBE4DE9FD75B5368768D93D /* DiContainer.framework */; };
-		705279422C0A90992618D1ED /* CustomDump.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6739389F41AD55401939AA3 /* CustomDump.framework */; };
-		70D5DB78FC01271FA17127DB /* Repository.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6B638D8DB02624DD45D49E2 /* Repository.framework */; };
-		71592F799F7E3F1E40CE7D14 /* InternalCollectionsUtilities.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 12A713B47F2AAA89018EAC9F /* InternalCollectionsUtilities.framework */; };
-		71EF0FF722D9341DE7489E26 /* Dependencies.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB917DE30C69F723BDF65353 /* Dependencies.framework */; };
-		720F08719A20288CF9AAFA7E /* UIKitNavigation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AEC4F1585F46781177064EC7 /* UIKitNavigation.framework */; };
+		5ECEAC3679704176AEDED160 /* UseCase.framework in Dependencies */ = {isa = PBXBuildFile; fileRef = DE81E51C38BC7DF49AD255BD /* UseCase.framework */; };
+		61D8EFBE44FD4F7F81A1EB67 /* DomainInterface.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B89ECB181A314C23A60BB911 /* DomainInterface.framework */; };
+		62746F1C6A885411CC423F9A /* ConcurrencyExtras.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 10C2E0E9FA89653EBA928FFB /* ConcurrencyExtras.framework */; };
+		66EEEE53E27FAC870E87645E /* UIKitNavigation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AEC4F1585F46781177064EC7 /* UIKitNavigation.framework */; };
+		6B3C0EE6CC4023996976A966 /* Dependencies.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB917DE30C69F723BDF65353 /* Dependencies.framework */; };
+		6B6DDEC8FEBDCA250F66F021 /* Perception.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F8CC6237F3D4AE8F77CAE48 /* Perception.framework */; };
+		6BCBCE407A28F91FFB46BF99 /* Service.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3ED045ECCC0A0126F7A4BC13 /* Service.framework */; };
+		6CCB3859BF7263A4050DFE1B /* UseCase.framework in Dependencies */ = {isa = PBXBuildFile; fileRef = DE81E51C38BC7DF49AD255BD /* UseCase.framework */; };
+		73B227E88875DC723B874A3B /* CasePaths.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37D454E3D3DEA3106FC5B1D9 /* CasePaths.framework */; };
 		741A5006FF2D931F1EFAC7E4 /* swift-sharing_Sharing.bundle in Resources */ = {isa = PBXBuildFile; fileRef = B8D5448233F039D5A9089DCB /* swift-sharing_Sharing.bundle */; };
-		743EB41AABC12C12649285B2 /* CasePathsCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FFF727FDBE22876C8AC9A3D /* CasePathsCore.framework */; };
-		7B3D1F3D101ADF89557F377A /* CombineSchedulers.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED856AD323CCEEC229B2C7F9 /* CombineSchedulers.framework */; };
-		7E0F7A2E919A8E3E252C6E5E /* Sharing2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2690CFF7D8527FFE80ABE74D /* Sharing2.framework */; };
-		7E892CACFFDCC68BB417358D /* DependenciesMacros.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C175D576FC2CE0FF66645233 /* DependenciesMacros.framework */; };
-		7F1A303924CE85716B92157B /* Perception.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F8CC6237F3D4AE8F77CAE48 /* Perception.framework */; };
-		822DF876BB668FF81689C7E4 /* LogMacro.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABF88C39763A84B856476973 /* LogMacro.framework */; };
-		83AE0163C0E55279C04C6B35 /* UIKitNavigation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AEC4F1585F46781177064EC7 /* UIKitNavigation.framework */; };
-		8460A0263EB5BB299A2ABD2E /* Sharing1.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 141E57E374A54F7AB6E29DC2 /* Sharing1.framework */; };
-		84F29B64D24E2F2F7E7C75AF /* UIKitNavigationShim.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84F99CA60AD1F77541E67E93 /* UIKitNavigationShim.framework */; };
-		887EBC2FF03A101E2EAA63DA /* ComposableArchitecture.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB18C1565FE3EAC96777EC0F /* ComposableArchitecture.framework */; };
-		891148B093B4028A41F75C8F /* Service_Service.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 3D9502ABE8C8662DEA57F88E /* Service_Service.bundle */; };
-		8C85E8CCC8F4BAC32A1F8956 /* ConcurrencyExtras.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 10C2E0E9FA89653EBA928FFB /* ConcurrencyExtras.framework */; };
-		8C935BC4799F8B6E3A6223E1 /* OSLog.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F52A0D92C684C59849570BB /* OSLog.framework */; };
-		8EC393B68B27E55ED82E5D5F /* IssueReportingPackageSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9297D43D2BEFCC0B514EFC04 /* IssueReportingPackageSupport.framework */; };
-		9020315D7561610CEF9526ED /* DomainInterface.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B89ECB181A314C23A60BB911 /* DomainInterface.framework */; };
+		75E08F02FD27FCDFBD2E5A6D /* Service_Service.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 3D9502ABE8C8662DEA57F88E /* Service_Service.bundle */; };
+		8C3236EDFEFCCD376C0BA993 /* IdentifiedCollections.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF63D412AA4B009EF483F4BE /* IdentifiedCollections.framework */; };
 		90F9749BFCF03B4AB847C6B1 /* Test.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E427963EEC5B2C6424367BB /* Test.swift */; };
-		912F15FB808EFD42963B2181 /* CasePaths.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37D454E3D3DEA3106FC5B1D9 /* CasePaths.framework */; };
-		91CA37E449BC98542266178B /* Sharing.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E7A1228CBFFBBC21B6F7108 /* Sharing.framework */; };
-		928BF1612A4C4B5382E83F0A /* ConcurrencyExtras.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 10C2E0E9FA89653EBA928FFB /* ConcurrencyExtras.framework */; };
-		9759622C07EB4108F92C7BFC /* CasePathsCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FFF727FDBE22876C8AC9A3D /* CasePathsCore.framework */; };
-		97F28BD6F9D8D7A375441ADC /* Network.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD8B6B85F2D6B69FE70C1FBE /* Network.framework */; };
-		9B8EF829A7ECBDD6C160A24C /* ComposableArchitecture.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB18C1565FE3EAC96777EC0F /* ComposableArchitecture.framework */; };
-		9CC12E9DD61D2CE1545340E1 /* SwiftUINavigation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3F3F8C53FB3A64C8A67E329 /* SwiftUINavigation.framework */; };
-		A32EBE1E2A8BBF14B91E5477 /* IssueReportingPackageSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9297D43D2BEFCC0B514EFC04 /* IssueReportingPackageSupport.framework */; };
-		A3F778774B61770A1BCA5078 /* SwiftUINavigation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3F3F8C53FB3A64C8A67E329 /* SwiftUINavigation.framework */; };
+		9444B626F45CA5BE86C46B75 /* Network.framework in Dependencies */ = {isa = PBXBuildFile; fileRef = FD8B6B85F2D6B69FE70C1FBE /* Network.framework */; };
+		94B984FDB4595C62D67F76D2 /* SwiftUINavigation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3F3F8C53FB3A64C8A67E329 /* SwiftUINavigation.framework */; };
+		979007C1272DFEBD6DBD755F /* Sharing.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E7A1228CBFFBBC21B6F7108 /* Sharing.framework */; };
 		A7B8C8A10E30EC8A4499A4D7 /* CoreExport.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEB3C68C2ED81026636D7F75 /* CoreExport.swift */; };
-		A7E32CD107B343A3CD465C4C /* Clocks.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE351E328C333744FEAAACEF /* Clocks.framework */; };
-		A94DFA8DD7548315BB0CF161 /* DomainInterface.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B89ECB181A314C23A60BB911 /* DomainInterface.framework */; };
-		AA2C8708317F5556E909D43A /* DomainInterface.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B89ECB181A314C23A60BB911 /* DomainInterface.framework */; };
-		AC6749F009C54AB3B22C385D /* PerceptionCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 70750465C5300D484ABA9F60 /* PerceptionCore.framework */; };
 		ACD998D5ED2BDF9CEE159409 /* swift-sharing_Sharing.bundle in Dependencies */ = {isa = PBXBuildFile; fileRef = B8D5448233F039D5A9089DCB /* swift-sharing_Sharing.bundle */; };
-		AD8CB953E5D441B8542F4323 /* Sharing.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E7A1228CBFFBBC21B6F7108 /* Sharing.framework */; };
-		AE873DF4A98FEBAC5DAB4E05 /* Network.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD8B6B85F2D6B69FE70C1FBE /* Network.framework */; };
-		AF2B0313CE26DE7442DA3E5F /* CasePaths.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37D454E3D3DEA3106FC5B1D9 /* CasePaths.framework */; };
-		AFC6E50E24CB3A42ADC766CA /* SwiftUINavigation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3F3F8C53FB3A64C8A67E329 /* SwiftUINavigation.framework */; };
-		B36ECA6667048E6693FF7A9A /* DiContainer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7EBE4DE9FD75B5368768D93D /* DiContainer.framework */; };
-		B3F6238BD291CB7780E63545 /* InternalCollectionsUtilities.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 12A713B47F2AAA89018EAC9F /* InternalCollectionsUtilities.framework */; };
-		B49C0C48B313FA48AB6B5397 /* LogMacro.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABF88C39763A84B856476973 /* LogMacro.framework */; };
-		BAC14B2B430CF2FEC6001708 /* XCTestDynamicOverlay.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0E1BE020E6058D897035F31 /* XCTestDynamicOverlay.framework */; };
+		BB166AEB80170DC07A59728A /* Sharing2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2690CFF7D8527FFE80ABE74D /* Sharing2.framework */; };
 		BC8595A1E286E2F5B6EF15C9 /* Core.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B0FA7F85F3573FB522F9478 /* Core.framework */; };
-		BDF58A4C856FFC3CBE67FBBD /* LogMacro.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABF88C39763A84B856476973 /* LogMacro.framework */; };
-		BE2A82C9C8D2B6E2E0078C59 /* Clocks.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE351E328C333744FEAAACEF /* Clocks.framework */; };
-		BE857EFA75A291E0D632FBF8 /* Network.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD8B6B85F2D6B69FE70C1FBE /* Network.framework */; };
-		BEF5555990BBB95535D09740 /* Service_Service.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 3D9502ABE8C8662DEA57F88E /* Service_Service.bundle */; };
-		BF97AB1F1286F02D88CDF7BF /* CustomDump.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6739389F41AD55401939AA3 /* CustomDump.framework */; };
-		C1234BEE27DE517F8CE3A864 /* Service.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3ED045ECCC0A0126F7A4BC13 /* Service.framework */; };
-		C19440D7C9DE70C6EDF16A45 /* Sharing1.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 141E57E374A54F7AB6E29DC2 /* Sharing1.framework */; };
-		C4B8817284EFA5CEB15D1A40 /* Service_Service.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 3D9502ABE8C8662DEA57F88E /* Service_Service.bundle */; };
-		C6A9D0FB7BC398F04CF131AE /* LogMacro.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABF88C39763A84B856476973 /* LogMacro.framework */; };
-		C817E90B41D7B129CAAF83C4 /* Perception.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F8CC6237F3D4AE8F77CAE48 /* Perception.framework */; };
-		C9297C4ECC3FA3DD0DA1BB43 /* CustomDump.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6739389F41AD55401939AA3 /* CustomDump.framework */; };
-		C9F3B80FA983FA575F9B735A /* XCTestDynamicOverlay.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0E1BE020E6058D897035F31 /* XCTestDynamicOverlay.framework */; };
-		CAA8F9C0C53A1F3B80F97228 /* IdentifiedCollections.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF63D412AA4B009EF483F4BE /* IdentifiedCollections.framework */; };
-		CD91F1D61C226F8316805D3C /* CasePathsCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FFF727FDBE22876C8AC9A3D /* CasePathsCore.framework */; };
+		BDE61C949D6FB7DC56123B78 /* Network.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD8B6B85F2D6B69FE70C1FBE /* Network.framework */; };
+		BE4475BE52AA2F4D466CB475 /* CustomDump.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6739389F41AD55401939AA3 /* CustomDump.framework */; };
+		C4C57DB2F8BD70865359C16C /* InternalCollectionsUtilities.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 12A713B47F2AAA89018EAC9F /* InternalCollectionsUtilities.framework */; };
+		C92658201E234DA6A5F288A7 /* Repository.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6B638D8DB02624DD45D49E2 /* Repository.framework */; };
+		CE4013A0A1D971EF11B2DE7E /* SwiftNavigation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 091619AA614A7C59B502D9D5 /* SwiftNavigation.framework */; };
 		CFD8561A3158F0E8D1F37E31 /* CoreExport.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEB3C68C2ED81026636D7F75 /* CoreExport.swift */; };
-		D1B3E19A5BAFD54933477B6F /* ComposableArchitecture.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB18C1565FE3EAC96777EC0F /* ComposableArchitecture.framework */; };
-		D35EE132FCBD9B30CFA96C65 /* Clocks.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE351E328C333744FEAAACEF /* Clocks.framework */; };
-		D6FB16CDB69D52FF171AE043 /* Service.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3ED045ECCC0A0126F7A4BC13 /* Service.framework */; };
-		D807263AF515DA4FF704F991 /* Perception.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F8CC6237F3D4AE8F77CAE48 /* Perception.framework */; };
-		D8D02BB84AD77216D6013F99 /* Sharing1.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 141E57E374A54F7AB6E29DC2 /* Sharing1.framework */; };
-		D8D0B2291F7B85620B6DC4BF /* PerceptionCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 70750465C5300D484ABA9F60 /* PerceptionCore.framework */; };
-		D98CEEFAB801D7192323A352 /* SwiftNavigation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 091619AA614A7C59B502D9D5 /* SwiftNavigation.framework */; };
-		DB2E5FD322F40A6D95B7C5FB /* Dependencies.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB917DE30C69F723BDF65353 /* Dependencies.framework */; };
-		DC7456DBD2DBD2754C15EEAF /* CasePathsCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FFF727FDBE22876C8AC9A3D /* CasePathsCore.framework */; };
-		DE189ECAFE1EA2BAEA572638 /* UIKitNavigation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AEC4F1585F46781177064EC7 /* UIKitNavigation.framework */; };
-		DE99CE98396610B0D19BD58F /* DependenciesMacros.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C175D576FC2CE0FF66645233 /* DependenciesMacros.framework */; };
-		E02460EECD57C6BE33A4759B /* UIKitNavigationShim.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84F99CA60AD1F77541E67E93 /* UIKitNavigationShim.framework */; };
-		E5B720287B07983F7221D2EA /* CombineSchedulers.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED856AD323CCEEC229B2C7F9 /* CombineSchedulers.framework */; };
-		E5D416E83E8404C167333304 /* Repository.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6B638D8DB02624DD45D49E2 /* Repository.framework */; };
-		E6F8049D9D48859398776FE3 /* XCTestDynamicOverlay.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0E1BE020E6058D897035F31 /* XCTestDynamicOverlay.framework */; };
-		E8229BE9614ACFBDD107F8D2 /* DependenciesMacros.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C175D576FC2CE0FF66645233 /* DependenciesMacros.framework */; };
-		EE7267C14BD554AC1D7AABA6 /* ConcurrencyExtras.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 10C2E0E9FA89653EBA928FFB /* ConcurrencyExtras.framework */; };
-		F24CE72CE67DF688867DB06D /* SwiftNavigation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 091619AA614A7C59B502D9D5 /* SwiftNavigation.framework */; };
-		F42B79B8E602391E1A37BE6A /* CasePaths.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37D454E3D3DEA3106FC5B1D9 /* CasePaths.framework */; };
+		D74AAACA27391970511F0343 /* Network.framework in Dependencies */ = {isa = PBXBuildFile; fileRef = FD8B6B85F2D6B69FE70C1FBE /* Network.framework */; };
+		DF9B3AC64F495F0DD36AA80E /* CombineSchedulers.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED856AD323CCEEC229B2C7F9 /* CombineSchedulers.framework */; };
+		E12AE583572FB769F7ADA3CF /* CasePathsCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FFF727FDBE22876C8AC9A3D /* CasePathsCore.framework */; };
+		E3D39C532F29323A5E4C06CE /* XCTestDynamicOverlay.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0E1BE020E6058D897035F31 /* XCTestDynamicOverlay.framework */; };
+		EC65EC98E0FEC2E03E7DADFC /* DependenciesMacros.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C175D576FC2CE0FF66645233 /* DependenciesMacros.framework */; };
+		F39BAB2993A28AD7ACBD628E /* IssueReporting.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03E9AE72F3054B4A5B3FA955 /* IssueReporting.framework */; };
 		F4B05E023463D745BA025CD8 /* CoreExport.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEB3C68C2ED81026636D7F75 /* CoreExport.swift */; };
-		F9048C1176F9E1EE1743760B /* DependenciesMacros.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C175D576FC2CE0FF66645233 /* DependenciesMacros.framework */; };
-		F965D44749FBCF0F5B2DA464 /* Sharing.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E7A1228CBFFBBC21B6F7108 /* Sharing.framework */; };
-		FA35391AA4E5C0ED75A06ADF /* DiContainer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7EBE4DE9FD75B5368768D93D /* DiContainer.framework */; };
-		FA3AE178AFC2EC94AE27EDDF /* Repository.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6B638D8DB02624DD45D49E2 /* Repository.framework */; };
-		FC5B5B01425E3F711E6994B8 /* OSLog.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F52A0D92C684C59849570BB /* OSLog.framework */; };
-		FDB8C4369C262D1DFBCA5AA4 /* Service_Service.bundle in Dependencies */ = {isa = PBXBuildFile; fileRef = 3D9502ABE8C8662DEA57F88E /* Service_Service.bundle */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -191,7 +99,8 @@
 			buildActionMask = 8;
 			dstSubfolderSpec = 16;
 			files = (
-				FDB8C4369C262D1DFBCA5AA4 /* Service_Service.bundle in Dependencies */,
+				4EFBB932B65FF472590F1C62 /* Network.framework in Dependencies */,
+				1FA462C1CC95CEB52ADD430F /* UseCase.framework in Dependencies */,
 			);
 			name = Dependencies;
 			runOnlyForDeploymentPostprocessing = 1;
@@ -211,6 +120,7 @@
 			buildActionMask = 8;
 			dstSubfolderSpec = 16;
 			files = (
+				0E3385516C1ACCD13A9BA32F /* Service_Service.bundle in Dependencies */,
 				0741B662DD021EE9DC285449 /* swift-composable-architecture_ComposableArchitecture.bundle in Dependencies */,
 				ACD998D5ED2BDF9CEE159409 /* swift-sharing_Sharing.bundle in Dependencies */,
 			);
@@ -232,7 +142,8 @@
 			buildActionMask = 8;
 			dstSubfolderSpec = 16;
 			files = (
-				579348335859C6C854648878 /* Service_Service.bundle in Dependencies */,
+				9444B626F45CA5BE86C46B75 /* Network.framework in Dependencies */,
+				11D6FDD5BA3A2B4D063FC74A /* UseCase.framework in Dependencies */,
 			);
 			name = Dependencies;
 			runOnlyForDeploymentPostprocessing = 1;
@@ -242,7 +153,8 @@
 			buildActionMask = 8;
 			dstSubfolderSpec = 16;
 			files = (
-				27671F4BD6382E892A194222 /* Service_Service.bundle in Dependencies */,
+				D74AAACA27391970511F0343 /* Network.framework in Dependencies */,
+				5ECEAC3679704176AEDED160 /* UseCase.framework in Dependencies */,
 			);
 			name = Dependencies;
 			runOnlyForDeploymentPostprocessing = 1;
@@ -252,7 +164,8 @@
 			buildActionMask = 8;
 			dstSubfolderSpec = 16;
 			files = (
-				3127B32BAA58527AEC364E16 /* Service_Service.bundle in Dependencies */,
+				16AE2C1501853432A90AB98B /* Network.framework in Dependencies */,
+				6CCB3859BF7263A4050DFE1B /* UseCase.framework in Dependencies */,
 			);
 			name = Dependencies;
 			runOnlyForDeploymentPostprocessing = 1;
@@ -284,6 +197,7 @@
 		3D9502ABE8C8662DEA57F88E /* Service_Service.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Service_Service.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 		3E313EC3E53C9ED17660FD3F /* CoreTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CoreTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3ED045ECCC0A0126F7A4BC13 /* Service.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Service.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F9C516A0389461EC9B5D46E /* Model.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Model.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3FFF727FDBE22876C8AC9A3D /* CasePathsCore.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CasePathsCore.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4E7A1228CBFFBBC21B6F7108 /* Sharing.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Sharing.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4F52A0D92C684C59849570BB /* OSLog.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OSLog.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/OSLog.framework; sourceTree = DEVELOPER_DIR; };
@@ -305,6 +219,7 @@
 		B89ECB181A314C23A60BB911 /* DomainInterface.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DomainInterface.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B8D5448233F039D5A9089DCB /* swift-sharing_Sharing.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "swift-sharing_Sharing.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BB18C1565FE3EAC96777EC0F /* ComposableArchitecture.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ComposableArchitecture.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BCC113B61DA21855D30259B1 /* Utill.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Utill.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C175D576FC2CE0FF66645233 /* DependenciesMacros.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DependenciesMacros.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C3B9CE641601ED6073ABDA8E /* Core_Prod.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Core_Prod.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CA2D4CD69407DE3A95F1B5E7 /* Core_Stage.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Core_Stage.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -324,38 +239,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FC5B5B01425E3F711E6994B8 /* OSLog.framework in Frameworks */,
-				F42B79B8E602391E1A37BE6A /* CasePaths.framework in Frameworks */,
-				CD91F1D61C226F8316805D3C /* CasePathsCore.framework in Frameworks */,
-				A7E32CD107B343A3CD465C4C /* Clocks.framework in Frameworks */,
-				525351E14EA04957F3C37AAE /* CombineSchedulers.framework in Frameworks */,
-				3155400E555574E62DE20452 /* ComposableArchitecture.framework in Frameworks */,
-				657042F9411772AD1F67B4F8 /* ConcurrencyExtras.framework in Frameworks */,
-				6483116BE3903CA8C541C34C /* CustomDump.framework in Frameworks */,
-				71EF0FF722D9341DE7489E26 /* Dependencies.framework in Frameworks */,
-				7E892CACFFDCC68BB417358D /* DependenciesMacros.framework in Frameworks */,
-				B36ECA6667048E6693FF7A9A /* DiContainer.framework in Frameworks */,
-				A94DFA8DD7548315BB0CF161 /* DomainInterface.framework in Frameworks */,
-				25331ABA2B62C93B801F42C7 /* IdentifiedCollections.framework in Frameworks */,
-				23C8B915134EFE977A0AF44C /* InternalCollectionsUtilities.framework in Frameworks */,
-				0AC161F8F43479EF47B65273 /* IssueReporting.framework in Frameworks */,
-				8EC393B68B27E55ED82E5D5F /* IssueReportingPackageSupport.framework in Frameworks */,
-				BDF58A4C856FFC3CBE67FBBD /* LogMacro.framework in Frameworks */,
-				10DC8B84900B315C91AF6EDD /* Network.framework in Frameworks */,
-				581BA75F50FE6547B2732D10 /* OrderedCollections.framework in Frameworks */,
-				7F1A303924CE85716B92157B /* Perception.framework in Frameworks */,
-				D8D0B2291F7B85620B6DC4BF /* PerceptionCore.framework in Frameworks */,
-				0ABD067AC835C34B144A119C /* Repository.framework in Frameworks */,
-				D6FB16CDB69D52FF171AE043 /* Service.framework in Frameworks */,
-				6ADBD1397C6A44688E9A4170 /* Sharing.framework in Frameworks */,
-				1A4CE5864E3E0A793F262D04 /* Sharing1.framework in Frameworks */,
-				2E139BFE929C679F3FA93456 /* Sharing2.framework in Frameworks */,
-				4112B6136D7137512BB47137 /* SwiftNavigation.framework in Frameworks */,
-				090FFCC091BDCB28F3096CE7 /* SwiftUINavigation.framework in Frameworks */,
-				DE189ECAFE1EA2BAEA572638 /* UIKitNavigation.framework in Frameworks */,
-				84F29B64D24E2F2F7E7C75AF /* UIKitNavigationShim.framework in Frameworks */,
-				4A8A4FF21E2466F27305A4B8 /* UseCase.framework in Frameworks */,
-				283B75BE810668074615A488 /* XCTestDynamicOverlay.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -363,38 +246,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1EF87D70918A73AFB220707D /* OSLog.framework in Frameworks */,
-				0887602F05D5297DFF9512B6 /* CasePaths.framework in Frameworks */,
-				9759622C07EB4108F92C7BFC /* CasePathsCore.framework in Frameworks */,
-				D35EE132FCBD9B30CFA96C65 /* Clocks.framework in Frameworks */,
-				7B3D1F3D101ADF89557F377A /* CombineSchedulers.framework in Frameworks */,
-				9B8EF829A7ECBDD6C160A24C /* ComposableArchitecture.framework in Frameworks */,
-				928BF1612A4C4B5382E83F0A /* ConcurrencyExtras.framework in Frameworks */,
-				C9297C4ECC3FA3DD0DA1BB43 /* CustomDump.framework in Frameworks */,
-				6E1098966CBE1B64D1958523 /* Dependencies.framework in Frameworks */,
-				DE99CE98396610B0D19BD58F /* DependenciesMacros.framework in Frameworks */,
-				575C6F7C9AF3E146CD7010AE /* DiContainer.framework in Frameworks */,
-				AA2C8708317F5556E909D43A /* DomainInterface.framework in Frameworks */,
-				193C3045681EE3E35615EEF4 /* IdentifiedCollections.framework in Frameworks */,
-				B3F6238BD291CB7780E63545 /* InternalCollectionsUtilities.framework in Frameworks */,
-				3AFA724175D614A70532C76C /* IssueReporting.framework in Frameworks */,
-				A32EBE1E2A8BBF14B91E5477 /* IssueReportingPackageSupport.framework in Frameworks */,
-				B49C0C48B313FA48AB6B5397 /* LogMacro.framework in Frameworks */,
-				97F28BD6F9D8D7A375441ADC /* Network.framework in Frameworks */,
-				53CBEAA13C914C361402B056 /* OrderedCollections.framework in Frameworks */,
-				666209C52E74FB8C6EFA853B /* Perception.framework in Frameworks */,
-				AC6749F009C54AB3B22C385D /* PerceptionCore.framework in Frameworks */,
-				70D5DB78FC01271FA17127DB /* Repository.framework in Frameworks */,
-				C1234BEE27DE517F8CE3A864 /* Service.framework in Frameworks */,
-				F965D44749FBCF0F5B2DA464 /* Sharing.framework in Frameworks */,
-				C19440D7C9DE70C6EDF16A45 /* Sharing1.framework in Frameworks */,
-				7E0F7A2E919A8E3E252C6E5E /* Sharing2.framework in Frameworks */,
-				54DA91BADE1E4B3FBC17C12A /* SwiftNavigation.framework in Frameworks */,
-				A3F778774B61770A1BCA5078 /* SwiftUINavigation.framework in Frameworks */,
-				0B2DBBBB0D34113CBC8D6045 /* UIKitNavigation.framework in Frameworks */,
-				1D11E73C71A95EF9678C1727 /* UIKitNavigationShim.framework in Frameworks */,
-				5A9AA023C2642C5EE42E3CAE /* UseCase.framework in Frameworks */,
-				C9F3B80FA983FA575F9B735A /* XCTestDynamicOverlay.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -402,38 +253,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8C935BC4799F8B6E3A6223E1 /* OSLog.framework in Frameworks */,
-				912F15FB808EFD42963B2181 /* CasePaths.framework in Frameworks */,
-				DC7456DBD2DBD2754C15EEAF /* CasePathsCore.framework in Frameworks */,
-				1B86A8C6675D3D06F3A4B422 /* Clocks.framework in Frameworks */,
-				44EF53FEAA0FD1F604AFA623 /* CombineSchedulers.framework in Frameworks */,
-				887EBC2FF03A101E2EAA63DA /* ComposableArchitecture.framework in Frameworks */,
-				8C85E8CCC8F4BAC32A1F8956 /* ConcurrencyExtras.framework in Frameworks */,
-				BF97AB1F1286F02D88CDF7BF /* CustomDump.framework in Frameworks */,
-				DB2E5FD322F40A6D95B7C5FB /* Dependencies.framework in Frameworks */,
-				E8229BE9614ACFBDD107F8D2 /* DependenciesMacros.framework in Frameworks */,
-				FA35391AA4E5C0ED75A06ADF /* DiContainer.framework in Frameworks */,
-				04950684383BD50C3C3F0634 /* DomainInterface.framework in Frameworks */,
-				0361917575288BC2EAD1F718 /* IdentifiedCollections.framework in Frameworks */,
-				71592F799F7E3F1E40CE7D14 /* InternalCollectionsUtilities.framework in Frameworks */,
-				226AA78C1A3143B0A5EC1D8E /* IssueReporting.framework in Frameworks */,
-				28179AACF7CEE8F379C94168 /* IssueReportingPackageSupport.framework in Frameworks */,
-				822DF876BB668FF81689C7E4 /* LogMacro.framework in Frameworks */,
-				BE857EFA75A291E0D632FBF8 /* Network.framework in Frameworks */,
-				30C165DDDBA521864ADED55A /* OrderedCollections.framework in Frameworks */,
-				D807263AF515DA4FF704F991 /* Perception.framework in Frameworks */,
-				60F926638241B9ADFD8E2777 /* PerceptionCore.framework in Frameworks */,
-				E5D416E83E8404C167333304 /* Repository.framework in Frameworks */,
-				4136091B0498B913CAF09504 /* Service.framework in Frameworks */,
-				91CA37E449BC98542266178B /* Sharing.framework in Frameworks */,
-				D8D02BB84AD77216D6013F99 /* Sharing1.framework in Frameworks */,
-				0A6F0AAF346955B125A6D78E /* Sharing2.framework in Frameworks */,
-				D98CEEFAB801D7192323A352 /* SwiftNavigation.framework in Frameworks */,
-				9CC12E9DD61D2CE1545340E1 /* SwiftUINavigation.framework in Frameworks */,
-				83AE0163C0E55279C04C6B35 /* UIKitNavigation.framework in Frameworks */,
-				69690E1DEF5699A93C48725C /* UIKitNavigationShim.framework in Frameworks */,
-				57C0F9688A74616539B65893 /* UseCase.framework in Frameworks */,
-				BAC14B2B430CF2FEC6001708 /* XCTestDynamicOverlay.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -441,38 +260,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				356A4BB64B50FE64EFEC39A0 /* OSLog.framework in Frameworks */,
-				AF2B0313CE26DE7442DA3E5F /* CasePaths.framework in Frameworks */,
-				743EB41AABC12C12649285B2 /* CasePathsCore.framework in Frameworks */,
-				BE2A82C9C8D2B6E2E0078C59 /* Clocks.framework in Frameworks */,
-				E5B720287B07983F7221D2EA /* CombineSchedulers.framework in Frameworks */,
-				D1B3E19A5BAFD54933477B6F /* ComposableArchitecture.framework in Frameworks */,
-				EE7267C14BD554AC1D7AABA6 /* ConcurrencyExtras.framework in Frameworks */,
-				705279422C0A90992618D1ED /* CustomDump.framework in Frameworks */,
-				2D5D4F61040CC8BFD8179471 /* Dependencies.framework in Frameworks */,
-				F9048C1176F9E1EE1743760B /* DependenciesMacros.framework in Frameworks */,
-				6EEE5BD721C926FE6E08ABED /* DiContainer.framework in Frameworks */,
-				9020315D7561610CEF9526ED /* DomainInterface.framework in Frameworks */,
-				CAA8F9C0C53A1F3B80F97228 /* IdentifiedCollections.framework in Frameworks */,
-				1B0450341B849AEFCC59BC15 /* InternalCollectionsUtilities.framework in Frameworks */,
-				6D302121547606A8E2023A8A /* IssueReporting.framework in Frameworks */,
-				21306BFBBC8970FA6C09C67A /* IssueReportingPackageSupport.framework in Frameworks */,
-				C6A9D0FB7BC398F04CF131AE /* LogMacro.framework in Frameworks */,
-				AE873DF4A98FEBAC5DAB4E05 /* Network.framework in Frameworks */,
-				02C8AC5E9D8916ADD6307109 /* OrderedCollections.framework in Frameworks */,
-				C817E90B41D7B129CAAF83C4 /* Perception.framework in Frameworks */,
-				4584FA74CCA4B45BDFBC2B84 /* PerceptionCore.framework in Frameworks */,
-				FA3AE178AFC2EC94AE27EDDF /* Repository.framework in Frameworks */,
-				0EF10848EB1E5A8ED6641F12 /* Service.framework in Frameworks */,
-				AD8CB953E5D441B8542F4323 /* Sharing.framework in Frameworks */,
-				8460A0263EB5BB299A2ABD2E /* Sharing1.framework in Frameworks */,
-				543E087427D4A8420C2134C1 /* Sharing2.framework in Frameworks */,
-				F24CE72CE67DF688867DB06D /* SwiftNavigation.framework in Frameworks */,
-				AFC6E50E24CB3A42ADC766CA /* SwiftUINavigation.framework in Frameworks */,
-				720F08719A20288CF9AAFA7E /* UIKitNavigation.framework in Frameworks */,
-				E02460EECD57C6BE33A4759B /* UIKitNavigationShim.framework in Frameworks */,
-				36993172D516F95C289F2335 /* UseCase.framework in Frameworks */,
-				E6F8049D9D48859398776FE3 /* XCTestDynamicOverlay.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -480,7 +267,41 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				426E4CA766D090E97D310A06 /* OSLog.framework in Frameworks */,
+				73B227E88875DC723B874A3B /* CasePaths.framework in Frameworks */,
+				E12AE583572FB769F7ADA3CF /* CasePathsCore.framework in Frameworks */,
+				1D9F665899C0A1842451814E /* Clocks.framework in Frameworks */,
+				DF9B3AC64F495F0DD36AA80E /* CombineSchedulers.framework in Frameworks */,
+				23403FE6A7A808E7C7370F1E /* ComposableArchitecture.framework in Frameworks */,
+				62746F1C6A885411CC423F9A /* ConcurrencyExtras.framework in Frameworks */,
 				BC8595A1E286E2F5B6EF15C9 /* Core.framework in Frameworks */,
+				BE4475BE52AA2F4D466CB475 /* CustomDump.framework in Frameworks */,
+				6B3C0EE6CC4023996976A966 /* Dependencies.framework in Frameworks */,
+				EC65EC98E0FEC2E03E7DADFC /* DependenciesMacros.framework in Frameworks */,
+				4E5E7CA23B2FDDE8CB94BB9E /* DiContainer.framework in Frameworks */,
+				61D8EFBE44FD4F7F81A1EB67 /* DomainInterface.framework in Frameworks */,
+				8C3236EDFEFCCD376C0BA993 /* IdentifiedCollections.framework in Frameworks */,
+				C4C57DB2F8BD70865359C16C /* InternalCollectionsUtilities.framework in Frameworks */,
+				F39BAB2993A28AD7ACBD628E /* IssueReporting.framework in Frameworks */,
+				09AE17653F5CC350E8D3C66C /* IssueReportingPackageSupport.framework in Frameworks */,
+				4D82B7A696124B1C7EC28857 /* LogMacro.framework in Frameworks */,
+				29676669F0AB5BBDC31DFDAC /* Model.framework in Frameworks */,
+				BDE61C949D6FB7DC56123B78 /* Network.framework in Frameworks */,
+				5BEF1F499711C03A721FEFB4 /* OrderedCollections.framework in Frameworks */,
+				6B6DDEC8FEBDCA250F66F021 /* Perception.framework in Frameworks */,
+				3DE1D52265CF97679296909C /* PerceptionCore.framework in Frameworks */,
+				C92658201E234DA6A5F288A7 /* Repository.framework in Frameworks */,
+				6BCBCE407A28F91FFB46BF99 /* Service.framework in Frameworks */,
+				979007C1272DFEBD6DBD755F /* Sharing.framework in Frameworks */,
+				17AFA2F78FF6036B0ED5AE73 /* Sharing1.framework in Frameworks */,
+				BB166AEB80170DC07A59728A /* Sharing2.framework in Frameworks */,
+				CE4013A0A1D971EF11B2DE7E /* SwiftNavigation.framework in Frameworks */,
+				94B984FDB4595C62D67F76D2 /* SwiftUINavigation.framework in Frameworks */,
+				66EEEE53E27FAC870E87645E /* UIKitNavigation.framework in Frameworks */,
+				295AF71D3FDBB3AB6A22E218 /* UIKitNavigationShim.framework in Frameworks */,
+				29941B44EBF2A79BFE016C99 /* UseCase.framework in Frameworks */,
+				41C69034BA561E22EA554F19 /* Utill.framework in Frameworks */,
+				E3D39C532F29323A5E4C06CE /* XCTestDynamicOverlay.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -527,6 +348,7 @@
 				03E9AE72F3054B4A5B3FA955 /* IssueReporting.framework */,
 				9297D43D2BEFCC0B514EFC04 /* IssueReportingPackageSupport.framework */,
 				ABF88C39763A84B856476973 /* LogMacro.framework */,
+				3F9C516A0389461EC9B5D46E /* Model.framework */,
 				FD8B6B85F2D6B69FE70C1FBE /* Network.framework */,
 				FC6EA3166EAE3B4E5C3A3655 /* OrderedCollections.framework */,
 				1F8CC6237F3D4AE8F77CAE48 /* Perception.framework */,
@@ -544,6 +366,7 @@
 				AEC4F1585F46781177064EC7 /* UIKitNavigation.framework */,
 				84F99CA60AD1F77541E67E93 /* UIKitNavigationShim.framework */,
 				DE81E51C38BC7DF49AD255BD /* UseCase.framework */,
+				BCC113B61DA21855D30259B1 /* Utill.framework */,
 				B0E1BE020E6058D897035F31 /* XCTestDynamicOverlay.framework */,
 			);
 			name = Products;
@@ -758,7 +581,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C4B8817284EFA5CEB15D1A40 /* Service_Service.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -766,6 +588,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				75E08F02FD27FCDFBD2E5A6D /* Service_Service.bundle in Resources */,
 				5CB29D72D1FE671A3BFE6D7B /* swift-composable-architecture_ComposableArchitecture.bundle in Resources */,
 				741A5006FF2D931F1EFAC7E4 /* swift-sharing_Sharing.bundle in Resources */,
 			);
@@ -775,7 +598,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3E5CB6C180291E9AB2899FF9 /* Service_Service.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -783,7 +605,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BEF5555990BBB95535D09740 /* Service_Service.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -791,7 +612,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				891148B093B4028A41F75C8F /* Service_Service.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -925,6 +745,7 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
+				MACH_O_TYPE = staticlib;
 				OTHER_CFLAGS = (
 					"$(inherited)",
 					"-fmodule-map-file=$(SRCROOT)/../../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include/module.modulemap",
@@ -1040,6 +861,7 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
+				MACH_O_TYPE = staticlib;
 				OTHER_CFLAGS = (
 					"$(inherited)",
 					"-fmodule-map-file=$(SRCROOT)/../../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include/module.modulemap",
@@ -1104,6 +926,7 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
+				MACH_O_TYPE = staticlib;
 				OTHER_CFLAGS = (
 					"$(inherited)",
 					"-fmodule-map-file=$(SRCROOT)/../../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include/module.modulemap",
@@ -1164,6 +987,7 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
+				MACH_O_TYPE = staticlib;
 				OTHER_CFLAGS = (
 					"$(inherited)",
 					"-fmodule-map-file=$(SRCROOT)/../../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include/module.modulemap",
@@ -1228,6 +1052,7 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
+				MACH_O_TYPE = staticlib;
 				OTHER_CFLAGS = (
 					"$(inherited)",
 					"-fmodule-map-file=$(SRCROOT)/../../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include/module.modulemap",
@@ -1402,6 +1227,7 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
+				MACH_O_TYPE = staticlib;
 				OTHER_CFLAGS = (
 					"$(inherited)",
 					"-fmodule-map-file=$(SRCROOT)/../../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include/module.modulemap",
@@ -1462,6 +1288,7 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
+				MACH_O_TYPE = staticlib;
 				OTHER_CFLAGS = (
 					"$(inherited)",
 					"-fmodule-map-file=$(SRCROOT)/../../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include/module.modulemap",
@@ -1526,6 +1353,7 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
+				MACH_O_TYPE = staticlib;
 				OTHER_CFLAGS = (
 					"$(inherited)",
 					"-fmodule-map-file=$(SRCROOT)/../../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include/module.modulemap",

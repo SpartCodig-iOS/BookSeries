@@ -10,11 +10,17 @@ import Foundation
 import LogMacro
 
 
-import Foundation
-
 // MARK: - JSONManager
 public actor JSONManager {
   public init() {}
+
+   static let resourceURLCache = NSCache<NSString, NSURL>()
+
+    nonisolated private static func cacheKey(
+      bundle: Bundle, name: String, ext: String, subdir: String?
+    ) -> NSString {
+      "\(bundle.bundlePath)|\(subdir ?? "")|\(name).\(ext)" as NSString
+    }
 
   // MARK: - Core Parsing Methods
   public static func parse<T: Decodable, Input: JSONInput>(
@@ -31,15 +37,14 @@ public actor JSONManager {
   /// 로컬 JSON 로드 (Tuist/멀티모듈/SwiftPM 모두 대응)
   public static func parseFromFile<T: Decodable>(
     _ type: T.Type,
-    fileName: String,               // "BookListData" 또는 "BookListData.json"
-    ext: String? = nil,             // 미지정 시 자동 "json"
-    bundle: Bundle? = nil,          // 우선 번들(기본: ServiceBundle.bundle)
-    subdirectory: String? = nil     // 리소스가 폴더에 있을 때
+    fileName: String,
+    ext: String? = nil,
+    bundle: Bundle? = nil,
+    subdirectory: String? = nil
   ) async throws -> T {
     let (name, ext) = normalize(fileName, preferExt: ext)
     let preferred = bundle ?? ServiceBundle.bundle
 
-    // 번들 후보군(중복 제거 + 탐색 순서 보장)
     var seen = Set<String>()
     let bundles: [Bundle] =
       ([preferred, Bundle(for: JSONManager.self), .main] + Bundle.allFrameworks + Bundle.allBundles)
@@ -48,10 +53,20 @@ public actor JSONManager {
 
     var tried: [String] = []
     for b in bundles {
+      // ✅ 캐시 조회
+      let key = cacheKey(bundle: b, name: name, ext: ext, subdir: subdirectory)
+      if let cached = resourceURLCache.object(forKey: key) {
+        let data = try Data(contentsOf: cached as URL, options: [.mappedIfSafe])
+        return try await parse(type, from: data)
+      }
+
+      // ✅ 미스 시 검색 → 적중하면 캐시에 저장
       if let url = findResource(named: name, ext: ext, subdir: subdirectory, in: b) {
+        resourceURLCache.setObject(url as NSURL, forKey: key)
         let data = try Data(contentsOf: url, options: [.mappedIfSafe])
         return try await parse(type, from: data)
       }
+
       tried.append("• \(b.bundlePath) —")
     }
 
