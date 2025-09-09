@@ -1,5 +1,5 @@
 {
-  "originHash" : "db39e3c2c35f601570772ca18838ee4dadc56394006130f673542c75ed23df56",
+  "originHash" : "7eacb737adbdfbf5b407d4f045992e0ab1795db7979741e3c560870d790a629a",
   "pins" : [
     {
       "identity" : "combine-schedulers",
@@ -15,17 +15,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/Roy-wonji/DiContainer.git",
       "state" : {
-        "revision" : "be139e687aa8fd97ee5621ee442a72f09266021a",
-        "version" : "1.1.4"
-      }
-    },
-    {
-      "identity" : "flexlayout",
-      "kind" : "remoteSourceControl",
-      "location" : "https://github.com/layoutBox/FlexLayout.git",
-      "state" : {
-        "revision" : "45b4e7cbcc9f35c05112860f4eb897aae4f5011c",
-        "version" : "2.2.2"
+        "revision" : "d6332d0f7e1240eb8acd6b42299e92391dc43e41",
+        "version" : "1.1.5"
       }
     },
     {
@@ -38,12 +29,12 @@
       }
     },
     {
-      "identity" : "pinlayout",
+      "identity" : "snapkit",
       "kind" : "remoteSourceControl",
-      "location" : "https://github.com/layoutBox/PinLayout",
+      "location" : "https://github.com/SnapKit/SnapKit.git",
       "state" : {
-        "revision" : "72f5300042618340df21500f6c4ce71bb78b93e1",
-        "version" : "1.10.6"
+        "revision" : "2842e6e84e82eb9a8dac0100ca90d9444b0307f4",
+        "version" : "5.7.1"
       }
     },
     {
@@ -170,15 +161,6 @@
       "state" : {
         "revision" : "b2ed9eabefe56202ee4939dd9fc46b6241c88317",
         "version" : "1.6.1"
-      }
-    },
-    {
-      "identity" : "yoga",
-      "kind" : "remoteSourceControl",
-      "location" : "https://github.com/facebook/yoga.git",
-      "state" : {
-        "revision" : "042f5013152eb81c1552dec945b88f7b95ca350f",
-        "version" : "3.2.1"
       }
     }
   ],
