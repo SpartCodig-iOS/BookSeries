@@ -9,15 +9,15 @@ import Foundation
 
 
 public struct Book: Equatable {
-    public let title: String
-    public let author: String
-    public let pages: Int
+  public let title: String
+  public let author: String
+  public let pages: Int
   public let image: String
-    public let releaseDate: String
-    public let dedication: String?
-    public let summary: String
-    public let wiki: String
-    public let chapters: [String]
+  public let releaseDate: String
+  public let dedication: String
+  public let summary: String
+  public let wiki: String
+  public let chapters: [String]
 
   public init(
     title: String,
@@ -25,7 +25,7 @@ public struct Book: Equatable {
     pages: Int,
     image: String,
     releaseDate: String,
-    dedication: String?,
+    dedication: String,
     summary: String,
     wiki: String,
     chapters: [String]

@@ -21,7 +21,7 @@ public struct AttributesDTO: Decodable, Sendable {
   let author: String
   let pages: Int
   let releaseDate: String?
-  let dedication: String?
+  let dedication: String
   let summary: String
   let wiki: String
   let image: String
@@ -46,7 +46,7 @@ public struct AttributesDTO: Decodable, Sendable {
     title       = try codingKey.decode(String.self, forKey: .title)
     author      = try codingKey.decode(String.self, forKey: .author)
     pages       = try codingKey.decode(Int.self,    forKey: .pages)
-    dedication  = try codingKey.decodeIfPresent(String.self, forKey: .dedication)
+    dedication  = try codingKey.decode(String.self, forKey: .dedication)
     summary     = try codingKey.decode(String.self, forKey: .summary)
     wiki        = try codingKey.decode(String.self, forKey: .wiki)
     chapters    = try codingKey.decode([ChapterDTO].self, forKey: .chapters)
