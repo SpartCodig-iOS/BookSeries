@@ -11,6 +11,7 @@ import Repository
 
 import ComposableArchitecture
 import DiContainer
+import Foundation
 
 public struct BookListUseCaseImpl: BookListInterface {
 
@@ -27,14 +28,15 @@ public struct BookListUseCaseImpl: BookListInterface {
 }
 
 extension DependencyContainer {
-  var bookListUseCase: BookListInterface? {
+  var bookListInterface: BookListInterface? {
     resolve(BookListInterface.self)
   }
 }
 
 extension BookListUseCaseImpl: DependencyKey {
+
   public static var liveValue: BookListInterface = {
-    let repository = ContainerResgister(\.bookListUseCase).wrappedValue
+    let repository = ContainerRegister(\.bookListInterface, defaultFactory:  { BookListRepositoryImpl()}).wrappedValue
     return BookListUseCaseImpl(repository: repository)
   }()
 }

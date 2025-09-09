@@ -12,6 +12,7 @@ public struct Book: Equatable {
     public let title: String
     public let author: String
     public let pages: Int
+  public let image: String
     public let releaseDate: String
     public let dedication: String?
     public let summary: String
@@ -22,6 +23,7 @@ public struct Book: Equatable {
     title: String,
     author: String,
     pages: Int,
+    image: String,
     releaseDate: String,
     dedication: String?,
     summary: String,
@@ -31,6 +33,7 @@ public struct Book: Equatable {
     self.title = title
     self.author = author
     self.pages = pages
+    self.image = image
     self.releaseDate = releaseDate
     self.dedication = dedication
     self.summary = summary

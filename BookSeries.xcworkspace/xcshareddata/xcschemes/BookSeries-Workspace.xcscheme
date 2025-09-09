@@ -532,34 +532,6 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "74F4A0C60FFE24D6B3C40707"
-               BuildableName = "FlexLayout.framework"
-               BlueprintName = "FlexLayout"
-               ReferencedContainer = "container:Tuist/.build/tuist-derived/FlexLayout/FlexLayout.xcodeproj">
-            </BuildableReference>
-         </BuildActionEntry>
-         <BuildActionEntry
-            buildForTesting = "YES"
-            buildForRunning = "YES"
-            buildForProfiling = "YES"
-            buildForArchiving = "YES"
-            buildForAnalyzing = "YES">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "4FD122C7BA22F7F2B0B2FA6B"
-               BuildableName = "FlexLayoutYogaKit.framework"
-               BlueprintName = "FlexLayoutYogaKit"
-               ReferencedContainer = "container:Tuist/.build/tuist-derived/FlexLayout/FlexLayout.xcodeproj">
-            </BuildableReference>
-         </BuildActionEntry>
-         <BuildActionEntry
-            buildForTesting = "YES"
-            buildForRunning = "YES"
-            buildForProfiling = "YES"
-            buildForArchiving = "YES"
-            buildForAnalyzing = "YES">
-            <BuildableReference
-               BuildableIdentifier = "primary"
                BlueprintIdentifier = "210AE3919E1578F6373794C3"
                BuildableName = "IdentifiedCollections.framework"
                BlueprintName = "IdentifiedCollections"
@@ -830,20 +802,6 @@
                BuildableName = "PerceptionMacros"
                BlueprintName = "PerceptionMacros"
                ReferencedContainer = "container:Tuist/.build/tuist-derived/swift-perception/swift-perception.xcodeproj">
-            </BuildableReference>
-         </BuildActionEntry>
-         <BuildActionEntry
-            buildForTesting = "YES"
-            buildForRunning = "YES"
-            buildForProfiling = "YES"
-            buildForArchiving = "YES"
-            buildForAnalyzing = "YES">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "DEC02ABED86D47022B784EB7"
-               BuildableName = "PinLayout.framework"
-               BlueprintName = "PinLayout"
-               ReferencedContainer = "container:Tuist/.build/tuist-derived/PinLayout/PinLayout.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
          <BuildActionEntry
@@ -1222,6 +1180,34 @@
                BuildableName = "Sharing2.framework"
                BlueprintName = "Sharing2"
                ReferencedContainer = "container:Tuist/.build/tuist-derived/swift-sharing/swift-sharing.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "8A043024BB190898066F1729"
+               BuildableName = "SnapKit.framework"
+               BlueprintName = "SnapKit"
+               ReferencedContainer = "container:Tuist/.build/tuist-derived/SnapKit/SnapKit.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "6373C89B0415733128F88C67"
+               BuildableName = "SnapKit_SnapKit.bundle"
+               BlueprintName = "SnapKit_SnapKit"
+               ReferencedContainer = "container:Tuist/.build/tuist-derived/SnapKit/SnapKit.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
          <BuildActionEntry
@@ -1726,20 +1712,6 @@
                BuildableName = "_SwiftSyntaxCShims.framework"
                BlueprintName = "_SwiftSyntaxCShims"
                ReferencedContainer = "container:Tuist/.build/tuist-derived/swift-syntax/swift-syntax.xcodeproj">
-            </BuildableReference>
-         </BuildActionEntry>
-         <BuildActionEntry
-            buildForTesting = "YES"
-            buildForRunning = "YES"
-            buildForProfiling = "YES"
-            buildForArchiving = "YES"
-            buildForAnalyzing = "YES">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "BCC7008FC79CC5F75DE8AC9B"
-               BuildableName = "core.framework"
-               BlueprintName = "core"
-               ReferencedContainer = "container:Tuist/.build/tuist-derived/yoga/yoga.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
          <BuildActionEntry

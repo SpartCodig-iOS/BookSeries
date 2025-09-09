@@ -75,13 +75,10 @@
          location = "group:Tuist/.build/tuist-derived/DiContainer/DiContainer.xcodeproj">
       </FileRef>
       <FileRef
-         location = "group:Tuist/.build/tuist-derived/FlexLayout/FlexLayout.xcodeproj">
-      </FileRef>
-      <FileRef
          location = "group:Tuist/.build/tuist-derived/LogMacro/LogMacro.xcodeproj">
       </FileRef>
       <FileRef
-         location = "group:Tuist/.build/tuist-derived/PinLayout/PinLayout.xcodeproj">
+         location = "group:Tuist/.build/tuist-derived/SnapKit/SnapKit.xcodeproj">
       </FileRef>
       <FileRef
          location = "group:Tuist/.build/tuist-derived/Then/Then.xcodeproj">
@@ -127,9 +124,6 @@
       </FileRef>
       <FileRef
          location = "group:Tuist/.build/tuist-derived/xctest-dynamic-overlay/xctest-dynamic-overlay.xcodeproj">
-      </FileRef>
-      <FileRef
-         location = "group:Tuist/.build/tuist-derived/yoga/yoga.xcodeproj">
       </FileRef>
    </Group>
 </Workspace>

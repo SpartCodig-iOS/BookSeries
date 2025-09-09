@@ -16,12 +16,12 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
   func scene(_ scene: UIScene, willConnectTo session: UISceneSession, options connectionOptions: UIScene.ConnectionOptions) {
     guard let windowScene = scene as? UIWindowScene else { return }
     let window = UIWindow(windowScene: windowScene)
-    let rootVC = ViewController(
-      store: Store(initialState: BookList.State()) {
-        BookList()
-          ._printChanges() // 디버깅용
-      }
-    )
+    let appStore = Store(initialState: AppReducer.State()) {
+      AppReducer()
+        ._printChanges()
+    }
+
+    let rootVC = AppRootViewController(store: appStore)
 
     window.rootViewController = rootVC
     window.makeKeyAndVisible()

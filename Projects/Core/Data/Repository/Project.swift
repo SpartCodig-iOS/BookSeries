@@ -12,7 +12,9 @@ let project = Project.makeAppModule(
   settings:  .settings(),
   dependencies: [
     .Domain(implements: .DomainInterface),
-    .Network(implements: .Service)
+    .Network(implements: .Service),
+    .SPM.diContainer
+
   ],
   sources: ["Sources/**"]
 )

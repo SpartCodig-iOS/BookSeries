@@ -12,6 +12,7 @@ import DomainInterface
 import Model
 import Service
 import Foundation
+import DiContainer
 
 
 @Observable

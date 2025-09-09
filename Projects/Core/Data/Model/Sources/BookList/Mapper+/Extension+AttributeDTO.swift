@@ -13,6 +13,7 @@ public extension AttributesDTO {
       title: title,
       author: author,
       pages: pages,
+      image: image,
       releaseDate: releaseDate ?? "",
       dedication: dedication,
       summary: summary,

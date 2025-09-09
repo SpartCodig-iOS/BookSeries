@@ -5,7 +5,6 @@
 //  Created by 서원지 on 1/6/24.
 //
 
-import Foundation
 import ProjectDescription
 
 extension Settings {
@@ -24,16 +23,14 @@ extension Settings {
       .setSkipInstall(setSkipInstall)
       .setCFBundleDevelopmentRegion("ko")
   }
-  
-  private static func commonBaseSettings(
-    appName: String
-  ) -> SettingsDictionary {
-    return SettingsDictionary()
+
+  private static func commonBaseSettings(appName: String) -> SettingsDictionary {
+    SettingsDictionary()
       .setProductName(appName)
       .setOtherLdFlags("-ObjC -all_load")
       .setStripStyle()
   }
-  
+
   public static let appMainSetting: Settings = .settings(
     base: SettingsDictionary()
       .setProductName(Project.Environment.appName)
@@ -54,54 +51,50 @@ extension Settings {
     configurations: [
       .debug(
         name: .debug,
-        settings:
-          commonSettings(
-            appName: Project.Environment.appName,
-            displayName: Project.Environment.appName,
-            provisioningProfile: "match Development \(Project.Environment.bundlePrefix)",
-            setSkipInstall: false
-          ),
+        settings: commonSettings(
+          appName: Project.Environment.appName,
+          displayName: Project.Environment.appName,
+          provisioningProfile: "match Development \(Project.Environment.bundlePrefix)",
+          setSkipInstall: false
+        ),
         xcconfig: .path(.dev)
       ),
       .debug(
         name: .stage,
-        settings:
-          commonSettings(
-            appName: Project.Environment.appStageName,
-            displayName: Project.Environment.appName,
-            provisioningProfile: "match Development \(Project.Environment.bundlePrefix)",
-            setSkipInstall: false
-          ),
+        settings: commonSettings(
+          appName: Project.Environment.appStageName,
+          displayName: Project.Environment.appName,
+          provisioningProfile: "match Development \(Project.Environment.bundlePrefix)",
+          setSkipInstall: false
+        ),
         xcconfig: .path(.stage)
       ),
       .release(
         name: .release,
-        settings:
-          commonSettings(
-            appName: Project.Environment.appName,
-            displayName: Project.Environment.appName,
-            provisioningProfile: "match AppStore \(Project.Environment.bundlePrefix)",
-            setSkipInstall: false
-          ),
+        settings: commonSettings(
+          appName: Project.Environment.appName,
+          displayName: Project.Environment.appName,
+          provisioningProfile: "match AppStore \(Project.Environment.bundlePrefix)",
+          setSkipInstall: false
+        ),
         xcconfig: .path(.release)
       ),
       .release(
         name: .prod,
-        settings:
-          commonSettings(
-            appName: Project.Environment.appProdName,
-            displayName: Project.Environment.appName,
-            provisioningProfile: "match AppStore \(Project.Environment.bundlePrefix)",
-            setSkipInstall: false
-          ),
+        settings: commonSettings(
+          appName: Project.Environment.appProdName,
+          displayName: Project.Environment.appName,
+          provisioningProfile: "match AppStore \(Project.Environment.bundlePrefix)",
+          setSkipInstall: false
+        ),
         xcconfig: .path(.prod)
       ),
-
-    ], defaultSettings: .recommended
+    ],
+    defaultSettings: .recommended
   )
-  
+
   public static func appBaseSetting(appName: String) -> Settings {
-    let appBaseSetting: Settings = .settings(
+    .settings(
       base: SettingsDictionary()
         .setProductName(appName)
         .setMarketingVersion(.appVersion())
@@ -114,23 +107,16 @@ extension Settings {
       configurations: [
         .debug(
           name: .debug,
-          settings:
-            commonBaseSettings(
-              appName: appName
-            ),
-          xcconfig:
-              .relativeToRoot("./Config/Dev.xcconfig")
+          settings: commonBaseSettings(appName: appName),
+          xcconfig: .relativeToRoot("./Config/Dev.xcconfig")
         ),
         .release(
           name: .release,
-          settings: commonBaseSettings(
-            appName: appName
-          ),
+          settings: commonBaseSettings(appName: appName),
           xcconfig: .relativeToRoot("./Config/Release.xcconfig")
         )
-      ], defaultSettings: .recommended)
-    
-    return appBaseSetting
-    
+      ],
+      defaultSettings: .recommended
+    )
   }
 }

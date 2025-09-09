@@ -7,19 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		01145525389F24D9CA763E87 /* DiContainer.framework in Dependencies */ = {isa = PBXBuildFile; fileRef = 221F2402E035C0A10B0C816D /* DiContainer.framework */; };
 		065CDD9E3F159CCEC6E1A6C0 /* Repository.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03D39D8FFA6B36EC82B3C778 /* Repository.framework */; };
 		0B3A76AD60A6CB76E72EFBE0 /* BookListRepositoryImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C59F3B38928EAC23B9AB1B7 /* BookListRepositoryImpl.swift */; };
 		19E087F33525DD097677C8CE /* MockBookListRepositoryImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62B81DC06405DCB90288AEF1 /* MockBookListRepositoryImpl.swift */; };
 		25A9DDBA0E482A988E97BA02 /* DomainInterface.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C0DAF15F0E90042DAD3E4C7 /* DomainInterface.framework */; };
 		2C23766DA5EC5A267DB2DE38 /* Service.framework in Dependencies */ = {isa = PBXBuildFile; fileRef = 549C82A8C41E9EBA4FDC62C7 /* Service.framework */; };
+		3219A995648C8F76E46FD041 /* DiContainer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 221F2402E035C0A10B0C816D /* DiContainer.framework */; };
 		3FB3B8E08531D90F95A65B1A /* DomainInterface.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C0DAF15F0E90042DAD3E4C7 /* DomainInterface.framework */; };
 		556137B923E9F25D7C03B110 /* BookListRepositoryImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C59F3B38928EAC23B9AB1B7 /* BookListRepositoryImpl.swift */; };
 		58EBA9BB76D0DD8E52CA2496 /* MockBookListRepositoryImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62B81DC06405DCB90288AEF1 /* MockBookListRepositoryImpl.swift */; };
 		5E341F17BAE8AF7203AD0E94 /* Test.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB490D15B7B70995BF4D615B /* Test.swift */; };
+		6A1A9FEA4B6B516726D88CFF /* DiContainer.framework in Dependencies */ = {isa = PBXBuildFile; fileRef = 221F2402E035C0A10B0C816D /* DiContainer.framework */; };
 		6E4B21742A0CCE482D2450A1 /* BookListRepositoryImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C59F3B38928EAC23B9AB1B7 /* BookListRepositoryImpl.swift */; };
 		7ACC00A7B1ED2A6EB7300BFD /* MockBookListRepositoryImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62B81DC06405DCB90288AEF1 /* MockBookListRepositoryImpl.swift */; };
 		7C159382486CFF03695674BC /* MockBookListRepositoryImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62B81DC06405DCB90288AEF1 /* MockBookListRepositoryImpl.swift */; };
 		81C0D46813CF6DE0D0610F2B /* DomainInterface.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C0DAF15F0E90042DAD3E4C7 /* DomainInterface.framework */; };
+		9147F077F2652E83E0A4BDA5 /* DiContainer.framework in Dependencies */ = {isa = PBXBuildFile; fileRef = 221F2402E035C0A10B0C816D /* DiContainer.framework */; };
 		95CFB05A618505B31732BBA6 /* DomainInterface.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C0DAF15F0E90042DAD3E4C7 /* DomainInterface.framework */; };
 		BC3E81878EF9E2A2651B2F87 /* LogMacro.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6CD10CD4A587CB9F328BD12 /* LogMacro.framework */; };
 		C1271844DE5B9D13E9E7CBC0 /* Service.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 549C82A8C41E9EBA4FDC62C7 /* Service.framework */; };
@@ -28,6 +32,7 @@
 		D50A82DCA7A813DBD3EAC394 /* Service_Service.bundle in Resources */ = {isa = PBXBuildFile; fileRef = E8C20D4E047970824C7581BF /* Service_Service.bundle */; };
 		DCD884BEF59149765121ADBC /* Service.framework in Dependencies */ = {isa = PBXBuildFile; fileRef = 549C82A8C41E9EBA4FDC62C7 /* Service.framework */; };
 		E3B07C5281726FE5EFA47795 /* Service.framework in Dependencies */ = {isa = PBXBuildFile; fileRef = 549C82A8C41E9EBA4FDC62C7 /* Service.framework */; };
+		E4BC4D14B4BDBEE586BCD85C /* DiContainer.framework in Dependencies */ = {isa = PBXBuildFile; fileRef = 221F2402E035C0A10B0C816D /* DiContainer.framework */; };
 		F6485DD8D3DF35B1124BBC93 /* BookListRepositoryImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C59F3B38928EAC23B9AB1B7 /* BookListRepositoryImpl.swift */; };
 		F7BFD96C08CB45F8BCD3DCA6 /* DomainInterface.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C0DAF15F0E90042DAD3E4C7 /* DomainInterface.framework */; };
 		FD0FCD7CCB8F7E01AA5683F1 /* OSLog.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2B6D597B16E9CDDB21DA680 /* OSLog.framework */; };
@@ -79,6 +84,7 @@
 			buildActionMask = 8;
 			dstSubfolderSpec = 16;
 			files = (
+				9147F077F2652E83E0A4BDA5 /* DiContainer.framework in Dependencies */,
 				2C23766DA5EC5A267DB2DE38 /* Service.framework in Dependencies */,
 			);
 			name = Dependencies;
@@ -119,6 +125,7 @@
 			buildActionMask = 8;
 			dstSubfolderSpec = 16;
 			files = (
+				6A1A9FEA4B6B516726D88CFF /* DiContainer.framework in Dependencies */,
 				DCD884BEF59149765121ADBC /* Service.framework in Dependencies */,
 			);
 			name = Dependencies;
@@ -129,6 +136,7 @@
 			buildActionMask = 8;
 			dstSubfolderSpec = 16;
 			files = (
+				01145525389F24D9CA763E87 /* DiContainer.framework in Dependencies */,
 				CD59907F5FF407743514DB95 /* Service.framework in Dependencies */,
 			);
 			name = Dependencies;
@@ -139,6 +147,7 @@
 			buildActionMask = 8;
 			dstSubfolderSpec = 16;
 			files = (
+				E4BC4D14B4BDBEE586BCD85C /* DiContainer.framework in Dependencies */,
 				E3B07C5281726FE5EFA47795 /* Service.framework in Dependencies */,
 			);
 			name = Dependencies;
@@ -152,6 +161,7 @@
 		18618E5B5CE8E0BEE5F43988 /* RepositoryTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RepositoryTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		18BF0EEF04EAE24831B86985 /* Repository-Prod-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Repository-Prod-Info.plist"; sourceTree = "<group>"; };
 		1C0DAF15F0E90042DAD3E4C7 /* DomainInterface.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DomainInterface.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		221F2402E035C0A10B0C816D /* DiContainer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DiContainer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		34E66E9088F97B1F320BF8B4 /* Repository_Stage.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Repository_Stage.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4131E6C825DB8588F94C2088 /* Repository_Prod.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Repository_Prod.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4C59F3B38928EAC23B9AB1B7 /* BookListRepositoryImpl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookListRepositoryImpl.swift; sourceTree = "<group>"; };
@@ -189,6 +199,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FD0FCD7CCB8F7E01AA5683F1 /* OSLog.framework in Frameworks */,
+				3219A995648C8F76E46FD041 /* DiContainer.framework in Frameworks */,
 				95CFB05A618505B31732BBA6 /* DomainInterface.framework in Frameworks */,
 				BC3E81878EF9E2A2651B2F87 /* LogMacro.framework in Frameworks */,
 				065CDD9E3F159CCEC6E1A6C0 /* Repository.framework in Frameworks */,
@@ -278,6 +289,7 @@
 		B9E40665B322982A6453CC4E /* Products */ = {
 			isa = PBXGroup;
 			children = (
+				221F2402E035C0A10B0C816D /* DiContainer.framework */,
 				1C0DAF15F0E90042DAD3E4C7 /* DomainInterface.framework */,
 				B6CD10CD4A587CB9F328BD12 /* LogMacro.framework */,
 				67D7E950058188008115D32D /* Repository_Debug.framework */,

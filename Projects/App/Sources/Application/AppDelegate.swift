@@ -14,7 +14,13 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
   func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
-    registerDependencies()
+
+
+    DependencyContainer.bootstrapInTask { _ in
+      await AppDIContainer.shared.registerDefaultDependencies()
+    }
+
+
     return true
   }
 
