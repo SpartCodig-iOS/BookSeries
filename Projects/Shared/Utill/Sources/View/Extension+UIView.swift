@@ -8,18 +8,3 @@
 import UIKit
 
 
-public extension UIView {
-    func addSubviews(_ views: UIView...) {
-        views.forEach(addSubview)
-    }
-}
-
-
-public extension UIStackView {
-    func addArrangedSubviews(_ views: UIView...) {
-        views.forEach(addArrangedSubview)
-    }
-    func addArrangedSubviews(_ views: [UIView]) {
-        views.forEach(addArrangedSubview)
-    }
-}

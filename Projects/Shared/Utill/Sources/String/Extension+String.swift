@@ -51,4 +51,11 @@ public extension String {
   func toLongUSDateOrSelf() -> String {
     return toLongUSDate() ?? self
   }
+
+
+  func truncated(to maxChars: Int, suffix: String = "…") -> String {
+    guard count > maxChars else { return self }
+    let end = index(startIndex, offsetBy: maxChars)
+    return String(self[..<end]) + suffix
+  }
 }
