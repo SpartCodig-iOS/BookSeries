@@ -7,12 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0E47A277F0CA676A95C8630D /* Extension+String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A0795BA43DE074C8CCBB7A0 /* Extension+String.swift */; };
 		107A19A67E9503C9676C7746 /* Test.swift in Sources */ = {isa = PBXBuildFile; fileRef = F70DD74259D9330B7727DDCB /* Test.swift */; };
-		37E87AE07A9C2A867B5643EC /* Base.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64B0F7C37B5A0D5ED954E77D /* Base.swift */; };
-		3E1A639FCDB384492911AFA9 /* Base.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64B0F7C37B5A0D5ED954E77D /* Base.swift */; };
+		315D6AAF969604C836231974 /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EC0D46F57A1A3D7763457AF /* Coordinator.swift */; };
+		36CA7F6C6162D86B2615AE3E /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EC0D46F57A1A3D7763457AF /* Coordinator.swift */; };
+		464E039B0B5EC544B95F5F92 /* Extension+String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A0795BA43DE074C8CCBB7A0 /* Extension+String.swift */; };
+		5C7D08BCCCC3E8C17FBBD76F /* Extension+UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A88BFC509C4E721067C1E64A /* Extension+UIView.swift */; };
 		64D21F9B5DE1EBE164AC3048 /* Utill.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 136D114982ED83CB9F5177A1 /* Utill.framework */; };
-		90375399DC6E18FE505ABA9A /* Base.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64B0F7C37B5A0D5ED954E77D /* Base.swift */; };
-		933E9F97F8675217757FFA51 /* Base.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64B0F7C37B5A0D5ED954E77D /* Base.swift */; };
+		6F52CBB612C713222F56B2F2 /* FallbackViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A86FDF3DE145F3C61C29A358 /* FallbackViewController.swift */; };
+		765F9F2106BCED0D647F6236 /* Extension+String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A0795BA43DE074C8CCBB7A0 /* Extension+String.swift */; };
+		7C0B95DAF0A8E9B6163FC814 /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EC0D46F57A1A3D7763457AF /* Coordinator.swift */; };
+		7CECC3BBEDE2979A1AEB97A1 /* Extension+UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A88BFC509C4E721067C1E64A /* Extension+UIView.swift */; };
+		8D996B7B8089181D282768BD /* FallbackViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A86FDF3DE145F3C61C29A358 /* FallbackViewController.swift */; };
+		A7E32AFA50F587B2FF22DA91 /* Extension+UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A88BFC509C4E721067C1E64A /* Extension+UIView.swift */; };
+		CE69D53048C9C5ABF578F216 /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EC0D46F57A1A3D7763457AF /* Coordinator.swift */; };
+		D93D6D3EB478EDD29CF3AF29 /* FallbackViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A86FDF3DE145F3C61C29A358 /* FallbackViewController.swift */; };
+		EFD1AB28A01A1967D34920FA /* Extension+String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A0795BA43DE074C8CCBB7A0 /* Extension+String.swift */; };
+		F941DEDAECACF0B478FA85DA /* Extension+UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A88BFC509C4E721067C1E64A /* Extension+UIView.swift */; };
+		FF1F31C6764A19E4E39761D8 /* FallbackViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A86FDF3DE145F3C61C29A358 /* FallbackViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -79,17 +91,20 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		0EC0D46F57A1A3D7763457AF /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
 		136D114982ED83CB9F5177A1 /* Utill.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Utill.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2645A47F83A3E035E22B5A8A /* Utill-Stage-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Utill-Stage-Info.plist"; sourceTree = "<group>"; };
 		2877CF2EE2FF204F9102660B /* Utill-Prod-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Utill-Prod-Info.plist"; sourceTree = "<group>"; };
 		2C11E09952BEF672B7CC9E8A /* Utill_Stage.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Utill_Stage.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3A0795BA43DE074C8CCBB7A0 /* Extension+String.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension+String.swift"; sourceTree = "<group>"; };
 		465A15DE52F39A8755A63FE0 /* Utill_Prod.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Utill_Prod.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4ED860F216F9BD3E312F51EE /* Utill_Debug.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Utill_Debug.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		64B0F7C37B5A0D5ED954E77D /* Base.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Base.swift; sourceTree = "<group>"; };
 		7B9A8A431FB3EEAE4AE3FB1D /* Utill-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Utill-Info.plist"; sourceTree = "<group>"; };
 		7F64C3861EDE4F8C24989C2A /* UtillTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "UtillTests-Info.plist"; sourceTree = "<group>"; };
 		9ACBE78CB421425304897A41 /* Utill-Debug-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Utill-Debug-Info.plist"; sourceTree = "<group>"; };
 		9BED8B1D6BCFDB676A34B628 /* UtillTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UtillTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A86FDF3DE145F3C61C29A358 /* FallbackViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FallbackViewController.swift; sourceTree = "<group>"; };
+		A88BFC509C4E721067C1E64A /* Extension+UIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension+UIView.swift"; sourceTree = "<group>"; };
 		F70DD74259D9330B7727DDCB /* Test.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Test.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -143,6 +158,14 @@
 			name = Project;
 			sourceTree = "<group>";
 		};
+		0E619CA89098AE697F924DCC /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				A86FDF3DE145F3C61C29A358 /* FallbackViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
 		121AE6757CE71D84E578D4A9 /* Products */ = {
 			isa = PBXGroup;
 			children = (
@@ -163,12 +186,36 @@
 			path = Sources;
 			sourceTree = "<group>";
 		};
+		3CBC3E55EA5879873DAA0C9A /* String */ = {
+			isa = PBXGroup;
+			children = (
+				3A0795BA43DE074C8CCBB7A0 /* Extension+String.swift */,
+			);
+			path = String;
+			sourceTree = "<group>";
+		};
 		5E6F6153D278044B2AEF7A31 /* UtillTests */ = {
 			isa = PBXGroup;
 			children = (
 				1B24ACABA340C77228DCA968 /* Sources */,
 			);
 			path = UtillTests;
+			sourceTree = "<group>";
+		};
+		6A79B669B600FDF2152316C7 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A88BFC509C4E721067C1E64A /* Extension+UIView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		A7B070AF27B848C0C81F9769 /* Coordinator */ = {
+			isa = PBXGroup;
+			children = (
+				0EC0D46F57A1A3D7763457AF /* Coordinator.swift */,
+			);
+			path = Coordinator;
 			sourceTree = "<group>";
 		};
 		A9A9ADE9F2B399CE6F4B1EB7 /* InfoPlists */ = {
@@ -202,7 +249,10 @@
 		EB9C926E257290120423250D /* Sources */ = {
 			isa = PBXGroup;
 			children = (
-				64B0F7C37B5A0D5ED954E77D /* Base.swift */,
+				A7B070AF27B848C0C81F9769 /* Coordinator */,
+				3CBC3E55EA5879873DAA0C9A /* String */,
+				6A79B669B600FDF2152316C7 /* View */,
+				0E619CA89098AE697F924DCC /* ViewController */,
 			);
 			path = Sources;
 			sourceTree = "<group>";
@@ -386,7 +436,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3E1A639FCDB384492911AFA9 /* Base.swift in Sources */,
+				7C0B95DAF0A8E9B6163FC814 /* Coordinator.swift in Sources */,
+				EFD1AB28A01A1967D34920FA /* Extension+String.swift in Sources */,
+				F941DEDAECACF0B478FA85DA /* Extension+UIView.swift in Sources */,
+				D93D6D3EB478EDD29CF3AF29 /* FallbackViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -394,7 +447,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				37E87AE07A9C2A867B5643EC /* Base.swift in Sources */,
+				315D6AAF969604C836231974 /* Coordinator.swift in Sources */,
+				464E039B0B5EC544B95F5F92 /* Extension+String.swift in Sources */,
+				7CECC3BBEDE2979A1AEB97A1 /* Extension+UIView.swift in Sources */,
+				FF1F31C6764A19E4E39761D8 /* FallbackViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -410,7 +466,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				933E9F97F8675217757FFA51 /* Base.swift in Sources */,
+				CE69D53048C9C5ABF578F216 /* Coordinator.swift in Sources */,
+				0E47A277F0CA676A95C8630D /* Extension+String.swift in Sources */,
+				5C7D08BCCCC3E8C17FBBD76F /* Extension+UIView.swift in Sources */,
+				8D996B7B8089181D282768BD /* FallbackViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -418,7 +477,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				90375399DC6E18FE505ABA9A /* Base.swift in Sources */,
+				36CA7F6C6162D86B2615AE3E /* Coordinator.swift in Sources */,
+				765F9F2106BCED0D647F6236 /* Extension+String.swift in Sources */,
+				A7E32AFA50F587B2FF22DA91 /* Extension+UIView.swift in Sources */,
+				6F52CBB612C713222F56B2F2 /* FallbackViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
