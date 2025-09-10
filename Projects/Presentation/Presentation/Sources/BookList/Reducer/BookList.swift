@@ -30,6 +30,7 @@ public struct BookList {
     var isLoading: Bool = false
     // 에러 상태
     var errorMessage: String? = nil
+    var url: String = ""
 
     // MARK: - Derived State (Computed Properties)
     
@@ -85,6 +86,7 @@ public struct BookList {
     case summaryToggleTapped(key: String)
     case seriesSelected(Int) // 시리즈 선택 액션 추가 (0-based index)
     case errorDismissed // 에러 상태 클리어 액션
+    case tapUrl(url: String)
   }
 
   //MARK: - AsyncAction 비동기 처리 액션
@@ -159,6 +161,10 @@ public struct BookList {
       case .errorDismissed:
         // 에러 상태 클리어
         state.errorMessage = nil
+        return .none
+
+      case .tapUrl(let url):
+        state.url = url
         return .none
     }
   }

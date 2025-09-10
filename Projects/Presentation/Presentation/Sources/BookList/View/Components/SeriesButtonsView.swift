@@ -11,71 +11,82 @@ import SnapKit
 import Then
 
 public final class SeriesButtonsView: BaseView {
-  
+
   // MARK: - UI Components
-  
+
   private let seriesScrollView = UIScrollView().then {
     $0.showsVerticalScrollIndicator = false
     $0.showsHorizontalScrollIndicator = false
   }
-  
-  private let seriesButtonStack = UIStackView.horizontal(spacing: 12, alignment: .center)
-  
+
+  private let seriesButtonStack = UIStackView.horizontal(spacing: 12, alignment: .center, distribution: .equalSpacing)
+
   // MARK: - Properties
-  
+
   private var seriesButtons: [UIButton] = []
-  
+  private let minButtonSpacing: CGFloat = 12
+  private let maxButtonSpacing: CGFloat = 24
+
   // MARK: - Life cycle
-  
+
   public override func addView() {
     super.addView()
     setupViewHierarchy()
     setupConstraints()
   }
-  
+
+  public override func layoutSubviews() {
+    super.layoutSubviews()
+    updateScrollViewContentInset()
+  }
+
   private func setupViewHierarchy() {
     addSubviews(seriesScrollView)
     seriesScrollView.addSubviews(seriesButtonStack)
   }
-  
+
   private func setupConstraints() {
     seriesScrollView.snp.makeConstraints { make in
       make.edges.equalToSuperview()
       make.height.equalTo(44)
     }
-    
+
     seriesButtonStack.snp.makeConstraints { make in
-      make.edges.equalTo(seriesScrollView.contentLayoutGuide)
+      make.top.bottom.equalTo(seriesScrollView.contentLayoutGuide)
       make.height.equalTo(seriesScrollView.frameLayoutGuide)
-      make.leading.trailing.equalToSuperview().inset(20)
+      make.leading.trailing.equalTo(seriesScrollView.contentLayoutGuide).inset(20)
     }
   }
-  
+
   // MARK: - Public Methods
-  
+
   public func setupButtons(count: Int) {
     // 기존 버튼들 제거
     clearButtons()
-    
+
     // count가 0 이하이면 버튼 생성하지 않음
     guard count > 0 else { return }
-    
+
     // 데이터 개수에 맞게 시리즈 버튼 생성
     for i in 1...count {
       let button = createSeriesButton(number: i, index: i - 1)
       seriesButtons.append(button)
       seriesButtonStack.addArrangedSubview(button)
-      
+
       // 버튼 크기 제약
       button.snp.makeConstraints { make in
         make.width.height.equalTo(44)
       }
     }
-    
+
     // 첫 번째 버튼을 선택 상태로 설정
     updateSelectedButton(index: 0)
+
+    // 레이아웃 업데이트 후 contentInset 조정
+    setNeedsLayout()
+    layoutIfNeeded()
   }
-  
+
   public func updateSelectedButton(index: Int) {
     // ViewController에서 전달받은 인덱스로 UI만 업데이트
     seriesButtons.enumerated().forEach { (buttonIndex, button) in
@@ -88,13 +99,35 @@ public final class SeriesButtonsView: BaseView {
       }
     }
   }
-  
+
   public func getButtons() -> [UIButton] {
     return seriesButtons
   }
-  
+
   // MARK: - Private Methods
-  
+
+  private func updateScrollViewContentInset() {
+    // 컨텐츠 너비 계산 (버튼 개수 * 버튼 너비 + 스페이싱 + 좌우 패딩)
+    let buttonWidth: CGFloat = 44
+    let spacing: CGFloat = 12
+    let horizontalPadding: CGFloat = 40 // 좌우 패딩 (20 * 2)
+    let contentWidth = CGFloat(seriesButtons.count) * buttonWidth +
+                      CGFloat(max(0, seriesButtons.count - 1)) * spacing +
+                      horizontalPadding
+
+    // 스크롤뷰의 너비
+    let scrollViewWidth = seriesScrollView.frame.width
+
+    // 컨텐츠가 스크롤뷰보다 작을 때만 중앙 정렬을 위한 inset 적용
+    if contentWidth < scrollViewWidth {
+      let horizontalInset = (scrollViewWidth - contentWidth) / 2
+      seriesScrollView.contentInset = UIEdgeInsets(top: 0, left: horizontalInset, bottom: 0, right: horizontalInset)
+    } else {
+      // 컨텐츠가 스크롤뷰보다 크면 기본 inset
+      seriesScrollView.contentInset = .zero
+    }
+  }
+
   private func createSeriesButton(number: Int, index: Int) -> UIButton {
     return UIButton().then {
       $0.setTitle("\(number)", for: .normal)
@@ -107,7 +140,7 @@ public final class SeriesButtonsView: BaseView {
       $0.tag = index  // 0-based index for seriesSelected action
     }
   }
-  
+
   private func clearButtons() {
     seriesButtons.forEach { button in
       seriesButtonStack.removeArrangedSubview(button)

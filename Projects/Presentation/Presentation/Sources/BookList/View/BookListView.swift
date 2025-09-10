@@ -72,7 +72,17 @@ public final class BookListView: BaseView {
 
     // 스크롤 스택에 컴포넌트 추가
     scrollStack.addArrangedSubviews(bookCardView, bookDetailsView, chaptersView)
-    scrollStack.setCustomSpacing(32, after: bookCardView)
+
+    // ✅ 하단 safe area padding view 추가
+    let bottomSpacer = UIView()
+    scrollStack.addArrangedSubview(bottomSpacer)
+    bottomSpacer.snp.makeConstraints { make in
+      // safe area bottom inset만큼 확보
+      make.height.equalTo(self.safeAreaInsets.bottom).priority(.required)
+    }
+
+    scrollStack.setCustomSpacing(20, after: bookCardView)
+
   }
 
   private func setupConstraints() {

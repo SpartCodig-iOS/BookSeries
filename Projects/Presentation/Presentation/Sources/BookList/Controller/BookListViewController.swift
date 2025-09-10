@@ -110,6 +110,8 @@ public final class BookListViewController: BaseViewController<BookListView, Book
         .map { index in BookList.Action.view(.seriesSelected(index)) }
         .sink { [weak self] action in self?.safeSend(action) }
         .store(in: &seriesButtonCancellables)
+
+
     }
   }
 
@@ -156,6 +158,7 @@ public final class BookListViewController: BaseViewController<BookListView, Book
         self?.rootView.updateSelectedSeriesButton(index: index)
       }
       .store(in: &cancellables)
+
   }
   
   private func bindDisplayData() {
@@ -171,6 +174,8 @@ public final class BookListViewController: BaseViewController<BookListView, Book
         self.updateUI(with: data)
       }
       .store(in: &cancellables)
+
+
   }
   
   private func updateUI(with data: BookDisplayData) {
@@ -192,9 +197,6 @@ public final class BookListViewController: BaseViewController<BookListView, Book
       summary: book.summary,
       chapters: book.chapters
     )
-    
-    // 시리즈 버튼 선택 상태는 bindSelectedBookIndexChange에서 처리
-    // rootView.updateSelectedSeriesButton(index: data.seriesNumber - 1) // 제거됨
     
     // 요약 펼침 상태
     rootView.applySummaryExpanded(data.isSummaryExpanded, fullText: book.summary)
