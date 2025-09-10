@@ -12,11 +12,11 @@ import ComposableArchitecture
 
 open class BaseViewController<
   RootView: UIView,
-    Feature: Reducer
+  Feature: Reducer
 >: UIViewController where Feature.State: Equatable {
 
   // MARK: - Properties
-  /// 루트 뷰 인스턴스 걍  일
+  /// 루트 뷰 인스턴스
   public let rootView: RootView
 
   /// TCA Store
@@ -25,8 +25,14 @@ open class BaseViewController<
   /// ViewStore for observing state
   public let viewStore: ViewStoreOf<Feature>
 
-  /// Combine cancellables
+  /// Combine cancellables - 메모리 관리 최적화
   public var cancellables: Set<AnyCancellable> = []
+  
+  // MARK: - Performance Monitoring
+  
+  #if DEBUG
+  private var performanceTimer: CFAbsoluteTime = 0
+  #endif
 
   // MARK: - Initialization
 
@@ -50,10 +56,40 @@ open class BaseViewController<
 
   open override func viewDidLoad() {
     super.viewDidLoad()
+    
+    #if DEBUG
+    performanceTimer = CFAbsoluteTimeGetCurrent()
+    print("🚀 [\(String(describing: type(of: self)))] viewDidLoad 시작")
+    #endif
+    
     setupView()
     configureUI()
     bindActions()
-//    bindState()
+    bindState()
+    
+    #if DEBUG
+    let elapsed = CFAbsoluteTimeGetCurrent() - performanceTimer
+    print("⏱️ [\(String(describing: type(of: self)))] viewDidLoad 완료: \(String(format: "%.3f", elapsed))초")
+    #endif
+  }
+  
+  open override func viewWillAppear(_ animated: Bool) {
+    super.viewWillAppear(animated)
+    
+    #if DEBUG
+    print("👀 [\(String(describing: type(of: self)))] viewWillAppear")
+    #endif
+  }
+  
+  // MARK: - Memory Management
+  
+  deinit {
+    #if DEBUG
+    print("♻️ [\(String(describing: type(of: self)))] deinit - 메모리 해제")
+    #endif
+    
+    // Combine cancellables 정리
+    cancellables.removeAll()
   }
 
   // MARK: - Setup Methods
@@ -78,7 +114,107 @@ open class BaseViewController<
   /// 상태 바인딩
   /// 서브클래스에서 오버라이드하여 TCA 상태를 UI에 반영
   open func bindState() {
-    // Override in subclass
+    // 기본 에러 처리 바인딩
+    bindErrorHandling()
+  }
+  
+  // MARK: - Error Handling
+  
+  /// 글로벌 에러 처리를 위한 기본 바인딩
+  private func bindErrorHandling() {
+    // TCA Store의 에러를 감지하고 처리
+    viewStore.publisher
+      .compactMap { state -> String? in
+        // Feature.State에 error 프로퍼티가 있다면 추출
+        // 서브클래스에서 오버라이드하여 구체적인 에러 추출 로직 구현
+        return self.extractError(from: state)
+      }
+      .removeDuplicates()
+      .receive(on: DispatchQueue.main)
+      .sink { [weak self] errorMessage in
+        self?.handleError(errorMessage)
+      }
+      .store(in: &cancellables)
+  }
+  
+  /// Feature State에서 에러 추출 (서브클래스에서 오버라이드)
+  open func extractError(from state: Feature.State) -> String? {
+    // 서브클래스에서 구체적인 에러 추출 로직 구현
+    return nil
+  }
+  
+  /// 에러 처리 (서브클래스에서 오버라이드 가능)
+  open func handleError(_ errorMessage: String) {
+    #if DEBUG
+    print("🚨 [\(String(describing: type(of: self)))] Error: \(errorMessage)")
+    #endif
+    
+    // 기본 에러 처리: 알림 표시
+    showErrorAlert(message: errorMessage)
+  }
+  
+  /// 에러 알림 표시
+  private func showErrorAlert(message: String) {
+    let alert = UIAlertController(
+      title: "오류",
+      message: message,
+      preferredStyle: .alert
+    )
+    
+    alert.addAction(UIAlertAction(title: "확인", style: .default))
+    
+    // 메인 스레드에서 실행 보장
+    DispatchQueue.main.async { [weak self] in
+      self?.present(alert, animated: true)
+    }
+  }
+  
+  // MARK: - Performance Utilities
+  
+  /// ViewStore 구독 최적화 헬퍼
+  public func optimizedPublisher<T: Equatable>(
+    _ keyPath: KeyPath<Feature.State, T>
+  ) -> AnyPublisher<T, Never> {
+    return viewStore.publisher
+      .map { $0[keyPath: keyPath] }
+      .removeDuplicates()
+      .receive(on: DispatchQueue.main)
+      .eraseToAnyPublisher()
+  }
+  
+  /// Optional 타입을 위한 ViewStore 구독 최적화 헬퍼
+  public func optimizedPublisher<T: Equatable>(
+    _ keyPath: KeyPath<Feature.State, T?>
+  ) -> AnyPublisher<T?, Never> {
+    return viewStore.publisher
+      .map { $0[keyPath: keyPath] }
+      .removeDuplicates { lhs, rhs in
+        switch (lhs, rhs) {
+        case let (l?, r?):
+          return l == r
+        case (nil, nil):
+          return true
+        default:
+          return false
+        }
+      }
+      .receive(on: DispatchQueue.main)
+      .eraseToAnyPublisher()
+  }
+  
+  /// 안전한 액션 전송 (에러 처리 포함)
+  public func safeSend(_ action: Feature.Action) {
+    do {
+      store.send(action)
+      #if DEBUG
+      print("✅ [\(String(describing: type(of: self)))] Action sent: \(action)")
+      #endif
+    } catch {
+      #if DEBUG
+      print("🚨 [\(String(describing: type(of: self)))] Action send failed: \(error)")
+      #endif
+      handleError("액션 처리 중 오류가 발생했습니다: \(error.localizedDescription)")
+    }
   }
 }
 

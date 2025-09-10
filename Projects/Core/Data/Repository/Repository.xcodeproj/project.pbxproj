@@ -3,12 +3,13 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 55;
+	objectVersion = 56;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		01145525389F24D9CA763E87 /* DiContainer.framework in Dependencies */ = {isa = PBXBuildFile; fileRef = 221F2402E035C0A10B0C816D /* DiContainer.framework */; };
 		065CDD9E3F159CCEC6E1A6C0 /* Repository.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03D39D8FFA6B36EC82B3C778 /* Repository.framework */; };
+		0AD4B35ADC89274C4694D423 /* SummaryPersistenceRepositoryImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E99742559A1E105C3EA8357 /* SummaryPersistenceRepositoryImpl.swift */; };
 		0B3A76AD60A6CB76E72EFBE0 /* BookListRepositoryImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C59F3B38928EAC23B9AB1B7 /* BookListRepositoryImpl.swift */; };
 		18C2CD6B70E5FF30ECBD55A0 /* DomainInterface.framework in Dependencies */ = {isa = PBXBuildFile; fileRef = 1C0DAF15F0E90042DAD3E4C7 /* DomainInterface.framework */; };
 		19C775917BD20CEB27B664B0 /* Utill.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 41B5B2BB4E6A768C353D66BC /* Utill.framework */; };
@@ -24,10 +25,17 @@
 		7ACC00A7B1ED2A6EB7300BFD /* MockBookListRepositoryImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62B81DC06405DCB90288AEF1 /* MockBookListRepositoryImpl.swift */; };
 		7C159382486CFF03695674BC /* MockBookListRepositoryImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62B81DC06405DCB90288AEF1 /* MockBookListRepositoryImpl.swift */; };
 		7E63C28A03F1AD3A287F85A3 /* DomainInterface.framework in Dependencies */ = {isa = PBXBuildFile; fileRef = 1C0DAF15F0E90042DAD3E4C7 /* DomainInterface.framework */; };
+		7F43B4FE2E71246000FA957E /* DefaultSummaryPersistenceRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F43B4FD2E71245E00FA957E /* DefaultSummaryPersistenceRepository.swift */; };
+		7F43B4FF2E71246000FA957E /* DefaultSummaryPersistenceRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F43B4FD2E71245E00FA957E /* DefaultSummaryPersistenceRepository.swift */; };
+		7F43B5002E71246000FA957E /* DefaultSummaryPersistenceRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F43B4FD2E71245E00FA957E /* DefaultSummaryPersistenceRepository.swift */; };
+		7F43B5012E71246000FA957E /* DefaultSummaryPersistenceRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F43B4FD2E71245E00FA957E /* DefaultSummaryPersistenceRepository.swift */; };
+		8475850838ED0E1056C94669 /* SummaryPersistenceRepositoryImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E99742559A1E105C3EA8357 /* SummaryPersistenceRepositoryImpl.swift */; };
 		8D3EE4A12A835297EA66F043 /* Model.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B001E4EB12F1B31552843EC8 /* Model.framework */; };
 		9147F077F2652E83E0A4BDA5 /* DiContainer.framework in Dependencies */ = {isa = PBXBuildFile; fileRef = 221F2402E035C0A10B0C816D /* DiContainer.framework */; };
 		95CFB05A618505B31732BBA6 /* DomainInterface.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C0DAF15F0E90042DAD3E4C7 /* DomainInterface.framework */; };
+		A78A42B153B103F30D65E7E0 /* SummaryPersistenceRepositoryImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E99742559A1E105C3EA8357 /* SummaryPersistenceRepositoryImpl.swift */; };
 		A7FF4EC22712B99E0094507D /* DomainInterface.framework in Dependencies */ = {isa = PBXBuildFile; fileRef = 1C0DAF15F0E90042DAD3E4C7 /* DomainInterface.framework */; };
+		B861B03167BC8EAC54E89EDD /* SummaryPersistenceRepositoryImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E99742559A1E105C3EA8357 /* SummaryPersistenceRepositoryImpl.swift */; };
 		BC3E81878EF9E2A2651B2F87 /* LogMacro.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6CD10CD4A587CB9F328BD12 /* LogMacro.framework */; };
 		C1271844DE5B9D13E9E7CBC0 /* Service.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 549C82A8C41E9EBA4FDC62C7 /* Service.framework */; };
 		CB02AB758693F81C65872FA1 /* Service_Service.bundle in Dependencies */ = {isa = PBXBuildFile; fileRef = E8C20D4E047970824C7581BF /* Service_Service.bundle */; };
@@ -169,6 +177,7 @@
 		1C0DAF15F0E90042DAD3E4C7 /* DomainInterface.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DomainInterface.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		221F2402E035C0A10B0C816D /* DiContainer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DiContainer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		34E66E9088F97B1F320BF8B4 /* Repository_Stage.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Repository_Stage.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3E99742559A1E105C3EA8357 /* SummaryPersistenceRepositoryImpl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SummaryPersistenceRepositoryImpl.swift; sourceTree = "<group>"; };
 		4131E6C825DB8588F94C2088 /* Repository_Prod.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Repository_Prod.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		41B5B2BB4E6A768C353D66BC /* Utill.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Utill.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4C59F3B38928EAC23B9AB1B7 /* BookListRepositoryImpl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookListRepositoryImpl.swift; sourceTree = "<group>"; };
@@ -176,6 +185,7 @@
 		62B81DC06405DCB90288AEF1 /* MockBookListRepositoryImpl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockBookListRepositoryImpl.swift; sourceTree = "<group>"; };
 		67D7E950058188008115D32D /* Repository_Debug.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Repository_Debug.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7DB3288BD804BE671D5A9E6C /* RepositoryTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "RepositoryTests-Info.plist"; sourceTree = "<group>"; };
+		7F43B4FD2E71245E00FA957E /* DefaultSummaryPersistenceRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefaultSummaryPersistenceRepository.swift; sourceTree = "<group>"; };
 		8434724C7BDFEA2B4A08E1DC /* Repository-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Repository-Info.plist"; sourceTree = "<group>"; };
 		9EE453BD6A8A16DC688113B4 /* Repository-Stage-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Repository-Stage-Info.plist"; sourceTree = "<group>"; };
 		B001E4EB12F1B31552843EC8 /* Model.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Model.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -243,6 +253,8 @@
 		2A81942EBE921C2DE57092A4 /* BookList */ = {
 			isa = PBXGroup;
 			children = (
+				3E99742559A1E105C3EA8357 /* SummaryPersistenceRepositoryImpl.swift */,
+				7F43B4FD2E71245E00FA957E /* DefaultSummaryPersistenceRepository.swift */,
 				4C59F3B38928EAC23B9AB1B7 /* BookListRepositoryImpl.swift */,
 				62B81DC06405DCB90288AEF1 /* MockBookListRepositoryImpl.swift */,
 			);
@@ -447,8 +459,6 @@
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = YES;
-				TargetAttributes = {
-				};
 			};
 			buildConfigurationList = DAEAABCA4F1BDA57B6C50343 /* Build configuration list for PBXProject "Repository" */;
 			compatibilityVersion = "Xcode 14.0";
@@ -516,8 +526,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7F43B5012E71246000FA957E /* DefaultSummaryPersistenceRepository.swift in Sources */,
 				556137B923E9F25D7C03B110 /* BookListRepositoryImpl.swift in Sources */,
 				19E087F33525DD097677C8CE /* MockBookListRepositoryImpl.swift in Sources */,
+				B861B03167BC8EAC54E89EDD /* SummaryPersistenceRepositoryImpl.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -525,8 +537,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7F43B4FF2E71246000FA957E /* DefaultSummaryPersistenceRepository.swift in Sources */,
 				6E4B21742A0CCE482D2450A1 /* BookListRepositoryImpl.swift in Sources */,
 				58EBA9BB76D0DD8E52CA2496 /* MockBookListRepositoryImpl.swift in Sources */,
+				0AD4B35ADC89274C4694D423 /* SummaryPersistenceRepositoryImpl.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -534,8 +548,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7F43B4FE2E71246000FA957E /* DefaultSummaryPersistenceRepository.swift in Sources */,
 				0B3A76AD60A6CB76E72EFBE0 /* BookListRepositoryImpl.swift in Sources */,
 				7ACC00A7B1ED2A6EB7300BFD /* MockBookListRepositoryImpl.swift in Sources */,
+				A78A42B153B103F30D65E7E0 /* SummaryPersistenceRepositoryImpl.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -543,8 +559,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7F43B5002E71246000FA957E /* DefaultSummaryPersistenceRepository.swift in Sources */,
 				F6485DD8D3DF35B1124BBC93 /* BookListRepositoryImpl.swift in Sources */,
 				7C159382486CFF03695674BC /* MockBookListRepositoryImpl.swift in Sources */,
+				8475850838ED0E1056C94669 /* SummaryPersistenceRepositoryImpl.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -587,13 +605,7 @@
 					"$(inherited)",
 					"-fmodule-map-file=$(SRCROOT)/../../../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include/module.modulemap",
 				);
-				OTHER_SWIFT_FLAGS = (
-					"$(inherited)",
-					"-Xcc",
-					"-fmodule-map-file=$(SRCROOT)/../../../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include/module.modulemap",
-					"-load-plugin-executable",
-					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/LogMacroMacro#LogMacroMacro",
-				);
+				OTHER_SWIFT_FLAGS = "$(inherited) -Xcc -fmodule-map-file=$(SRCROOT)/../../../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include/module.modulemap -load-plugin-executable $BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/LogMacroMacro#LogMacroMacro";
 				PRODUCT_BUNDLE_IDENTIFIER = io.Roy.BookSeries.Repository.RepositoryTests;
 				PRODUCT_NAME = RepositoryTests;
 				SDKROOT = iphoneos;
@@ -633,13 +645,7 @@
 					"$(inherited)",
 					"-fmodule-map-file=$(SRCROOT)/../../../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include/module.modulemap",
 				);
-				OTHER_SWIFT_FLAGS = (
-					"$(inherited)",
-					"-Xcc",
-					"-fmodule-map-file=$(SRCROOT)/../../../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include/module.modulemap",
-					"-load-plugin-executable",
-					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/LogMacroMacro#LogMacroMacro",
-				);
+				OTHER_SWIFT_FLAGS = "$(inherited) -Xcc -fmodule-map-file=$(SRCROOT)/../../../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include/module.modulemap -load-plugin-executable $BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/LogMacroMacro#LogMacroMacro";
 				PRODUCT_BUNDLE_IDENTIFIER = io.Roy.BookSeries.Repository;
 				PRODUCT_NAME = Repository_Stage;
 				SDKROOT = iphoneos;
@@ -682,13 +688,7 @@
 					"$(inherited)",
 					"-fmodule-map-file=$(SRCROOT)/../../../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include/module.modulemap",
 				);
-				OTHER_SWIFT_FLAGS = (
-					"$(inherited)",
-					"-Xcc",
-					"-fmodule-map-file=$(SRCROOT)/../../../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include/module.modulemap",
-					"-load-plugin-executable",
-					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/LogMacroMacro#LogMacroMacro",
-				);
+				OTHER_SWIFT_FLAGS = "$(inherited) -Xcc -fmodule-map-file=$(SRCROOT)/../../../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include/module.modulemap -load-plugin-executable $BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/LogMacroMacro#LogMacroMacro";
 				PRODUCT_BUNDLE_IDENTIFIER = io.Roy.BookSeries.Repository;
 				PRODUCT_NAME = Repository_Prod;
 				SDKROOT = iphoneos;
@@ -696,10 +696,7 @@
 				SUPPORTS_MACCATALYST = NO;
 				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
-					"$(inherited)",
-					DEBUG,
-				);
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) DEBUG";
 				SWIFT_COMPILATION_MODE = singlefile;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
@@ -735,13 +732,7 @@
 					"$(inherited)",
 					"-fmodule-map-file=$(SRCROOT)/../../../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include/module.modulemap",
 				);
-				OTHER_SWIFT_FLAGS = (
-					"$(inherited)",
-					"-Xcc",
-					"-fmodule-map-file=$(SRCROOT)/../../../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include/module.modulemap",
-					"-load-plugin-executable",
-					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/LogMacroMacro#LogMacroMacro",
-				);
+				OTHER_SWIFT_FLAGS = "$(inherited) -Xcc -fmodule-map-file=$(SRCROOT)/../../../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include/module.modulemap -load-plugin-executable $BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/LogMacroMacro#LogMacroMacro";
 				PRODUCT_BUNDLE_IDENTIFIER = io.Roy.BookSeries.Repository;
 				PRODUCT_NAME = Repository_Debug;
 				SDKROOT = iphoneos;
@@ -784,13 +775,7 @@
 					"$(inherited)",
 					"-fmodule-map-file=$(SRCROOT)/../../../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include/module.modulemap",
 				);
-				OTHER_SWIFT_FLAGS = (
-					"$(inherited)",
-					"-Xcc",
-					"-fmodule-map-file=$(SRCROOT)/../../../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include/module.modulemap",
-					"-load-plugin-executable",
-					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/LogMacroMacro#LogMacroMacro",
-				);
+				OTHER_SWIFT_FLAGS = "$(inherited) -Xcc -fmodule-map-file=$(SRCROOT)/../../../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include/module.modulemap -load-plugin-executable $BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/LogMacroMacro#LogMacroMacro";
 				PRODUCT_BUNDLE_IDENTIFIER = io.Roy.BookSeries.Repository;
 				PRODUCT_NAME = Repository_Prod;
 				SDKROOT = iphoneos;
@@ -826,23 +811,14 @@
 					"$(inherited)",
 					"-fmodule-map-file=$(SRCROOT)/../../../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include/module.modulemap",
 				);
-				OTHER_SWIFT_FLAGS = (
-					"$(inherited)",
-					"-Xcc",
-					"-fmodule-map-file=$(SRCROOT)/../../../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include/module.modulemap",
-					"-load-plugin-executable",
-					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/LogMacroMacro#LogMacroMacro",
-				);
+				OTHER_SWIFT_FLAGS = "$(inherited) -Xcc -fmodule-map-file=$(SRCROOT)/../../../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include/module.modulemap -load-plugin-executable $BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/LogMacroMacro#LogMacroMacro";
 				PRODUCT_BUNDLE_IDENTIFIER = io.Roy.BookSeries.Repository.RepositoryTests;
 				PRODUCT_NAME = RepositoryTests;
 				SDKROOT = iphoneos;
 				SUPPORTS_MACCATALYST = NO;
 				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
-					"$(inherited)",
-					DEBUG,
-				);
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) DEBUG";
 				SWIFT_COMPILATION_MODE = singlefile;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
@@ -876,13 +852,7 @@
 					"$(inherited)",
 					"-fmodule-map-file=$(SRCROOT)/../../../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include/module.modulemap",
 				);
-				OTHER_SWIFT_FLAGS = (
-					"$(inherited)",
-					"-Xcc",
-					"-fmodule-map-file=$(SRCROOT)/../../../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include/module.modulemap",
-					"-load-plugin-executable",
-					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/LogMacroMacro#LogMacroMacro",
-				);
+				OTHER_SWIFT_FLAGS = "$(inherited) -Xcc -fmodule-map-file=$(SRCROOT)/../../../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include/module.modulemap -load-plugin-executable $BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/LogMacroMacro#LogMacroMacro";
 				PRODUCT_BUNDLE_IDENTIFIER = io.Roy.BookSeries.Repository;
 				PRODUCT_NAME = Repository;
 				SDKROOT = iphoneos;
@@ -925,13 +895,7 @@
 					"$(inherited)",
 					"-fmodule-map-file=$(SRCROOT)/../../../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include/module.modulemap",
 				);
-				OTHER_SWIFT_FLAGS = (
-					"$(inherited)",
-					"-Xcc",
-					"-fmodule-map-file=$(SRCROOT)/../../../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include/module.modulemap",
-					"-load-plugin-executable",
-					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/LogMacroMacro#LogMacroMacro",
-				);
+				OTHER_SWIFT_FLAGS = "$(inherited) -Xcc -fmodule-map-file=$(SRCROOT)/../../../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include/module.modulemap -load-plugin-executable $BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/LogMacroMacro#LogMacroMacro";
 				PRODUCT_BUNDLE_IDENTIFIER = io.Roy.BookSeries.Repository;
 				PRODUCT_NAME = Repository_Debug;
 				SDKROOT = iphoneos;
@@ -939,10 +903,7 @@
 				SUPPORTS_MACCATALYST = NO;
 				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
-					"$(inherited)",
-					DEBUG,
-				);
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) DEBUG";
 				SWIFT_COMPILATION_MODE = singlefile;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
@@ -978,13 +939,7 @@
 					"$(inherited)",
 					"-fmodule-map-file=$(SRCROOT)/../../../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include/module.modulemap",
 				);
-				OTHER_SWIFT_FLAGS = (
-					"$(inherited)",
-					"-Xcc",
-					"-fmodule-map-file=$(SRCROOT)/../../../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include/module.modulemap",
-					"-load-plugin-executable",
-					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/LogMacroMacro#LogMacroMacro",
-				);
+				OTHER_SWIFT_FLAGS = "$(inherited) -Xcc -fmodule-map-file=$(SRCROOT)/../../../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include/module.modulemap -load-plugin-executable $BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/LogMacroMacro#LogMacroMacro";
 				PRODUCT_BUNDLE_IDENTIFIER = io.Roy.BookSeries.Repository;
 				PRODUCT_NAME = Repository_Stage;
 				SDKROOT = iphoneos;
@@ -992,10 +947,7 @@
 				SUPPORTS_MACCATALYST = NO;
 				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
-					"$(inherited)",
-					DEBUG,
-				);
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) DEBUG";
 				SWIFT_COMPILATION_MODE = singlefile;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
@@ -1143,13 +1095,7 @@
 					"$(inherited)",
 					"-fmodule-map-file=$(SRCROOT)/../../../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include/module.modulemap",
 				);
-				OTHER_SWIFT_FLAGS = (
-					"$(inherited)",
-					"-Xcc",
-					"-fmodule-map-file=$(SRCROOT)/../../../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include/module.modulemap",
-					"-load-plugin-executable",
-					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/LogMacroMacro#LogMacroMacro",
-				);
+				OTHER_SWIFT_FLAGS = "$(inherited) -Xcc -fmodule-map-file=$(SRCROOT)/../../../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include/module.modulemap -load-plugin-executable $BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/LogMacroMacro#LogMacroMacro";
 				PRODUCT_BUNDLE_IDENTIFIER = io.Roy.BookSeries.Repository;
 				PRODUCT_NAME = Repository;
 				SDKROOT = iphoneos;
@@ -1157,10 +1103,7 @@
 				SUPPORTS_MACCATALYST = NO;
 				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
-					"$(inherited)",
-					DEBUG,
-				);
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) DEBUG";
 				SWIFT_COMPILATION_MODE = singlefile;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;

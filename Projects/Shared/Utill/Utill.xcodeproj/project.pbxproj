@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 56;
+	objectVersion = 55;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -11,21 +11,21 @@
 		107A19A67E9503C9676C7746 /* Test.swift in Sources */ = {isa = PBXBuildFile; fileRef = F70DD74259D9330B7727DDCB /* Test.swift */; };
 		315D6AAF969604C836231974 /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EC0D46F57A1A3D7763457AF /* Coordinator.swift */; };
 		36CA7F6C6162D86B2615AE3E /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EC0D46F57A1A3D7763457AF /* Coordinator.swift */; };
+		42CAAA3854DF88F4D01D4AD7 /* Extension+UiControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71C895B6507A3D0F7F8166CD /* Extension+UiControl.swift */; };
 		464E039B0B5EC544B95F5F92 /* Extension+String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A0795BA43DE074C8CCBB7A0 /* Extension+String.swift */; };
+		5908B1C326C32B74145D4FB2 /* Extension+UiControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71C895B6507A3D0F7F8166CD /* Extension+UiControl.swift */; };
 		5C7D08BCCCC3E8C17FBBD76F /* Extension+UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A88BFC509C4E721067C1E64A /* Extension+UIView.swift */; };
 		64D21F9B5DE1EBE164AC3048 /* Utill.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 136D114982ED83CB9F5177A1 /* Utill.framework */; };
 		6F52CBB612C713222F56B2F2 /* FallbackViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A86FDF3DE145F3C61C29A358 /* FallbackViewController.swift */; };
 		765F9F2106BCED0D647F6236 /* Extension+String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A0795BA43DE074C8CCBB7A0 /* Extension+String.swift */; };
 		7C0B95DAF0A8E9B6163FC814 /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EC0D46F57A1A3D7763457AF /* Coordinator.swift */; };
 		7CECC3BBEDE2979A1AEB97A1 /* Extension+UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A88BFC509C4E721067C1E64A /* Extension+UIView.swift */; };
-		7F43B4EA2E7053B800FA957E /* Extension+UiControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F43B4E92E7053B700FA957E /* Extension+UiControl.swift */; };
-		7F43B4EB2E7053B800FA957E /* Extension+UiControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F43B4E92E7053B700FA957E /* Extension+UiControl.swift */; };
-		7F43B4EC2E7053B800FA957E /* Extension+UiControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F43B4E92E7053B700FA957E /* Extension+UiControl.swift */; };
-		7F43B4ED2E7053B800FA957E /* Extension+UiControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F43B4E92E7053B700FA957E /* Extension+UiControl.swift */; };
 		8D996B7B8089181D282768BD /* FallbackViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A86FDF3DE145F3C61C29A358 /* FallbackViewController.swift */; };
 		A7E32AFA50F587B2FF22DA91 /* Extension+UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A88BFC509C4E721067C1E64A /* Extension+UIView.swift */; };
+		C6FF96E464FEDA096AD289EE /* Extension+UiControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71C895B6507A3D0F7F8166CD /* Extension+UiControl.swift */; };
 		CE69D53048C9C5ABF578F216 /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EC0D46F57A1A3D7763457AF /* Coordinator.swift */; };
 		D93D6D3EB478EDD29CF3AF29 /* FallbackViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A86FDF3DE145F3C61C29A358 /* FallbackViewController.swift */; };
+		D9629EE732464FDF10489EC3 /* Extension+UiControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71C895B6507A3D0F7F8166CD /* Extension+UiControl.swift */; };
 		EFD1AB28A01A1967D34920FA /* Extension+String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A0795BA43DE074C8CCBB7A0 /* Extension+String.swift */; };
 		F941DEDAECACF0B478FA85DA /* Extension+UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A88BFC509C4E721067C1E64A /* Extension+UIView.swift */; };
 		FF1F31C6764A19E4E39761D8 /* FallbackViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A86FDF3DE145F3C61C29A358 /* FallbackViewController.swift */; };
@@ -103,8 +103,8 @@
 		3A0795BA43DE074C8CCBB7A0 /* Extension+String.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension+String.swift"; sourceTree = "<group>"; };
 		465A15DE52F39A8755A63FE0 /* Utill_Prod.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Utill_Prod.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4ED860F216F9BD3E312F51EE /* Utill_Debug.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Utill_Debug.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		71C895B6507A3D0F7F8166CD /* Extension+UiControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension+UiControl.swift"; sourceTree = "<group>"; };
 		7B9A8A431FB3EEAE4AE3FB1D /* Utill-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Utill-Info.plist"; sourceTree = "<group>"; };
-		7F43B4E92E7053B700FA957E /* Extension+UiControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension+UiControl.swift"; sourceTree = "<group>"; };
 		7F64C3861EDE4F8C24989C2A /* UtillTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "UtillTests-Info.plist"; sourceTree = "<group>"; };
 		9ACBE78CB421425304897A41 /* Utill-Debug-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Utill-Debug-Info.plist"; sourceTree = "<group>"; };
 		9BED8B1D6BCFDB676A34B628 /* UtillTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UtillTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -210,8 +210,8 @@
 		6A79B669B600FDF2152316C7 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				71C895B6507A3D0F7F8166CD /* Extension+UiControl.swift */,
 				A88BFC509C4E721067C1E64A /* Extension+UIView.swift */,
-				7F43B4E92E7053B700FA957E /* Extension+UiControl.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -374,6 +374,8 @@
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = YES;
+				TargetAttributes = {
+				};
 			};
 			buildConfigurationList = 817DAE8E8FEF1C2850504165 /* Build configuration list for PBXProject "Utill" */;
 			compatibilityVersion = "Xcode 14.0";
@@ -440,10 +442,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7F43B4EA2E7053B800FA957E /* Extension+UiControl.swift in Sources */,
 				7C0B95DAF0A8E9B6163FC814 /* Coordinator.swift in Sources */,
 				EFD1AB28A01A1967D34920FA /* Extension+String.swift in Sources */,
 				F941DEDAECACF0B478FA85DA /* Extension+UIView.swift in Sources */,
+				C6FF96E464FEDA096AD289EE /* Extension+UiControl.swift in Sources */,
 				D93D6D3EB478EDD29CF3AF29 /* FallbackViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -452,10 +454,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7F43B4EB2E7053B800FA957E /* Extension+UiControl.swift in Sources */,
 				315D6AAF969604C836231974 /* Coordinator.swift in Sources */,
 				464E039B0B5EC544B95F5F92 /* Extension+String.swift in Sources */,
 				7CECC3BBEDE2979A1AEB97A1 /* Extension+UIView.swift in Sources */,
+				5908B1C326C32B74145D4FB2 /* Extension+UiControl.swift in Sources */,
 				FF1F31C6764A19E4E39761D8 /* FallbackViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -472,10 +474,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7F43B4ED2E7053B800FA957E /* Extension+UiControl.swift in Sources */,
 				CE69D53048C9C5ABF578F216 /* Coordinator.swift in Sources */,
 				0E47A277F0CA676A95C8630D /* Extension+String.swift in Sources */,
 				5C7D08BCCCC3E8C17FBBD76F /* Extension+UIView.swift in Sources */,
+				42CAAA3854DF88F4D01D4AD7 /* Extension+UiControl.swift in Sources */,
 				8D996B7B8089181D282768BD /* FallbackViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -484,10 +486,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7F43B4EC2E7053B800FA957E /* Extension+UiControl.swift in Sources */,
 				36CA7F6C6162D86B2615AE3E /* Coordinator.swift in Sources */,
 				765F9F2106BCED0D647F6236 /* Extension+String.swift in Sources */,
 				A7E32AFA50F587B2FF22DA91 /* Extension+UIView.swift in Sources */,
+				D9629EE732464FDF10489EC3 /* Extension+UiControl.swift in Sources */,
 				6F52CBB612C713222F56B2F2 /* FallbackViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -521,7 +523,10 @@
 				SUPPORTS_MACCATALYST = NO;
 				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) DEBUG";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
+					"$(inherited)",
+					DEBUG,
+				);
 				SWIFT_COMPILATION_MODE = singlefile;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
@@ -705,7 +710,10 @@
 				SUPPORTS_MACCATALYST = NO;
 				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) DEBUG";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
+					"$(inherited)",
+					DEBUG,
+				);
 				SWIFT_COMPILATION_MODE = singlefile;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
@@ -808,7 +816,10 @@
 				SUPPORTS_MACCATALYST = NO;
 				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) DEBUG";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
+					"$(inherited)",
+					DEBUG,
+				);
 				SWIFT_COMPILATION_MODE = singlefile;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
@@ -843,7 +854,10 @@
 				SUPPORTS_MACCATALYST = NO;
 				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) DEBUG";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
+					"$(inherited)",
+					DEBUG,
+				);
 				SWIFT_COMPILATION_MODE = singlefile;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
@@ -878,7 +892,10 @@
 				SUPPORTS_MACCATALYST = NO;
 				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) DEBUG";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
+					"$(inherited)",
+					DEBUG,
+				);
 				SWIFT_COMPILATION_MODE = singlefile;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;

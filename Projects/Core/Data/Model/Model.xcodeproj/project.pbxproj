@@ -3,12 +3,13 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 55;
+	objectVersion = 56;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		1ED12341DA2493886006330E /* BookDTO.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB79875D7008B0F82133E934 /* BookDTO.swift */; };
 		2AEC319050A1177A9F9F0850 /* Extension+AttributeDTO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 264ECCD7E907566F54359A0B /* Extension+AttributeDTO.swift */; };
+		30ACBC1CBE70BB5503ED5A0F /* BookDisplayData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21FD14DF6316CE11DCA3F9B2 /* BookDisplayData.swift */; };
 		35F93A080B5B3111C00E6A5D /* Book.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F1ED70DB68857DB2F861EA2 /* Book.swift */; };
 		486B7C014AD92F1D846D5BA8 /* BookDTO.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB79875D7008B0F82133E934 /* BookDTO.swift */; };
 		48855B7877BAB2E120E42540 /* CustomError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FE05754C398769204FE296C /* CustomError.swift */; };
@@ -17,6 +18,8 @@
 		5D3A99ACAAD60C2C3B198646 /* Model.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD19E51E52BA74F9617F5F81 /* Model.framework */; };
 		757571B940FD6B3D8F09EA9D /* Extension+AttributeDTO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 264ECCD7E907566F54359A0B /* Extension+AttributeDTO.swift */; };
 		76291FCB73DE778B2CF86B3E /* Extension+AttributeDTO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 264ECCD7E907566F54359A0B /* Extension+AttributeDTO.swift */; };
+		784BAE07F0E2984BCF30CE66 /* BookDisplayData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21FD14DF6316CE11DCA3F9B2 /* BookDisplayData.swift */; };
+		8974AE7D603E85CC08A3C91B /* BookDisplayData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21FD14DF6316CE11DCA3F9B2 /* BookDisplayData.swift */; };
 		98DA40A4BB4A05F162DE5FA2 /* Utill.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C592D8CB24A1AEC0A3271C98 /* Utill.framework */; };
 		A901C4FF30CF10B2DD276671 /* Utill.framework in Dependencies */ = {isa = PBXBuildFile; fileRef = C592D8CB24A1AEC0A3271C98 /* Utill.framework */; };
 		AC195E33A8C00FA9FE9D5BE5 /* Book.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F1ED70DB68857DB2F861EA2 /* Book.swift */; };
@@ -30,6 +33,7 @@
 		F9E1B4E53E741BE102D9B7CE /* Test.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9984A08C45315A297D59E054 /* Test.swift */; };
 		FC69F129728A4E063A78018A /* CustomError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FE05754C398769204FE296C /* CustomError.swift */; };
 		FE8CC3CF3923AF51D00EE060 /* CustomError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FE05754C398769204FE296C /* CustomError.swift */; };
+		FF1334D11AAC25A07A4748AF /* BookDisplayData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21FD14DF6316CE11DCA3F9B2 /* BookDisplayData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -137,6 +141,7 @@
 
 /* Begin PBXFileReference section */
 		1FE05754C398769204FE296C /* CustomError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomError.swift; sourceTree = "<group>"; };
+		21FD14DF6316CE11DCA3F9B2 /* BookDisplayData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookDisplayData.swift; sourceTree = "<group>"; };
 		24E02F902DF503B58B252315 /* Model-Stage-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Model-Stage-Info.plist"; sourceTree = "<group>"; };
 		264ECCD7E907566F54359A0B /* Extension+AttributeDTO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension+AttributeDTO.swift"; sourceTree = "<group>"; };
 		3FE96CFA513A488587C33D39 /* Model_Prod.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Model_Prod.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -248,6 +253,7 @@
 			isa = PBXGroup;
 			children = (
 				1FE05754C398769204FE296C /* CustomError.swift */,
+				21FD14DF6316CE11DCA3F9B2 /* BookDisplayData.swift */,
 			);
 			path = Error;
 			sourceTree = "<group>";
@@ -428,8 +434,6 @@
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = YES;
-				TargetAttributes = {
-				};
 			};
 			buildConfigurationList = E54AD61EE741D56688714B85 /* Build configuration list for PBXProject "Model" */;
 			compatibilityVersion = "Xcode 14.0";
@@ -498,6 +502,7 @@
 			files = (
 				DBE193B362C078FCB51A0A3D /* BookDTO.swift in Sources */,
 				52BF6AA3D17BA7835CA6D8A1 /* Book.swift in Sources */,
+				30ACBC1CBE70BB5503ED5A0F /* BookDisplayData.swift in Sources */,
 				48855B7877BAB2E120E42540 /* CustomError.swift in Sources */,
 				757571B940FD6B3D8F09EA9D /* Extension+AttributeDTO.swift in Sources */,
 			);
@@ -509,6 +514,7 @@
 			files = (
 				DA3E3277648350F7941822E5 /* BookDTO.swift in Sources */,
 				BE7B0DA32A08A9F8A1FCE611 /* Book.swift in Sources */,
+				FF1334D11AAC25A07A4748AF /* BookDisplayData.swift in Sources */,
 				FC69F129728A4E063A78018A /* CustomError.swift in Sources */,
 				2AEC319050A1177A9F9F0850 /* Extension+AttributeDTO.swift in Sources */,
 			);
@@ -520,6 +526,7 @@
 			files = (
 				486B7C014AD92F1D846D5BA8 /* BookDTO.swift in Sources */,
 				AC195E33A8C00FA9FE9D5BE5 /* Book.swift in Sources */,
+				8974AE7D603E85CC08A3C91B /* BookDisplayData.swift in Sources */,
 				F2280CA090AFD92AE885AF07 /* CustomError.swift in Sources */,
 				76291FCB73DE778B2CF86B3E /* Extension+AttributeDTO.swift in Sources */,
 			);
@@ -539,6 +546,7 @@
 			files = (
 				1ED12341DA2493886006330E /* BookDTO.swift in Sources */,
 				35F93A080B5B3111C00E6A5D /* Book.swift in Sources */,
+				784BAE07F0E2984BCF30CE66 /* BookDisplayData.swift in Sources */,
 				FE8CC3CF3923AF51D00EE060 /* CustomError.swift in Sources */,
 				D9A13A678C5BDC99FDDD49DD /* Extension+AttributeDTO.swift in Sources */,
 			);
@@ -581,10 +589,7 @@
 				SUPPORTS_MACCATALYST = NO;
 				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
-					"$(inherited)",
-					DEBUG,
-				);
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) DEBUG";
 				SWIFT_COMPILATION_MODE = singlefile;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
@@ -619,10 +624,7 @@
 				SUPPORTS_MACCATALYST = NO;
 				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
-					"$(inherited)",
-					DEBUG,
-				);
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) DEBUG";
 				SWIFT_COMPILATION_MODE = singlefile;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
@@ -744,10 +746,7 @@
 				SUPPORTS_MACCATALYST = NO;
 				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
-					"$(inherited)",
-					DEBUG,
-				);
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) DEBUG";
 				SWIFT_COMPILATION_MODE = singlefile;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
@@ -875,10 +874,7 @@
 				SUPPORTS_MACCATALYST = NO;
 				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
-					"$(inherited)",
-					DEBUG,
-				);
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) DEBUG";
 				SWIFT_COMPILATION_MODE = singlefile;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
@@ -997,10 +993,7 @@
 				SUPPORTS_MACCATALYST = NO;
 				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
-					"$(inherited)",
-					DEBUG,
-				);
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) DEBUG";
 				SWIFT_COMPILATION_MODE = singlefile;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;

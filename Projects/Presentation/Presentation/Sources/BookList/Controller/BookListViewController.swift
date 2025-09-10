@@ -12,6 +12,9 @@ import Shared
 import Combine
 
 public final class BookListViewController: BaseViewController<BookListView, BookList> {
+  
+  // 시리즈 버튼 전용 cancellables
+  private var seriesButtonCancellables = Set<AnyCancellable>()
 
   public init(store: StoreOf<BookList>) {
     super.init(rootView: BookListView(), store: store)
@@ -19,11 +22,55 @@ public final class BookListViewController: BaseViewController<BookListView, Book
 
   @available(*, unavailable)
   required init?(coder: NSCoder) { fatalError("init(coder:) has not been implemented") }
+  
+  // MARK: - Memory Management
+  
+  deinit {
+    // 시리즈 버튼 전용 cancellables 정리
+    seriesButtonCancellables.removeAll()
+    // BaseViewController.deinit이 자동으로 main cancellables을 정리함
+  }
+  
+  // MARK: - BaseViewController Override
+  
+  /// BookList State에서 에러 추출
+  public override func extractError(from state: BookList.State) -> String? {
+    return state.errorMessage
+  }
+  
+  /// BookList 특화 에러 처리
+  public override func handleError(_ errorMessage: String) {
+    // BookList 특화 에러 처리 로직
+    // 로딩 상태 해제, 특정 UI 업데이트 등
+    rootView.hideLoading()
+    
+    // 에러 알림 표시 (BaseViewController의 구현을 직접 호출)
+    showErrorAlert(message: errorMessage)
+  }
+  
+  /// 에러 알림 표시 (BaseViewController 기능을 확장)
+  private func showErrorAlert(message: String) {
+    let alert = UIAlertController(
+      title: "오류",
+      message: message,
+      preferredStyle: .alert
+    )
+    
+    alert.addAction(UIAlertAction(title: "확인", style: .default) { [weak self] _ in
+      // 알림을 닫을 때 에러 상태 클리어
+      self?.safeSend(.view(.errorDismissed))
+    })
+    
+    // 메인 스레드에서 실행 보장
+    DispatchQueue.main.async { [weak self] in
+      self?.present(alert, animated: true)
+    }
+  }
 
   public override func setupView() {
     super.setupView()
     view.backgroundColor = .white
-    navigationItem.title = "Book List"
+    navigationItem.title = "Harry Potter Series"
   }
 
   public override func configureUI() {
@@ -38,87 +85,118 @@ public final class BookListViewController: BaseViewController<BookListView, Book
 
   public override func bindActions() {
     super.bindActions()
+    
+    bindSummaryToggleAction()
+    bindSeriesButtonActions()
+  }
+  
+  private func bindSummaryToggleAction() {
+    rootView.foldSummaryButton
+      .publisher(for: .touchUpInside)
+      .compactMap { [weak self] _ in self?.viewStore.currentSummaryKey }
+      .map { key in BookList.Action.view(.summaryToggleTapped(key: key)) }
+      .sink { [weak self] action in self?.safeSend(action) }
+      .store(in: &cancellables)
+  }
 
-
+  private func bindSeriesButtonActions() {
+    // 기존 시리즈 버튼 액션들만 정리
+    seriesButtonCancellables.removeAll()
+    
+    // 각 시리즈 버튼에 대해 개별적으로 바인딩
+    rootView.getSeriesButtons().forEach { button in
+      button.publisher(for: .touchUpInside)
+        .map { _ in button.tag }
+        .map { index in BookList.Action.view(.seriesSelected(index)) }
+        .sink { [weak self] action in self?.safeSend(action) }
+        .store(in: &seriesButtonCancellables)
+    }
   }
 
 
   public override func bindState() {
     super.bindState()
-
-    // 1) 책 콘텐츠 렌더 (단순)
-    viewStore.publisher
-      .map(\.book)
-      .removeDuplicates()
-      .receive(on: DispatchQueue.main)
-      .sink { [weak self] books in
-        guard let self = self else { return }
-        guard let first = books.first,
-              let idx = books.firstIndex(of: first) else {
-          self.rootView.setTitle("No Book")
-          self.rootView.setSeriesNumber(0, total: books.count)
+    
+    bindLoadingState()
+    bindBooksCountChange()
+    bindSelectedBookIndexChange()
+    bindDisplayData()
+  }
+  
+  private func bindLoadingState() {
+    // BaseViewController의 최적화된 publisher 활용
+    optimizedPublisher(\.isLoading)
+      .sink { [weak self] isLoading in
+        if isLoading {
+          self?.rootView.showLoading()
+        } else {
+          self?.rootView.hideLoading()
+        }
+      }
+      .store(in: &cancellables)
+  }
+  
+  private func bindBooksCountChange() {
+    // BaseViewController의 최적화된 publisher로 통일
+    optimizedPublisher(\.book)
+      .map(\.count)
+      .sink { [weak self] count in
+        self?.rootView.setupSeriesButtons(count: count)
+        if count > 0 {
+          self?.bindSeriesButtonActions()
+        }
+      }
+      .store(in: &cancellables)
+  }
+  
+  private func bindSelectedBookIndexChange() {
+    // 선택된 책 인덱스 변경 감지
+    optimizedPublisher(\.selectedBookIndex)
+      .sink { [weak self] index in
+        self?.rootView.updateSelectedSeriesButton(index: index)
+      }
+      .store(in: &cancellables)
+  }
+  
+  private func bindDisplayData() {
+    // BaseViewController의 최적화된 publisher 활용
+    optimizedPublisher(\.displayData)
+      .sink { [weak self] displayData in
+        guard let self = self, let data = displayData else {
+          self?.navigationItem.title = "No Books"
           return
         }
-
-        self.rootView.configure(
-          title: first.title,
-          author: first.author,
-          releasedDate: first.releaseDate,
-          pages: first.pages,
-          seriesNumber: idx + 1,
-          image: first.image,
-          dedication: first.dedication,
-          summary: first.summary,
-          chapters: first.chapters
-        )
-
-        // 초깃값 반영(펼침상태)
-        let key = SummaryPersistence.key(for: first.title, author: first.author)
-        let expanded = self.viewStore.expandedSummary[key] ?? false
-        self.rootView.applySummaryExpanded(expanded, fullText: first.summary)
+        
+        // UI 업데이트
+        self.updateUI(with: data)
       }
       .store(in: &cancellables)
-
-    // 2) 펼침여부 변경 (딕셔너리 전체 비교 대신 "필요한 값"만 뽑아서 비교)
-    let summaryPublisher = viewStore.publisher
-      .map { state -> (summary: String, expanded: Bool)? in
-        guard let first = state.book.first else { return nil }
-        let key = SummaryPersistence.key(for: first.title, author: first.author)
-        let expanded = state.expandedSummary[key] ?? false
-        return (summary: first.summary, expanded: expanded)
-      }
-      // (요약, 펼침여부) 쌍이 같으면 드롭 — Optional 비교를 명시적으로 처리
-      .removeDuplicates(by: { lhs, rhs in
-        switch (lhs, rhs) {
-        case let (l?, r?):
-          return l.summary == r.summary && l.expanded == r.expanded
-        case (nil, nil):
-          return true
-        default:
-          return false
-        }
-      })
-      .compactMap { $0 }
-      .receive(on: DispatchQueue.main)
-
-    summaryPublisher
-      .sink { [weak self] pair in
-        self?.rootView.applySummaryExpanded(pair.expanded, fullText: pair.summary)
-      }
-      .store(in: &cancellables)
-
-    // 3) 버튼 탭 → 액션 전송 (타입 명시로 추론 돕기)
-    rootView.foldSummaryButton
-      .publisher(for: .touchUpInside)
-      .compactMap { [weak self] (_: Void) -> String? in
-        self?.viewStore.currentSummaryKey
-      }
-      .map { (key: String) -> BookList.Action in
-        .view(.summaryToggleTapped(key: key))
-      }
-      .sink { [weak self] action in
-        self?.store.send(action)
-      }
-      .store(in: &cancellables)
+  }
+  
+  private func updateUI(with data: BookDisplayData) {
+    let book = data.book
+    
+    // 네비게이션 타이틀
+    navigationItem.title = book.title
+    
+    // 메인 UI 구성
+    rootView.configure(
+      title: book.title,
+      author: book.author,
+      releasedDate: book.releaseDate,
+      pages: book.pages,
+      seriesNumber: data.seriesNumber,
+      totalSeries: data.totalSeries,
+      image: book.image,
+      dedication: book.dedication,
+      summary: book.summary,
+      chapters: book.chapters
+    )
+    
+    // 시리즈 버튼 선택 상태는 bindSelectedBookIndexChange에서 처리
+    // rootView.updateSelectedSeriesButton(index: data.seriesNumber - 1) // 제거됨
+    
+    // 요약 펼침 상태
+    rootView.applySummaryExpanded(data.isSummaryExpanded, fullText: book.summary)
   }
 }
