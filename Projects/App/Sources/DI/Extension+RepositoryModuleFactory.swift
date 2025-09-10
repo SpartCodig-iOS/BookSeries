@@ -16,7 +16,8 @@ extension RepositoryModuleFactory {
 
     repositoryDefinitions = {
       return [
-        registerModuleCopy.bookListRepositoryImplModule
+        registerModuleCopy.bookListRepositoryImplModule,
+        registerModuleCopy.summaryPersistenceRepositoryImplModule
       ]
     }()
   }
