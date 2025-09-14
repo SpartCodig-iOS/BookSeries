@@ -26,9 +26,11 @@
 		603FE92EDB472C61D8437F72 /* SwiftNavigation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B36F1CA8CC4B96FA2609B4DF /* SwiftNavigation.framework */; };
 		653474AB185843E0DF662DD1 /* Sharing2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2EBE83BD9D8603167735DBA2 /* Sharing2.framework */; };
 		6E0BC5259BA7934681AA91D5 /* Then.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4624958689CA4574D6DE5569 /* Then.framework */; };
+		6E6162BB191893B5D743D52C /* TuistBundle+ThirdPartyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A77AA96439A830D80E228086 /* TuistBundle+ThirdPartyTests.swift */; };
 		78AC8F364BB31C11BB2FEC02 /* ThirdParty.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DBCBFAAA9644395883C4A718 /* ThirdParty.framework */; };
 		78E505D53CA7826ADE9757E2 /* ComposableArchitecture.framework in Dependencies */ = {isa = PBXBuildFile; fileRef = 3BB088CFCF5B751E961933C0 /* ComposableArchitecture.framework */; };
 		820C0A3E5C2BD6C6CA8BAC10 /* SnapKit.framework in Dependencies */ = {isa = PBXBuildFile; fileRef = 550FD29325E806542CEFA72A /* SnapKit.framework */; };
+		8C8B39AD0F1762FFDC793228 /* Test.swift in Resources */ = {isa = PBXBuildFile; fileRef = 21178B4A2A59C6B2EADC5B6C /* Test.swift */; };
 		9003C2D283711C20FDBB33E0 /* ConcurrencyExtras.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9510426F57C0386AD282AAA8 /* ConcurrencyExtras.framework */; };
 		910E2DEB552042AC98EB4F08 /* CombineSchedulers.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 529D683020BDA42AF2A467E4 /* CombineSchedulers.framework */; };
 		92C6371E1DEAA7A0B1D6F2C7 /* InternalCollectionsUtilities.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E8CE454E7ACF464177DC1FB6 /* InternalCollectionsUtilities.framework */; };
@@ -209,6 +211,7 @@
 		9510426F57C0386AD282AAA8 /* ConcurrencyExtras.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ConcurrencyExtras.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9962B6781CF429287378C23C /* UIKitNavigation.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = UIKitNavigation.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A0F3DB55EAF01D251BFF4B56 /* IdentifiedCollections.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = IdentifiedCollections.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A77AA96439A830D80E228086 /* TuistBundle+ThirdPartyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TuistBundle+ThirdPartyTests.swift"; sourceTree = "<group>"; };
 		A9AE888EDA3909F45835B514 /* Sharing.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Sharing.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AAA036898E83738C48199540 /* ThirdParty-Prod-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "ThirdParty-Prod-Info.plist"; sourceTree = "<group>"; };
 		B36F1CA8CC4B96FA2609B4DF /* SwiftNavigation.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftNavigation.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -304,6 +307,7 @@
 			isa = PBXGroup;
 			children = (
 				B9BC6479EB78F11E324D181D /* InfoPlists */,
+				F7071116F296C75BB5187CF7 /* Sources */,
 			);
 			path = Derived;
 			sourceTree = "<group>";
@@ -393,6 +397,14 @@
 				8CE2A6F935A4D19FF8E66FE5 /* ThirdPartyTests */,
 			);
 			name = Project;
+			sourceTree = "<group>";
+		};
+		F7071116F296C75BB5187CF7 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				A77AA96439A830D80E228086 /* TuistBundle+ThirdPartyTests.swift */,
+			);
+			path = Sources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -555,6 +567,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8C8B39AD0F1762FFDC793228 /* Test.swift in Resources */,
 				DE67F660AFC056E6F6C01E08 /* SnapKit_SnapKit.bundle in Resources */,
 				0074469DB831813B3CF710CC /* swift-composable-architecture_ComposableArchitecture.bundle in Resources */,
 				C2E18D714C5C12B8DD0A521B /* swift-sharing_Sharing.bundle in Resources */,
@@ -606,6 +619,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6E6162BB191893B5D743D52C /* TuistBundle+ThirdPartyTests.swift in Sources */,
 				2A8020A3F07A908E497F1B9E /* Test.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

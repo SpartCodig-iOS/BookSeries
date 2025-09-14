@@ -9,12 +9,13 @@ import Foundation
 
 import Core
 import DiContainer
+import Repository
 
 extension RepositoryModuleFactory {
   public mutating func registerDefaultDefinitions() {
     let registerModuleCopy = registerModule
 
-    repositoryDefinitions = {
+    definitions = {
       return [
         registerModuleCopy.bookListRepositoryImplModule,
         registerModuleCopy.summaryPersistenceRepositoryImplModule

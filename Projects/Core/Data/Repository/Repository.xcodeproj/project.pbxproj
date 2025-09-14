@@ -3,45 +3,51 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 56;
+	objectVersion = 55;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		01145525389F24D9CA763E87 /* DiContainer.framework in Dependencies */ = {isa = PBXBuildFile; fileRef = 221F2402E035C0A10B0C816D /* DiContainer.framework */; };
 		065CDD9E3F159CCEC6E1A6C0 /* Repository.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03D39D8FFA6B36EC82B3C778 /* Repository.framework */; };
-		0AD4B35ADC89274C4694D423 /* SummaryPersistenceRepositoryImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E99742559A1E105C3EA8357 /* SummaryPersistenceRepositoryImpl.swift */; };
 		0B3A76AD60A6CB76E72EFBE0 /* BookListRepositoryImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C59F3B38928EAC23B9AB1B7 /* BookListRepositoryImpl.swift */; };
+		10F17259F446EE6A880770ED /* TestTags.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97745ECBC297A4B299AC00D6 /* TestTags.swift */; };
 		18C2CD6B70E5FF30ECBD55A0 /* DomainInterface.framework in Dependencies */ = {isa = PBXBuildFile; fileRef = 1C0DAF15F0E90042DAD3E4C7 /* DomainInterface.framework */; };
 		19C775917BD20CEB27B664B0 /* Utill.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 41B5B2BB4E6A768C353D66BC /* Utill.framework */; };
 		19E087F33525DD097677C8CE /* MockBookListRepositoryImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62B81DC06405DCB90288AEF1 /* MockBookListRepositoryImpl.swift */; };
+		2293F8A0E6829ECB43CEC449 /* DefaultSummaryPersistenceRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13C7F30EB1139E9BCDC23CED /* DefaultSummaryPersistenceRepository.swift */; };
+		238B0D2223946ECAA82874E1 /* SummaryPersistenceRepositoryImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = E45FEF503DD7CBFE586EC8CB /* SummaryPersistenceRepositoryImpl.swift */; };
 		2C23766DA5EC5A267DB2DE38 /* Service.framework in Dependencies */ = {isa = PBXBuildFile; fileRef = 549C82A8C41E9EBA4FDC62C7 /* Service.framework */; };
 		3219A995648C8F76E46FD041 /* DiContainer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 221F2402E035C0A10B0C816D /* DiContainer.framework */; };
+		51B80C6AA807515291900C55 /* SummaryPersistenceRepositoryImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = E45FEF503DD7CBFE586EC8CB /* SummaryPersistenceRepositoryImpl.swift */; };
 		556137B923E9F25D7C03B110 /* BookListRepositoryImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C59F3B38928EAC23B9AB1B7 /* BookListRepositoryImpl.swift */; };
 		58EBA9BB76D0DD8E52CA2496 /* MockBookListRepositoryImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62B81DC06405DCB90288AEF1 /* MockBookListRepositoryImpl.swift */; };
-		5E341F17BAE8AF7203AD0E94 /* Test.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB490D15B7B70995BF4D615B /* Test.swift */; };
+		5AFC0835DAE7D78047F177F7 /* DefaultSummaryPersistenceRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13C7F30EB1139E9BCDC23CED /* DefaultSummaryPersistenceRepository.swift */; };
+		61587588E9B052B4292E34E9 /* DefaultSummaryPersistenceRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13C7F30EB1139E9BCDC23CED /* DefaultSummaryPersistenceRepository.swift */; };
 		6A1A9FEA4B6B516726D88CFF /* DiContainer.framework in Dependencies */ = {isa = PBXBuildFile; fileRef = 221F2402E035C0A10B0C816D /* DiContainer.framework */; };
 		6E4B21742A0CCE482D2450A1 /* BookListRepositoryImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C59F3B38928EAC23B9AB1B7 /* BookListRepositoryImpl.swift */; };
 		728DC01FD8A786C9A1A80315 /* DomainInterface.framework in Dependencies */ = {isa = PBXBuildFile; fileRef = 1C0DAF15F0E90042DAD3E4C7 /* DomainInterface.framework */; };
+		73AF9A7D49853C745765FED9 /* SummaryPersistenceRepositoryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4335C5F1B4229CB5FC98C1D /* SummaryPersistenceRepositoryTests.swift */; };
 		7ACC00A7B1ED2A6EB7300BFD /* MockBookListRepositoryImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62B81DC06405DCB90288AEF1 /* MockBookListRepositoryImpl.swift */; };
 		7C159382486CFF03695674BC /* MockBookListRepositoryImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62B81DC06405DCB90288AEF1 /* MockBookListRepositoryImpl.swift */; };
 		7E63C28A03F1AD3A287F85A3 /* DomainInterface.framework in Dependencies */ = {isa = PBXBuildFile; fileRef = 1C0DAF15F0E90042DAD3E4C7 /* DomainInterface.framework */; };
-		7F43B4FE2E71246000FA957E /* DefaultSummaryPersistenceRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F43B4FD2E71245E00FA957E /* DefaultSummaryPersistenceRepository.swift */; };
-		7F43B4FF2E71246000FA957E /* DefaultSummaryPersistenceRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F43B4FD2E71245E00FA957E /* DefaultSummaryPersistenceRepository.swift */; };
-		7F43B5002E71246000FA957E /* DefaultSummaryPersistenceRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F43B4FD2E71245E00FA957E /* DefaultSummaryPersistenceRepository.swift */; };
-		7F43B5012E71246000FA957E /* DefaultSummaryPersistenceRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F43B4FD2E71245E00FA957E /* DefaultSummaryPersistenceRepository.swift */; };
-		8475850838ED0E1056C94669 /* SummaryPersistenceRepositoryImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E99742559A1E105C3EA8357 /* SummaryPersistenceRepositoryImpl.swift */; };
+		87597AEFB792796EC7EC1BD9 /* TestTags.swift in Resources */ = {isa = PBXBuildFile; fileRef = 97745ECBC297A4B299AC00D6 /* TestTags.swift */; };
+		882F70ACF1C0B9E395F04D2A /* BookListRepositoryTests.swift in Resources */ = {isa = PBXBuildFile; fileRef = 70CDCDB015BFE50B62D67575 /* BookListRepositoryTests.swift */; };
+		8B39D82BC09BDBF112C31516 /* BookListRepositoryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70CDCDB015BFE50B62D67575 /* BookListRepositoryTests.swift */; };
 		8D3EE4A12A835297EA66F043 /* Model.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B001E4EB12F1B31552843EC8 /* Model.framework */; };
 		9147F077F2652E83E0A4BDA5 /* DiContainer.framework in Dependencies */ = {isa = PBXBuildFile; fileRef = 221F2402E035C0A10B0C816D /* DiContainer.framework */; };
+		93E926E96B2FE5F49248A1A2 /* SummaryPersistenceRepositoryImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = E45FEF503DD7CBFE586EC8CB /* SummaryPersistenceRepositoryImpl.swift */; };
 		95CFB05A618505B31732BBA6 /* DomainInterface.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C0DAF15F0E90042DAD3E4C7 /* DomainInterface.framework */; };
-		A78A42B153B103F30D65E7E0 /* SummaryPersistenceRepositoryImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E99742559A1E105C3EA8357 /* SummaryPersistenceRepositoryImpl.swift */; };
+		A770DE82742A8B6ECC308EC5 /* SummaryPersistenceRepositoryTests.swift in Resources */ = {isa = PBXBuildFile; fileRef = F4335C5F1B4229CB5FC98C1D /* SummaryPersistenceRepositoryTests.swift */; };
 		A7FF4EC22712B99E0094507D /* DomainInterface.framework in Dependencies */ = {isa = PBXBuildFile; fileRef = 1C0DAF15F0E90042DAD3E4C7 /* DomainInterface.framework */; };
-		B861B03167BC8EAC54E89EDD /* SummaryPersistenceRepositoryImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E99742559A1E105C3EA8357 /* SummaryPersistenceRepositoryImpl.swift */; };
+		B32FCE1596C400339441732E /* DefaultSummaryPersistenceRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13C7F30EB1139E9BCDC23CED /* DefaultSummaryPersistenceRepository.swift */; };
 		BC3E81878EF9E2A2651B2F87 /* LogMacro.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6CD10CD4A587CB9F328BD12 /* LogMacro.framework */; };
 		C1271844DE5B9D13E9E7CBC0 /* Service.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 549C82A8C41E9EBA4FDC62C7 /* Service.framework */; };
 		CB02AB758693F81C65872FA1 /* Service_Service.bundle in Dependencies */ = {isa = PBXBuildFile; fileRef = E8C20D4E047970824C7581BF /* Service_Service.bundle */; };
 		CD59907F5FF407743514DB95 /* Service.framework in Dependencies */ = {isa = PBXBuildFile; fileRef = 549C82A8C41E9EBA4FDC62C7 /* Service.framework */; };
+		D40D07E40818669B3EFF7A25 /* TuistBundle+RepositoryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81204029280D13DA4D483086 /* TuistBundle+RepositoryTests.swift */; };
 		D50A82DCA7A813DBD3EAC394 /* Service_Service.bundle in Resources */ = {isa = PBXBuildFile; fileRef = E8C20D4E047970824C7581BF /* Service_Service.bundle */; };
 		DCD884BEF59149765121ADBC /* Service.framework in Dependencies */ = {isa = PBXBuildFile; fileRef = 549C82A8C41E9EBA4FDC62C7 /* Service.framework */; };
+		E1C5B928ADFF155EFD07FC43 /* SummaryPersistenceRepositoryImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = E45FEF503DD7CBFE586EC8CB /* SummaryPersistenceRepositoryImpl.swift */; };
 		E3B07C5281726FE5EFA47795 /* Service.framework in Dependencies */ = {isa = PBXBuildFile; fileRef = 549C82A8C41E9EBA4FDC62C7 /* Service.framework */; };
 		E4BC4D14B4BDBEE586BCD85C /* DiContainer.framework in Dependencies */ = {isa = PBXBuildFile; fileRef = 221F2402E035C0A10B0C816D /* DiContainer.framework */; };
 		F6485DD8D3DF35B1124BBC93 /* BookListRepositoryImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C59F3B38928EAC23B9AB1B7 /* BookListRepositoryImpl.swift */; };
@@ -172,27 +178,30 @@
 /* Begin PBXFileReference section */
 		03D39D8FFA6B36EC82B3C778 /* Repository.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Repository.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		132E678FD0ADA70C08C1A39A /* Repository-Debug-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Repository-Debug-Info.plist"; sourceTree = "<group>"; };
+		13C7F30EB1139E9BCDC23CED /* DefaultSummaryPersistenceRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefaultSummaryPersistenceRepository.swift; sourceTree = "<group>"; };
 		18618E5B5CE8E0BEE5F43988 /* RepositoryTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RepositoryTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		18BF0EEF04EAE24831B86985 /* Repository-Prod-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Repository-Prod-Info.plist"; sourceTree = "<group>"; };
 		1C0DAF15F0E90042DAD3E4C7 /* DomainInterface.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DomainInterface.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		221F2402E035C0A10B0C816D /* DiContainer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DiContainer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		34E66E9088F97B1F320BF8B4 /* Repository_Stage.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Repository_Stage.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		3E99742559A1E105C3EA8357 /* SummaryPersistenceRepositoryImpl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SummaryPersistenceRepositoryImpl.swift; sourceTree = "<group>"; };
 		4131E6C825DB8588F94C2088 /* Repository_Prod.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Repository_Prod.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		41B5B2BB4E6A768C353D66BC /* Utill.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Utill.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4C59F3B38928EAC23B9AB1B7 /* BookListRepositoryImpl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookListRepositoryImpl.swift; sourceTree = "<group>"; };
 		549C82A8C41E9EBA4FDC62C7 /* Service.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Service.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		62B81DC06405DCB90288AEF1 /* MockBookListRepositoryImpl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockBookListRepositoryImpl.swift; sourceTree = "<group>"; };
 		67D7E950058188008115D32D /* Repository_Debug.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Repository_Debug.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		70CDCDB015BFE50B62D67575 /* BookListRepositoryTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookListRepositoryTests.swift; sourceTree = "<group>"; };
 		7DB3288BD804BE671D5A9E6C /* RepositoryTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "RepositoryTests-Info.plist"; sourceTree = "<group>"; };
-		7F43B4FD2E71245E00FA957E /* DefaultSummaryPersistenceRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefaultSummaryPersistenceRepository.swift; sourceTree = "<group>"; };
+		81204029280D13DA4D483086 /* TuistBundle+RepositoryTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TuistBundle+RepositoryTests.swift"; sourceTree = "<group>"; };
 		8434724C7BDFEA2B4A08E1DC /* Repository-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Repository-Info.plist"; sourceTree = "<group>"; };
+		97745ECBC297A4B299AC00D6 /* TestTags.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestTags.swift; sourceTree = "<group>"; };
 		9EE453BD6A8A16DC688113B4 /* Repository-Stage-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Repository-Stage-Info.plist"; sourceTree = "<group>"; };
 		B001E4EB12F1B31552843EC8 /* Model.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Model.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B6CD10CD4A587CB9F328BD12 /* LogMacro.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LogMacro.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C2B6D597B16E9CDDB21DA680 /* OSLog.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OSLog.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/OSLog.framework; sourceTree = DEVELOPER_DIR; };
+		E45FEF503DD7CBFE586EC8CB /* SummaryPersistenceRepositoryImpl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SummaryPersistenceRepositoryImpl.swift; sourceTree = "<group>"; };
 		E8C20D4E047970824C7581BF /* Service_Service.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Service_Service.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
-		FB490D15B7B70995BF4D615B /* Test.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Test.swift; sourceTree = "<group>"; };
+		F4335C5F1B4229CB5FC98C1D /* SummaryPersistenceRepositoryTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SummaryPersistenceRepositoryTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -245,7 +254,9 @@
 		280ACB745E0A714E9FEB0344 /* Sources */ = {
 			isa = PBXGroup;
 			children = (
-				FB490D15B7B70995BF4D615B /* Test.swift */,
+				70CDCDB015BFE50B62D67575 /* BookListRepositoryTests.swift */,
+				F4335C5F1B4229CB5FC98C1D /* SummaryPersistenceRepositoryTests.swift */,
+				97745ECBC297A4B299AC00D6 /* TestTags.swift */,
 			);
 			path = Sources;
 			sourceTree = "<group>";
@@ -253,10 +264,10 @@
 		2A81942EBE921C2DE57092A4 /* BookList */ = {
 			isa = PBXGroup;
 			children = (
-				3E99742559A1E105C3EA8357 /* SummaryPersistenceRepositoryImpl.swift */,
-				7F43B4FD2E71245E00FA957E /* DefaultSummaryPersistenceRepository.swift */,
 				4C59F3B38928EAC23B9AB1B7 /* BookListRepositoryImpl.swift */,
+				13C7F30EB1139E9BCDC23CED /* DefaultSummaryPersistenceRepository.swift */,
 				62B81DC06405DCB90288AEF1 /* MockBookListRepositoryImpl.swift */,
+				E45FEF503DD7CBFE586EC8CB /* SummaryPersistenceRepositoryImpl.swift */,
 			);
 			path = BookList;
 			sourceTree = "<group>";
@@ -273,6 +284,7 @@
 			isa = PBXGroup;
 			children = (
 				D7DB4D9797325E8956FD46BB /* InfoPlists */,
+				595C2CDAD23E1F556EEBEA2A /* Sources */,
 			);
 			path = Derived;
 			sourceTree = "<group>";
@@ -285,6 +297,14 @@
 				2D734AC98FF0BE5BAB8E93F5 /* Sources */,
 			);
 			name = Project;
+			sourceTree = "<group>";
+		};
+		595C2CDAD23E1F556EEBEA2A /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				81204029280D13DA4D483086 /* TuistBundle+RepositoryTests.swift */,
+			);
+			path = Sources;
 			sourceTree = "<group>";
 		};
 		5DD9E0D03C122068948E3C8D = {
@@ -459,6 +479,8 @@
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = YES;
+				TargetAttributes = {
+				};
 			};
 			buildConfigurationList = DAEAABCA4F1BDA57B6C50343 /* Build configuration list for PBXProject "Repository" */;
 			compatibilityVersion = "Xcode 14.0";
@@ -508,6 +530,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				882F70ACF1C0B9E395F04D2A /* BookListRepositoryTests.swift in Resources */,
+				A770DE82742A8B6ECC308EC5 /* SummaryPersistenceRepositoryTests.swift in Resources */,
+				87597AEFB792796EC7EC1BD9 /* TestTags.swift in Resources */,
 				D50A82DCA7A813DBD3EAC394 /* Service_Service.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -526,10 +551,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7F43B5012E71246000FA957E /* DefaultSummaryPersistenceRepository.swift in Sources */,
 				556137B923E9F25D7C03B110 /* BookListRepositoryImpl.swift in Sources */,
+				B32FCE1596C400339441732E /* DefaultSummaryPersistenceRepository.swift in Sources */,
 				19E087F33525DD097677C8CE /* MockBookListRepositoryImpl.swift in Sources */,
-				B861B03167BC8EAC54E89EDD /* SummaryPersistenceRepositoryImpl.swift in Sources */,
+				93E926E96B2FE5F49248A1A2 /* SummaryPersistenceRepositoryImpl.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -537,10 +562,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7F43B4FF2E71246000FA957E /* DefaultSummaryPersistenceRepository.swift in Sources */,
 				6E4B21742A0CCE482D2450A1 /* BookListRepositoryImpl.swift in Sources */,
+				2293F8A0E6829ECB43CEC449 /* DefaultSummaryPersistenceRepository.swift in Sources */,
 				58EBA9BB76D0DD8E52CA2496 /* MockBookListRepositoryImpl.swift in Sources */,
-				0AD4B35ADC89274C4694D423 /* SummaryPersistenceRepositoryImpl.swift in Sources */,
+				51B80C6AA807515291900C55 /* SummaryPersistenceRepositoryImpl.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -548,10 +573,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7F43B4FE2E71246000FA957E /* DefaultSummaryPersistenceRepository.swift in Sources */,
 				0B3A76AD60A6CB76E72EFBE0 /* BookListRepositoryImpl.swift in Sources */,
+				61587588E9B052B4292E34E9 /* DefaultSummaryPersistenceRepository.swift in Sources */,
 				7ACC00A7B1ED2A6EB7300BFD /* MockBookListRepositoryImpl.swift in Sources */,
-				A78A42B153B103F30D65E7E0 /* SummaryPersistenceRepositoryImpl.swift in Sources */,
+				238B0D2223946ECAA82874E1 /* SummaryPersistenceRepositoryImpl.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -559,10 +584,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7F43B5002E71246000FA957E /* DefaultSummaryPersistenceRepository.swift in Sources */,
 				F6485DD8D3DF35B1124BBC93 /* BookListRepositoryImpl.swift in Sources */,
+				5AFC0835DAE7D78047F177F7 /* DefaultSummaryPersistenceRepository.swift in Sources */,
 				7C159382486CFF03695674BC /* MockBookListRepositoryImpl.swift in Sources */,
-				8475850838ED0E1056C94669 /* SummaryPersistenceRepositoryImpl.swift in Sources */,
+				E1C5B928ADFF155EFD07FC43 /* SummaryPersistenceRepositoryImpl.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -570,7 +595,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5E341F17BAE8AF7203AD0E94 /* Test.swift in Sources */,
+				D40D07E40818669B3EFF7A25 /* TuistBundle+RepositoryTests.swift in Sources */,
+				8B39D82BC09BDBF112C31516 /* BookListRepositoryTests.swift in Sources */,
+				73AF9A7D49853C745765FED9 /* SummaryPersistenceRepositoryTests.swift in Sources */,
+				10F17259F446EE6A880770ED /* TestTags.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -605,7 +633,13 @@
 					"$(inherited)",
 					"-fmodule-map-file=$(SRCROOT)/../../../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include/module.modulemap",
 				);
-				OTHER_SWIFT_FLAGS = "$(inherited) -Xcc -fmodule-map-file=$(SRCROOT)/../../../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include/module.modulemap -load-plugin-executable $BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/LogMacroMacro#LogMacroMacro";
+				OTHER_SWIFT_FLAGS = (
+					"$(inherited)",
+					"-Xcc",
+					"-fmodule-map-file=$(SRCROOT)/../../../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include/module.modulemap",
+					"-load-plugin-executable",
+					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/LogMacroMacro#LogMacroMacro",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = io.Roy.BookSeries.Repository.RepositoryTests;
 				PRODUCT_NAME = RepositoryTests;
 				SDKROOT = iphoneos;
@@ -645,7 +679,13 @@
 					"$(inherited)",
 					"-fmodule-map-file=$(SRCROOT)/../../../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include/module.modulemap",
 				);
-				OTHER_SWIFT_FLAGS = "$(inherited) -Xcc -fmodule-map-file=$(SRCROOT)/../../../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include/module.modulemap -load-plugin-executable $BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/LogMacroMacro#LogMacroMacro";
+				OTHER_SWIFT_FLAGS = (
+					"$(inherited)",
+					"-Xcc",
+					"-fmodule-map-file=$(SRCROOT)/../../../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include/module.modulemap",
+					"-load-plugin-executable",
+					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/LogMacroMacro#LogMacroMacro",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = io.Roy.BookSeries.Repository;
 				PRODUCT_NAME = Repository_Stage;
 				SDKROOT = iphoneos;
@@ -688,7 +728,13 @@
 					"$(inherited)",
 					"-fmodule-map-file=$(SRCROOT)/../../../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include/module.modulemap",
 				);
-				OTHER_SWIFT_FLAGS = "$(inherited) -Xcc -fmodule-map-file=$(SRCROOT)/../../../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include/module.modulemap -load-plugin-executable $BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/LogMacroMacro#LogMacroMacro";
+				OTHER_SWIFT_FLAGS = (
+					"$(inherited)",
+					"-Xcc",
+					"-fmodule-map-file=$(SRCROOT)/../../../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include/module.modulemap",
+					"-load-plugin-executable",
+					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/LogMacroMacro#LogMacroMacro",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = io.Roy.BookSeries.Repository;
 				PRODUCT_NAME = Repository_Prod;
 				SDKROOT = iphoneos;
@@ -696,7 +742,10 @@
 				SUPPORTS_MACCATALYST = NO;
 				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) DEBUG";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
+					"$(inherited)",
+					DEBUG,
+				);
 				SWIFT_COMPILATION_MODE = singlefile;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
@@ -732,7 +781,13 @@
 					"$(inherited)",
 					"-fmodule-map-file=$(SRCROOT)/../../../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include/module.modulemap",
 				);
-				OTHER_SWIFT_FLAGS = "$(inherited) -Xcc -fmodule-map-file=$(SRCROOT)/../../../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include/module.modulemap -load-plugin-executable $BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/LogMacroMacro#LogMacroMacro";
+				OTHER_SWIFT_FLAGS = (
+					"$(inherited)",
+					"-Xcc",
+					"-fmodule-map-file=$(SRCROOT)/../../../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include/module.modulemap",
+					"-load-plugin-executable",
+					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/LogMacroMacro#LogMacroMacro",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = io.Roy.BookSeries.Repository;
 				PRODUCT_NAME = Repository_Debug;
 				SDKROOT = iphoneos;
@@ -775,7 +830,13 @@
 					"$(inherited)",
 					"-fmodule-map-file=$(SRCROOT)/../../../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include/module.modulemap",
 				);
-				OTHER_SWIFT_FLAGS = "$(inherited) -Xcc -fmodule-map-file=$(SRCROOT)/../../../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include/module.modulemap -load-plugin-executable $BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/LogMacroMacro#LogMacroMacro";
+				OTHER_SWIFT_FLAGS = (
+					"$(inherited)",
+					"-Xcc",
+					"-fmodule-map-file=$(SRCROOT)/../../../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include/module.modulemap",
+					"-load-plugin-executable",
+					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/LogMacroMacro#LogMacroMacro",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = io.Roy.BookSeries.Repository;
 				PRODUCT_NAME = Repository_Prod;
 				SDKROOT = iphoneos;
@@ -811,14 +872,23 @@
 					"$(inherited)",
 					"-fmodule-map-file=$(SRCROOT)/../../../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include/module.modulemap",
 				);
-				OTHER_SWIFT_FLAGS = "$(inherited) -Xcc -fmodule-map-file=$(SRCROOT)/../../../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include/module.modulemap -load-plugin-executable $BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/LogMacroMacro#LogMacroMacro";
+				OTHER_SWIFT_FLAGS = (
+					"$(inherited)",
+					"-Xcc",
+					"-fmodule-map-file=$(SRCROOT)/../../../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include/module.modulemap",
+					"-load-plugin-executable",
+					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/LogMacroMacro#LogMacroMacro",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = io.Roy.BookSeries.Repository.RepositoryTests;
 				PRODUCT_NAME = RepositoryTests;
 				SDKROOT = iphoneos;
 				SUPPORTS_MACCATALYST = NO;
 				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) DEBUG";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
+					"$(inherited)",
+					DEBUG,
+				);
 				SWIFT_COMPILATION_MODE = singlefile;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
@@ -852,7 +922,13 @@
 					"$(inherited)",
 					"-fmodule-map-file=$(SRCROOT)/../../../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include/module.modulemap",
 				);
-				OTHER_SWIFT_FLAGS = "$(inherited) -Xcc -fmodule-map-file=$(SRCROOT)/../../../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include/module.modulemap -load-plugin-executable $BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/LogMacroMacro#LogMacroMacro";
+				OTHER_SWIFT_FLAGS = (
+					"$(inherited)",
+					"-Xcc",
+					"-fmodule-map-file=$(SRCROOT)/../../../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include/module.modulemap",
+					"-load-plugin-executable",
+					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/LogMacroMacro#LogMacroMacro",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = io.Roy.BookSeries.Repository;
 				PRODUCT_NAME = Repository;
 				SDKROOT = iphoneos;
@@ -895,7 +971,13 @@
 					"$(inherited)",
 					"-fmodule-map-file=$(SRCROOT)/../../../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include/module.modulemap",
 				);
-				OTHER_SWIFT_FLAGS = "$(inherited) -Xcc -fmodule-map-file=$(SRCROOT)/../../../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include/module.modulemap -load-plugin-executable $BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/LogMacroMacro#LogMacroMacro";
+				OTHER_SWIFT_FLAGS = (
+					"$(inherited)",
+					"-Xcc",
+					"-fmodule-map-file=$(SRCROOT)/../../../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include/module.modulemap",
+					"-load-plugin-executable",
+					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/LogMacroMacro#LogMacroMacro",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = io.Roy.BookSeries.Repository;
 				PRODUCT_NAME = Repository_Debug;
 				SDKROOT = iphoneos;
@@ -903,7 +985,10 @@
 				SUPPORTS_MACCATALYST = NO;
 				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) DEBUG";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
+					"$(inherited)",
+					DEBUG,
+				);
 				SWIFT_COMPILATION_MODE = singlefile;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
@@ -939,7 +1024,13 @@
 					"$(inherited)",
 					"-fmodule-map-file=$(SRCROOT)/../../../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include/module.modulemap",
 				);
-				OTHER_SWIFT_FLAGS = "$(inherited) -Xcc -fmodule-map-file=$(SRCROOT)/../../../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include/module.modulemap -load-plugin-executable $BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/LogMacroMacro#LogMacroMacro";
+				OTHER_SWIFT_FLAGS = (
+					"$(inherited)",
+					"-Xcc",
+					"-fmodule-map-file=$(SRCROOT)/../../../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include/module.modulemap",
+					"-load-plugin-executable",
+					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/LogMacroMacro#LogMacroMacro",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = io.Roy.BookSeries.Repository;
 				PRODUCT_NAME = Repository_Stage;
 				SDKROOT = iphoneos;
@@ -947,7 +1038,10 @@
 				SUPPORTS_MACCATALYST = NO;
 				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) DEBUG";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
+					"$(inherited)",
+					DEBUG,
+				);
 				SWIFT_COMPILATION_MODE = singlefile;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
@@ -1095,7 +1189,13 @@
 					"$(inherited)",
 					"-fmodule-map-file=$(SRCROOT)/../../../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include/module.modulemap",
 				);
-				OTHER_SWIFT_FLAGS = "$(inherited) -Xcc -fmodule-map-file=$(SRCROOT)/../../../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include/module.modulemap -load-plugin-executable $BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/LogMacroMacro#LogMacroMacro";
+				OTHER_SWIFT_FLAGS = (
+					"$(inherited)",
+					"-Xcc",
+					"-fmodule-map-file=$(SRCROOT)/../../../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include/module.modulemap",
+					"-load-plugin-executable",
+					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/LogMacroMacro#LogMacroMacro",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = io.Roy.BookSeries.Repository;
 				PRODUCT_NAME = Repository;
 				SDKROOT = iphoneos;
@@ -1103,7 +1203,10 @@
 				SUPPORTS_MACCATALYST = NO;
 				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) DEBUG";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
+					"$(inherited)",
+					DEBUG,
+				);
 				SWIFT_COMPILATION_MODE = singlefile;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;

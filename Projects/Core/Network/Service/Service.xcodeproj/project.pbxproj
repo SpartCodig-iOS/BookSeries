@@ -37,6 +37,8 @@
 		8530C925A773A34D38648EB2 /* Service_Service.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 37A05F6FE55F2D51ADC8DF61 /* Service_Service.bundle */; };
 		8BA6C5812D97167D5065A3D7 /* Extension+Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B5254AD3F20CE754E235259 /* Extension+Data.swift */; };
 		99F90699DD2251898FB90B7D /* TuistBundle+ServiceDebug.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50EC0E5BDDE841964C004659 /* TuistBundle+ServiceDebug.swift */; };
+		A7EA51756CE571F964AD2D48 /* Test.swift in Resources */ = {isa = PBXBuildFile; fileRef = BA233B5E4422F71B1E2790B8 /* Test.swift */; };
+		A970C4596E49412243506FBB /* TuistBundle+ServiceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8100514859327A19F58AA7C9 /* TuistBundle+ServiceTests.swift */; };
 		B3F7E32E4ACC78FF0D7C2CFE /* BookListData.json in Resources */ = {isa = PBXBuildFile; fileRef = 16454F219F40A7D4B35E971B /* BookListData.json */; };
 		B66A37E632260C4C76194F80 /* JSONInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAFFF25D1A493FD9E7BDF34E /* JSONInput.swift */; };
 		B9E2A4D48E191A2A2C7F9DFA /* JSONFileLookupError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70D502676A8279CF1629D293 /* JSONFileLookupError.swift */; };
@@ -253,6 +255,7 @@
 		74A1B62620FE2F19FABD7BF1 /* Service-Debug-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Service-Debug-Info.plist"; sourceTree = "<group>"; };
 		79814A227CE0F11AA0C03131 /* Service-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Service-Info.plist"; sourceTree = "<group>"; };
 		7EDFE229DFD7957E8AC64F6F /* Service.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Service.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8100514859327A19F58AA7C9 /* TuistBundle+ServiceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TuistBundle+ServiceTests.swift"; sourceTree = "<group>"; };
 		8EBD9486798A0D863BB013E5 /* OSLog.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OSLog.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/OSLog.framework; sourceTree = DEVELOPER_DIR; };
 		952C3CF5CEC7B12E8011DE4C /* Service_Service-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Service_Service-Info.plist"; sourceTree = "<group>"; };
 		978FAF24D817F081FD46CE08 /* TuistBundle+ServiceStage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TuistBundle+ServiceStage.swift"; sourceTree = "<group>"; };
@@ -344,6 +347,7 @@
 				50EC0E5BDDE841964C004659 /* TuistBundle+ServiceDebug.swift */,
 				17FB50B51F92BE26BE37AB1A /* TuistBundle+ServiceProd.swift */,
 				978FAF24D817F081FD46CE08 /* TuistBundle+ServiceStage.swift */,
+				8100514859327A19F58AA7C9 /* TuistBundle+ServiceTests.swift */,
 			);
 			path = Sources;
 			sourceTree = "<group>";
@@ -757,6 +761,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A7EA51756CE571F964AD2D48 /* Test.swift in Resources */,
 				8530C925A773A34D38648EB2 /* Service_Service.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -860,6 +865,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A970C4596E49412243506FBB /* TuistBundle+ServiceTests.swift in Sources */,
 				8279A0344BCCCB23F8D07ADA /* Test.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

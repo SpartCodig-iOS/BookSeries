@@ -22,6 +22,7 @@
 		3413AE59056BFB1365F78075 /* SwiftUINavigation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 36E666AAA64A164B30D9BCB9 /* SwiftUINavigation.framework */; };
 		3AE4EA711182B84E033B44D9 /* swift-sharing_Sharing.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 7259C25AA1A99BB1BBD3C941 /* swift-sharing_Sharing.bundle */; };
 		3C1554DECACDABC4363FAECB /* Dependencies.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C32206975EC04787B73B7C1E /* Dependencies.framework */; };
+		3EC81901058D502393BDDEBD /* TuistBundle+SharedTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F662262A6E4B5DB87EA107A /* TuistBundle+SharedTests.swift */; };
 		48A898FE2B7B2BD37CDA5B14 /* InternalCollectionsUtilities.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 17205074249DF2B59082FA58 /* InternalCollectionsUtilities.framework */; };
 		59308B6E4D70BD1DC619D56B /* Clocks.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5903DAA16331C93F6AD367EC /* Clocks.framework */; };
 		6081932CDC695E831E563A0C /* CustomDump.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD588A48E7F5E6AD89544592 /* CustomDump.framework */; };
@@ -58,6 +59,7 @@
 		D52303CE5D36A056B401285D /* UIKitNavigation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D058DC706D315B4420AC4E6E /* UIKitNavigation.framework */; };
 		DB4C750DEEFF001C9E2F92AC /* DesignSystem.framework in Dependencies */ = {isa = PBXBuildFile; fileRef = 4AE87645A97032776452E22F /* DesignSystem.framework */; };
 		E0AB5066B6C5F124E93C6FFC /* SwiftNavigation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 11546DC873CD070AC6AB00F2 /* SwiftNavigation.framework */; };
+		E71D6A90D4ADFA306173ECED /* Test.swift in Resources */ = {isa = PBXBuildFile; fileRef = 0D401F44D6E4EB3BF22FD6C3 /* Test.swift */; };
 		F1FC1406E587B17396514EA7 /* UIKitNavigationShim.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 92A4FA977C0B1B989DD6F80A /* UIKitNavigationShim.framework */; };
 		F4EBF543DDF4588FFADA1B04 /* SnapKit_SnapKit.bundle in Dependencies */ = {isa = PBXBuildFile; fileRef = E597872285478A9F1A0FAC39 /* SnapKit_SnapKit.bundle */; };
 		F5A5E24CFBA770D564DE29A8 /* Sharing.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 98809FB8001A003575E411AB /* Sharing.framework */; };
@@ -218,6 +220,7 @@
 		92A4FA977C0B1B989DD6F80A /* UIKitNavigationShim.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = UIKitNavigationShim.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		98809FB8001A003575E411AB /* Sharing.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Sharing.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9BA57BC4B13796776E6C9DC2 /* Shared_Stage.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Shared_Stage.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9F662262A6E4B5DB87EA107A /* TuistBundle+SharedTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TuistBundle+SharedTests.swift"; sourceTree = "<group>"; };
 		9F6D7141FB2589CD40FC9AF1 /* CasePaths.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CasePaths.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AD7280F892588925BDA24822 /* IssueReportingPackageSupport.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = IssueReportingPackageSupport.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B640CE6746F8A788385C1B6D /* Sharing2.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Sharing2.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -309,6 +312,7 @@
 			isa = PBXGroup;
 			children = (
 				CFF3308B9DD8563D12ABFC25 /* InfoPlists */,
+				CCE12D42A69525F4979C8A35 /* Sources */,
 			);
 			path = Derived;
 			sourceTree = "<group>";
@@ -390,6 +394,14 @@
 				6C1C6C8C7D6626CF96508CA2 /* Sources */,
 			);
 			path = SharedTests;
+			sourceTree = "<group>";
+		};
+		CCE12D42A69525F4979C8A35 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				9F662262A6E4B5DB87EA107A /* TuistBundle+SharedTests.swift */,
+			);
+			path = Sources;
 			sourceTree = "<group>";
 		};
 		CFF3308B9DD8563D12ABFC25 /* InfoPlists */ = {
@@ -566,6 +578,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E71D6A90D4ADFA306173ECED /* Test.swift in Resources */,
 				C2FA6B24C1ED707BA1124D96 /* DesignSystem_DesignSystem.bundle in Resources */,
 				26A7FFF42670F1F606B685BB /* SnapKit_SnapKit.bundle in Resources */,
 				0C8957912F2D02D504FFF5A9 /* swift-composable-architecture_ComposableArchitecture.bundle in Resources */,
@@ -616,6 +629,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3EC81901058D502393BDDEBD /* TuistBundle+SharedTests.swift in Sources */,
 				C21BA352741E2986DB90320C /* Test.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

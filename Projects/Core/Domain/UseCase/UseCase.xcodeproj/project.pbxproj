@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 56;
+	objectVersion = 55;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -11,21 +11,27 @@
 		014438C30E3FBCFDF9D90E75 /* swift-composable-architecture_ComposableArchitecture.bundle in Resources */ = {isa = PBXBuildFile; fileRef = A733A7597F14F4728F8A5C0C /* swift-composable-architecture_ComposableArchitecture.bundle */; };
 		039F640F54A3DEE46842069F /* ConcurrencyExtras.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B60FF119A6FEF6D0D51AE5B /* ConcurrencyExtras.framework */; };
 		03B706DEBBD0E4F94AEBD367 /* ComposableArchitecture.framework in Dependencies */ = {isa = PBXBuildFile; fileRef = A06ABB2F1523CED2E74B4851 /* ComposableArchitecture.framework */; };
+		03FBCA67E2B3EF24B2772029 /* SummaryPersistenceUseCaseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D925C09B23D80D9DBE44FF4 /* SummaryPersistenceUseCaseTests.swift */; };
 		067A96199616613C26346247 /* DomainInterface.framework in Dependencies */ = {isa = PBXBuildFile; fileRef = FB9702202A42059A564824B3 /* DomainInterface.framework */; };
 		071B981F0D2DF826183B79CB /* UIKitNavigation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D748E68EDF03BA484791AC0E /* UIKitNavigation.framework */; };
 		0A936314C0600F81E5A0F920 /* DiContainer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 46C58245B58D94734381D720 /* DiContainer.framework */; };
+		0C6CB5A62B5FC3DBD9068817 /* SummaryPersistenceUseCaseImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05700E1472D79B766A823846 /* SummaryPersistenceUseCaseImpl.swift */; };
 		10E27092E86026FC59BFF7F0 /* BookListUseCaseImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = A397733F0151591AE4A2EC73 /* BookListUseCaseImpl.swift */; };
 		13D48166F46D9317D55B2CF3 /* Clocks.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6AA0797B504174C847E8FE95 /* Clocks.framework */; };
+		13F542F658B74B5A78AC8A97 /* TestTags.swift in Resources */ = {isa = PBXBuildFile; fileRef = 89507EFE5D61336E2067E811 /* TestTags.swift */; };
 		160B51D2DFC89B04828176AF /* BookListUseCaseImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = A397733F0151591AE4A2EC73 /* BookListUseCaseImpl.swift */; };
 		1F52B4C183ED7440BB0008C5 /* ComposableArchitecture.framework in Dependencies */ = {isa = PBXBuildFile; fileRef = A06ABB2F1523CED2E74B4851 /* ComposableArchitecture.framework */; };
 		225CEFCE42B0B52EADC274BD /* CombineSchedulers.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A7443ABF2BF970A68F68C39 /* CombineSchedulers.framework */; };
+		253ADD154E0636AA70F8D743 /* BookListUseCaseTests.swift in Resources */ = {isa = PBXBuildFile; fileRef = 23850C81320E0E138428EB23 /* BookListUseCaseTests.swift */; };
 		27452DD39E58781771F321B6 /* DiContainer.framework in Dependencies */ = {isa = PBXBuildFile; fileRef = 46C58245B58D94734381D720 /* DiContainer.framework */; };
 		27BC664E66CCF74669CFCB4A /* UIKitNavigationShim.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44D709557E90FBEF8A8A4305 /* UIKitNavigationShim.framework */; };
+		3696CAAADA1E28F46E5B26AC /* SummaryPersistenceUseCaseImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05700E1472D79B766A823846 /* SummaryPersistenceUseCaseImpl.swift */; };
 		3AD9817DB1EA153D26CA1169 /* DomainInterface.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB9702202A42059A564824B3 /* DomainInterface.framework */; };
 		48DA391227237D97718D845F /* DiContainer.framework in Dependencies */ = {isa = PBXBuildFile; fileRef = 46C58245B58D94734381D720 /* DiContainer.framework */; };
 		4DEF70A10ABBC302AF66D19B /* Repository.framework in Dependencies */ = {isa = PBXBuildFile; fileRef = 6C51192BCDE8A7E9252657C2 /* Repository.framework */; };
 		4E3980C565E43304F0F1E101 /* BookListUseCaseImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = A397733F0151591AE4A2EC73 /* BookListUseCaseImpl.swift */; };
 		4FA5872040E01A8D68F66F8E /* ComposableArchitecture.framework in Dependencies */ = {isa = PBXBuildFile; fileRef = A06ABB2F1523CED2E74B4851 /* ComposableArchitecture.framework */; };
+		4FE880D0FA6D000F747022CE /* TuistBundle+UseCaseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51567EE2D436C6B64DB1FD25 /* TuistBundle+UseCaseTests.swift */; };
 		532676483F2C2203F76AB474 /* XCTestDynamicOverlay.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 008DF05C3439EA6B9FDCF073 /* XCTestDynamicOverlay.framework */; };
 		541697140A6418A997A49C8E /* UseCase.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 981DA49FF8FB5D20F6052CD5 /* UseCase.framework */; };
 		546C4C7902FF0E1EBD659ED0 /* PerceptionCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 85FEAEF231E31B0754B21769 /* PerceptionCore.framework */; };
@@ -38,12 +44,12 @@
 		657EB28029C3DF0D4B44A8EE /* Repository.framework in Dependencies */ = {isa = PBXBuildFile; fileRef = 6C51192BCDE8A7E9252657C2 /* Repository.framework */; };
 		6F8C0740809FF4FA4ECB5419 /* OSLog.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA48A0D2804DC03C431C9190 /* OSLog.framework */; };
 		75D5489B5B030315F847CEC7 /* Sharing.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DCE5B4C0845929AAD691396C /* Sharing.framework */; };
+		78240A3908E9339EC75DBEE2 /* TestTags.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89507EFE5D61336E2067E811 /* TestTags.swift */; };
+		7874D2A6F947BE1620225121 /* SummaryPersistenceUseCaseImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05700E1472D79B766A823846 /* SummaryPersistenceUseCaseImpl.swift */; };
 		7877E1D2F0708E6B8BA5DCD1 /* BookListUseCaseImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = A397733F0151591AE4A2EC73 /* BookListUseCaseImpl.swift */; };
 		7AC6377C2F512F8932492065 /* ComposableArchitecture.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A06ABB2F1523CED2E74B4851 /* ComposableArchitecture.framework */; };
-		7F43B4F92E711FB000FA957E /* SummaryPersistenceUseCaseImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F43B4F82E711FA800FA957E /* SummaryPersistenceUseCaseImpl.swift */; };
-		7F43B4FA2E711FB000FA957E /* SummaryPersistenceUseCaseImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F43B4F82E711FA800FA957E /* SummaryPersistenceUseCaseImpl.swift */; };
-		7F43B4FB2E711FB000FA957E /* SummaryPersistenceUseCaseImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F43B4F82E711FA800FA957E /* SummaryPersistenceUseCaseImpl.swift */; };
-		7F43B4FC2E711FB000FA957E /* SummaryPersistenceUseCaseImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F43B4F82E711FA800FA957E /* SummaryPersistenceUseCaseImpl.swift */; };
+		7B1209328E7ADC1A97880918 /* BookListUseCaseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23850C81320E0E138428EB23 /* BookListUseCaseTests.swift */; };
+		811408EB3DD885E082C14AB0 /* SummaryPersistenceUseCaseImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05700E1472D79B766A823846 /* SummaryPersistenceUseCaseImpl.swift */; };
 		8D33245E18919C5183CF8240 /* Sharing2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF32355A546906AD16B4026C /* Sharing2.framework */; };
 		937A580AE4C073DC1A3135BF /* swift-composable-architecture_ComposableArchitecture.bundle in Dependencies */ = {isa = PBXBuildFile; fileRef = A733A7597F14F4728F8A5C0C /* swift-composable-architecture_ComposableArchitecture.bundle */; };
 		981D811B08EC3109C187940B /* SwiftNavigation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28B28AE28B75F4A08064786E /* SwiftNavigation.framework */; };
@@ -60,10 +66,10 @@
 		B56BA2CAB8E95C0B318816C5 /* CasePathsCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 077022AC51917B06E9B06B85 /* CasePathsCore.framework */; };
 		B9C9A498E023667DA2DBE6E9 /* Dependencies.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 506286633FC4DF9633A2E0FD /* Dependencies.framework */; };
 		BB5DA4B960E719E9BC9438A5 /* Repository.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C51192BCDE8A7E9252657C2 /* Repository.framework */; };
-		C06337547B7E10930823F58D /* Test.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E4376DB9065359514F63111 /* Test.swift */; };
 		C8A1008E7C9BE0F37975B6F9 /* DiContainer.framework in Dependencies */ = {isa = PBXBuildFile; fileRef = 46C58245B58D94734381D720 /* DiContainer.framework */; };
 		C94613A52F9BFA9FB4F53709 /* InternalCollectionsUtilities.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 24F1526402401DBFF6736037 /* InternalCollectionsUtilities.framework */; };
 		CAA123A29015605C00B054B0 /* CustomDump.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BDC4D3A9CC2456F59785C311 /* CustomDump.framework */; };
+		CC74BCA440F81BB53F9FA992 /* SummaryPersistenceUseCaseTests.swift in Resources */ = {isa = PBXBuildFile; fileRef = 1D925C09B23D80D9DBE44FF4 /* SummaryPersistenceUseCaseTests.swift */; };
 		D5393DB4DF93417EF9EE85BB /* Sharing1.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 48BCB17D9732330186A8333E /* Sharing1.framework */; };
 		DE5D7645FE62EEC5E0714F4E /* Service.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D7D106A44F676A3F66DBD268 /* Service.framework */; };
 		EE69B862A9856B56F0FF9AAC /* IssueReportingPackageSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 38354F5D61ADD2C05EFA3A60 /* IssueReportingPackageSupport.framework */; };
@@ -202,9 +208,12 @@
 
 /* Begin PBXFileReference section */
 		008DF05C3439EA6B9FDCF073 /* XCTestDynamicOverlay.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = XCTestDynamicOverlay.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		05700E1472D79B766A823846 /* SummaryPersistenceUseCaseImpl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SummaryPersistenceUseCaseImpl.swift; sourceTree = "<group>"; };
 		077022AC51917B06E9B06B85 /* CasePathsCore.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CasePathsCore.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		156620DF42B5B603B36FFC4D /* UseCase-Stage-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "UseCase-Stage-Info.plist"; sourceTree = "<group>"; };
 		1C2FD116C7A6B0F966929543 /* SwiftUINavigation.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftUINavigation.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1D925C09B23D80D9DBE44FF4 /* SummaryPersistenceUseCaseTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SummaryPersistenceUseCaseTests.swift; sourceTree = "<group>"; };
+		23850C81320E0E138428EB23 /* BookListUseCaseTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookListUseCaseTests.swift; sourceTree = "<group>"; };
 		24F1526402401DBFF6736037 /* InternalCollectionsUtilities.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = InternalCollectionsUtilities.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		275036982500E63F980B08D3 /* OrderedCollections.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = OrderedCollections.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		28B28AE28B75F4A08064786E /* SwiftNavigation.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftNavigation.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -218,19 +227,19 @@
 		48BCB17D9732330186A8333E /* Sharing1.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Sharing1.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		491B7F0EBCB2B579DEE44331 /* Model.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Model.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		506286633FC4DF9633A2E0FD /* Dependencies.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Dependencies.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		51567EE2D436C6B64DB1FD25 /* TuistBundle+UseCaseTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TuistBundle+UseCaseTests.swift"; sourceTree = "<group>"; };
 		61E565246F1A023C52E9EA20 /* Utill.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Utill.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6AA0797B504174C847E8FE95 /* Clocks.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Clocks.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6C51192BCDE8A7E9252657C2 /* Repository.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Repository.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		765D2D0CA936BA6ADB4F5CE8 /* UseCase_Stage.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = UseCase_Stage.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		7F43B4F82E711FA800FA957E /* SummaryPersistenceUseCaseImpl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SummaryPersistenceUseCaseImpl.swift; sourceTree = "<group>"; };
 		83C1C4DE45683C912C8DC2B4 /* Perception.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Perception.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		85FEAEF231E31B0754B21769 /* PerceptionCore.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PerceptionCore.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		89507EFE5D61336E2067E811 /* TestTags.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestTags.swift; sourceTree = "<group>"; };
 		8A7443ABF2BF970A68F68C39 /* CombineSchedulers.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CombineSchedulers.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8D8A2D9DA49513C777029E76 /* UseCase_Debug.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = UseCase_Debug.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9508B8EA67CFEB36EF508AF4 /* UseCase-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "UseCase-Info.plist"; sourceTree = "<group>"; };
 		981DA49FF8FB5D20F6052CD5 /* UseCase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = UseCase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9D1B8C349D40AC2EE01758FF /* UseCase-Debug-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "UseCase-Debug-Info.plist"; sourceTree = "<group>"; };
-		9E4376DB9065359514F63111 /* Test.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Test.swift; sourceTree = "<group>"; };
 		A06ABB2F1523CED2E74B4851 /* ComposableArchitecture.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ComposableArchitecture.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A397733F0151591AE4A2EC73 /* BookListUseCaseImpl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookListUseCaseImpl.swift; sourceTree = "<group>"; };
 		A733A7597F14F4728F8A5C0C /* swift-composable-architecture_ComposableArchitecture.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "swift-composable-architecture_ComposableArchitecture.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -323,6 +332,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		01A38EA67589DF84A3F218AA /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				51567EE2D436C6B64DB1FD25 /* TuistBundle+UseCaseTests.swift */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
 		24C485C2264AA4D53285980D /* Sources */ = {
 			isa = PBXGroup;
 			children = (
@@ -334,8 +351,8 @@
 		3A33EB1ACBFC2F6877318199 /* BookList */ = {
 			isa = PBXGroup;
 			children = (
-				7F43B4F82E711FA800FA957E /* SummaryPersistenceUseCaseImpl.swift */,
 				A397733F0151591AE4A2EC73 /* BookListUseCaseImpl.swift */,
+				05700E1472D79B766A823846 /* SummaryPersistenceUseCaseImpl.swift */,
 			);
 			path = BookList;
 			sourceTree = "<group>";
@@ -371,6 +388,7 @@
 			isa = PBXGroup;
 			children = (
 				B689C96CF7E0ED0FEEF513C1 /* InfoPlists */,
+				01A38EA67589DF84A3F218AA /* Sources */,
 			);
 			path = Derived;
 			sourceTree = "<group>";
@@ -378,7 +396,9 @@
 		AA59CE1FEA8A06FD9F2BEE42 /* Sources */ = {
 			isa = PBXGroup;
 			children = (
-				9E4376DB9065359514F63111 /* Test.swift */,
+				23850C81320E0E138428EB23 /* BookListUseCaseTests.swift */,
+				1D925C09B23D80D9DBE44FF4 /* SummaryPersistenceUseCaseTests.swift */,
+				89507EFE5D61336E2067E811 /* TestTags.swift */,
 			);
 			path = Sources;
 			sourceTree = "<group>";
@@ -565,6 +585,8 @@
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = YES;
+				TargetAttributes = {
+				};
 			};
 			buildConfigurationList = 457FF1DD029A472E8F5461F7 /* Build configuration list for PBXProject "UseCase" */;
 			compatibilityVersion = "Xcode 14.0";
@@ -621,6 +643,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				253ADD154E0636AA70F8D743 /* BookListUseCaseTests.swift in Resources */,
+				CC74BCA440F81BB53F9FA992 /* SummaryPersistenceUseCaseTests.swift in Resources */,
+				13F542F658B74B5A78AC8A97 /* TestTags.swift in Resources */,
 				B2F7FE5C423A39A4565F0F84 /* Service_Service.bundle in Resources */,
 				014438C30E3FBCFDF9D90E75 /* swift-composable-architecture_ComposableArchitecture.bundle in Resources */,
 				B3D82FA785BA33FDEE677930 /* swift-sharing_Sharing.bundle in Resources */,
@@ -634,7 +659,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C06337547B7E10930823F58D /* Test.swift in Sources */,
+				4FE880D0FA6D000F747022CE /* TuistBundle+UseCaseTests.swift in Sources */,
+				7B1209328E7ADC1A97880918 /* BookListUseCaseTests.swift in Sources */,
+				03FBCA67E2B3EF24B2772029 /* SummaryPersistenceUseCaseTests.swift in Sources */,
+				78240A3908E9339EC75DBEE2 /* TestTags.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -642,8 +670,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7F43B4FB2E711FB000FA957E /* SummaryPersistenceUseCaseImpl.swift in Sources */,
 				160B51D2DFC89B04828176AF /* BookListUseCaseImpl.swift in Sources */,
+				3696CAAADA1E28F46E5B26AC /* SummaryPersistenceUseCaseImpl.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -651,8 +679,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7F43B4F92E711FB000FA957E /* SummaryPersistenceUseCaseImpl.swift in Sources */,
 				4E3980C565E43304F0F1E101 /* BookListUseCaseImpl.swift in Sources */,
+				7874D2A6F947BE1620225121 /* SummaryPersistenceUseCaseImpl.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -660,8 +688,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7F43B4FC2E711FB000FA957E /* SummaryPersistenceUseCaseImpl.swift in Sources */,
 				7877E1D2F0708E6B8BA5DCD1 /* BookListUseCaseImpl.swift in Sources */,
+				0C6CB5A62B5FC3DBD9068817 /* SummaryPersistenceUseCaseImpl.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -669,8 +697,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7F43B4FA2E711FB000FA957E /* SummaryPersistenceUseCaseImpl.swift in Sources */,
 				10E27092E86026FC59BFF7F0 /* BookListUseCaseImpl.swift in Sources */,
+				811408EB3DD885E082C14AB0 /* SummaryPersistenceUseCaseImpl.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -714,7 +742,23 @@
 					"-fmodule-map-file=$(SRCROOT)/../../../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include/module.modulemap",
 					"-fmodule-map-file=$(SRCROOT)/../../../../Tuist/.build/tuist-derived/UIKitNavigationShim/UIKitNavigationShim.modulemap",
 				);
-				OTHER_SWIFT_FLAGS = "$(inherited) -Xcc -fmodule-map-file=$(SRCROOT)/../../../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include/module.modulemap -Xcc -fmodule-map-file=$(SRCROOT)/../../../../Tuist/.build/tuist-derived/UIKitNavigationShim/UIKitNavigationShim.modulemap -load-plugin-executable $BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/CasePathsMacros#CasePathsMacros -load-plugin-executable $BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/ComposableArchitectureMacros#ComposableArchitectureMacros -load-plugin-executable $BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/DependenciesMacrosPlugin#DependenciesMacrosPlugin -load-plugin-executable $BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/LogMacroMacro#LogMacroMacro -load-plugin-executable $BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/PerceptionMacros#PerceptionMacros";
+				OTHER_SWIFT_FLAGS = (
+					"$(inherited)",
+					"-Xcc",
+					"-fmodule-map-file=$(SRCROOT)/../../../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include/module.modulemap",
+					"-Xcc",
+					"-fmodule-map-file=$(SRCROOT)/../../../../Tuist/.build/tuist-derived/UIKitNavigationShim/UIKitNavigationShim.modulemap",
+					"-load-plugin-executable",
+					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/CasePathsMacros#CasePathsMacros",
+					"-load-plugin-executable",
+					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/ComposableArchitectureMacros#ComposableArchitectureMacros",
+					"-load-plugin-executable",
+					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/DependenciesMacrosPlugin#DependenciesMacrosPlugin",
+					"-load-plugin-executable",
+					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/LogMacroMacro#LogMacroMacro",
+					"-load-plugin-executable",
+					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/PerceptionMacros#PerceptionMacros",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = io.Roy.BookSeries.UseCase;
 				PRODUCT_NAME = UseCase_Stage;
 				SDKROOT = iphoneos;
@@ -759,7 +803,23 @@
 					"-fmodule-map-file=$(SRCROOT)/../../../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include/module.modulemap",
 					"-fmodule-map-file=$(SRCROOT)/../../../../Tuist/.build/tuist-derived/UIKitNavigationShim/UIKitNavigationShim.modulemap",
 				);
-				OTHER_SWIFT_FLAGS = "$(inherited) -Xcc -fmodule-map-file=$(SRCROOT)/../../../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include/module.modulemap -Xcc -fmodule-map-file=$(SRCROOT)/../../../../Tuist/.build/tuist-derived/UIKitNavigationShim/UIKitNavigationShim.modulemap -load-plugin-executable $BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/CasePathsMacros#CasePathsMacros -load-plugin-executable $BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/ComposableArchitectureMacros#ComposableArchitectureMacros -load-plugin-executable $BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/DependenciesMacrosPlugin#DependenciesMacrosPlugin -load-plugin-executable $BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/LogMacroMacro#LogMacroMacro -load-plugin-executable $BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/PerceptionMacros#PerceptionMacros";
+				OTHER_SWIFT_FLAGS = (
+					"$(inherited)",
+					"-Xcc",
+					"-fmodule-map-file=$(SRCROOT)/../../../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include/module.modulemap",
+					"-Xcc",
+					"-fmodule-map-file=$(SRCROOT)/../../../../Tuist/.build/tuist-derived/UIKitNavigationShim/UIKitNavigationShim.modulemap",
+					"-load-plugin-executable",
+					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/CasePathsMacros#CasePathsMacros",
+					"-load-plugin-executable",
+					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/ComposableArchitectureMacros#ComposableArchitectureMacros",
+					"-load-plugin-executable",
+					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/DependenciesMacrosPlugin#DependenciesMacrosPlugin",
+					"-load-plugin-executable",
+					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/LogMacroMacro#LogMacroMacro",
+					"-load-plugin-executable",
+					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/PerceptionMacros#PerceptionMacros",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = io.Roy.BookSeries.UseCase;
 				PRODUCT_NAME = UseCase_Stage;
 				SDKROOT = iphoneos;
@@ -767,7 +827,10 @@
 				SUPPORTS_MACCATALYST = NO;
 				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) DEBUG";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
+					"$(inherited)",
+					DEBUG,
+				);
 				SWIFT_COMPILATION_MODE = singlefile;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
@@ -851,14 +914,33 @@
 					"-fmodule-map-file=$(SRCROOT)/../../../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include/module.modulemap",
 					"-fmodule-map-file=$(SRCROOT)/../../../../Tuist/.build/tuist-derived/UIKitNavigationShim/UIKitNavigationShim.modulemap",
 				);
-				OTHER_SWIFT_FLAGS = "$(inherited) -Xcc -fmodule-map-file=$(SRCROOT)/../../../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include/module.modulemap -Xcc -fmodule-map-file=$(SRCROOT)/../../../../Tuist/.build/tuist-derived/UIKitNavigationShim/UIKitNavigationShim.modulemap -load-plugin-executable $BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/CasePathsMacros#CasePathsMacros -load-plugin-executable $BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/ComposableArchitectureMacros#ComposableArchitectureMacros -load-plugin-executable $BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/DependenciesMacrosPlugin#DependenciesMacrosPlugin -load-plugin-executable $BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/LogMacroMacro#LogMacroMacro -load-plugin-executable $BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/PerceptionMacros#PerceptionMacros";
+				OTHER_SWIFT_FLAGS = (
+					"$(inherited)",
+					"-Xcc",
+					"-fmodule-map-file=$(SRCROOT)/../../../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include/module.modulemap",
+					"-Xcc",
+					"-fmodule-map-file=$(SRCROOT)/../../../../Tuist/.build/tuist-derived/UIKitNavigationShim/UIKitNavigationShim.modulemap",
+					"-load-plugin-executable",
+					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/CasePathsMacros#CasePathsMacros",
+					"-load-plugin-executable",
+					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/ComposableArchitectureMacros#ComposableArchitectureMacros",
+					"-load-plugin-executable",
+					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/DependenciesMacrosPlugin#DependenciesMacrosPlugin",
+					"-load-plugin-executable",
+					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/LogMacroMacro#LogMacroMacro",
+					"-load-plugin-executable",
+					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/PerceptionMacros#PerceptionMacros",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = io.Roy.BookSeries.UseCase.UseCaseTests;
 				PRODUCT_NAME = UseCaseTests;
 				SDKROOT = iphoneos;
 				SUPPORTS_MACCATALYST = NO;
 				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) DEBUG";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
+					"$(inherited)",
+					DEBUG,
+				);
 				SWIFT_COMPILATION_MODE = singlefile;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
@@ -894,7 +976,23 @@
 					"-fmodule-map-file=$(SRCROOT)/../../../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include/module.modulemap",
 					"-fmodule-map-file=$(SRCROOT)/../../../../Tuist/.build/tuist-derived/UIKitNavigationShim/UIKitNavigationShim.modulemap",
 				);
-				OTHER_SWIFT_FLAGS = "$(inherited) -Xcc -fmodule-map-file=$(SRCROOT)/../../../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include/module.modulemap -Xcc -fmodule-map-file=$(SRCROOT)/../../../../Tuist/.build/tuist-derived/UIKitNavigationShim/UIKitNavigationShim.modulemap -load-plugin-executable $BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/CasePathsMacros#CasePathsMacros -load-plugin-executable $BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/ComposableArchitectureMacros#ComposableArchitectureMacros -load-plugin-executable $BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/DependenciesMacrosPlugin#DependenciesMacrosPlugin -load-plugin-executable $BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/LogMacroMacro#LogMacroMacro -load-plugin-executable $BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/PerceptionMacros#PerceptionMacros";
+				OTHER_SWIFT_FLAGS = (
+					"$(inherited)",
+					"-Xcc",
+					"-fmodule-map-file=$(SRCROOT)/../../../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include/module.modulemap",
+					"-Xcc",
+					"-fmodule-map-file=$(SRCROOT)/../../../../Tuist/.build/tuist-derived/UIKitNavigationShim/UIKitNavigationShim.modulemap",
+					"-load-plugin-executable",
+					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/CasePathsMacros#CasePathsMacros",
+					"-load-plugin-executable",
+					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/ComposableArchitectureMacros#ComposableArchitectureMacros",
+					"-load-plugin-executable",
+					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/DependenciesMacrosPlugin#DependenciesMacrosPlugin",
+					"-load-plugin-executable",
+					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/LogMacroMacro#LogMacroMacro",
+					"-load-plugin-executable",
+					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/PerceptionMacros#PerceptionMacros",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = io.Roy.BookSeries.UseCase;
 				PRODUCT_NAME = UseCase_Prod;
 				SDKROOT = iphoneos;
@@ -902,7 +1000,10 @@
 				SUPPORTS_MACCATALYST = NO;
 				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) DEBUG";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
+					"$(inherited)",
+					DEBUG,
+				);
 				SWIFT_COMPILATION_MODE = singlefile;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
@@ -940,7 +1041,23 @@
 					"-fmodule-map-file=$(SRCROOT)/../../../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include/module.modulemap",
 					"-fmodule-map-file=$(SRCROOT)/../../../../Tuist/.build/tuist-derived/UIKitNavigationShim/UIKitNavigationShim.modulemap",
 				);
-				OTHER_SWIFT_FLAGS = "$(inherited) -Xcc -fmodule-map-file=$(SRCROOT)/../../../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include/module.modulemap -Xcc -fmodule-map-file=$(SRCROOT)/../../../../Tuist/.build/tuist-derived/UIKitNavigationShim/UIKitNavigationShim.modulemap -load-plugin-executable $BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/CasePathsMacros#CasePathsMacros -load-plugin-executable $BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/ComposableArchitectureMacros#ComposableArchitectureMacros -load-plugin-executable $BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/DependenciesMacrosPlugin#DependenciesMacrosPlugin -load-plugin-executable $BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/LogMacroMacro#LogMacroMacro -load-plugin-executable $BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/PerceptionMacros#PerceptionMacros";
+				OTHER_SWIFT_FLAGS = (
+					"$(inherited)",
+					"-Xcc",
+					"-fmodule-map-file=$(SRCROOT)/../../../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include/module.modulemap",
+					"-Xcc",
+					"-fmodule-map-file=$(SRCROOT)/../../../../Tuist/.build/tuist-derived/UIKitNavigationShim/UIKitNavigationShim.modulemap",
+					"-load-plugin-executable",
+					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/CasePathsMacros#CasePathsMacros",
+					"-load-plugin-executable",
+					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/ComposableArchitectureMacros#ComposableArchitectureMacros",
+					"-load-plugin-executable",
+					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/DependenciesMacrosPlugin#DependenciesMacrosPlugin",
+					"-load-plugin-executable",
+					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/LogMacroMacro#LogMacroMacro",
+					"-load-plugin-executable",
+					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/PerceptionMacros#PerceptionMacros",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = io.Roy.BookSeries.UseCase;
 				PRODUCT_NAME = UseCase_Prod;
 				SDKROOT = iphoneos;
@@ -985,7 +1102,23 @@
 					"-fmodule-map-file=$(SRCROOT)/../../../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include/module.modulemap",
 					"-fmodule-map-file=$(SRCROOT)/../../../../Tuist/.build/tuist-derived/UIKitNavigationShim/UIKitNavigationShim.modulemap",
 				);
-				OTHER_SWIFT_FLAGS = "$(inherited) -Xcc -fmodule-map-file=$(SRCROOT)/../../../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include/module.modulemap -Xcc -fmodule-map-file=$(SRCROOT)/../../../../Tuist/.build/tuist-derived/UIKitNavigationShim/UIKitNavigationShim.modulemap -load-plugin-executable $BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/CasePathsMacros#CasePathsMacros -load-plugin-executable $BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/ComposableArchitectureMacros#ComposableArchitectureMacros -load-plugin-executable $BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/DependenciesMacrosPlugin#DependenciesMacrosPlugin -load-plugin-executable $BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/LogMacroMacro#LogMacroMacro -load-plugin-executable $BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/PerceptionMacros#PerceptionMacros";
+				OTHER_SWIFT_FLAGS = (
+					"$(inherited)",
+					"-Xcc",
+					"-fmodule-map-file=$(SRCROOT)/../../../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include/module.modulemap",
+					"-Xcc",
+					"-fmodule-map-file=$(SRCROOT)/../../../../Tuist/.build/tuist-derived/UIKitNavigationShim/UIKitNavigationShim.modulemap",
+					"-load-plugin-executable",
+					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/CasePathsMacros#CasePathsMacros",
+					"-load-plugin-executable",
+					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/ComposableArchitectureMacros#ComposableArchitectureMacros",
+					"-load-plugin-executable",
+					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/DependenciesMacrosPlugin#DependenciesMacrosPlugin",
+					"-load-plugin-executable",
+					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/LogMacroMacro#LogMacroMacro",
+					"-load-plugin-executable",
+					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/PerceptionMacros#PerceptionMacros",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = io.Roy.BookSeries.UseCase;
 				PRODUCT_NAME = UseCase;
 				SDKROOT = iphoneos;
@@ -1030,7 +1163,23 @@
 					"-fmodule-map-file=$(SRCROOT)/../../../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include/module.modulemap",
 					"-fmodule-map-file=$(SRCROOT)/../../../../Tuist/.build/tuist-derived/UIKitNavigationShim/UIKitNavigationShim.modulemap",
 				);
-				OTHER_SWIFT_FLAGS = "$(inherited) -Xcc -fmodule-map-file=$(SRCROOT)/../../../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include/module.modulemap -Xcc -fmodule-map-file=$(SRCROOT)/../../../../Tuist/.build/tuist-derived/UIKitNavigationShim/UIKitNavigationShim.modulemap -load-plugin-executable $BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/CasePathsMacros#CasePathsMacros -load-plugin-executable $BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/ComposableArchitectureMacros#ComposableArchitectureMacros -load-plugin-executable $BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/DependenciesMacrosPlugin#DependenciesMacrosPlugin -load-plugin-executable $BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/LogMacroMacro#LogMacroMacro -load-plugin-executable $BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/PerceptionMacros#PerceptionMacros";
+				OTHER_SWIFT_FLAGS = (
+					"$(inherited)",
+					"-Xcc",
+					"-fmodule-map-file=$(SRCROOT)/../../../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include/module.modulemap",
+					"-Xcc",
+					"-fmodule-map-file=$(SRCROOT)/../../../../Tuist/.build/tuist-derived/UIKitNavigationShim/UIKitNavigationShim.modulemap",
+					"-load-plugin-executable",
+					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/CasePathsMacros#CasePathsMacros",
+					"-load-plugin-executable",
+					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/ComposableArchitectureMacros#ComposableArchitectureMacros",
+					"-load-plugin-executable",
+					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/DependenciesMacrosPlugin#DependenciesMacrosPlugin",
+					"-load-plugin-executable",
+					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/LogMacroMacro#LogMacroMacro",
+					"-load-plugin-executable",
+					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/PerceptionMacros#PerceptionMacros",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = io.Roy.BookSeries.UseCase;
 				PRODUCT_NAME = UseCase;
 				SDKROOT = iphoneos;
@@ -1038,7 +1187,10 @@
 				SUPPORTS_MACCATALYST = NO;
 				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) DEBUG";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
+					"$(inherited)",
+					DEBUG,
+				);
 				SWIFT_COMPILATION_MODE = singlefile;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
@@ -1069,7 +1221,23 @@
 					"-fmodule-map-file=$(SRCROOT)/../../../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include/module.modulemap",
 					"-fmodule-map-file=$(SRCROOT)/../../../../Tuist/.build/tuist-derived/UIKitNavigationShim/UIKitNavigationShim.modulemap",
 				);
-				OTHER_SWIFT_FLAGS = "$(inherited) -Xcc -fmodule-map-file=$(SRCROOT)/../../../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include/module.modulemap -Xcc -fmodule-map-file=$(SRCROOT)/../../../../Tuist/.build/tuist-derived/UIKitNavigationShim/UIKitNavigationShim.modulemap -load-plugin-executable $BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/CasePathsMacros#CasePathsMacros -load-plugin-executable $BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/ComposableArchitectureMacros#ComposableArchitectureMacros -load-plugin-executable $BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/DependenciesMacrosPlugin#DependenciesMacrosPlugin -load-plugin-executable $BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/LogMacroMacro#LogMacroMacro -load-plugin-executable $BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/PerceptionMacros#PerceptionMacros";
+				OTHER_SWIFT_FLAGS = (
+					"$(inherited)",
+					"-Xcc",
+					"-fmodule-map-file=$(SRCROOT)/../../../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include/module.modulemap",
+					"-Xcc",
+					"-fmodule-map-file=$(SRCROOT)/../../../../Tuist/.build/tuist-derived/UIKitNavigationShim/UIKitNavigationShim.modulemap",
+					"-load-plugin-executable",
+					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/CasePathsMacros#CasePathsMacros",
+					"-load-plugin-executable",
+					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/ComposableArchitectureMacros#ComposableArchitectureMacros",
+					"-load-plugin-executable",
+					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/DependenciesMacrosPlugin#DependenciesMacrosPlugin",
+					"-load-plugin-executable",
+					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/LogMacroMacro#LogMacroMacro",
+					"-load-plugin-executable",
+					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/PerceptionMacros#PerceptionMacros",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = io.Roy.BookSeries.UseCase.UseCaseTests;
 				PRODUCT_NAME = UseCaseTests;
 				SDKROOT = iphoneos;
@@ -1111,7 +1279,23 @@
 					"-fmodule-map-file=$(SRCROOT)/../../../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include/module.modulemap",
 					"-fmodule-map-file=$(SRCROOT)/../../../../Tuist/.build/tuist-derived/UIKitNavigationShim/UIKitNavigationShim.modulemap",
 				);
-				OTHER_SWIFT_FLAGS = "$(inherited) -Xcc -fmodule-map-file=$(SRCROOT)/../../../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include/module.modulemap -Xcc -fmodule-map-file=$(SRCROOT)/../../../../Tuist/.build/tuist-derived/UIKitNavigationShim/UIKitNavigationShim.modulemap -load-plugin-executable $BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/CasePathsMacros#CasePathsMacros -load-plugin-executable $BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/ComposableArchitectureMacros#ComposableArchitectureMacros -load-plugin-executable $BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/DependenciesMacrosPlugin#DependenciesMacrosPlugin -load-plugin-executable $BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/LogMacroMacro#LogMacroMacro -load-plugin-executable $BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/PerceptionMacros#PerceptionMacros";
+				OTHER_SWIFT_FLAGS = (
+					"$(inherited)",
+					"-Xcc",
+					"-fmodule-map-file=$(SRCROOT)/../../../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include/module.modulemap",
+					"-Xcc",
+					"-fmodule-map-file=$(SRCROOT)/../../../../Tuist/.build/tuist-derived/UIKitNavigationShim/UIKitNavigationShim.modulemap",
+					"-load-plugin-executable",
+					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/CasePathsMacros#CasePathsMacros",
+					"-load-plugin-executable",
+					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/ComposableArchitectureMacros#ComposableArchitectureMacros",
+					"-load-plugin-executable",
+					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/DependenciesMacrosPlugin#DependenciesMacrosPlugin",
+					"-load-plugin-executable",
+					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/LogMacroMacro#LogMacroMacro",
+					"-load-plugin-executable",
+					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/PerceptionMacros#PerceptionMacros",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = io.Roy.BookSeries.UseCase;
 				PRODUCT_NAME = UseCase_Debug;
 				SDKROOT = iphoneos;
@@ -1156,7 +1340,23 @@
 					"-fmodule-map-file=$(SRCROOT)/../../../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include/module.modulemap",
 					"-fmodule-map-file=$(SRCROOT)/../../../../Tuist/.build/tuist-derived/UIKitNavigationShim/UIKitNavigationShim.modulemap",
 				);
-				OTHER_SWIFT_FLAGS = "$(inherited) -Xcc -fmodule-map-file=$(SRCROOT)/../../../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include/module.modulemap -Xcc -fmodule-map-file=$(SRCROOT)/../../../../Tuist/.build/tuist-derived/UIKitNavigationShim/UIKitNavigationShim.modulemap -load-plugin-executable $BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/CasePathsMacros#CasePathsMacros -load-plugin-executable $BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/ComposableArchitectureMacros#ComposableArchitectureMacros -load-plugin-executable $BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/DependenciesMacrosPlugin#DependenciesMacrosPlugin -load-plugin-executable $BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/LogMacroMacro#LogMacroMacro -load-plugin-executable $BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/PerceptionMacros#PerceptionMacros";
+				OTHER_SWIFT_FLAGS = (
+					"$(inherited)",
+					"-Xcc",
+					"-fmodule-map-file=$(SRCROOT)/../../../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include/module.modulemap",
+					"-Xcc",
+					"-fmodule-map-file=$(SRCROOT)/../../../../Tuist/.build/tuist-derived/UIKitNavigationShim/UIKitNavigationShim.modulemap",
+					"-load-plugin-executable",
+					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/CasePathsMacros#CasePathsMacros",
+					"-load-plugin-executable",
+					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/ComposableArchitectureMacros#ComposableArchitectureMacros",
+					"-load-plugin-executable",
+					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/DependenciesMacrosPlugin#DependenciesMacrosPlugin",
+					"-load-plugin-executable",
+					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/LogMacroMacro#LogMacroMacro",
+					"-load-plugin-executable",
+					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/PerceptionMacros#PerceptionMacros",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = io.Roy.BookSeries.UseCase;
 				PRODUCT_NAME = UseCase_Debug;
 				SDKROOT = iphoneos;
@@ -1164,7 +1364,10 @@
 				SUPPORTS_MACCATALYST = NO;
 				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) DEBUG";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
+					"$(inherited)",
+					DEBUG,
+				);
 				SWIFT_COMPILATION_MODE = singlefile;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;

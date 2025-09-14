@@ -11,17 +11,11 @@ import DiContainer
 extension AppDIContainer {
   func registerDefaultDependencies() async {
     await registerDependencies { container in
-      self.repositoryFactory.registerDefaultDefinitions()
-      let repositoryFactory = self.repositoryFactory
-      let useCaseFactory = self.useCaseFactory
+      // Repository 먼저 등록
+      let factory = ModuleFactoryManager()
 
-      await repositoryFactory.makeAllModules().asyncForEach { module in
-        await container.register(module)
-      }
+      await factory.registerAll(to: container)
 
-      await useCaseFactory.makeAllModules().asyncForEach { module in
-        await container.register(module)
-      }
     }
   }
 }

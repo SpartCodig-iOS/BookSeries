@@ -16,7 +16,7 @@ let package = Package(
     name: "BookSeries",
     dependencies: [
       .package(url: "http://github.com/pointfreeco/swift-composable-architecture", exact: "1.18.0"),
-      .package(url: "https://github.com/Roy-wonji/DiContainer.git", from: "1.1.6"),
+      .package(url: "https://github.com/Roy-wonji/DiContainer.git", branch: "main"),
 //      .package(url: "https://github.com/layoutBox/FlexLayout.git", from: "2.2.2"),
 //      .package(url: "https://github.com/layoutBox/PinLayout", from: "1.10.6"),
         .package(url: "https://github.com/SnapKit/SnapKit.git", from: "5.7.1"),

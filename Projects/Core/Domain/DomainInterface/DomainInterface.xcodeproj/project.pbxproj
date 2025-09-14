@@ -18,8 +18,10 @@
 		888B43BDDCEB71003BF1B604 /* Model.framework in Dependencies */ = {isa = PBXBuildFile; fileRef = D6EEC0400C29FD0B52020310 /* Model.framework */; };
 		975EC4F42E1D9BD2ADB90328 /* BookListInterface.swift in Sources */ = {isa = PBXBuildFile; fileRef = 809A051BD9D115DD41FB0365 /* BookListInterface.swift */; };
 		B14154C06C5D5795D4CF4DCA /* SummaryPersistenceRepositoryInterface.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF5C79E6A5EABF2478B69A9C /* SummaryPersistenceRepositoryInterface.swift */; };
+		B81443FC67132B7AE60DB9AA /* Test.swift in Resources */ = {isa = PBXBuildFile; fileRef = 5C8C9CF1C2E1A74CF11222B2 /* Test.swift */; };
 		BFBAF15A95765D14E651E821 /* Utill.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 842230AB83AFB9912D3B1764 /* Utill.framework */; };
 		D69D0AA905D57FF8464C9BAB /* Model.framework in Dependencies */ = {isa = PBXBuildFile; fileRef = D6EEC0400C29FD0B52020310 /* Model.framework */; };
+		DAB51F6E2E459BD7B68EE67C /* TuistBundle+DomainInterfaceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9C755E2FBA6364D48AF69FF /* TuistBundle+DomainInterfaceTests.swift */; };
 		E4AABB01B336AEE6F79825BA /* BookListInterface.swift in Sources */ = {isa = PBXBuildFile; fileRef = 809A051BD9D115DD41FB0365 /* BookListInterface.swift */; };
 		E570C44DD9E1B0204C10CB30 /* BookListInterface.swift in Sources */ = {isa = PBXBuildFile; fileRef = 809A051BD9D115DD41FB0365 /* BookListInterface.swift */; };
 		EB129ED46F27E04F8A934272 /* Model.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6EEC0400C29FD0B52020310 /* Model.framework */; };
@@ -138,6 +140,7 @@
 		842230AB83AFB9912D3B1764 /* Utill.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Utill.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC3A341CE5DE046E57E6FA49 /* DomainInterface-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "DomainInterface-Info.plist"; sourceTree = "<group>"; };
 		C6834A89F3FE887DA1691EBA /* DomainInterface_Stage.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DomainInterface_Stage.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C9C755E2FBA6364D48AF69FF /* TuistBundle+DomainInterfaceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TuistBundle+DomainInterfaceTests.swift"; sourceTree = "<group>"; };
 		D5C8C2D4A69E6BEA71EEC953 /* DomainInterface-Stage-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "DomainInterface-Stage-Info.plist"; sourceTree = "<group>"; };
 		D6EEC0400C29FD0B52020310 /* Model.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Model.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D88D9EC758647A9B9DC71766 /* DomainInterface-Prod-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "DomainInterface-Prod-Info.plist"; sourceTree = "<group>"; };
@@ -200,6 +203,7 @@
 			isa = PBXGroup;
 			children = (
 				330D2A371643578D00DB3561 /* InfoPlists */,
+				887068620E8CA32540BBCE9B /* Sources */,
 			);
 			path = Derived;
 			sourceTree = "<group>";
@@ -230,6 +234,14 @@
 				C32475A41FA66402C790E18F /* Project */,
 				FDB270B9210143B24A99DBC5 /* Products */,
 			);
+			sourceTree = "<group>";
+		};
+		887068620E8CA32540BBCE9B /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				C9C755E2FBA6364D48AF69FF /* TuistBundle+DomainInterfaceTests.swift */,
+			);
+			path = Sources;
 			sourceTree = "<group>";
 		};
 		B2B38387967AB9B481D75DC1 /* DomainInterfaceTests */ = {
@@ -433,6 +445,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B81443FC67132B7AE60DB9AA /* Test.swift in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -473,6 +486,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DAB51F6E2E459BD7B68EE67C /* TuistBundle+DomainInterfaceTests.swift in Sources */,
 				353BF1AD56F4CC357E19D719 /* Test.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -169,8 +169,8 @@ public struct BookList {
     }
   }
 
-  @Dependency(BookListUseCaseImpl.self) var bookListUseCase
-  @Dependency(SummaryPersistenceUseCaseImpl.self) var summaryPersistenceRepository
+  @Dependency(\.bookListUseCase) var bookListUseCase
+  @Dependency(\.summaryPersistenceUseCase) var summaryPersistenceRepository
 
   private func handleAsyncAction(
     state: inout State,

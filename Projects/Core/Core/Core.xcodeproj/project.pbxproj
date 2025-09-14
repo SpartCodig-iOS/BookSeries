@@ -23,6 +23,7 @@
 		3DE1D52265CF97679296909C /* PerceptionCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 70750465C5300D484ABA9F60 /* PerceptionCore.framework */; };
 		41C69034BA561E22EA554F19 /* Utill.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BCC113B61DA21855D30259B1 /* Utill.framework */; };
 		426E4CA766D090E97D310A06 /* OSLog.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F52A0D92C684C59849570BB /* OSLog.framework */; };
+		44D3AC095770D7D63DC175F9 /* Test.swift in Resources */ = {isa = PBXBuildFile; fileRef = 8E427963EEC5B2C6424367BB /* Test.swift */; };
 		4D82B7A696124B1C7EC28857 /* LogMacro.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABF88C39763A84B856476973 /* LogMacro.framework */; };
 		4E5E7CA23B2FDDE8CB94BB9E /* DiContainer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7EBE4DE9FD75B5368768D93D /* DiContainer.framework */; };
 		4EFBB932B65FF472590F1C62 /* Network.framework in Dependencies */ = {isa = PBXBuildFile; fileRef = FD8B6B85F2D6B69FE70C1FBE /* Network.framework */; };
@@ -32,6 +33,7 @@
 		61D8EFBE44FD4F7F81A1EB67 /* DomainInterface.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B89ECB181A314C23A60BB911 /* DomainInterface.framework */; };
 		62746F1C6A885411CC423F9A /* ConcurrencyExtras.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 10C2E0E9FA89653EBA928FFB /* ConcurrencyExtras.framework */; };
 		66EEEE53E27FAC870E87645E /* UIKitNavigation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AEC4F1585F46781177064EC7 /* UIKitNavigation.framework */; };
+		67140FAA3A2E672814649BC9 /* TuistBundle+CoreTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61E3BEA87B5E736B9D20B896 /* TuistBundle+CoreTests.swift */; };
 		6B3C0EE6CC4023996976A966 /* Dependencies.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB917DE30C69F723BDF65353 /* Dependencies.framework */; };
 		6B6DDEC8FEBDCA250F66F021 /* Perception.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F8CC6237F3D4AE8F77CAE48 /* Perception.framework */; };
 		6BCBCE407A28F91FFB46BF99 /* Service.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3ED045ECCC0A0126F7A4BC13 /* Service.framework */; };
@@ -202,6 +204,7 @@
 		4E7A1228CBFFBBC21B6F7108 /* Sharing.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Sharing.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4F52A0D92C684C59849570BB /* OSLog.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OSLog.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/OSLog.framework; sourceTree = DEVELOPER_DIR; };
 		5A90C6A79C8439A9A5D64BA3 /* Core-Debug-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Core-Debug-Info.plist"; sourceTree = "<group>"; };
+		61E3BEA87B5E736B9D20B896 /* TuistBundle+CoreTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TuistBundle+CoreTests.swift"; sourceTree = "<group>"; };
 		70750465C5300D484ABA9F60 /* PerceptionCore.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PerceptionCore.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7EBE4DE9FD75B5368768D93D /* DiContainer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DiContainer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		84F99CA60AD1F77541E67E93 /* UIKitNavigationShim.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = UIKitNavigationShim.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -372,6 +375,14 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		39ACB6D6CDBC910D866B189E /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				61E3BEA87B5E736B9D20B896 /* TuistBundle+CoreTests.swift */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
 		4B97075397CA6D3C7DEE06A1 /* InfoPlists */ = {
 			isa = PBXGroup;
 			children = (
@@ -431,6 +442,7 @@
 			isa = PBXGroup;
 			children = (
 				4B97075397CA6D3C7DEE06A1 /* InfoPlists */,
+				39ACB6D6CDBC910D866B189E /* Sources */,
 			);
 			path = Derived;
 			sourceTree = "<group>";
@@ -588,6 +600,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				44D3AC095770D7D63DC175F9 /* Test.swift in Resources */,
 				75E08F02FD27FCDFBD2E5A6D /* Service_Service.bundle in Resources */,
 				5CB29D72D1FE671A3BFE6D7B /* swift-composable-architecture_ComposableArchitecture.bundle in Resources */,
 				741A5006FF2D931F1EFAC7E4 /* swift-sharing_Sharing.bundle in Resources */,
@@ -631,6 +644,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				90F9749BFCF03B4AB847C6B1 /* Test.swift in Sources */,
+				67140FAA3A2E672814649BC9 /* TuistBundle+CoreTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

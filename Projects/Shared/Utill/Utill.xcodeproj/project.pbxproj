@@ -14,6 +14,7 @@
 		42CAAA3854DF88F4D01D4AD7 /* Extension+UiControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71C895B6507A3D0F7F8166CD /* Extension+UiControl.swift */; };
 		464E039B0B5EC544B95F5F92 /* Extension+String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A0795BA43DE074C8CCBB7A0 /* Extension+String.swift */; };
 		5908B1C326C32B74145D4FB2 /* Extension+UiControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71C895B6507A3D0F7F8166CD /* Extension+UiControl.swift */; };
+		59B61B616A49B7D487D580E9 /* TuistBundle+UtillTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC3D04E12913C088603F9E19 /* TuistBundle+UtillTests.swift */; };
 		5C7D08BCCCC3E8C17FBBD76F /* Extension+UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A88BFC509C4E721067C1E64A /* Extension+UIView.swift */; };
 		64D21F9B5DE1EBE164AC3048 /* Utill.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 136D114982ED83CB9F5177A1 /* Utill.framework */; };
 		6F52CBB612C713222F56B2F2 /* FallbackViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A86FDF3DE145F3C61C29A358 /* FallbackViewController.swift */; };
@@ -24,6 +25,7 @@
 		A7E32AFA50F587B2FF22DA91 /* Extension+UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A88BFC509C4E721067C1E64A /* Extension+UIView.swift */; };
 		C6FF96E464FEDA096AD289EE /* Extension+UiControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71C895B6507A3D0F7F8166CD /* Extension+UiControl.swift */; };
 		CE69D53048C9C5ABF578F216 /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EC0D46F57A1A3D7763457AF /* Coordinator.swift */; };
+		D6F822207F3868214086878A /* Test.swift in Resources */ = {isa = PBXBuildFile; fileRef = F70DD74259D9330B7727DDCB /* Test.swift */; };
 		D93D6D3EB478EDD29CF3AF29 /* FallbackViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A86FDF3DE145F3C61C29A358 /* FallbackViewController.swift */; };
 		D9629EE732464FDF10489EC3 /* Extension+UiControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71C895B6507A3D0F7F8166CD /* Extension+UiControl.swift */; };
 		EFD1AB28A01A1967D34920FA /* Extension+String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A0795BA43DE074C8CCBB7A0 /* Extension+String.swift */; };
@@ -110,6 +112,7 @@
 		9BED8B1D6BCFDB676A34B628 /* UtillTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UtillTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A86FDF3DE145F3C61C29A358 /* FallbackViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FallbackViewController.swift; sourceTree = "<group>"; };
 		A88BFC509C4E721067C1E64A /* Extension+UIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension+UIView.swift"; sourceTree = "<group>"; };
+		CC3D04E12913C088603F9E19 /* TuistBundle+UtillTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TuistBundle+UtillTests.swift"; sourceTree = "<group>"; };
 		F70DD74259D9330B7727DDCB /* Test.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Test.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -244,10 +247,19 @@
 			);
 			sourceTree = "<group>";
 		};
+		B87164E69E930A020FF3266A /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				CC3D04E12913C088603F9E19 /* TuistBundle+UtillTests.swift */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
 		E09290D672D0F4B81148D9AB /* Derived */ = {
 			isa = PBXGroup;
 			children = (
 				A9A9ADE9F2B399CE6F4B1EB7 /* InfoPlists */,
+				B87164E69E930A020FF3266A /* Sources */,
 			);
 			path = Derived;
 			sourceTree = "<group>";
@@ -404,6 +416,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D6F822207F3868214086878A /* Test.swift in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -466,6 +479,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				59B61B616A49B7D487D580E9 /* TuistBundle+UtillTests.swift in Sources */,
 				107A19A67E9503C9676C7746 /* Test.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

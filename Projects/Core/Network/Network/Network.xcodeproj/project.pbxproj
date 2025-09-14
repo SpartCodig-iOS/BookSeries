@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		12BE36DE51D19B0992A4B3BE /* TuistBundle+NetworkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB47E1AA2438271F4793A2F9 /* TuistBundle+NetworkTests.swift */; };
 		18AB896F757E0535ACA6FD26 /* Service_Service.bundle in Dependencies */ = {isa = PBXBuildFile; fileRef = 49406A72315BCF291C602908 /* Service_Service.bundle */; };
 		1DC778FE3FA9D1C081547EDD /* NetworkExported.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3903D8FBFE4D8119C66B0F2B /* NetworkExported.swift */; };
 		50EABD122806F7EC080A852C /* NetworkExported.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3903D8FBFE4D8119C66B0F2B /* NetworkExported.swift */; };
@@ -17,6 +18,7 @@
 		B74A8D04CAA062AD0DDE2155 /* NetworkExported.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3903D8FBFE4D8119C66B0F2B /* NetworkExported.swift */; };
 		C8293340A10FEE0836B12AEB /* LogMacro.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7DA6E9B7E2615630432C0F2C /* LogMacro.framework */; };
 		C8FC09ADD2F6D78402623EBD /* Service.framework in Dependencies */ = {isa = PBXBuildFile; fileRef = 51AF163666CF102C5BF2CE72 /* Service.framework */; };
+		D2ECB33866D2E29CBBF8CE34 /* Test.swift in Resources */ = {isa = PBXBuildFile; fileRef = BCF79038850EED254B1A7A09 /* Test.swift */; };
 		D4F516F66478DC837D5BFDC6 /* Test.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCF79038850EED254B1A7A09 /* Test.swift */; };
 		ED0100CD5A239567D08311E5 /* Service.framework in Dependencies */ = {isa = PBXBuildFile; fileRef = 51AF163666CF102C5BF2CE72 /* Service.framework */; };
 		EFB3BF708A14FDE66C8B09D9 /* Network.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E27ED4FA2CB56FEC39887EA /* Network.framework */; };
@@ -151,6 +153,7 @@
 		B2A3994F6C2D02B5B6D91420 /* Network_Debug.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Network_Debug.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B605577BB7128159085947AD /* Network_Prod.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Network_Prod.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BCF79038850EED254B1A7A09 /* Test.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Test.swift; sourceTree = "<group>"; };
+		CB47E1AA2438271F4793A2F9 /* TuistBundle+NetworkTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TuistBundle+NetworkTests.swift"; sourceTree = "<group>"; };
 		F4C8609A220725072BEA3D4C /* Network-Prod-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Network-Prod-Info.plist"; sourceTree = "<group>"; };
 		FC0BE7642877FE64F6A9236D /* Network-Debug-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Network-Debug-Info.plist"; sourceTree = "<group>"; };
 		FEF8D6A1F2989443BD0A2218 /* NetworkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NetworkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -199,10 +202,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		02580DB793A4AF93A42AA00C /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				CB47E1AA2438271F4793A2F9 /* TuistBundle+NetworkTests.swift */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
 		25424697649C9F66AF152A0F /* Derived */ = {
 			isa = PBXGroup;
 			children = (
 				486DDB1D159A94152A9C90BF /* InfoPlists */,
+				02580DB793A4AF93A42AA00C /* Sources */,
 			);
 			path = Derived;
 			sourceTree = "<group>";
@@ -453,6 +465,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D2ECB33866D2E29CBBF8CE34 /* Test.swift in Resources */,
 				9A753FFAB773966348ECE11E /* Service_Service.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -510,6 +523,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				12BE36DE51D19B0992A4B3BE /* TuistBundle+NetworkTests.swift in Sources */,
 				D4F516F66478DC837D5BFDC6 /* Test.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

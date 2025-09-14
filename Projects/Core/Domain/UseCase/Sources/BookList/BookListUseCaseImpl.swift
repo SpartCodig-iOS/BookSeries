@@ -36,9 +36,13 @@ extension DependencyContainer {
 extension BookListUseCaseImpl: DependencyKey {
 
   public static var liveValue: BookListInterface = {
-    let repository = ContainerRegister(\.bookListInterface, defaultFactory:  { BookListRepositoryImpl()}).wrappedValue
+   let repository = UnifiedDI.register(\.bookListInterface) {
+      BookListRepositoryImpl()
+    }
     return BookListUseCaseImpl(repository: repository)
   }()
+
+  public static var testValue: BookListInterface = DefaultBookListRepositoryImpl()
 }
 
 public extension DependencyValues {
@@ -60,10 +64,13 @@ public extension RegisterModule {
       }
   }
 
-
-  var bookListRepositoryImplModule: () -> Module {
-    makeDependency(BookListInterface.self) {
-      BookListRepositoryImpl()
-    }
+  var bookListModules: [() -> Module] {
+    return interface(
+      BookListInterface.self,
+      repository: { BookListRepositoryImpl() },
+      useCase: { repo in BookListUseCaseImpl(repository: repo) },
+      fallback: { DefaultBookListRepositoryImpl() }
+    )
   }
+
 }

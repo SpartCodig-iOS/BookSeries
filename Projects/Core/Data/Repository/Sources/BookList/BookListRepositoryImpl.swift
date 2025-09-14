@@ -31,3 +31,11 @@ public final class BookListRepositoryImpl: BookListInterface {
   }
 }
 
+public extension RegisterModule {
+  var bookListRepositoryImplModule: () -> Module {
+    makeDependencyImproved(BookListInterface.self) {
+      BookListRepositoryImpl()
+    }
+  }
+}
+

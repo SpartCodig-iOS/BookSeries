@@ -38,9 +38,13 @@ extension DependencyContainer {
 extension SummaryPersistenceUseCaseImpl: DependencyKey {
 
   public static var liveValue: SummaryPersistenceRepositoryInterface = {
-    let repository = ContainerRegister(\.summaryPersistenceInterface, defaultFactory: {SummaryPersistenceRepositoryImpl()}).wrappedValue
+    let repository = UnifiedDI.register(\.summaryPersistenceInterface) {
+      SummaryPersistenceRepositoryImpl()
+    }
     return SummaryPersistenceUseCaseImpl(repository: repository)
   }()
+
+  public static var testValue: SummaryPersistenceRepositoryInterface = DefaultSummaryPersistenceRepository()
 }
 
 public extension DependencyValues {
@@ -55,7 +59,7 @@ public extension RegisterModule {
 
   var summaryPersistenceUseCaseImplModule: () -> Module {
     makeUseCaseWithRepository(
-      SummaryPersistenceRepositoryInterface.self,
+      SummaryPersistenceUseCaseImpl.self,
       repositoryProtocol: SummaryPersistenceRepositoryInterface.self,
       repositoryFallback: DefaultSummaryPersistenceRepository(),
       factory: { repo in

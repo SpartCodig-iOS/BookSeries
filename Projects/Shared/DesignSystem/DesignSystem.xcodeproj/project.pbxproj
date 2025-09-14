@@ -10,6 +10,7 @@
 		02086E956F0BCAD214D8D7F4 /* PretendardVariable.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A20647CF23B131D16DCAB555 /* PretendardVariable.ttf */; };
 		030D39D707AB3BCF4B40E507 /* Sharing.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C8F7D85DCA3E9D25ADED069C /* Sharing.framework */; };
 		0332DA7CA35D431B1DB265D9 /* Sharing1.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 81AE6D1B890D432B9EF75587 /* Sharing1.framework */; };
+		03E1F3ADEF42E78FFBE78441 /* TuistBundle+DesignSystemTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BCDB7A8C7AFCCBADBDBBD94 /* TuistBundle+DesignSystemTests.swift */; };
 		04E11CD30C06369FF371925B /* CasePathsCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B42EA0AFB8C59B4DAD38868 /* CasePathsCore.framework */; };
 		06D16B1B1B957D3A84E4CDA5 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DDB65E50E9A40944ADEEDB2 /* BaseViewController.swift */; };
 		0E71762241059BF3166A881A /* ComposableArchitecture.framework in Dependencies */ = {isa = PBXBuildFile; fileRef = 2B4A427439EE9D505B327761 /* ComposableArchitecture.framework */; };
@@ -77,6 +78,7 @@
 		B2FE89393BB081596AD206FF /* BaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2037A54D1D7D283E80FF0D5C /* BaseView.swift */; };
 		B8B740BFA10B2786CB756CBC /* Extension+UIButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 625A555D5B7A2ADF19B256AE /* Extension+UIButton.swift */; };
 		BA136466484AA0C1BF238F63 /* UIColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6964B76F338CA1083A2EAA11 /* UIColors.swift */; };
+		BAFD017682E1A8CFA89F3099 /* Test.swift in Resources */ = {isa = PBXBuildFile; fileRef = 0B67F5AD336FFDED9C31245F /* Test.swift */; };
 		BC40AC04CE1BE4D7CA94854B /* ImageAssets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 365911FA35B2B70671D60856 /* ImageAssets.xcassets */; };
 		BCFF08E151BC139800086031 /* UIColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6964B76F338CA1083A2EAA11 /* UIColors.swift */; };
 		BD878E42E01BA5FA93F29FDE /* TuistBundle+DesignSystemDebug.swift in Sources */ = {isa = PBXBuildFile; fileRef = B38EF5B36E88588961AB7E44 /* TuistBundle+DesignSystemDebug.swift */; };
@@ -351,6 +353,7 @@
 		8937FA9427EEA938B58C5B3E /* DesignSystem-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "DesignSystem-Info.plist"; sourceTree = "<group>"; };
 		8E80CBF5486DD48CEF7D4361 /* TuistAssets+DesignSystemProd.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TuistAssets+DesignSystemProd.swift"; sourceTree = "<group>"; };
 		9B0C3E527CEC0A57D2B99BFB /* TuistBundle+DesignSystemProd.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TuistBundle+DesignSystemProd.swift"; sourceTree = "<group>"; };
+		9BCDB7A8C7AFCCBADBDBBD94 /* TuistBundle+DesignSystemTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TuistBundle+DesignSystemTests.swift"; sourceTree = "<group>"; };
 		9BF62E3713A0EBCEECEAB6AE /* Extension+UIColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension+UIColor.swift"; sourceTree = "<group>"; };
 		A20647CF23B131D16DCAB555 /* PretendardVariable.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = PretendardVariable.ttf; sourceTree = "<group>"; };
 		A5263BC75B281154AC0B5A7B /* TuistAssets+DesignSystem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TuistAssets+DesignSystem.swift"; sourceTree = "<group>"; };
@@ -660,6 +663,7 @@
 				B38EF5B36E88588961AB7E44 /* TuistBundle+DesignSystemDebug.swift */,
 				9B0C3E527CEC0A57D2B99BFB /* TuistBundle+DesignSystemProd.swift */,
 				27AA3E385D373C2295F94842 /* TuistBundle+DesignSystemStage.swift */,
+				9BCDB7A8C7AFCCBADBDBBD94 /* TuistBundle+DesignSystemTests.swift */,
 				1489E7809DA4DADA471C2CDC /* TuistFonts+DesignSystem.swift */,
 				7C0657B12FC785E86158F7DC /* TuistFonts+DesignSystemDebug.swift */,
 				2EF20F019AC6C1E3B3D87AF8 /* TuistFonts+DesignSystemProd.swift */,
@@ -1010,6 +1014,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BAFD017682E1A8CFA89F3099 /* Test.swift in Resources */,
 				6A9D0C3784F739E22DC53C14 /* DesignSystem_DesignSystem.bundle in Resources */,
 				2C21562F6B50D439DB21DCAC /* swift-composable-architecture_ComposableArchitecture.bundle in Resources */,
 				164B83516C13A4829B5B695A /* swift-sharing_Sharing.bundle in Resources */,
@@ -1168,6 +1173,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				03E1F3ADEF42E78FFBE78441 /* TuistBundle+DesignSystemTests.swift in Sources */,
 				A2CEB3ECFE3AFCFBB6509C79 /* Test.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

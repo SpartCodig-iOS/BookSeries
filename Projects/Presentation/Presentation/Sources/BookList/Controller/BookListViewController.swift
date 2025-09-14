@@ -75,12 +75,12 @@ public final class BookListViewController: BaseViewController<BookListView, Book
 
   public override func configureUI() {
     super.configureUI()
+    store.send(.async(.fetchBook))
+    bindState()
   }
 
   public override func viewDidAppear(_ animated: Bool) {
     super.viewDidAppear(animated)
-    store.send(.async(.fetchBook))
-    bindState()
   }
 
   public override func bindActions() {

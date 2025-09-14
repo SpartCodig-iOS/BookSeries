@@ -20,6 +20,15 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
       await AppDIContainer.shared.registerDefaultDependencies()
     }
 
+    UnifiedDI.enablePerformanceOptimization()
+
+    Task {
+      let stats =  UnifiedDI.getPerformanceStats()
+      print(stats)
+
+      let test: () = UnifiedDI.enablePerformanceOptimization()
+      print(test)
+    }
 
     return true
   }
