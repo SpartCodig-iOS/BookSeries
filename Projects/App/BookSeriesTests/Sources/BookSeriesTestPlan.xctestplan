@@ -1,0 +1,45 @@
+{
+  "configurations" : [
+    {
+      "id" : "DA07F42A-6A1B-49EA-B617-ECC96B47E239",
+      "name" : "Configuration 1",
+      "options" : {
+
+      }
+    }
+  ],
+  "defaultOptions" : {
+    "testTimeoutsEnabled" : true
+  },
+  "testTargets" : [
+    {
+      "target" : {
+        "containerPath" : "container:..\/Core\/Domain\/UseCase\/UseCase.xcodeproj",
+        "identifier" : "3DF3057AD58FAE5A14CAF9E4",
+        "name" : "UseCaseTests"
+      }
+    },
+    {
+      "target" : {
+        "containerPath" : "container:..\/Core\/Data\/Repository\/Repository.xcodeproj",
+        "identifier" : "E227DA11F88E56EFAEBAD447",
+        "name" : "RepositoryTests"
+      }
+    },
+    {
+      "target" : {
+        "containerPath" : "container:BookSeries.xcodeproj",
+        "identifier" : "357D7C5D53E55B5FA9B01168",
+        "name" : "BookSeriesTests"
+      }
+    },
+    {
+      "target" : {
+        "containerPath" : "container:..\/Presentation\/Presentation\/Presentation.xcodeproj",
+        "identifier" : "4F649FDB9C5521442A78DE10",
+        "name" : "PresentationTests"
+      }
+    }
+  ],
+  "version" : 1
+}
