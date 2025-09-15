@@ -26,8 +26,6 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
       let stats =  UnifiedDI.getPerformanceStats()
       print(stats)
 
-      let test: () = UnifiedDI.enablePerformanceOptimization()
-      print(test)
     }
 
     return true
