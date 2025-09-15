@@ -1,5 +1,5 @@
 {
-  "originHash" : "5868a10022a12289f56713e80c9b799f553d39e7afb93571873d3ff60ccc05b6",
+  "originHash" : "b38724beb8f0245fb6d5048d708b65d550597c005f26f744a9c6d65a95aaec77",
   "pins" : [
     {
       "identity" : "combine-schedulers",
@@ -15,8 +15,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/Roy-wonji/DiContainer.git",
       "state" : {
-        "revision" : "2dca9a3ea1d8a343337b76e8454b176182e12b0a",
-        "version" : "2.0.0"
+        "revision" : "4b5b953be1a9cd81015009938798943121094123",
+        "version" : "2.0.1"
       }
     },
     {

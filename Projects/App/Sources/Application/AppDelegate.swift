@@ -7,6 +7,7 @@
 
 import UIKit
 import DiContainer
+import LogMacro
 
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -23,8 +24,17 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     UnifiedDI.enablePerformanceOptimization()
 
     Task {
-      let stats =  UnifiedDI.getPerformanceStats()
-      print(stats)
+
+      let loggingPlugin = LoggingPlugin()
+      try await PluginManager.shared.register(loggingPlugin)
+
+      let performancePlugin = PerformanceMonitoringPlugin(maxSamples: 50)
+      let performace = PerformanceMonitoringPlugin()
+      try await PluginManager.shared.register(performace)
+
+      try await performancePlugin.activate()
+
+      try AutoGraphGenerator.quickGenerate()
 
     }
 
